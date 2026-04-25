@@ -10,6460 +10,5248 @@ export interface ITest {
     javob: IJavob[]; 
 }
 
-export const DATATEST : ITest[] = [
+export const DATATEST : ITest[] =[
+  //Tim ru
     {
-        id : 1,
-        savol : 'Hozirgi zamon boshlan gʻich ta’limida tarbiya jarayonining zamonaviy omillari mavjud b oʻ lib, ularni  quyidagi ikki turda tasavvur qilish mumkin. Ular qaysilar?',
-        javob : [{
-            matn : 'real sharoitlar va imkoniyatlarni hisobga olish; tarbiya jarayonini amlga oshirish resurslarini aniqlash ', correct : false,
-        },
-        {
-            matn : 'bola   tarbiyasida   oilaga   pedagogi k - metodologik   yordam   k oʻ rsatish ;  boshlan gʻ ich   ta ’ limda   tarbiyaning  maqsadli va t oʻgʻ ri tashkil qilinganligi', correct: false
-        },
-        {
-            matn : 'an ’ naviy sharoitlarda tarbiya jarayonini amalga oshirish; ijtimoiy murakkab sharoitlarda tarbiya jarayonini  amalga oshirish.', correct : true
-        },
-        {
-            matn : 't oʻgʻ ri javob y oʻ q', correct: false
-        }
-    ]
-    },
-    {
-        id: 2,
-        savol: 'Boshlangʻich taʼlimda tarbiya jarayonining zamonaviy omillari metodologiyasini tashkil qiluvchilar qaysi qatorda toʻgʻri koʻrsatilgan?',
-        javob: [
-      {
-        matn: 'shaxs va jamiyatning boshlangʻich taʼlimdan manfaatdorligi',
-        correct: true,
-      },
-      {
-        matn: 'bolani jismoniy oʻstirish va estetik ongini shakllantirish',
-        correct: false,
-      },
-      {
-        matn: 'bola tarbiyasida oilaga pedagogik-metodologik yordam koʻrsatish',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich taʼlimda tarbiyaning maqsadli va toʻgʻri tashkil qilinganligi',
-        correct: false,
-      }
-    ]
-    },
-    {
+    id: 1,
+    savol: "Воспитание – явление историческое и социальное",
+    javob: [
+      { matn: "Воспитание – это историческое явление", correct: true },
+      { matn: "Воспитание – это историческое явление", correct: false },
+      { matn: "Воспитание – это социальное явление", correct: false },
+      { matn: "Воспитание – это коллективное явление", correct: false },
+    ],
+  },
+  {
+    id: 2,
+    savol:
+      'Автор цитаты "Воспитание для нас вопрос жизни или смерти, спасения или разрушения, счастья или катастрофы"?',
+    javob: [
+      { matn: "А. Навои", correct: false },
+      { matn: "А. Авлони", correct: true },
+      { matn: "Ибн Сина", correct: false },
+      { matn: "Бухари", correct: false },
+    ],
+  },
+  {
     id: 3,
-    savol: 'Boshlangʻich taʼlimida tarbiyani amalga oshirishning samaradorligini baholashga doir yagona yondashuv bu ...?',
+    savol: "Воспитание",
     javob: [
       {
-        matn: 'boshlangʻich taʼlimda tarbiya jarayoni konkret modelga ega',
+        matn:
+          "понятие о способах воздействия учителя на ум и волю детей с целью формирования у них нравственных качеств личности.",
         correct: false,
       },
       {
-        matn: 'boshlangʻich taʼlimda tarbiyani amalga oshirishning samaradorligini baholashga doir yagona yondashuv yoʻq',
+        matn:
+          "использовать богатые национальные, духовно-исторические традиции и обычаи народа в духовно-нравственном воспитании подрастающего поколения",
+        correct: false,
+      },
+      {
+        matn:
+          "процесс всестороннего развития человека, формирования его сознания, поведения и мировоззрения на основе конкретной, определённой цели и общественно-исторического опыта.",
         correct: true,
       },
       {
-        matn: 'boshlangʻich taʼlimda tarbiyaning maqsadli va toʻgʻri tashkil qilinganligi',
+        matn:
+          "умственное, нравственное и физическое развитие человека, создающее возможность полного раскрытия его способностей.",
         correct: false,
       },
-      {
-        matn: 'boshlangʻich taʼlim bitiruvchisining ijtimoiylashganligi',
-        correct: false,
-      }
-    ]
-    },
-    {
+    ],
+  },
+  {
     id: 4,
-    savol: 'Indikator – bu...?',
+    savol: "Метод воспитания",
     javob: [
       {
-        matn: 'boshlangʻich taʼlimni moliyalashtirish darajasi',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich sinf oʻquvchilarining oʻzlashtirish darajasi',
-        correct: false,
-      },
-      {
-        matn: 'muayyan holat yoki darajani baholash belgilari',
+        matn:
+          "понятие о способах воздействия учителя на ум и волю детей с целью формирования у них нравственных качеств.",
         correct: true,
       },
       {
-        matn: 'boshlangʻich taʼlimni rivojlantirish strategiyasi',
+        matn:
+          "использовать богатые национальные, духовно-исторические традиции и обычаи народа в духовно-нравственном воспитании подрастающего поколения",
         correct: false,
-      }
-    ]
+      },
+      {
+        matn:
+          "процесс всестороннего развития человека, формирования его сознания, поведения и мировоззрения на основе конкретной, определённой цели и общественно-исторического опыта.",
+        correct: false,
+      },
+      {
+        matn:
+          "умственное, нравственное и физическое развитие человека, создающее возможность полного раскрытия его способностей.",
+        correct: false,
+      },
+    ],
   },
   {
     id: 5,
-    savol: 'Yaponiyada boshlangʻich taʼlim necha yilni tashkil qiladi?',
+    savol: "Цель воспитания",
     javob: [
       {
-        matn: '4 yil',
+        matn:
+          "Понятие о способах воздействия учителя на ум и волю детей с целью формирования их нравственных качеств.",
         correct: false,
       },
       {
-        matn: '5 yil',
-        correct: false,
-      },
-      {
-        matn: '6 yil',
+        matn:
+          "использовать богатые национальные, духовно-исторические традиции и обычаи народа в духовно-нравственном воспитании подрастающего поколения",
         correct: true,
       },
       {
-        matn: '7 yil',
+        matn:
+          "процесс всестороннего развития человека, формирования его сознания, поведения и мировоззрения на основе конкретной, определённой цели и общественно-исторического опыта.",
         correct: false,
-      }
-    ]
+      },
+      {
+        matn:
+          "умственное, нравственное и физическое развитие человека, создающее возможность полного раскрытия его способностей.",
+        correct: false,
+      },
+    ],
   },
-   {
+  {
     id: 6,
-    savol: 'Yevropa mamlakatlarining boshlangʻich taʼlimida asosiy umumiyliklar mavjudligi qaysi qatorda toʻgʻri koʻrsatilgan?',
+    savol: "Задача воспитания",
     javob: [
       {
-        matn: 'boshlangʻich taʼlim boʻyicha hamkorlikning keng yoʻlga qoʻyilganligi',
+        matn:
+          "понятие о способах воздействия учителя на ум и волю детей с целью формирования их нравственных качеств личности",
+        correct: false,
+      },
+      {
+        matn:
+          "использовать богатые национальные, духовно-исторические традиции и обычаи народа в духовно-нравственном воспитании подрастающего поколения",
+        correct: false,
+      },
+      {
+        matn:
+          "процесс всестороннего развития человека, формирования его сознания, поведения и мировоззрения на основе конкретной, определённой цели и общественно-исторического опыта.",
+        correct: false,
+      },
+      {
+        matn:
+          "умственное, нравственное и физическое развитие человека, создающее возможность полного раскрытия его способностей.",
         correct: true,
       },
-      {
-        matn: 'algoritmik daraja (oʻquvchilarning mavzuni xotirasida yaxshi saqlab qolishi)',
-        correct: false,
-      },
-      {
-        matn: 'evristik daraja (oʻquvchilarning mavzuni toʻliq oʻzlashtirishi va yangi bilimga ega boʻlishi)',
-        correct: false,
-      },
-      {
-        matn: 'toʻgʻri javob yoʻq',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 7,
-    savol: 'Nechanchi asrdan boshlab taʼlimda “demokratiya”, yaʼni xalqchillik, oshkoralik va tenglik maʼnolarini ifodalovchi demokratizm tushunchasi keng qoʻllanila boshlandi?',
+    savol:
+      "Что представляет собой процесс всестороннего развития человека, формирования его сознания, поведения и мировоззрения на основе конкретной, ясной цели и общественно-исторического опыта?",
     javob: [
-      {
-        matn: 'XIX asr',
-        correct: false,
-      },
-      {
-        matn: 'XX asr',
-        correct: true,
-      },
-      {
-        matn: 'XXI asr',
-        correct: false,
-      },
-      {
-        matn: 'XVIII asr',
-        correct: false,
-      }
-    ]
+      { matn: "Воспитание", correct: true },
+      { matn: "Задача воспитания", correct: false },
+      { matn: "Цель воспитания", correct: false },
+      { matn: "Метод воспитания", correct: false },
+    ],
   },
   {
     id: 8,
-    savol: '“Yaxshi odam boʻlish uchun mashqlarga va inson tabiatiga eʼtibor berish kerak, shu jihatdan tarbiya insonni qayta paydo qiladi” jumlasi kimga tegishli?',
+    savol:
+      "Как называется способ воздействия на разум и волю воспитателя с целью воспитания у детей нравственных качеств?",
     javob: [
-      {
-        matn: 'Aristotel',
-        correct: false,
-      },
-      {
-        matn: 'Demokrit',
-        correct: true,
-      },
-      {
-        matn: 'Komenskiy',
-        correct: false,
-      },
-      {
-        matn: 'Sh. Mirziyoyev',
-        correct: false,
-      }
-    ]
+      { matn: "Воспитание", correct: false },
+      { matn: "Задача воспитания", correct: false },
+      { matn: "Цель воспитания", correct: false },
+      { matn: "Метод воспитания", correct: true },
+    ],
   },
   {
     id: 9,
-    savol: '“Qoʻying, oʻquvchi oʻz bilganini gapirsin va uning xotirasi gapirmasin” jumlasi kimga tegishli?',
+    savol:
+      "Эффективная организационно-педагогическая форма, основанная на богатых национальных, духовно-исторических традициях и общечеловеческих ценностях народа в духовно-нравственном воспитании подрастающего поколения",
     javob: [
-      {
-        matn: 'Komenskiy',
-        correct: false,
-      },
-      {
-        matn: 'Demokrit',
-        correct: false,
-      },
-      {
-        matn: 'I. Karimov',
-        correct: false,
-      },
-      {
-        matn: 'Seneka',
-        correct: true,
-      }
-    ]
+      { matn: "Воспитание", correct: false },
+      { matn: "Задача воспитания", correct: false },
+      { matn: "Цель воспитания", correct: true },
+      { matn: "Метод воспитания", correct: false },
+    ],
   },
-  {
+   {
     id: 10,
-    savol: 'Amerika Qoʻshma Shtatlarida “Insonparvarlik pedagogikasi” yoʻnalishi qachon paydo boʻlgan?',
+    savol:
+      "Умственное, нравственное, физическое развитие человека, создающее возможность всестороннего развития его способностей.",
     javob: [
-      {
-        matn: 'XIX asrning 50–60-yillarida',
-        correct: false,
-      },
-      {
-        matn: 'XV asrning 50–60-yillarida',
-        correct: false,
-      },
-      {
-        matn: 'XXI asrning 50–60-yillarida',
-        correct: false,
-      },
-      {
-        matn: 'XX asrning 50–60-yillarida',
-        correct: true,
-      }
-    ]
+      { matn: "Воспитание", correct: false },
+      { matn: "Задача воспитания", correct: true },
+      { matn: "Цель воспитания", correct: false },
+      { matn: "Метод воспитания", correct: false },
+    ],
   },
   {
     id: 11,
-    savol: 'Boshlangʻich taʼlimda tarbiya jarayonini demokratlashtirib borish tarbiyaning qaysi usuliga asoslanadi?',
+    savol:
+      "Правильная организация воспитательной работы на уроках, внеклассной и внешкольной работе, определение наиболее современных и удобных направлений воспитания всесторонне развитого поколения.",
     javob: [
-      {
-        matn: 'demokratik',
-        correct: true,
-      },
-      {
-        matn: 'ijtimoiy',
-        correct: false,
-      },
-      {
-        matn: 'shaxslararo',
-        correct: false,
-      },
-      {
-        matn: 'institutsional',
-        correct: false,
-      }
-    ]
+      { matn: "Предмет методики воспитательной работы", correct: true },
+      { matn: "Объект изучения методики воспитательной работы", correct: false },
+      { matn: "Основная цель методики воспитательной работы", correct: false },
+      { matn: "Основные задачи методики воспитательной работы", correct: false },
+    ],
   },
   {
     id: 12,
-    savol: 'Pedagogik tajribalarda tarbiya darajalari amaliy sinovdan oʻtgan boʻlib, ular qaysilar?',
+    savol:
+      "В духовно-нравственном воспитании подрастающего поколения опора на богатое национальное, духовно-историческое наследие народа, общечеловеческие ценности, обычаи и традиции, воспитание сознательной личности с интеллектуальным потенциалом.",
     javob: [
-      {
-        matn: 'ijtimoiy, institutsional, shaxslararo',
-        correct: false,
-      },
-      {
-        matn: 'ijtimoiy, institutsional, ijtimoiy-psixologik, shaxslararo',
-        correct: true,
-      },
-      {
-        matn: 'institutsional, shaxslararo, demokratik, insonparvarlik',
-        correct: false,
-      },
-      {
-        matn: 'demokratik, insonparvarlik, ijtimoiy, psixologik',
-        correct: false,
-      }
-    ]
+      { matn: "Предмет методики воспитательной работы", correct: false },
+      { matn: "Объект изучения методики воспитательной работы", correct: false },
+      { matn: "Основная цель методики воспитательной работы", correct: true },
+      { matn: "Основные задачи методики воспитательной работы", correct: false },
+    ],
   },
   {
     id: 13,
-    savol: 'Tarbiya jarayonining qaysi darajasiga koʻra, boshlangʻich sinf oʻquvchilari tarbiyasi ijtimoiy guruhlar, jamoatchilik vakillari va maktab jamoasi yordami asosida tashkil etilishi kerak?',
+    savol:
+      "Организация непрерывного воспитания и воспитательного процесса в воспитательных учреждениях.",
     javob: [
-      {
-        matn: 'shaxslararo daraja',
-        correct: false,
-      },
-      {
-        matn: 'ijtimoiy daraja',
-        correct: false,
-      },
-      {
-        matn: 'ijtimoiy-psixologik daraja',
-        correct: true,
-      },
-      {
-        matn: 'barchasi toʻgʻri',
-        correct: false,
-      }
-    ]
+      { matn: "Предмет методики воспитательной работы", correct: false },
+      { matn: "Объект изучения методики воспитательной работы", correct: true },
+      { matn: "Основная цель методики воспитательной работы", correct: false },
+      { matn: "Основные задачи методики воспитательной работы", correct: false },
+    ],
   },
   {
     id: 14,
-    savol: 'Boshlangʻich taʼlimda tarbiya jarayonini demokratlashtirish necha variantda amalga oshiriladi?',
+    savol: "К каким дисциплинам относится наука о методах воспитания?",
     javob: [
+      { matn: "Педагогика, психология", correct: false },
+      { matn: "Анатомия физиология", correct: false },
       {
-        matn: '1',
-        correct: false,
-      },
-      {
-        matn: '2',
+        matn:
+          "Педагогика, психология, этика, философия, гигиена, анатомия, физиология",
         correct: true,
       },
       {
-        matn: '3',
+        matn:
+          "История, философия, анатомия, физиология",
         correct: false,
       },
-      {
-        matn: '4',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 15,
-    savol: '“Tenglar ichida teng” tamoyili nimalar asosida amalga oshiriladi?',
+    savol:
+      "К какому типу воспитания относится развитие умственных способностей человека и формирование у него навыков приобретения знаний?",
     javob: [
-      {
-        matn: 'oʻqituvchi va oʻquvchining qiziqishlari, manfaatlari va majburiyatlari',
-        correct: true,
-      },
-      {
-        matn: 'oʻqituvchi demokratik qadriyatlarga mos rivojlanayotgan va oʻz imkoniyatlarini namoyon etayotgan ilgʻor oʻquvchilarni ragʻbatlantiradi',
-        correct: false,
-      },
-      {
-        matn: 'oʻquvchining qiziqishlari, manfaatlari va majburiyatlari asosida',
-        correct: false,
-      },
-      {
-        matn: 'oʻqituvchi qatʼiyatlik tamoyiliga amal qilishi shart',
-        correct: false,
-      }
-    ]
+      { matn: "Умственное воспитание", correct: true },
+      { matn: "Нравственное воспитание", correct: false },
+      { matn: "Трудовое воспитание", correct: false },
+      { matn: "Физическая культура", correct: false },
+    ],
   },
-  {
+   {
     id: 16,
-    savol: 'Boshlangʻich taʼlimda tarbiya jarayonining zamonaviy omillari metodologiyasi toʻgʻri koʻrsatilgan qatorni toping.',
+    savol: "Формирование нравственного сознания, качеств и установок человека",
     javob: [
-      {
-        matn: 'boshlangʻich taʼlimning majburiyligi; shaxs va jamiyatning boshlangʻich taʼlimdan manfaatdorligi',
-        correct: false,
-      },
-      {
-        matn: 'real sharoitlar va imkoniyatlarni hisobga olish; tarbiya jarayonini amalga oshirish resurslarini aniqlash',
-        correct: false,
-      },
-      {
-        matn: 'taʼlim tarixida boshlangʻich taʼlimning tajribaga ega ekanligi; boshlangʻich taʼlimning jahon taʼlim tizimida muhim oʻrin tutishi',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich taʼlimning majburiyligi; shaxs va jamiyatning boshlangʻich taʼlimdan manfaatdorligi; taʼlim tarixida boshlangʻich taʼlimning tajribaga ega ekanligi; boshlangʻich taʼlimning jahon taʼlim tizimida muhim oʻrin tutishi',
-        correct: true,
-      }
-    ]
+      { matn: "Умственное воспитание", correct: false },
+      { matn: "Нравственное воспитание", correct: true },
+      { matn: "Трудовое воспитание", correct: false },
+      { matn: "Физическая культура", correct: false },
+    ],
   },
   {
     id: 17,
-    savol: 'Innovatsion pedagogik loyiha – bu...?',
+    savol:
+      "Формирование у человека бережного, рационального и экономного отношения к имуществу, окружающим нас предметам и удовлетворение их жизненных потребностей.",
     javob: [
-      {
-        matn: 'tasdiqlangan yangicha asosdagi oʻquv loyihasi',
-        correct: false,
-      },
-      {
-        matn: 'qabul qilingan va qismlarga ajratilgan yangi pedagogik gʻoyalar hamda fikrlar',
-        correct: true,
-      },
-      {
-        matn: 'pedagogik yangiliklarning vujudga kelishi, ularning jadal oʻzlashtirilishi va amaliyotga tatbiq qilinishi',
-        correct: false,
-      },
-      {
-        matn: 'tizimlashtirilgan yangi oʻquv jarayoni prognoztikasi va maʼlumotlar majmui',
-        correct: false,
-      }
-    ]
+      { matn: "Умственное воспитание", correct: false },
+      { matn: "Нравственное воспитание", correct: false },
+      { matn: "Трудовое воспитание", correct: false },
+      { matn: "Экономическое воспитание", correct: true },
+    ],
   },
   {
     id: 18,
-    savol: 'Tizimlashtirilgan yangi oʻquv jarayoni prognoztikasi va maʼlumotlar majmui – bu...?',
+    savol:
+      "Приобретение учащимися навыков организации умственной и физической деятельности, необходимой людям для достижения их целей.",
     javob: [
-      {
-        matn: 'Innovatsion taʼlim',
-        correct: false,
-      },
-      {
-        matn: 'Innovatsion oʻqitish',
-        correct: false,
-      },
-      {
-        matn: 'Innovatsion pedagogik loyiha',
-        correct: false,
-      },
-      {
-        matn: 'Innovatsion pedagogik gʻoya',
-        correct: true,
-      }
-    ]
+      { matn: "Умственное воспитание", correct: false },
+      { matn: "Нравственное воспитание", correct: false },
+      { matn: "Трудовое воспитание", correct: true },
+      { matn: "Экономическое воспитание", correct: false },
+    ],
   },
   {
     id: 19,
-    savol: 'Talaba tomonidan oʻquv faoliyatining barcha turlari – maʼruza, amaliy, seminar va boshqalarning soatlar hajmi – bu ...?',
+    savol:
+      "Воспитание человека физически здоровым, интеллектуально зрелым и гармонично развитым человеком.",
     javob: [
-      {
-        matn: 'oʻqish yuklamasi',
-        correct: true,
-      },
-      {
-        matn: 'taʼlim natijalari',
-        correct: false,
-      },
-      {
-        matn: 'kredit toʻplash',
-        correct: false,
-      },
-      {
-        matn: 'kredit',
-        correct: false,
-      }
-    ]
+      { matn: "Умственное воспитание", correct: false },
+      { matn: "Нравственное воспитание", correct: false },
+      { matn: "Трудовое воспитание", correct: false },
+      { matn: "Физическое воспитание", correct: true },
+    ],
   },
   {
     id: 20,
-    savol: 'Quyidagi jumlalar hozirgi zamon jahon pedagogikasining nechanchi innovatsion tipiga tegishli? (boshlangʻich taʼlimning maqsadi, mazmuni, vositalari, metodlari va texnologiyalari)',
+    savol:
+      "Бережное отношение к природе, сохранение природных богатств, формирование экологического сознания путём рационального использования природных ресурсов.",
     javob: [
-      {
-        matn: 'birinchi tipiga',
-        correct: true,
-      },
-      {
-        matn: 'ikkinchi tipiga',
-        correct: false,
-      },
-      {
-        matn: 'uchinchi tipiga',
-        correct: false,
-      },
-      {
-        matn: 'toʻrtinchi tipiga',
-        correct: false,
-      }
-    ]
+      { matn: "Экологическое воспитание", correct: true },
+      { matn: "Эстетическое воспитание", correct: false },
+      { matn: "Экономическое воспитание", correct: false },
+      { matn: "Правовое воспитание", correct: false },
+    ],
   },
   {
     id: 21,
-    savol: 'Mazkur innovatsion maktab Shveysariya, Avstriya va Rossiyada tashkil etilgan boʻlib, unda asosiy eʼtibor oʻquvchilarda mehnat koʻnikmasini shakllantirishga qaratiladi. Ushbu fikrlar qaysi maktabga tegishli?',
+    savol:
+      "Это воспитательный процесс, организованный на основе правовых знаний для формирования и развития правового сознания и правовой культуры.",
     javob: [
-      {
-        matn: 'Erkin boshlangʻich taʼlim maktabi',
-        correct: false,
-      },
-      {
-        matn: 'Mehnat boshlangʻich taʼlim maktabi',
-        correct: true,
-      },
-      {
-        matn: 'Ochiq boshlangʻich taʼlim maktabi',
-        correct: false,
-      },
-      {
-        matn: 'Yillik yangi boshlangʻich taʼlim maktabi',
-        correct: false,
-      }
-    ]
+      { matn: "Экологическое воспитание", correct: false },
+      { matn: "Эстетическое воспитание", correct: false },
+      { matn: "Экономическое воспитание", correct: false },
+      { matn: "Правовое воспитание", correct: true },
+    ],
   },
   {
     id: 22,
-    savol: 'Ochiq boshlangʻich taʼlim maktabiga tegishli qatorni toping.',
+    savol:
+      "Формирование творчески активной личности, способной воспринимать прекрасное в природе, труде, общественных отношениях и окружающей нас действительности",
     javob: [
-      {
-        matn: 'Mazkur innovatsion maktab AQShda tashkil etilgan boʻlib, u butun yil davomida faoliyat yuritadi. Oʻquvchilar har 45 kundan keyin 2 hafta taʼtilga chiqishadi',
-        correct: false,
-      },
-      {
-        matn: 'Bu innovatsion maktab Buyuk Britaniyada tashkil etilgan boʻlib, unda oʻquv rejalari va dasturlari oʻqituvchilar tomonidan individual ishlab chiqiladi. Asosiy eʼtibor oʻquvchilarning ijodiy fikrlashiga qaratiladi',
-        correct: true,
-      },
-      {
-        matn: 'Mazkur innovatsion maktab Shveysariya, Avstriya va Rossiyada tashkil etilgan boʻlib, unda asosiy eʼtibor mehnat koʻnikmasiga qaratiladi',
-        correct: false,
-      },
-      {
-        matn: 'Bu innovatsion maktab Germaniyada tashkil etilgan boʻlib, u internat koʻrinishida faoliyat yuritadi',
-        correct: false,
-      }
-    ]
+      { matn: "Экологическое воспитание", correct: false },
+      { matn: "Эстетическое воспитание", correct: true },
+      { matn: "Экономическое воспитание", correct: false },
+      { matn: "Правовое воспитание", correct: false },
+    ],
   },
   {
     id: 23,
-    savol: 'Oliy pedagogik taʼlim jarayonida boʻlajak boshlangʻich sinf oʻqituvchilarining innovatsion koʻnikmalarini shakllantirish uchun nimalarga ahamiyat berish maqsadga muvofiqdir?',
+    savol: "Интеллектуальное воспитание",
     javob: [
       {
-        matn: 'Innovatsion bilim berish',
-        correct: false,
-      },
-      {
-        matn: 'Innovatsion fikrlashga oʻrgatish',
-        correct: false,
-      },
-      {
-        matn: 'Innovatsion metodologiya bilan qurollantirish',
-        correct: false,
-      },
-      {
-        matn: 'Barcha javoblar toʻgʻri',
+        matn:
+          "Развитие умственных способностей человека и формирование у него навыков приобретения знаний",
         correct: true,
-      }
-    ]
+      },
+      {
+        matn:
+          "Формирование нравственного сознания, качеств и установок личности человека",
+        correct: false,
+      },
+      {
+        matn:
+          "Воспитать человека физически здоровым, интеллектуально зрелым и полноценным",
+        correct: false,
+      },
+      {
+        matn:
+          "Приобретение учащимися навыков организации умственной и физической деятельности, необходимой людям для достижения их целей.",
+        correct: false,
+      },
+    ],
   },
   {
     id: 24,
-    savol: 'Qaysi yondashuvga koʻra, oliy pedagogik taʼlim jarayonida boʻlajak boshlangʻich sinf oʻqituvchilariga innovatsiyalarni aniqlash, ijodiy fikrlash va yangilik yaratish oʻrgatiladi?',
+    savol: "Нравственное воспитание",
     javob: [
       {
-        matn: 'Innovatsion bilim berish',
+        matn:
+          "Развитие умственных способностей человека и формирование у него навыков приобретения знаний",
         correct: false,
       },
       {
-        matn: 'Innovatsion fikrlashga oʻrgatish',
+        matn:
+          "Формирование нравственного сознания, качеств и нравственных установок человека",
         correct: true,
       },
       {
-        matn: 'Innovatsion metodologiya bilan qurollantirish',
+        matn:
+          "Воспитать человека физически здоровым, интеллектуально зрелым и полноценным человеком.",
         correct: false,
       },
       {
-        matn: 'Innovatsion gʻoyalar asosida darslarni tashkil qilish',
+        matn:
+          "Приобретение учащимися навыков организации умственной и физической деятельности, необходимой людям для достижения их целей.",
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 25,
-    savol: 'ESPRIT – bu...?',
+    savol: "Трудовое воспитание",
     javob: [
       {
-        matn: 'bu xalqaro dasturga muvofiq Yevropa Ittifoqiga kiruvchi barcha mamlakatlarning oʻqituvchilari yagona oʻquv dasturi asosida tayyorlanishi kerak',
+        matn:
+          "Развитие умственных способностей человека и формирование у него навыков приобретения знаний",
         correct: false,
       },
       {
-        matn: 'mazkur xalqaro loyihaga koʻra, barcha shaxslar boshlangʻich sinfdan boshlab xorijiy tillarni oʻrganishi kerak',
+        matn:
+          "Формирование нравственного сознания, качеств и нравственных установок человека",
         correct: false,
       },
       {
-        matn: 'bu xalqaro dasturga muvofiq Sharqiy Yevropa mamlakatlarining taʼlim tizimi muvofiqlashtirib boriladi',
+        matn:
+          "Воспитать человека физически здоровым, интеллектуально зрелым и полноценным человеком.",
         correct: false,
       },
       {
-        matn: 'bu xalqaro loyiha Yevropa universitetlarida amal qiladi va taʼlim hamda ilmiy muassasalar uchun yangi axborot texnologiyalarini ishlab chiqish bilan shugʻullanadi',
+        matn:
+          "Приобретение учащимися навыков организации умственной и физической деятельности, необходимой людям для достижения их целей.",
         correct: true,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 26,
-    savol: 'Boshlangʻich sinf oʻqituvchilarining innovatsion faoliyatini baholash asoslarini qanday belgilash mumkin?',
+    savol: "Физическое воспитание",
     javob: [
       {
-        matn: 'oʻqituvchining yangicha fikrlashi va mudom yangiliklarga intilishi',
+        matn:
+          "Развитие умственных способностей человека и формирование у него навыков приобретения знаний",
         correct: false,
       },
       {
-        matn: 'oʻqituvchining yangicha fikrlashi va mudom yangiliklarga intilishi; oʻqituvchining axborot texnologiyalaridan xabardorligi va ularni qoʻllay olishi',
+        matn:
+          "Формирование нравственного сознания, качеств и установок человека",
+        correct: false,
+      },
+      {
+        matn:
+          "Воспитать человека физически здоровым, интеллектуально зрелым и полноценным человеком.",
         correct: true,
       },
       {
-        matn: 'oʻqituvchining axborot texnologiyalaridan xabardorligi va ularni qoʻllay olishi',
+        matn:
+          "Приобретение учащимися навыков организации умственной и физической деятельности, необходимой людям для достижения их целей.",
         correct: false,
       },
-      {
-        matn: 'innovatsion-kasbiy faoliyatga intiluvchi oʻqituvchilarni aniqlash va ularga metodologik yordam berish',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 27,
-    savol: 'Pedagogik tajribalarda oʻqituvchilarning innovatsion faoliyatini baholash mezonlarining asoslari nimalardan iborat?',
+    savol: "Экономическое воспитание",
     javob: [
       {
-        matn: 'boshlangʻich taʼlimga yangiliklarning kiritilish koʻlami; boshlangʻich taʼlimga kiritilgan yangiliklar darajasi',
+        matn:
+          "Формирование экологического сознания через доброжелательное отношение к природе, бережное сохранение каждого её элемента, рациональное её использование.",
+        correct: false,
+      },
+      {
+        matn:
+          "Формирование у человека бережного, рационального и экономного отношения к имуществу, окружающим нас предметам и удовлетворение их жизненных потребностей.",
         correct: true,
       },
       {
-        matn: 'oʻqituvchining ITdan xabardorligi va darslarni yangicha oʻtishi',
+        matn:
+          "Формирование творчески активной личности, способной воспринимать прекрасное в природе, труде, общественных отношениях и окружающей нас действительности",
         correct: false,
       },
       {
-        matn: 'oʻqituvchining yangicha fikrlashi va yangilikka intilishi',
+        matn:
+          "Формирование нравственного сознания, качеств и установок человека",
         correct: false,
       },
-      {
-        matn: 'oʻqituvchining yangicha yondashuvlari maktab jamoasi tomonidan eʼtirof etilishi',
-        correct: false,
-      }
-    ]
+    ],
   },
-  {
+   {
     id: 28,
-    savol: 'Boshlangʻich taʼlim fanlari va mavzulari doimiy yangilanib borishi qaysi mezonga tegishli?',
+    savol:
+      "Инструмент, чтобы научить человека экономно пользоваться имуществом, эффективно использовать вещи и удовлетворять потребности жизни.",
     javob: [
       {
-        matn: 'Boshlangʻich taʼlimga yangiliklarning kiritilish koʻlami',
+        matn:
+          "Формирование восприятия прекрасного в окружающем нас мире и стремление к эстетической деятельности",
         correct: false,
       },
       {
-        matn: 'Boshlangʻich taʼlimga kiritilgan yangiliklar darajasi',
+        matn:
+          "Формирование нравственного сознания, нравственных качеств и установок человека",
+        correct: false,
+      },
+      {
+        matn:
+          "Целенаправленная деятельность формирования у человека навыков рационального и экономного использования имущества, разумного использования окружающей среды для удовлетворения жизненных потребностей.",
         correct: true,
       },
       {
-        matn: 'Boshlangʻich taʼlimga kiritilgan yangilikning vaqti',
+        matn:
+          "Формирование восприятия прекрасного в окружающей действительности, характере и поведении человека и стремление к эстетической деятельности",
         correct: false,
       },
-      {
-        matn: 'Oʻqituvchining yondashuvlari jamoa tomonidan eʼtirof etilishi',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 29,
-    savol: 'Mahorat darslarining evristik darajasi orqali oʻquvchilar nimaga erishadi?',
+    savol: "Экологическое воспитание",
     javob: [
       {
-        matn: 'oʻquvchilarning mavzuni toʻliq oʻzlashtirishi va yangi bilimga ega boʻlishi',
+        matn:
+          "Это воспитательный процесс, организованный на основе правовых знаний для формирования и развития правового сознания и правовой культуры.",
+        correct: false,
+      },
+      {
+        matn:
+          "Целенаправленная деятельность формирования у человека навыков рационального и экономного использования имущества, разумного использования окружающей среды для удовлетворения жизненных потребностей.",
+        correct: false,
+      },
+      {
+        matn:
+          "Формирование восприятия прекрасного в окружающей действительности, характере и поведении человека и стремление к эстетической деятельности",
+        correct: false,
+      },
+      {
+        matn:
+          "Формирование экологического сознания через доброжелательное отношение к природе, бережное сохранение каждого её элемента, рациональное её использование.",
         correct: true,
       },
-      {
-        matn: 'mavzuni xotirada yaxshi saqlashi',
-        correct: false,
-      },
-      {
-        matn: 'yangi oʻqituvchini qabul qilishi',
-        correct: false,
-      },
-      {
-        matn: 'faollikning ortishi',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 30,
-    savol: 'Boshlangʻich taʼlimda tarbiya tushunchasi nimani ifodalaydi?',
+    savol: "Методы, созданные народом и широко используемые в народной педагогике.",
     javob: [
+      { matn: "Методы формирования общественного сознания", correct: false },
+      { matn: "Методы самовоспитания", correct: false },
       {
-        matn: '6–7 yoshli bolalarga bepul taʼlim berish',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich sinf oʻquvchilarini madaniyat va qadriyatlar olamiga olib kirish',
+        matn: "Объяснение, пример, совет, одобрение, осуждение и наказание",
         correct: true,
       },
       {
-        matn: 'zamonaviy texnologiyalarni joriy etish',
+        matn: "Методы поощрения положительного поведения",
         correct: false,
       },
-      {
-        matn: 'ilmiy dunyoqarashni kengaytirish',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 31,
-    savol: 'Mahorat darsi – bu...?',
+    savol: "Эстетическая культура это...",
     javob: [
+      { matn: "компонент общей культуры личности", correct: true },
       {
-        matn: 'darslarni ketma-ketlikda tashkil etish',
+        matn:
+          "организованное взаимодействие ребёнка с окружающим миром через образы",
         correct: false,
       },
-      {
-        matn: 'tayyor koʻnikmalarga tayanib, mavzuni noanʼanaviy usullar bilan oʻtish',
-        correct: true,
-      },
-      {
-        matn: 'anʼanaviy usullar bilan oʻtish',
-        correct: false,
-      },
-      {
-        matn: 'ilmiy-uslubiy metodlarni qoʻllash',
-        correct: false,
-      }
-    ]
+      { matn: "формирование отношения к искусству", correct: false },
+      { matn: "Стиль, имидж", correct: false },
+    ],
   },
   {
     id: 32,
-    savol: 'Maktab-laboratoriya usulini joriy etishdagi tashkiliy ishlar qaysi qatorda?',
+    savol: "Основные задачи эстетического воспитания являются....",
     javob: [
-      {
-        matn: 'ichki va tashqi nazorat',
-        correct: false,
-      },
-      {
-        matn: 'oʻrganish, tadbiq etish, yangilash',
-        correct: false,
-      },
-      {
-        matn: 'hamkorlik, aniqlik, monitoring',
-        correct: false,
-      },
-      {
-        matn: 'kelishuv, yoʻnalish, monitoring',
-        correct: true,
-      }
-    ]
+      { matn: "развитие умение видеть и подвергать оценке красоту", correct: true },
+      { matn: "знания", correct: false },
+      { matn: "компетенции", correct: false },
+      { matn: "ценностные ориентации", correct: false },
+    ],
   },
   {
     id: 33,
-    savol: 'Boshlangʻich taʼlimda klaster usulini joriy etishning asosiy metodlari qaysilar?',
+    savol: "Назовите условия педагогического успеха?",
     javob: [
       {
-        matn: 'uzviylik, hamkorlik, samaradorlik',
+        matn:
+          "общая забота; единство уважения и дружелюбия; единство мыслей и действий, воли и чувств.",
+        correct: false,
+      },
+      {
+        matn:
+          "единый коллектив; творческие способности.",
+        correct: false,
+      },
+      {
+        matn:
+          "общая забота; единство уважения и товарищеской требовательности; единство мыслей и действий, воли и чувств; единый коллектив; творчество, а не шаблон.",
         correct: true,
       },
       {
-        matn: 'klaster, aqliy hujum, uzviylik',
+        matn:
+          "общая забота; единство уважения и товарищеской требовательности; творчество, а не шаблон.",
         correct: false,
       },
-      {
-        matn: 'mahoratlilik, onglilik',
-        correct: false,
-      },
-      {
-        matn: 'hamkorlik',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 34,
-    savol: 'Oʻqitishning maqsad va omillarini bir butun tarzda birlashtirib baholash jarayoni – bu...?',
+    savol:
+      "Важное значение игра имеет в усвоении правил взаимоотношений, норм поведения в социуме, так как...",
     javob: [
       {
-        matn: 'Innovatsiya',
-        correct: false,
-      },
-      {
-        matn: 'Integratsiya',
+        matn:
+          "она является той формой деятельности, в которой в значительной мере формируется общественное поведение детей, их отношение к жизни, друг к другу",
         correct: true,
       },
       {
-        matn: 'Kompetensiya',
+        matn:
+          "чтобы выполнять в игре ту или иную роль, ребёнок должен своё представление перенести в игровые действия",
         correct: false,
       },
       {
-        matn: 'Malaka',
+        matn:
+          "ребёнок соединяет в сюжете игры реальные и вымышленные явления, наделяет новыми свойствами и функциями знакомые предметы",
         correct: false,
-      }
-    ]
+      },
+      {
+        matn:
+          "ребенок соединяет в сюжете игры реальные и вымышленные явления, наделяет новыми свойствами и функциями знакомые предметы",
+        correct: false,
+      },
+    ],
   },
   {
     id: 35,
-    savol: 'Boshlangʻich taʼlimda klaster usulining asosiy maqsadi nimalardan iborat?',
+    savol: "Какие возможности Коллективное Творческое дело даёт педагогу?",
     javob: [
       {
-        matn: 'boshlangʻich taʼlim fanlarini oʻzaro bogʻliqlik va uygʻunlikda oʻqitish',
+        matn:
+          "управлять процессом развития личности школьника; развивать рефлексивные возможности.",
         correct: false,
       },
       {
-        matn: 'boshlangʻich sinf oʻquvchilariga mavzular, darslar va oʻquv fanlarini oʻqituvchilar, oʻquvchilar, maktab jamoasi hamda mutaxassislar ishtirokida hamkorlikda amalga oshirish',
+        matn:
+          "развивать творческий потенциал; совершенствовать организаторские возможности.",
+        correct: false,
+      },
+      {
+        matn:
+          "изучить классный коллектив; объединить учащихся, педагогов, родителей.",
+        correct: false,
+      },
+      {
+        matn: "все ответы верны.",
         correct: true,
       },
-      {
-        matn: 'boshlangʻich taʼlim mavzularini chuqurlashtirilgan va kengaytirilgan maʼlumotlar asosida oʻtish',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich taʼlim darslarini anʼanaviy va noanʼanaviy mashgʻulotlar shaklida tashkil etish',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 36,
-    savol: 'Boshlangʻich taʼlimda klaster usulining asosiy vazifalari koʻrsatilgan qatorni toping.',
+    savol:
+      "На каком этапе достигается организация взаимодействия в классе, направленного на решение спланированных задач и выполнение совместных творческих заданий.",
     javob: [
-      {
-        matn: 'dars jarayonida mavzularni ketma-ketlikda amalga oshirish',
-        correct: false,
-      },
-      {
-        matn: 'darslarni ketma-ketlikda tashkil qilish',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich taʼlim mavzularini chuqurlashtirilgan va kengaytirilgan maʼlumotlar asosida oʻtish',
-        correct: true,
-      },
-      {
-        matn: 'boshlangʻich taʼlimni undan manfaatdorlar bilan amalga oshirish',
-        correct: false,
-      }
-    ]
+      { matn: "Коллективное целеполагание", correct: false },
+      { matn: "Коллективная подготовка", correct: true },
+      { matn: "Коллективное проведение", correct: false },
+      { matn: "Коллективный анализ", correct: false },
+    ],
   },
   {
     id: 37,
-    savol: 'Hamkorlik metodi tushunchasiga taʼrif bering.',
+    savol:
+      "Школа с первых дней ставит перед ребёнком целый ряд задач, требующих мобилизации его ...",
     javob: [
+      { matn: "интеллектуальных и физических сил", correct: true },
+      { matn: "средств физического, умственного и нравственного воспитания", correct: false },
       {
-        matn: 'boshlangʻich taʼlimda integratsiya asosida dars tashkil etish',
+        matn:
+          "деятельности в условиях ситуаций, направленных на воссоздание и усвоение общественного опыта",
         correct: false,
       },
-      {
-        matn: 'mavzularni ketma-ketlikda amalga oshirish',
-        correct: false,
-      },
-      {
-        matn: 'mavzularni mustaqil oʻrganish',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich taʼlimni undan manfaatdorlar bilan amalga oshirish',
-        correct: true,
-      }
-    ]
+      { matn: "повышения и понижения чувствительности", correct: false },
+    ],
   },
   {
     id: 38,
-    savol: '“Samaradorlik metodi”ga taʼrif bering.',
+    savol:
+      "Что является важнейшим компонентом адаптации личности с окружающей средой?",
     javob: [
       {
-        matn: 'boshlangʻich taʼlimning mavzulari, darslari va tarbiya jarayonini kutilgan darajada amalga oshirish',
+        matn:
+          "согласование самооценок и притязаний субъекта с его возможностями и реальностью социальной среды",
         correct: true,
       },
-      {
-        matn: 'boshlangʻich taʼlimni undan manfaatdorlar bilan amalga oshirish',
-        correct: false,
-      },
-      {
-        matn: 'mavzularni ketma-ketlikda oʻtish',
-        correct: false,
-      },
-      {
-        matn: 'integratsion darslarni tashkil etish',
-        correct: false,
-      }
-    ]
+      { matn: "влияние различных неблагоприятных факторов", correct: false },
+      { matn: "нарушение дисциплины", correct: false },
+      { matn: "адаптация организма к новым условиям жизни", correct: false },
+    ],
   },
   {
     id: 39,
-    savol: '“Integratsion dars” tushunchasiga taʼrif bering.',
+    savol: "Определить методы воспитания в современной педагогике",
     javob: [
-      {
-        matn: 'mavzularni kompyuter texnologiyalari asosida oʻtish',
-        correct: false,
-      },
-      {
-        matn: 'mavzularni va mashgʻulotlarni hamkorlikda, mutaxassislar ishtirokida oʻquvchilar faolligida oʻtish',
-        correct: true,
-      },
-      {
-        matn: 'mavzularni mutaxassislar bilan oʻtish',
-        correct: false,
-      },
-      {
-        matn: 'darslarni auksion tarzda tashkil etish',
-        correct: false,
-      }
-    ]
+      { matn: "Объяснение", correct: false },
+      { matn: "Методы формирования общественного сознания", correct: true },
+      { matn: "Пример, советы, поощрение", correct: false },
+      { matn: "осуждение и наказание", correct: false },
+    ],
   },
   {
     id: 40,
-    savol: 'Kredit-modul tizimi qaysi yildan buyon Yevropa taʼlim tizimiga tatbiq etilmoqda?',
+    savol: "Что относится к характеристике деятельности и общения ребенка?",
     javob: [
       {
-        matn: '1890-yildan',
+        matn:
+          "уровень развития произвольной регуляции поведения и организованности ребенка",
         correct: false,
       },
       {
-        matn: '1869-yildan',
+        matn:
+          "отношение к ребенку в семье, стиль поведения родителей и учителей, особенности семейного микроклимата, социальная компетентность ребенка",
         correct: true,
       },
       {
-        matn: '1896-yildan',
+        matn:
+          "отношение к ребенку в классе, общение со сверстниками и взрослыми, отношение к школе, к самому себе как учащемуся",
         correct: false,
       },
-      {
-        matn: '1898-yildan',
-        correct: false,
-      }
-    ]
+      { matn: "навыки учебной деятельности", correct: false },
+    ],
   },
   {
     id: 41,
-    savol: 'Boshl ang ‘ ich ta’lim pedagogikasining tarkiblarini boshlang ‘ ich ta’limda nimalar  tashkil qiladi ?',
+    savol: "Выявить методы формирования общественного сознания",
     javob: [
       {
-        matn: 'mavzuga kirish, yoritish, mustahkamlash va yakunlash bosqichlari',
+        matn:
+          "Игра, учеба, упражнение, задания, требования",
         correct: false,
       },
+      { matn: "Поощрение, наказание", correct: false },
       {
-        matn: 'mavzular va mashgʻulotlarni hamkorlikda, mutaxassislar ishtirokida oʻquvchilar faolligida oʻtish',
+        matn:
+          "Личные обязанности: самоконтроль, самоанализ, самооценка",
         correct: false,
       },
-      {
-        matn: 'bilim berish jarayoni,  o ‘ qitish didaktikasi va tarbiya nazariyasi',
-        correct: true,
-      },
-      {
-        matn: 'boshlangʻich taʼlimni klaster usulida tashkil etish',
-        correct: false,
-      }
-    ]
+      { matn: "Объяснение, пример, поощрение", correct: true },
+    ],
   },
   {
     id: 42,
-    savol: 'Boshlangʻich taʼlimda innovatsiya deganda nima tushuniladi?',
+    savol:
+      "Определить методы, которые побуждают учащихся к деятельности",
     javob: [
       {
-        matn: 'masofaviy taʼlim xizmatlari majmui',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich taʼlim jarayoniga olib kiriladigan yangi gʻoyalar, usullar, tushunchalar, qoidalar va texnologiyalarni ifodalaydi',
+        matn:
+          "Игра, учеба, упражнение, задания, требования",
         correct: true,
       },
+      { matn: "Поощрение, наказание", correct: false },
       {
-        matn: 'darslarni hamkorlikda oʻtish',
+        matn:
+          "Личные обязанности: самоконтроль, самоанализ, самооценка",
         correct: false,
       },
-      {
-        matn: 'klaster usulida dars tashkil etish',
-        correct: false,
-      }
-    ]
+      { matn: "Объяснение, пояснение, пример", correct: false },
+    ],
   },
   {
     id: 43,
-    savol: 'Kredit toʻplash deganda nimani tushunasiz?',
+    savol: "Дезадаптация – это ...",
     javob: [
       {
-        matn: 'oʻquv yuklamasining oʻlchov birligi',
+        matn:
+          "приспособление строения и функций организма, его органов и клеток к условиям среды, направленное на сохранение гомеостаза",
         correct: false,
       },
       {
-        matn: 'akademik mobillik dasturi',
+        matn:
+          "степень самостоятельности ребенка при выполнении им учебных заданий",
         correct: false,
       },
+      { matn: "поступление в школу", correct: false },
       {
-        matn: 'taʼlim elementlarini oʻzlashtirish va yutuqlarga erishish natijasida kredit birliklarini toʻplash',
+        matn:
+          "образование неадекватных механизмов приспособления ребенка к школе в форме нарушений учебы и поведения",
         correct: true,
       },
-      {
-        matn: 'malaka hujjati beruvchi muassasa',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 44,
-    savol: 'Kredit deganda nimani tushunasiz?',
+    savol: "Определите методы самодисциплины",
     javob: [
       {
-        matn: 'kredit birliklarini toʻplash jarayoni',
+        matn:
+          "Игра, учеба, упражнение, задания, требования",
         correct: false,
       },
+      { matn: "Поощрение, наказание", correct: false },
       {
-        matn: 'taʼlim toʻgʻrisidagi hujjat beruvchi muassasa',
-        correct: false,
-      },
-      {
-        matn: 'akademik mobillik kelishuvi',
-        correct: false,
-      },
-      {
-        matn: 'talaba tomonidan muayyan fan boʻyicha oʻzlashtirilgan oʻquv yuklamasining oʻlchov birligi',
+        matn:
+          "Личные обязанности: самоконтроль, самоанализ, самооценка",
         correct: true,
-      }
-    ]
+      },
+      { matn: "Объяснение и пояснение, пример", correct: false },
+    ],
   },
   {
     id: 45,
-    savol: 'Kredit-modul tizimida 1 kredit oʻrtacha necha akademik soatga teng?',
+    savol:
+      "К какой группе методов воспитания относятся методы беседы и рассказа?",
     javob: [
+      { matn: "Метод формирования общественного сознания", correct: true },
       {
-        matn: '25–30',
-        correct: true,
-      },
-      {
-        matn: '30–35',
+        matn: "Метод поощрения учащихся к работе.",
         correct: false,
       },
       {
-        matn: '20–25',
+        matn: "Метод поощрения положительного поведения.",
         correct: false,
       },
-      {
-        matn: '25–35',
-        correct: false,
-      }
-    ]
+      { matn: "Самовоспитание", correct: false },
+    ],
   },
   {
     id: 46,
-    savol: 'Masofaviy taʼlim texnologiyasi qanday imkoniyatlarga ega?',
+    savol:
+      "Необходимость налаживать и поддерживать взаимоотношения с педагогами и сверстниками в ходе совместной деятельности требует ...",
     javob: [
+      { matn: "готовности к школьному обучению", correct: false },
+      { matn: "достаточный опыт общения", correct: false },
+      { matn: "развитых навыков общения", correct: true },
       {
-        matn: 'dars faoliyatini umumiylashtiradi',
+        matn: "условия жизни и деятельности ребенка",
         correct: false,
       },
-      {
-        matn: 'bilish faoliyatini mustaqil tashkil etish sharoitlarini beradi',
-        correct: true,
-      },
-      {
-        matn: 'mustaqil fikrlashni oshiradi',
-        correct: false,
-      },
-      {
-        matn: 'dars samaradorligini oshiradi',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 47,
-    savol: 'Integratsiya tushunchasiga taʼrif bering.',
+    savol:
+      "К какой группе воспитательных методов относятся методы порицания и предупреждения?",
     javob: [
+      { matn: "Метод формирования общественного сознания", correct: false },
       {
-        matn: 'yunoncha soʻz boʻlib, bogʻliqlik, yaxlitlik, butunlik',
+        matn: "Метод поощрения учащихся к работе.",
         correct: false,
       },
       {
-        matn: 'lotincha soʻz boʻlib, hamkorlik',
-        correct: false,
-      },
-      {
-        matn: 'lotincha soʻz boʻlib, bogʻliqlik, yaxlitlik, butunlik',
+        matn: "Метод поощрения положительного поведения.",
         correct: true,
       },
-      {
-        matn: 'birgalikda, hamkorlikda',
-        correct: false,
-      }
-    ]
+      { matn: "Самовоспитание", correct: false },
+    ],
   },
   {
     id: 48,
-    savol: 'Integratsiya atamasiga taʼrif bering.',
+    savol:
+      ".... – это внешняя организация воспитательного процесса, совокупно отражающая цели, содержание, средства и методы воспитания, имеющая завершённую форму и определённые временные рамки.",
     javob: [
-      {
-        matn: 'oʻquv fanlarining ixchamlashuvi',
-        correct: false,
-      },
-      {
-        matn: 'dars samaradorligini mustahkamlash',
-        correct: false,
-      },
-      {
-        matn: 'dars jarayonida yangicha metodlardan foydalanish',
-        correct: false,
-      },
-      {
-        matn: 'oʻquv fanlarining oʻzaro bogʻliqligi',
-        correct: true,
-      }
-    ]
+      { matn: "Форма воспитания", correct: true },
+      { matn: "Форма воспитательной работы", correct: false },
+      { matn: "Воспитательная работа", correct: false },
+      { matn: "Деятельность", correct: false },
+    ],
   },
   {
     id: 49,
-    savol: 'Boshlangʻich taʼlimda mahorat darslarini tashkil etish bilan qaysi darajalarda oʻzlashtirishga erishiladi?',
+    savol: "К какой группе методов воспитания относится самооценка?",
     javob: [
+      { matn: "Метод формирования общественного сознания", correct: false },
+      { matn: "Метод поощрения учащихся к работе", correct: false },
       {
-        matn: 'tanishuv, algoritmik, evristik',
-        correct: true,
-      },
-      {
-        matn: 'tanishuv, moslashuv, algoritmik',
+        matn: "Метод поощрения положительного поведения.",
         correct: false,
       },
-      {
-        matn: 'moslashuv, aniqlash, kuzatuv',
-        correct: false,
-      },
-      {
-        matn: 'kuzatuv, tanishuv, moslashuv',
-        correct: false,
-      }
-    ]
+      { matn: "Самовоспитание", correct: true },
+    ],
   },
   {
     id: 50,
-    savol: 'Mahorat darslarining tanishuv darajasi orqali oʻquvchilar nimaga erishadilar?',
+    savol:
+      "К какой группе методов воспитания относится взятие на себя обязательств?",
     javob: [
+      { matn: "Метод формирования общественного сознания", correct: false },
+      { matn: "Метод поощрения учащихся к работе.", correct: false },
       {
-        matn: 'oʻquvchilarning darsda oʻzaro birligi va faolligi ortadi',
+        matn: "Метод поощрения положительного поведения.",
         correct: false,
       },
-      {
-        matn: 'oʻquvchilar yangi mavzu va yangi oʻqituvchini qabul qiladi',
-        correct: true,
-      },
-      {
-        matn: 'mavzuni xotirada yaxshi saqlaydi',
-        correct: false,
-      },
-      {
-        matn: 'mavzuni toʻliq oʻzlashtiradi',
-        correct: false,
-      }
-    ]
+      { matn: "Самовоспитание", correct: true },
+    ],
   },
   {
     id: 51,
-    savol: 'Mahorat darslarining algoritmik darajasi orqali oʻquvchilar nimaga erishadilar?',
+    savol:
+      "В какой строке правильно указаны факторы, влияющие на формирование личности?",
     javob: [
       {
-        matn: 'oʻquvchilarning mavzuni toʻliq oʻzlashtirishi va yangi bilimga ega boʻlishi',
-        correct: false,
-      },
-      {
-        matn: 'oʻquvchilarning darsda oʻzaro birligi va faolligi ortishi',
-        correct: false,
-      },
-      {
-        matn: 'oʻquvchilarning mavzuni xotirasida yaxshi saqlab qolishi',
+        matn: "Наследственность, социальная среда, воспитание",
         correct: true,
       },
-      {
-        matn: 'oʻquvchilarning yangi mavzu va yangi oʻqituvchini qabul qilishi',
-        correct: false,
-      }
-    ]
+      { matn: "Родители, школа, общественность.", correct: false },
+      { matn: "Педагогический коллектив, родители", correct: false },
+      { matn: "Товарищи, друзья", correct: false },
+    ],
   },
   {
     id: 52,
-    savol: 'Sharqiy Yevropa mamlakatlarining taʼlim tizimi muvofiqlashtirib boriladigan xalqaro dastur qaysi?',
+    savol: "Определить формы организации учебного процесса",
     javob: [
+      { matn: "Организация живых встреч", correct: false },
       {
-        matn: 'LINGVA',
-        correct: false,
-      },
-      {
-        matn: 'EVRIKA',
+        matn:
+          "Интервью, встречи, воспитательные мероприятия, организация дебатов, конкурсов творческих работ",
         correct: true,
       },
-      {
-        matn: 'ERAZMUS',
-        correct: false,
-      },
-      {
-        matn: 'ESPRIT',
-        correct: false,
-      }
-    ]
+      { matn: "Организация музыкальных встреч", correct: false },
+      { matn: "Классные мероприятия", correct: false },
+    ],
   },
   {
     id: 53,
-    savol: 'Yevropa mintaqasida amal qiladigan va oliy taʼlim muassasalari hamkorligini amalga oshiruvchi dastur qaysi?',
+    savol: "Что такое воспитание?",
     javob: [
       {
-        matn: 'TEMPUS',
+        matn:
+          "целенаправленный процесс организации и стимулирования активной деятельности развивающейся личности по овладению общественным опытом",
         correct: true,
       },
       {
-        matn: 'EVRIKA',
+        matn:
+          "деятельность педагога по передаче подрастающему поколению общественного опыта",
         correct: false,
       },
       {
-        matn: 'ESPRIT',
+        matn:
+          "целенаправленный процесс осуществления деятельности воспитуемых",
         correct: false,
       },
       {
-        matn: 'LINGVA',
+        matn:
+          "наличие специально подготовленных людей для передачи знаний",
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 54,
-    savol: 'Barcha shaxslar boshlangʻich sinfdan boshlab xorijiy tillarni oʻrganishi kerak degan xalqaro loyiha qaysi?',
+    savol: "К закономерностям воспитания относится?",
     javob: [
       {
-        matn: 'TEMPUS',
-        correct: false,
-      },
-      {
-        matn: 'EVRIKA',
-        correct: false,
-      },
-      {
-        matn: 'ESPRIT',
-        correct: false,
-      },
-      {
-        matn: 'LINGVA',
+        matn:
+          "обусловленность воспитания общественными потребностями",
         correct: true,
-      }
-    ]
+      },
+      { matn: "единство мыслей и поведения", correct: false },
+      { matn: "педагогическое требование", correct: false },
+      {
+        matn: "учёт индивидуальных потребностей ученика",
+        correct: false,
+      },
+    ],
   },
   {
     id: 55,
-    savol: 'Yevropa Ittifoqiga kiruvchi mamlakatlar oʻqituvchilari yagona oʻquv dasturi asosida tayyorlanishi kerak bo‘lgan dastur qaysi?',
+    savol: "Одна из задач нравственного воспитания?",
     javob: [
       {
-        matn: 'ERAZMUS',
+        matn: "развитие потребности к здоровому образу жизни",
+        correct: false,
+      },
+      {
+        matn: "усвоение общечеловеческих ценностей, этики поведения",
         correct: true,
       },
       {
-        matn: 'EVRIKA',
+        matn:
+          "формирование опыта общественно-полезной деятельности",
         correct: false,
       },
       {
-        matn: 'ESPRIT',
+        matn:
+          "наличие специально подготовленных людей для передачи знаний",
         correct: false,
       },
-      {
-        matn: 'LINGVA',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 56,
-    savol: 'GPA nima?',
+    savol: "Трудовое воспитание характеризуется",
     javob: [
       {
-        matn: 'har bir fan moduliga ajratilgan kreditlar miqdori',
+        matn:
+          "укреплением здоровья, обеспечением работоспособности, силы, выносливости",
         correct: false,
       },
       {
-        matn: 'har bir fan boʻyicha taʼlim oluvchining toʻplagan bali',
+        matn:
+          "формированием у человека ответственного отношения к семье",
         correct: false,
       },
       {
-        matn: 'taʼlim oluvchining dastur boʻyicha oʻzlashtirgan ballarining oʻrtacha qiymati',
+        matn:
+          "совершенствованием в человеке способности воспринимать, создавать и ценить прекрасное",
+        correct: false,
+      },
+      {
+        matn:
+          "формированием добросовестного и творческого отношения к трудовой деятельности",
         correct: true,
       },
-      {
-        matn: 'kredit modul tizimi',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 57,
-    savol: 'Talaba bakalavriatda oʻqish muddati 4 yil boʻlganda qancha kredit toʻplashi kerak?',
+    savol: "Классный руководитель - это",
     javob: [
       {
-        matn: '180',
+        matn:
+          "Человек, который выполняет важную и ответственную задачу в школе",
         correct: false,
       },
       {
-        matn: '120',
-        correct: false,
-      },
-      {
-        matn: '200',
-        correct: false,
-      },
-      {
-        matn: '240',
+        matn:
+          "педагог, который руководит командой учащихся одного возраста и получающих равные знания и имеющих единые цели",
         correct: true,
-      }
-    ]
+      },
+      {
+        matn:
+          "Человек, который правильно управляет взаимоотношениями с учениками",
+        correct: false,
+      },
+      {
+        matn: "Человек, который вызывает интерес у учащихся",
+        correct: false,
+      },
+    ],
   },
   {
     id: 58,
-    savol: 'Magistraturada oʻqish muddati 2 yil boʻlganda qancha kredit toʻplash kerak?',
+    savol:
+      "Педагог, который руководит командой учащихся одного возраста и получающих равные знания и имеющих единые цели?",
     javob: [
       {
-        matn: '180',
+        matn: "Заместитель директора по воспитательной работе",
         correct: false,
       },
       {
-        matn: '120',
-        correct: true,
-      },
-      {
-        matn: '200',
+        matn:
+          "Заместитель директора по духовно-просветительской работе",
         correct: false,
       },
-      {
-        matn: '240',
-        correct: false,
-      }
-    ]
+      { matn: "Классный руководитель", correct: true },
+      { matn: "педагог", correct: false },
+    ],
   },
   {
     id: 59,
-    savol: 'Boshlangʻich taʼlimda masofaviy taʼlim texnologiyasidan foydalanish nechta shaklga ega?',
+    savol:
+      "К какому воспитательному методу относятся следующие приемы: благодарность, одобрение, награда, забота и внимание?",
     javob: [
-      {
-        matn: '3',
-        correct: false,
-      },
-      {
-        matn: '2',
-        correct: true,
-      },
-      {
-        matn: '4',
-        correct: false,
-      },
-      {
-        matn: 'shaklga ega emas',
-        correct: false,
-      }
-    ]
+      { matn: "наказание", correct: false },
+      { matn: "соревнование", correct: false },
+      { matn: "поощрение", correct: true },
+      { matn: "убеждение", correct: false },
+    ],
   },
   {
     id: 60,
-    savol: 'Rivojlangan davlatlar deganda nimani tushunasiz?',
+    savol: "Кто утверждает план работы классного руководителя?",
     javob: [
-      {
-        matn: 'tipik va innovatsion taʼlim tizimidan voz kechgan davlatlar',
-        correct: false,
-      },
-      {
-        matn: 'davlat iqtisodiyotida siyosiy yoʻnalish ustunlik qilgan davlatlar',
-        correct: false,
-      },
-      {
-        matn: 'ijtimoiy rivojlanishda milliy modelga ega boʻlgan davlatlar',
-        correct: true,
-      },
-      {
-        matn: 'bozor iqtisodiyotiga asoslanmagan davlatlar',
-        correct: false,
-      }
-    ]
+      { matn: "Директор школы", correct: false },
+      { matn: "Заместитель директора по воспитательной работе", correct: false },
+      { matn: "Заместитель директора по духовно-просветительской работе", correct: true },
+      { matn: "Заместитель директора по хозяйственной деятельности", correct: false },
+    ],
   },
-   {
+  {
     id: 61,
-    savol: 'Boshlangʻich taʼlimni integratsion baholash xususiyati nima?',
+    savol: "Функции планирования?",
     javob: [
       {
-        matn: 'bilimlarni tizimli oʻzlashtirish',
-        correct: false,
-      },
-      {
-        matn: 'har bir fanni kutilgan darajada oʻzlashtirish',
-        correct: false,
-      },
-      {
-        matn: 'oʻzlashtirishni amaliyotda qoʻllay olish',
-        correct: false,
-      },
-      {
-        matn: 'boshlangʻich taʼlimni tashkil etish sharoitlari, asoslari, samaradorligi va pedagoglar bilan taʼminlanganlik darajasi',
+        matn:
+          "Направляющая, прогнозирующая, координирующая, контрольная, репродуктивная",
         correct: true,
-      }
-    ]
+      },
+      {
+        matn:
+          "Контрольная, репродуктивная, рекреационная, воспитательная",
+        correct: false,
+      },
+      {
+        matn:
+          "Прогнозирующая, координирующая, текущая, системная",
+        correct: false,
+      },
+      {
+        matn:
+          "Координирующая, текущая, системная, востребованная",
+        correct: false,
+      },
+    ],
   },
   {
     id: 62,
-    savol: 'Bilim nima?',
+    savol: "Какова первая задача классного руководителя?",
     javob: [
       {
-        matn: 'eng toʻgʻri, tajribadan oʻtgan va koʻpchilik tomonidan eʼtirof etilgan tushunchalar, gʻoyalar hamda fikrlar majmui',
+        matn: "Выполняет воспитательную работу в закреплённом классе",
         correct: true,
       },
       {
-        matn: 'muayyan bilimlar, axloqiy koʻnikmalar va xatti-harakat qobiliyatlariga ega boʻlish',
+        matn:
+          "Профессиональная ориентация и формирование жизненных целей учащихся с учётом их интересов и способностей к знаниям",
         correct: false,
       },
       {
-        matn: 'boshlangʻich sinf oʻqituvchilarining oʻquv-biluv tushunchasi',
+        matn:
+          "В центре внимания классного руководителя находится обеспечение того, чтобы учащиеся достигли высокого уровня мастерства",
         correct: false,
       },
       {
-        matn: 'lotincha soʻz boʻlib, aqliy layoqat maʼnosini anglatadi',
+        matn:
+          "Классный руководитель ведет в своем классе различные документы: классный журнал, дневники учеников, таблицы, личную информацию, различные планы и отчеты.",
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 63,
-    savol: 'Boshlangʻich taʼlimni berishning asosiy shakli nima?',
+    savol: "Какова вторая задача классного руководителя?",
     javob: [
       {
-        matn: 'maktab',
+        matn:
+          "Выполняет воспитательную работу в закрепленном классе",
         correct: false,
       },
       {
-        matn: 'dars',
+        matn:
+          "Профессиональная ориентация и формирование жизненных целей учеников с учетом их интереса и способностей к знаниям",
         correct: true,
       },
       {
-        matn: 'tarbiya',
+        matn:
+          "В центре внимания классного руководителя находится обеспечение того, чтобы учащиеся достигли высокого уровня мастерства",
         correct: false,
       },
       {
-        matn: 'oʻqitish jarayoni',
+        matn:
+          "Классный руководитель ведет в своем классе различные документы: классный журнал, дневники учеников, таблицы, личную информацию, различные планы и отчеты.",
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 64,
-    savol: 'Innovatsion texnologiya nima?',
+    savol: "Какова третья задача классного руководителя?",
     javob: [
       {
-        matn: 'pedagogik taraqqiyotni taʼminlashga qaratilgan yangi tashkiliy faollik vositalari, usullari va metodlari',
+        matn:
+          "Выполняет воспитательную работу в закрепленном классе",
+        correct: false,
+      },
+      {
+        matn:
+          "Профессиональная ориентация и формирование жизненных целей учеников с учетом их интереса и способностей к знаниям",
+        correct: false,
+      },
+      {
+        matn:
+          "В центре внимания классного руководителя находится обеспечение того, чтобы учащиеся достигли высокого уровня мастерства",
         correct: true,
       },
       {
-        matn: 'yangicha oʻqitish tizimi',
+        matn:
+          "Классный руководитель ведет в своем классе различные документы: классный журнал, дневники учеников, таблицы, личную информацию, различные планы и отчеты.",
         correct: false,
       },
-      {
-        matn: 'yangi oʻquv jarayoni prognozi',
-        correct: false,
-      },
-      {
-        matn: 'yangicha oʻquv loyihasi',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 65,
-    savol: 'Innovatsion oʻqitish nima?',
+    savol: "Какова четвертая задача классного руководителя?",
     javob: [
       {
-        matn: 'pedagogik taraqqiyot vositalari',
-        correct: false,
-      },
-      {
-        matn: 'yangicha oʻqitish tizimi hamda oʻquvchi va talabalarni yangi texnologiyalar asosida oʻqitish jarayoni',
+        matn:
+          "Направляет самостоятельную работу учащихся в классе, обеспечивает участие коллектива класса в общественно-полезной работе с их участием.",
         correct: true,
       },
       {
-        matn: 'yangi oʻquv jarayoni prognozi',
+        matn:
+          "Устанавливает тесный контакт с родителями учащихся, воспитателями групп продленного дня, сотрудниками на предприятиях и в учреждениях, по месту жительства.",
         correct: false,
       },
       {
-        matn: 'oʻquv loyihasi',
+        matn:
+          "Классному руководителю удается установить единые требования к учащимся среди всех учителей-предметников, преподающих в этом классе.",
         correct: false,
-      }
-    ]
+      },
+      {
+        matn:
+          "Классный руководитель ведет в своем классе различные документы: классный журнал, дневники учеников, таблицы, личную информацию, различные планы и отчеты.",
+        correct: false,
+      },
+    ],
   },
   {
     id: 66,
-    savol: 'Erkin boshlangʻich taʼlim innovatsion maktabi qaysi davlatda tashkil etilgan?',
+    savol: "Какова пятая задача классного руководителя?",
     javob: [
       {
-        matn: 'Finlandiya',
+        matn:
+          "Направляет самостоятельную работу учащихся в классе, обеспечивает участие коллектива класса в общественно полезной работе с их участием.",
         correct: false,
       },
       {
-        matn: 'Germaniya',
+        matn:
+          "Устанавливает тесный контакт с родителями учащихся, воспитателями групп продленного дня, сотрудниками на предприятиях и в учреждениях, по месту жительства.",
         correct: true,
       },
       {
-        matn: 'Xitoy',
+        matn:
+          "Классному руководителю удается установить единые требования к учащимся среди всех учителей-предметников, преподающих в этом классе.",
         correct: false,
       },
       {
-        matn: 'Fransiya',
+        matn:
+          "Классный руководитель ведет в своем классе различные документы: классный журнал, дневники учеников, таблицы, личную информацию, различные планы и отчеты.",
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 67,
-    savol: 'Mehnat boshlangʻich taʼlim maktabi qaysi davlatlarda tashkil etilgan?',
+    savol: "Какова шестая задача классного руководителя?",
     javob: [
       {
-        matn: 'Germaniya, Rossiya, Finlandiya',
+        matn:
+          "Направляет самостоятельную работу учащихся в классе, обеспечивает участие коллектива класса в общественно полезной работе с их участием.",
         correct: false,
       },
       {
-        matn: 'Avstriya, Germaniya, Xitoy',
+        matn:
+          "Устанавливает тесный контакт с родителями учащихся, воспитателями групп продленного дня, сотрудниками на предприятиях и в учреждениях, по месту жительства.",
         correct: false,
       },
       {
-        matn: 'Avstriya, Shvetsariya, Rossiya',
+        matn:
+          "Классному руководителю удается установить единые требования к учащимся среди всех учителей-предметников, преподающих в этом классе.",
         correct: true,
       },
       {
-        matn: 'Buyuk Britaniya, Germaniya, Amerika',
+        matn:
+          "Классный руководитель ведет в своем классе различные документы: классный журнал, дневники учеников, таблицы, личную информацию, различные планы и отчеты.",
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 68,
-    savol: 'Ochiq boshlangʻich taʼlim maktabi qaysi davlatda tashkil etilgan?',
+    savol: "Какова седьмая обязанность классного руководителя?",
     javob: [
       {
-        matn: 'Shvetsariya',
+        matn:
+          "Выполняет воспитательную работу в закрепленном классе",
         correct: false,
       },
       {
-        matn: 'Germaniya',
+        matn:
+          "Профессиональная ориентация и формирование жизненных целей учеников с учетом их интереса и способностей к знаниям",
         correct: false,
       },
       {
-        matn: 'Yaponiya',
+        matn:
+          "В центре внимания классного руководителя находится обеспечение того, чтобы учащиеся достигли высокого уровня мастерства",
         correct: false,
       },
       {
-        matn: 'Buyuk Britaniya',
+        matn:
+          "Классный руководитель ведет в своем классе различные документы: классный журнал, дневники учеников, таблицы, личную информацию, различные планы и отчеты.",
         correct: true,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 69,
-    savol: 'Yillik yangi boshlangʻich taʼlim maktabi qaysi davlatda tashkil etilgan?',
+    savol:
+      "В какой роли классный руководитель осуществляет возложенную на него воспитательную работу в классе?",
     javob: [
-      {
-        matn: 'AQSh',
-        correct: true,
-      },
-      {
-        matn: 'Shvetsariya',
-        correct: false,
-      },
-      {
-        matn: 'Finlandiya',
-        correct: false,
-      },
-      {
-        matn: 'Xitoy',
-        correct: false,
-      }
-    ]
+      { matn: "Первая задача классного руководителя", correct: true },
+      { matn: "Вторая задача классного руководителя", correct: false },
+      { matn: "Третья задача классного руководителя", correct: false },
+      { matn: "Четвертая задача классного руководителя", correct: false },
+    ],
   },
   {
     id: 70,
-    savol: 'Oʻzbekiston Respublikasida nechta Oliy taʼlim muassasalari ECTS kredit-modul tizimiga oʻtgan?',
+    savol:
+      "Какова задача классного руководителя с учетом интереса и способностей учащихся к профессии и формирования их жизненных целей?",
     javob: [
-      {
-        matn: '30 ta',
-        correct: false,
-      },
-      {
-        matn: '33 ta',
-        correct: true,
-      },
-      {
-        matn: '36 ta',
-        correct: false,
-      },
-      {
-        matn: '38 ta',
-        correct: false,
-      }
-    ]
+      { matn: "Первая задача классного руководителя", correct: false },
+      { matn: "Вторая задача классного руководителя", correct: true },
+      { matn: "Третья задача классного руководителя", correct: false },
+      { matn: "Четвертая задача классного руководителя", correct: false },
+    ],
   },
    {
     id: 71,
-    savol: 'Masofaviy taʼlim texnologiyasi qanday imkoniyatlarga ega?',
+    savol: 'Какова роль классного руководителя в руководстве самоуправлением учащихся в классе, обеспечении участия коллектива класса в общественно полезной деятельности?',
     javob: [
-      {
-        matn: 'bilish faoliyatini mustaqil tashkil etish sharoitlarini beradi',
-        correct: false,
-      },
-      {
-        matn: 'masofaviy taʼlim oʻqish va oʻqitish jarayoniga ijobiy yondashuvni taʼminlaydi',
-        correct: false,
-      },
-      {
-        matn: 'pedagogik jarayonning maqsadi sifatida taʼlim oluvchiga aniq yoʻnalish beradi',
-        correct: false,
-      },
-      {
-        matn: 'barcha javoblar toʻgʻri',
-        correct: true,
-      }
-    ]
+      { matn: 'Первая задача классного руководителя', correct: false },
+      { matn: 'Вторая задача классного руководителя', correct: false },
+      { matn: 'Третья задача классного руководителя', correct: false },
+      { matn: 'Четвертая задача классного руководителя', correct: true },
+    ],
   },
   {
     id: 72,
-    savol: 'Masofaviy taʼlimning oʻquv materiallarini tayyorlash nechta blokka boʻlinadi?',
+    savol: 'Классный руководитель устанавливает тесный контакт с родителями учащихся, педагогами групп продленного дня, родителями, опекунами учеников.',
     javob: [
-      {
-        matn: '3 ta',
-        correct: false,
-      },
-      {
-        matn: '6 ta',
-        correct: false,
-      },
-      {
-        matn: '5 ta',
-        correct: true,
-      },
-      {
-        matn: '4 ta',
-        correct: false,
-      }
-    ]
+      { matn: 'Пятая задача классного руководителя', correct: true },
+      { matn: 'Шестая задача классного руководителя', correct: false },
+      { matn: 'Седьмая задача классного руководителя', correct: false },
+      { matn: 'Четвертая задача классного руководителя', correct: false },
+    ],
   },
   {
     id: 73,
-    savol: 'Masofaviy taʼlimning oʻquv materiallarini tayyorlashning kommunikativ bloki nima?',
+    savol: 'Классному руководителю удается установить единые требования к учащимся среди всех учителей-предметников, преподающих в этом классе?',
     javob: [
-      {
-        matn: 'oʻquv materiallarini taʼlim oluvchilarga yoʻnaltirilgan tarzda tayyorlovchi manba',
-        correct: true,
-      },
-      {
-        matn: 'taʼlim oluvchilarning oʻzlashtirishini nazorat qilib boruvchi manba',
-        correct: false,
-      },
-      {
-        matn: 'taʼlim oluvchi va taʼlim beruvchilarning muloqotini taʼminlovchi manba',
-        correct: false,
-      },
-      {
-        matn: 'oʻquv materiallarini nazariy, didaktik va amaliy tarzda tayyorlash',
-        correct: false,
-      }
-    ]
+      { matn: 'Четвертая задача классного руководителя', correct: false },
+      { matn: 'Пятая задача классного руководителя', correct: false },
+      { matn: 'Шестая задача классного руководителя', correct: true },
+      { matn: 'Седьмая задача классного руководителя', correct: false },
+    ],
   },
   {
     id: 74,
-    savol: 'Masofaviy taʼlimda nazoratni amalga oshiruvchi blok nima?',
+    savol: 'В какой роли классный руководитель управляет различными документами в своем классе: классным журналом, дневниками учеников, таблицами, личной информацией, различными планами и отчетами?',
     javob: [
-      {
-        matn: 'oʻquv materiallarini taʼlim oluvchilarga yoʻnaltirish',
-        correct: false,
-      },
-      {
-        matn: 'taʼlim oluvchilarning oʻzlashtirishini nazorat qilib boruvchi manba',
-        correct: true,
-      },
-      {
-        matn: 'muloqotni taʼminlash',
-        correct: false,
-      },
-      {
-        matn: 'nazariy va amaliy materiallarni tayyorlash',
-        correct: false,
-      }
-    ]
+      { matn: 'Четвертая задача классного руководителя', correct: false },
+      { matn: 'Пятая задача классного руководителя', correct: false },
+      { matn: 'Шестая задача классного руководителя', correct: false },
+      { matn: 'Седьмая задача классного руководителя', correct: true },
+    ],
   },
   {
     id: 75,
-    savol: 'Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Taʼlim sifatini nazorat qilish inspeksiyasi xususiy maktablarni har necha yilda tekshiradi?',
+    savol: 'Какая деятельность ведётся дополнительно к воспитательной работе?',
     javob: [
       {
-        matn: '5 yil',
-        correct: false,
-      },
-      {
-        matn: '2 yil',
-        correct: false,
-      },
-      {
-        matn: '3 yil',
+        matn: 'дополнение к воспитательным программам работы направлено на обогащение и расширение этических, эстетических, духовных представлений учащихся, информации о науке и технике, национальной экономике, мировых событиях',
         correct: true,
       },
       {
-        matn: '4 yil',
+        matn: 'формировать у учащихся определенное отношение к окружающей среде...',
         correct: false,
       },
-      
-    ]
+      {
+        matn: 'правильно и целенаправленно направляются и углубляются знания и понимание обучающимися текущей жизни...',
+        correct: false,
+      },
+      {
+        matn: 'изучение учащихся, повышение качества их знаний и укрепление дисциплины',
+        correct: false,
+      },
+    ],
   },
-   {
+  {
     id: 76,
-    savol: 'Muayyan holat yoki darajani baholash — bu ...?',
+    savol: 'Это научно-педагогическая дисциплина, которая изучает, исследует, описывает педагогическую технологию как элемент профессионализма педагога?',
     javob: [
-      {
-        matn: 'Indikator',
-        correct: true,
-      },
-      {
-        matn: 'Oʻquv reja',
-        correct: false,
-      },
-      {
-        matn: 'Innovatsiya',
-        correct: false,
-      },
-      {
-        matn: 'Koʻnikma',
-        correct: false,
-      }
-    ]
+      { matn: 'Педагогическая воспитательная технология', correct: true },
+      { matn: 'Коррекционная педагогика', correct: false },
+      { matn: 'Педагогика труда', correct: false },
+      { matn: 'Возрастная педагогика', correct: false },
+    ],
   },
   {
     id: 77,
-    savol: 'Boshlangʻich taʼlimni integratsion baholash nechta xususiyatga ega boʻladi?',
+    savol: 'Это система научно обоснованных приемов и методик, способствующих установлению таких отношений между субъектами процесса, при которых в непосредственном контакте достигается поставленная цель – приобщение воспитуемых к общечеловеческим культурным ценностям?',
     javob: [
-      {
-        matn: '4 ta',
-        correct: true,
-      },
-      {
-        matn: '5 ta',
-        correct: false,
-      },
-      {
-        matn: '3 ta',
-        correct: false,
-      },
-      {
-        matn: '7 ta',
-        correct: false,
-      }
-    ]
+      { matn: 'педагогическая технология', correct: false },
+      { matn: 'воспитательная технология', correct: true },
+      { matn: 'технология развивающего образования', correct: false },
+      { matn: 'технология сотрудничества', correct: false },
+    ],
   },
   {
     id: 78,
-    savol: 'Germaniyada boshlangʻich taʼlimni tashkil etishda qaysi fanlarning ustuvorligiga duch kelamiz?',
+    savol: 'Укажите основные идеи, лежащие в основе современных воспитательных технологий:',
     javob: [
       {
-        matn: 'Psixologiyaning',
-        correct: false,
-      },
-      {
-        matn: 'Gumanitar fanlarning',
+        matn: 'переход от парадигмы воспитания как формирования личности в командно-административной системе отношений к парадигме воспитания как создания условий для самоактуализации личности.',
         correct: true,
       },
       {
-        matn: 'Maktabgacha taʼlimning',
+        matn: 'забота о своем коллективе, друг о друге, об окружающих людях, о далеких друзьях.',
         correct: false,
       },
       {
-        matn: 'Tarbiya fanining',
+        matn: 'потребности в познании, сознательного, увлеченного, действенного отношения к непосредственным источникам открытия мира.',
         correct: false,
-      }
-    ]
+      },
+      {
+        matn: 'исследование основных парадигм современной педагогической науки и выявление значимости существующих педагогических парадигм для практической деятельности.',
+        correct: false,
+      },
+    ],
   },
   {
     id: 79,
-    savol: 'Braziliya boshlangʻich taʼlim gʻoyasiga qaysi davlat modeli taʼsir koʻrsatgan?',
+    savol: 'Какие есть формы внеклассной работы?',
     javob: [
-      {
-        matn: 'Fransiya',
-        correct: false,
-      },
-      {
-        matn: 'Finlandiya',
-        correct: false,
-      },
-      {
-        matn: 'Ispaniya',
-        correct: true,
-      },
-      {
-        matn: 'Amerika',
-        correct: false,
-      }
-    ]
+      { matn: 'Встречи, беседы, самостоятельная деятельность', correct: false },
+      { matn: 'Вечера, конкурсы', correct: false },
+      { matn: 'Праздники, встречи, конкурсы', correct: false },
+      { matn: 'Массовая работа, кружковая работа, индивидуальное воспитание', correct: true },
+    ],
   },
   {
     id: 80,
-    savol: 'Kanada boshlangʻich taʼlim tizimida qaysi davlat tizimi aks etgan?',
+    savol: 'Кто отвечает за методическую поддержку учителей, классных руководителей, родителей, ученических организаций, классного актива при непосредственном руководстве направлением внеклассной деятельности?',
     javob: [
-      {
-        matn: 'Ispaniya',
-        correct: false,
-      },
-      {
-        matn: 'AQSh',
-        correct: true,
-      },
-      {
-        matn: 'Finlandiya',
-        correct: false,
-      },
-      {
-        matn: 'Fransiya',
-        correct: false,
-      }
-    ]
+      { matn: 'Организатор внеурочной деятельности', correct: true },
+      { matn: 'классный руководитель', correct: false },
+      { matn: 'Заместитель директора школы по духовно-просветительской работе', correct: false },
+      { matn: 'Заместитель директора по воспитательной работе школы', correct: false },
+    ],
   },
   {
     id: 81,
-    savol: 'Osiyo qitʼasidagi rivojlangan mamlakatlar boshlangʻich taʼlimida qaysi davlat taʼsiri kuchli?',
+    savol: 'Какие методы работы воспитатели, классные руководители используют в своей воспитательной работе вне класса и школы?',
     javob: [
-      {
-        matn: 'Amerika',
-        correct: false,
-      },
-      {
-        matn: 'Kanada',
-        correct: false,
-      },
-      {
-        matn: 'Ispaniya',
-        correct: false,
-      },
-      {
-        matn: 'Rossiya',
-        correct: true,
-      }
-    ]
+      { matn: 'Массовая работа, групповая работа, индивидуальное воспитание', correct: false },
+      { matn: 'Словесные, практические, наглядные', correct: true },
+      { matn: 'Интерактивные', correct: false },
+      { matn: 'Интегрированные', correct: false },
+    ],
   },
   {
     id: 82,
-    savol: 'Hozirgi zamon boshlangʻich taʼlimining sifat va samaradorligini baholashda qaysi darslarning ahamiyati katta?',
+    savol: 'Определить устные приемы воспитательной работы внеклассной работы.',
     javob: [
       {
-        matn: 'Mahorat darsining',
+        matn: 'Различная информация, встречи, утренники, лекции, читательские конференции, дискуссии, встречи, устные газеты',
         correct: true,
       },
       {
-        matn: 'Ochiq darslarning',
+        matn: 'Экскурсии по разным местам, спортивные соревнования, олимпиады, кружки юных натуралистов, субботники',
         correct: false,
       },
       {
-        matn: 'toʻgʻri javob yoʻq',
+        matn: 'Посещение музеев, комнат героев войны и труда, выставок новых книг',
         correct: false,
       },
       {
-        matn: 'Anʼanaviy darslarning',
+        matn: 'Праздники, встречи, конкурсы',
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 83,
-    savol: 'Tanishuv darajasi – bu ...?',
+    savol: 'Определить практические методы воспитательной работы внеклассной работы.',
     javob: [
       {
-        matn: 'Oʻquvchilarning yangi mavzuni qabul qilishi',
+        matn: 'Различная информация, встречи, утренники, лекции, читательские конференции, дискуссии, встречи',
         correct: false,
       },
       {
-        matn: 'Oʻquvchilarning yangi oʻqituvchini qabul qilishi',
-        correct: false,
-      },
-      {
-        matn: 'Oʻquvchilarning yangi mavzuni va yangi oʻqituvchini qabul qilishi',
+        matn: 'Экскурсии по разным местам, спортивные соревнования, олимпиады, кружки юных натуралистов, субботники',
         correct: true,
       },
       {
-        matn: 'Yangi bilimga ega boʻlish',
+        matn: 'Посещение школьных музеев, комнаты героев войны и труда, выставки новых книг',
         correct: false,
-      }
-    ]
+      },
+      {
+        matn: 'Праздники, встречи, конкурсы',
+        correct: false,
+      },
+    ],
   },
   {
     id: 84,
-    savol: 'Oʻquvchilarning mavzuni xotirasida yaxshi saqlab qolishi – bu ...?',
+    savol: 'Что входит в технологию групповой проблемной работы?',
     javob: [
-      {
-        matn: 'Tanishuv darajasi',
-        correct: false,
-      },
-      {
-        matn: 'Evristik daraja',
-        correct: false,
-      },
-      {
-        matn: 'toʻgʻri javob yoʻq',
-        correct: false,
-      },
-      {
-        matn: 'Algoritmik daraja',
-        correct: true,
-      }
-    ]
+      { matn: 'организация публичных конкурсов, соревнований.', correct: false },
+      { matn: 'разработка проектов, организация КВН.', correct: false },
+      { matn: 'диспуты, дискуссии, обсуждение ситуаций, разработка проектов.', correct: true },
+      { matn: 'выставки, семинары, тренинги.', correct: false },
+    ],
   },
   {
     id: 85,
-    savol: 'Oʻquvchilarning mavzuni toʻliq oʻzlashtirishi va yangi bilimga ega boʻlishi – bu ...?',
+    savol: 'К какому методу внеклассной воспитательной работы относятся различные встречи, утренники, лекции, читательские конференции, беседы, встречи, устные газеты?',
     javob: [
-      {
-        matn: 'Algoritmik daraja',
-        correct: false,
-      },
-      {
-        matn: 'Evristik daraja',
-        correct: true,
-      },
-      {
-        matn: 'Tanishuv darajasi',
-        correct: false,
-      },
-      {
-        matn: 'toʻgʻri javob yoʻq',
-        correct: false,
-      }
-    ]
+      { matn: 'Практические методы работы', correct: false },
+      { matn: 'Демонстрационные методы работы', correct: false },
+      { matn: 'Коллективные методы работы', correct: false },
+      { matn: 'Методы устной работы', correct: true },
+    ],
   },
-   {
+  {
     id: 86,
-    savol: 'Taʼlim elementlarini oʻzlashtirish va boshqa yutuqlarga erishish natijasida taqdim etiladigan kredit birliklarini toʻplash – bu ...?',
+    savol: 'К какому методу внеклассной воспитательной работы относятся экскурсии в различные места, спортивные соревнования, олимпиады, кружки юных натуралистов?',
     javob: [
-      {
-        matn: 'kredit',
-        correct: false,
-      },
-      {
-        matn: 'kreditlarni berish',
-        correct: false,
-      },
-      {
-        matn: 'kredit toʻplash',
-        correct: true,
-      },
-      {
-        matn: 'kreditlarni koʻchirish',
-        correct: false,
-      }
-    ]
+      { matn: 'Практические методы работы', correct: true },
+      { matn: 'Демонстрационные методы работы', correct: false },
+      { matn: 'Коллективные методы работы', correct: false },
+      { matn: 'Методы устной работы', correct: false },
+    ],
   },
   {
     id: 87,
-    savol: 'Toshkent viloyatidagi umumiy oʻrta taʼlim maktablarida nechta “Maktab-laboratoriya” tajriba-sinov maydonchalari tashkil etilgan?',
+    savol: 'Формы и методы работы с родителями должны быть направлены на...',
     javob: [
       {
-        matn: '30 ta',
-        correct: false,
-      },
-      {
-        matn: '25 ta',
+        matn: 'повышение педагогической культуры родителей, на укрепление взаимодействия школы и семьи, на усиление ее воспитательного потенциала.',
         correct: true,
       },
       {
-        matn: '20 ta',
+        matn: 'формирование личности ученика, способствуя его всестороннему развитию, укреплению здоровья, нравственности.',
         correct: false,
       },
       {
-        matn: '10 ta',
+        matn: 'формирование и раскрытие индивидуальности каждого воспитанника.',
         correct: false,
-      }
-    ]
+      },
+      {
+        matn: 'формирование позитивной социальной направленности у молодёжи.',
+        correct: false,
+      },
+    ],
   },
   {
     id: 88,
-    savol: 'Boshlangʻich taʼlimda “Maktab-laboratoriya” usulini joriy etishda nechta tashkiliy ish amalga oshiriladi?',
+    savol: 'Деятельность педагогического коллектива по организации работы с родителями реализует следующие цели:',
     javob: [
+      { matn: 'интеллектуальное, эстетическое.', correct: false },
       {
-        matn: '3 ta',
+        matn: 'просветительская, консультативная, коммуникативная.',
         correct: true,
       },
-      {
-        matn: '4 ta',
-        correct: false,
-      },
-      {
-        matn: '8 ta',
-        correct: false,
-      },
-      {
-        matn: '2 ta',
-        correct: false,
-      }
-    ]
+      { matn: 'физическое, нравственное.', correct: false },
+      { matn: 'коммуникативная.', correct: false },
+    ],
   },
   {
     id: 89,
-    savol: 'Klaster tushunchasi qaysi mamlakatlarda ishlab chiqarish aloqalarini yoʻlga qoʻyish mazmunida qoʻllaniladi?',
+    savol: 'Какова основная цель организации кружков в учебных заведениях?',
     javob: [
       {
-        matn: 'Gʻarb',
+        matn: 'создавать возможности для проявления и развития своих природных способностей в соответствующих областях знаний и конкретных направлениях науки, реализовывать свой уникальный талант',
+        correct: false,
+      },
+      {
+        matn: 'направить учащихся содержательно проводить свободное время после уроков, целенаправленно развивать свои способности и стремления',
         correct: true,
       },
       {
-        matn: 'Sharq',
+        matn: 'развивать интеллектуальный потенциал одаренных учащихся',
         correct: false,
       },
       {
-        matn: 'Osiyo',
+        matn: 'совершенствование природных талантов одарённых учеников',
         correct: false,
       },
-      {
-        matn: 'toʻgʻri javob yoʻq',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 90,
-    savol: 'Oʻqitishning klaster usuli nechta tamoyilga asoslanadi?',
+    savol: 'Методы работы состоит из...',
     javob: [
-      {
-        matn: '2 ta',
-        correct: false,
-      },
-      {
-        matn: '4 ta',
-        correct: false,
-      },
-      {
-        matn: '3 ta',
-        correct: true,
-      },
-      {
-        matn: '6 ta',
-        correct: false,
-      }
-    ]
+      { matn: 'наблюдение, беседа, тестирование, анкетирование.', correct: true },
+      { matn: 'объяснение, дискуссия.', correct: false },
+      { matn: 'наблюдение, эксперимент, интервьюирование.', correct: false },
+      { matn: 'анализ, синтез.', correct: false },
+    ],
   },
   {
     id: 91,
-    savol: 'Boshlangʻich taʼlimni tashkil qilishning klaster usuli vazifalari nechta?',
+    savol: 'Формы работы делятся на:',
     javob: [
-      {
-        matn: '5 ta',
-        correct: true,
-      },
-      {
-        matn: '3 ta',
-        correct: false,
-      },
-      {
-        matn: '7 ta',
-        correct: false,
-      },
-      {
-        matn: '6 ta',
-        correct: false,
-      }
-    ]
+      { matn: 'активные и пассивные', correct: false },
+      { matn: 'групповые и индивидуальные', correct: false },
+      { matn: 'традиционные и нетрадиционные', correct: false },
+      { matn: 'все ответы верны', correct: true },
+    ],
   },
   {
     id: 92,
-    savol: 'Hozirgi zamon boshlangʻich taʼlimida oʻqitishning klaster usulini joriy etish uchun asosiy metodlar nechta?',
+    savol: 'На какие виды делится нетрадиционные формы работы с родителями?',
     javob: [
+      { matn: 'наглядно-информационные.', correct: false },
       {
-        matn: '3 ta',
+        matn: 'информационно-аналитические; познавательные; досуговые; наглядно-информационные.',
         correct: true,
       },
-      {
-        matn: '2 ta',
-        correct: false,
-      },
-      {
-        matn: '4 ta',
-        correct: false,
-      },
-      {
-        matn: '5 ta',
-        correct: false,
-      }
-    ]
+      { matn: 'фронтальная; групповая.', correct: false },
+      { matn: 'самостоятельная и индивидуальная.', correct: false },
+    ],
   },
   {
     id: 93,
-    savol: 'Boshlangʻich taʼlim mavzulari, darslari va oʻquv fanlarini ketma-ketlikda amalga oshirishga asoslanadigan metod – bu ...?',
+    savol: 'Формы и методы работы с родителями должны быть направлены на...',
     javob: [
       {
-        matn: 'Uzviylik metodi',
+        matn: 'повышение педагогической культуры родителей, на укрепление взаимодействия школы и семьи, на усиление ее воспитательного потенциала.',
         correct: true,
       },
       {
-        matn: 'Hamkorlik metodi',
+        matn: 'формирование личности ученика, способствуя его всестороннему развитию, укреплению здоровья, нравственности.',
         correct: false,
       },
       {
-        matn: 'Samaradorlik metodi',
+        matn: 'формирование и раскрытие индивидуальности каждого воспитанника.',
         correct: false,
       },
       {
-        matn: 'toʻgʻri javob yoʻq',
+        matn: 'формирование позитивной социальной направленности у молодёжи.',
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 94,
-    savol: 'Boshlangʻich taʼlimni undan manfaatdorlar bilan amalga oshirishga asoslanadigan metod – bu ...?',
+    savol: 'Семья обязана формировать:',
     javob: [
+      { matn: 'физически и психически здоровую личность.', correct: false },
       {
-        matn: 'Samaradorlik metodi',
+        matn: 'способность выработать ценностное суждение об идеях, решениях, методах, умение самоопределиться в ситуации выбора, оперативно принять решение.',
         correct: false,
       },
       {
-        matn: 'Hamkorlik metodi',
+        matn: 'способность взаимодействовать с другими субъектами образования и окружающим миром, умение вести спор.',
+        correct: false,
+      },
+      {
+        matn: 'физически и психически здоровую, нравственную, интеллектуально развитую личность, готовую к предстоящей трудовой, общественной, семейной жизни.',
         correct: true,
       },
-      {
-        matn: 'Uzviylik metodi',
-        correct: false,
-      },
-      {
-        matn: 'toʻgʻri javob yoʻq',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 95,
-    savol: 'Integratsion darsning auksion turi qanday tashkil etiladi?',
+    savol: 'Деятельность педагогического коллектива по организации работы с родителями реализует следующие цели:',
     javob: [
+      { matn: 'интеллектуальное, эстетическое.', correct: false },
       {
-        matn: 'mutaxassislar ishtirokida oʻtkaziladi',
-        correct: false,
-      },
-      {
-        matn: 'kompyuter texnologiyasiga asoslanadi',
-        correct: false,
-      },
-      {
-        matn: 'auksion tarzda tashkil etiladi',
+        matn: 'просветительская, консультативная, коммуникативная.',
         correct: true,
       },
-      {
-        matn: 'koʻrgazmalilik va anʼanaviylikka asoslanadi',
-        correct: false,
-      }
-    ]
+      { matn: 'физическое, нравственное.', correct: false },
+      { matn: 'коммуникативная.', correct: false },
+    ],
   },
   {
     id: 96,
-    savol: 'Integratsion dars turlarining hamkorlik dars turi qanday shaklda tashkil etiladi?',
+    savol: 'Методы работы состоят из...',
     javob: [
-      {
-        matn: 'integratsion darsning bu turi muayyan mavzularni mutaxassislarning ishtirokida oʻtkazishga asoslanadi',
-        correct: true,
-      },
-      {
-        matn: 'integratsion darsning bu turi koʻp hollarda kompyuter texnologiyasiga asoslanadi',
-        correct: false,
-      },
-      {
-        matn: 'integratsion darsning bu turi auktsion tarzda tashkil etiladi',
-        correct: false,
-      },
-      {
-        matn: 'integratsion darsning bu turi koʻrgazmalilik va anʼanaviylikka asoslanadi',
-        correct: false,
-      }
-    ]
+      { matn: 'наблюдение, беседа, тестирование, анкетирование.', correct: true },
+      { matn: 'объяснение, дискуссия.', correct: false },
+      { matn: 'наблюдение, эксперимент, интервьюирование.', correct: false },
+      { matn: 'анализ, синтез.', correct: false },
+    ],
   },
   {
     id: 97,
-    savol: 'Integratsion dars turlari nechta?',
+    savol: 'Формы работы делятся на:',
     javob: [
-      {
-        matn: '3 ta',
-        correct: true,
-      },
-      {
-        matn: '2 ta',
-        correct: false,
-      },
-      {
-        matn: '4 ta',
-        correct: false,
-      },
-      {
-        matn: '6 ta',
-        correct: false,
-      }
-    ]
+      { matn: 'активные и пассивные', correct: false },
+      { matn: 'групповые и индивидуальные', correct: false },
+      { matn: 'традиционные и нетрадиционные', correct: false },
+      { matn: 'все ответы верны', correct: true },
+    ],
   },
   {
     id: 98,
-    savol: 'Mavzularni va mashgʻulotlarni hamkorlikda, mutaxassislar ishtirokida va oʻquvchilar faolligida oʻtish jarayoni – bu ...?',
+    savol: 'Группа учеников, объединенная на основе общей цели и совместной деятельности, имеющей социально-полезное значение. Как это называется?',
     javob: [
-      {
-        matn: 'Auksion dars',
-        correct: false,
-      },
-      {
-        matn: 'Integratsion dars',
-        correct: true,
-      },
-      {
-        matn: 'Hamkorlik darsi',
-        correct: false,
-      },
-      {
-        matn: 'Toʻgʻri javob yoʻq',
-        correct: false,
-      }
-    ]
+      { matn: 'Ученический коллектив', correct: true },
+      { matn: 'Детская команда', correct: false },
+      { matn: 'Школа', correct: false },
+      { matn: 'Команда класса', correct: false },
+    ],
   },
   {
     id: 99,
-    savol: 'Taʼlim olish natijalariga koʻra talaba tomonidan muayyan fan boʻyicha oʻzlashtirilgan oʻquv yuklamasining oʻlchov birligi – bu ...?',
+    savol: 'На какие виды делится нетрадиционные формы работы с родителями?',
     javob: [
+      { matn: 'наглядно-информационные.', correct: false },
       {
-        matn: 'kredit',
+        matn: 'информационно-аналитические; познавательные; досуговые; наглядно-информационные.',
         correct: true,
       },
-      {
-        matn: 'oʻqish yuklamasi',
-        correct: false,
-      },
-      {
-        matn: 'kredit toʻplash',
-        correct: false,
-      },
-      {
-        matn: 'Toʻgʻri javob yoʻq',
-        correct: false,
-      }
-    ]
+      { matn: 'фронтальная; групповая.', correct: false },
+      { matn: 'самостоятельная и индивидуальная.', correct: false },
+    ],
   },
   {
     id: 100,
-    savol: 'Oʻzbekistonda masofaviy taʼlim texnologiyasi qaysi yildan boshlab qoʻllanilgan?',
+    savol: 'К принципам семейного воспитания не относится...',
     javob: [
-      {
-        matn: '1978-yildan',
-        correct: false,
-      },
-      {
-        matn: '1970-yildan',
-        correct: false,
-      },
-      {
-        matn: '1980-yildan',
-        correct: true,
-      },
-      {
-        matn: '1990-yildan',
-        correct: false,
-      }
-    ]
+      { matn: 'оптимистичность взаимоотношений в семье', correct: false },
+      { matn: 'ориентация на государственный заказ', correct: true },
+      { matn: 'гуманность и милосердие', correct: false },
+      { matn: 'последовательность в требованиях', correct: true },
+    ],
   },
   {
     id: 101,
-    savol: "To’g’ri burchakli uchburchakning kichik tomonlari 3 dm, 4 dmga teng bo’lsa uchburchak yuzasini toping.",
-    javob: [
-        {
-            matn: "12 dm2",
-            correct: false
-        },
-        {
-            matn: "6 dm2",
-            correct: true
-        },
-        {
-            matn: "7 dm2",
-            correct: false
-        },
-        {
-            matn: "14 dm2",
-            correct: false
-        }
-    ]
-},
-{
-    id: 102,
-    savol: "Tenglamani ildizini toping:(1835-y):9+1709 = 1824",
-    javob: [
-        {
-            matn: "800",
-            correct: true
-        },
-        {
-            matn: "700",
-            correct: false
-        },
-        {
-            matn: "500",
-            correct: false
-        },
-        {
-            matn: "100",
-            correct: false
-        }
-    ]
-},
-{
-    id: 103,
-    savol: "Katakchalar o’rnida qaysi son turishi kerak? ⅕ tonna = ? kilogramm",
-    javob: [
-        {
-            matn: "20",
-            correct: false
-        },
-        {
-            matn: "200",
-            correct: true
-        },
-        {
-            matn: "50",
-            correct: false
-        },
-        {
-            matn: "500",
-            correct: false
-        }
-    ]
-},
-{
-    id: 104,
-    savol: '54 m matodan 18 ta bir xil erkaklar paltosi tikildi. 72 m shunday matodan nechta palto tikish mumkin?',
+    savol: 'Диагностика – это...',
     javob: [
       {
-        matn: '24',
+        matn: 'совокупность методов и методик, позволяющих всесторонне исследовать ученика в системе педагогических отношений.',
+        correct: false,
+      },
+      {
+        matn: 'общий способ получения опережающей информации об изучаемом объекте или процессе.',
         correct: true,
       },
       {
-        matn: '12',
+        matn: 'признаки, по которым можно судить об уровне воспитанности учащихся, оценить достигнутые результаты воспитания.',
         correct: false,
       },
       {
-        matn: '36',
+        matn: 'одна из форм изучения и фиксации уровня воспитанности.',
+        correct: false,
+      },
+    ],
+  },
+   {
+    id: 102,
+    savol: 'Какие методы педагогических исследований используются в диагностике уровня воспитанности личности и коллектива?',
+    javob: [
+      { matn: 'беседа, наблюдение, социометрия', correct: true },
+      { matn: 'ранжирование, проектирование, разработка', correct: false },
+      { matn: 'метод незаконченных предложений, конструирование, систематизация', correct: false },
+      { matn: 'анализ школьной документации, продуктов деятельности учащихся', correct: false },
+    ],
+  },
+  {
+    id: 103,
+    savol: 'Критерии воспитанности – это...',
+    javob: [
+      {
+        matn: 'признаки, по которым можно судить об уровне воспитанности учащихся, оценить достигнутые результаты воспитания.',
+        correct: true,
+      },
+      {
+        matn: 'общий способ получения опережающей информации об изучаемом объекте или процессе.',
         correct: false,
       },
       {
-        matn: '18',
+        matn: 'совокупность методов и методик, позволяющих всесторонне исследовать ученика в системе педагогических отношений.',
         correct: false,
-      }
-    ]
+      },
+      {
+        matn: 'одна из форм изучения и фиксации уровня воспитанности.',
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 104,
+    savol: 'Найдите критерии, где они могут быть показателями эффективности функционирования классной воспитательной системы',
+    javob: [
+      { matn: 'воспитанность учащихся, направленность', correct: false },
+      { matn: 'комфортность и дискомфорт ребенка в классе', correct: false },
+      { matn: 'удовлетворенность и беспокойство учащихся жизнедеятельностью в классе', correct: false },
+      {
+        matn: 'сформированность классного коллектива, проявление индивидуальности классной общности.',
+        correct: true,
+      },
+    ],
   },
   {
     id: 105,
-    savol: 'Matematika soʻzining lugʻaviy maʼnosi nima?',
+    savol: 'К принципам семейного воспитания не относится...',
     javob: [
-      {
-        matn: 'Grekcha “mathema” soʻzidan olingan boʻlib, “fanlarni bilish” demakdir',
-        correct: true,
-      },
-      {
-        matn: 'Grekcha “mathema” soʻzidan olingan boʻlib, “qiziqish” demakdir',
-        correct: false,
-      },
-      {
-        matn: 'Grekcha “mathema” soʻzidan olingan boʻlib, “tushunish” demakdir',
-        correct: false,
-      },
-      {
-        matn: 'Lotincha “mathem” soʻzidan olingan boʻlib, “fikrlash” demakdir',
-        correct: false,
-      }
-    ]
+      { matn: 'оптимистичность взаимоотношений в семье', correct: false },
+      { matn: 'ориентация на государственный заказ', correct: true },
+      { matn: 'гуманность и милосердие', correct: false },
+      { matn: 'последовательность в требованиях', correct: true },
+    ],
   },
   {
     id: 106,
-    savol: 'Katakchalar o’rnida qaysi son turishi kerak? 1/3 sutka = ? soat',
+    savol: 'Диагностика – это...',
     javob: [
       {
-        matn: '12',
+        matn: 'совокупность методов и методик, позволяющих всесторонне исследовать ученика в системе педагогических отношений.',
         correct: false,
       },
       {
-        matn: '8',
+        matn: 'общий способ получения опережающей информации об изучаемом объекте или процессе.',
         correct: true,
       },
       {
-        matn: '3',
+        matn: 'признаки, по которым можно судить об уровне воспитанности учащихся, оценить достигнутые результаты воспитания.',
         correct: false,
       },
       {
-        matn: '24',
+        matn: 'одна из форм изучения и фиксации уровня воспитанности.',
         correct: false,
-      }
-    ]
+      },
+    ],
   },
-  {
+   {
     id: 107,
-    savol: 'Katakchalar o’rnida qaysi son turishi kerak? 7/10 minut = ? sekund',
+    savol: 'Какие методы педагогических исследований используются в диагностике уровня воспитанности личности и коллектива?',
     javob: [
-      {
-        matn: '42',
-        correct: true,
-      },
-      {
-        matn: '17',
-        correct: false,
-      },
-      {
-        matn: '7',
-        correct: false,
-      },
-      {
-        matn: '10',
-        correct: false,
-      }
-    ]
+      { matn: 'беседа, наблюдение, социометрия', correct: true },
+      { matn: 'ранжирование, проектирование, разработка', correct: false },
+      { matn: 'метод незаконченных предложений, конструирование, систематизация', correct: false },
+      { matn: 'анализ школьной документации, продуктов деятельности учащихся', correct: false },
+    ],
   },
   {
     id: 108,
-    savol: 'Qaralayotgan sonlar, arifmetik misollar, masalarning o’xshash va farqli alomatlarini ajratish nima deyiladi?',
+    savol: 'Критерии воспитанности – это...',
     javob: [
       {
-        matn: 'Analiz metodi',
-        correct: false,
-      },
-      {
-        matn: 'Sintez metodi',
-        correct: false,
-      },
-      {
-        matn: 'Taqqoslash usuli',
+        matn: 'признаки, по которым можно судить об уровне воспитанности учащихся, оценить достигнутые результаты воспитания.',
         correct: true,
       },
       {
-        matn: 'Analitik usul',
+        matn: 'общий способ получения опережающей информации об изучаемом объекте или процессе.',
         correct: false,
-      }
-    ]
+      },
+      {
+        matn: 'совокупность методов и методик, позволяющих всесторонне исследовать ученика в системе педагогических отношений.',
+        correct: false,
+      },
+      {
+        matn: 'одна из форм изучения и фиксации уровня воспитанности.',
+        correct: false,
+      },
+    ],
   },
   {
     id: 109,
-    savol: 'Matematika fanidan sinfdan tashqari ishlarda matematik o’yinlar orqali o’qituvchi qanday natijaga erishadi?',
+    savol: 'Найдите критерии, где они могут быть показателями эффективности функционирования классной воспитательной системы',
     javob: [
+      { matn: 'воспитанность учащихся, направленность', correct: false },
+      { matn: 'комфортность и дискомфорт ребенка в классе', correct: false },
+      { matn: 'удовлетворенность и беспокойство учащихся жизнедеятельностью в классе', correct: false },
       {
-        matn: 'o’quvchilarning mantiqiy fikrlashiga',
+        matn: 'сформированность классного коллектива, проявление индивидуальности классной общности.',
         correct: true,
       },
-      {
-        matn: 'misollarni yechishga harakat qilishga',
-        correct: false,
-      },
-      {
-        matn: 'o’quvchilar matematikadan yangi bilimlar olishga',
-        correct: false,
-      },
-      {
-        matn: 'ulgurmagan masalalarni yechishga',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 110,
-    savol: 'Umumiy bilimlar asosida yangi xususiy bilimlarni olishdan iborat usul?',
+    savol: 'Какая общность формируется на основе определенных классов?',
     javob: [
-      {
-        matn: 'Deduksiya',
-        correct: true,
-      },
-      {
-        matn: 'Induksiya',
-        correct: false,
-      },
-      {
-        matn: 'Analogiya',
-        correct: false,
-      },
-      {
-        matn: 'Sintez metodi',
-        correct: false,
-      }
-    ]
+      { matn: 'Ученический коллектив', correct: false },
+      { matn: 'Команда преподавателей', correct: false },
+      { matn: 'Школьная команда', correct: true },
+      { matn: 'Команда класса', correct: false },
+    ],
   },
   {
     id: 111,
-    savol: '8 - x > 5 tengsizlikni qanoatlantiruvchi nechta natural son mavjud?',
+    savol: 'Воспитанность – это...',
     javob: [
       {
-        matn: '3 ta',
-        correct: false,
-      },
-      {
-        matn: '2 ta',
+        matn: 'Свойство личности, характеризующееся совокупностью достаточно сформированных, социально значимых качеств.',
         correct: true,
       },
       {
-        matn: '4 ta',
+        matn: 'Свойство личности, характеризующееся совокупностью недостаточно сформированных, социально значимых качеств.',
         correct: false,
       },
       {
-        matn: 'cheksiz ko’p',
+        matn: 'Свойство личности, характеризующихся устойчивые психические явления.',
         correct: false,
-      }
-    ]
+      },
+      {
+        matn: 'Свойство личности, характеризующихся совокупностью достаточно развитой психикой.',
+        correct: false,
+      },
+    ],
   },
   {
     id: 112,
-    savol: 'Matematika o‘qitish metodikasi eng avvalo qaysi fan bilan uzviy bog‘liq?',
+    savol: 'Что такое воспитание?',
     javob: [
       {
-        matn: 'Matematika',
+        matn: 'целенаправленный процесс организации и стимулирования активной деятельности развивающейся личности по овладению общественным опытом',
         correct: true,
       },
       {
-        matn: 'Psixologiya',
+        matn: 'деятельность педагога по передаче подрастающему поколению общественного опыта',
         correct: false,
       },
       {
-        matn: 'Pedagogika',
+        matn: 'целенаправленный процесс осуществления деятельности воспитуемых',
         correct: false,
       },
       {
-        matn: 'Hammasi to‘g‘ri',
+        matn: 'наличие специально подготовленных людей для передачи знаний',
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 113,
-    savol: 'Kub yasash uchun 480 dm sim ishlatilgan bo‘lsa, kubning qirrasini toping.',
+    savol: 'Одна из задач нравственного воспитания?',
     javob: [
-      {
-        matn: '120 dm',
-        correct: false,
-      },
-      {
-        matn: '80 dm',
-        correct: false,
-      },
-      {
-        matn: '60 dm',
-        correct: false,
-      },
-      {
-        matn: '40 dm',
-        correct: true,
-      }
-    ]
+      { matn: 'развитие потребности к здоровому образу жизни', correct: false },
+      { matn: 'усвоение общечеловеческих ценностей, этики поведения', correct: true },
+      { matn: 'формирование опыта общественно полезной деятельности', correct: false },
+      { matn: 'наличие специально подготовленных людей для передачи знаний', correct: false },
+    ],
   },
   {
     id: 114,
-    savol: 'Hisoblang $$8\frac{3}{7} + 3\frac{5}{7}$$',
+    savol: 'Патриотическое воспитание характеризуется?',
     javob: [
+      { matn: 'развитием экономического мышления', correct: false },
+      { matn: 'знанием своих прав, обязанностей и ответственности за их несоблюдение', correct: false },
       {
-        matn: '$$12\frac{1}{7}',
+        matn: 'формированием у человека ответственного отношения к своему народу и Отечеству',
         correct: true,
       },
       {
-        matn: '$$12\frac{8}{7}',
+        matn: 'формированием добросовестного и творческого отношения к трудовой деятельности',
         correct: false,
       },
-      {
-        matn: '$$11\frac{1}{7}',
-        correct: false,
-      },
-      {
-        matn: '$$12\frac{8}{7}',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 115,
-    savol: 'Ko‘paytirish va bo‘lish jadvali qaysi sinfda o‘rgatiladi?',
+    savol: 'Трудовое воспитание характеризуется',
     javob: [
+      { matn: 'укрепление здоровья, обеспечение работоспособности, силы, выносливости', correct: false },
+      { matn: 'формированием у человека ответственного отношения к семье', correct: false },
       {
-        matn: '1-sinfda',
+        matn: 'совершенствованием в человеке способности воспринимать, создавать и ценить прекрасное',
         correct: false,
       },
       {
-        matn: '2-sinfda',
+        matn: 'формированием добросовестного и творческого отношения к трудовой деятельности',
         correct: true,
       },
-      {
-        matn: '3-sinfda',
-        correct: false,
-      },
-      {
-        matn: '4-sinfda',
-        correct: false,
-      }
-    ]
+    ],
   },
-    {
+  {
     id: 116,
-    savol: 'Paralelopiopedning hajmini toping',
-    img: 'kvadrat.png',
+    savol: 'К закономерностям воспитания относится?',
     javob: [
-      {
-        matn: '135 sm3',
-        correct: true,
-      },
-      {
-        matn: '135 dm3',
-        correct: false,
-      },
-      {
-        matn: '170 sm3',
-        correct: false,
-      },
-      {
-        matn: '170 dm3',
-        correct: false,
-      }
-    ]
+      { matn: 'обусловленность воспитания общественными потребностями', correct: true },
+      { matn: 'единство мыслей и поведения', correct: false },
+      { matn: 'педагогическое требование', correct: false },
+      { matn: 'учет индивидуальных потребностей ученика', correct: false },
+    ],
   },
-    {
+  {
     id: 117,
-    savol: 'Matematika metodikasi haqidagi tushuncha birinchi bo‘lib kimning qaysi asarida bayon qilingan?',
+    savol: 'Эффективность правового воспитания зависит от степени',
     javob: [
-      {
-        matn: 'G. Pestalosi “Sonni ko‘rgazmali o‘rganish”',
-        correct: true,
-      },
-      {
-        matn: 'Al-Xorazmiy “Al jabr va al-muqobila”',
-        correct: false,
-      },
-      {
-        matn: 'Abu Rayhon Beruniy “Hindiston”',
-        correct: false,
-      },
-      {
-        matn: 'Abu Ali Ibn Sino “Tib qonunlari”',
-        correct: false,
-      }
-    ]
+      { matn: 'потребности соблюдения законов', correct: false },
+      { matn: 'самооценки поведения', correct: false },
+      { matn: 'контроля общества за соблюдением законов', correct: false },
+      { matn: 'строгости наказания за нарушение законов', correct: true },
+    ],
   },
   {
     id: 118,
-    savol: '....... bilishning shunday yo‘li-ki, bunda o‘quvchining birlikdan umumiylikka, xususiy xulosadan umumiy xulosaga olib boradi. Qaysi metod ta’rifi?',
+    savol: 'Какова цель - идеал воспитания?',
     javob: [
-      {
-        matn: 'Deduksiya',
-        correct: false,
-      },
-      {
-        matn: 'Induksiya',
-        correct: true,
-      },
-      {
-        matn: 'Analogiya',
-        correct: false,
-      },
-      {
-        matn: 'Sintez metodi',
-        correct: false,
-      }
-    ]
+      { matn: 'воспитание многоязычного индивида', correct: false },
+      { matn: 'воспитание поликультурной личности', correct: false },
+      { matn: 'воспитание семьянина, гражданина', correct: false },
+      { matn: 'воспитание всесторонне и гармонически развитой личности', correct: true },
+    ],
   },
   {
     id: 119,
-    savol: 'Qisqa shart tuzishdan maqsad?',
+    savol: 'К какому воспитательному методу относятся следующие приемы: благодарность, одобрение, награда, забота и внимание?',
     javob: [
-      {
-        matn: 'masala yechimini topish tezlashadi',
-        correct: false,
-      },
-      {
-        matn: 'vaqt kam sarflanadi',
-        correct: false,
-      },
-      {
-        matn: 'qisqa yozuv shart emas',
-        correct: false,
-      },
-      {
-        matn: 'o‘quvchi masalani aniq mohiyatini tushunadi',
-        correct: true,
-      }
-    ]
+      { matn: 'наказание', correct: false },
+      { matn: 'соревнование', correct: false },
+      { matn: 'поощрение', correct: true },
+      { matn: 'убеждение', correct: false },
+    ],
   },
   {
     id: 120,
-    savol: '3 mm 1 cm ning qanday qismini tashkil qiladi?',
+    savol: "Выберите наиболее точное определение понятия 'воспитание'",
     javob: [
       {
-        matn: '3 dan 1 qismi',
+        matn: 'целенаправленный процесс осуществления деятельности воспитуемых',
         correct: false,
       },
       {
-        matn: '10 dan 3 qismi',
+        matn: 'планомерный процесс подготовки детей к трудовой деятельности в обществе',
+        correct: false,
+      },
+      {
+        matn: 'целенаправленное воздействие воспитателя на сознание и поведение детей',
+        correct: false,
+      },
+      {
+        matn: 'целенаправленный процесс организации и стимулирования активной деятельности развивающейся личности по овладению общественным опытом',
         correct: true,
       },
-      {
-        matn: '10 dan 1 qismi',
-        correct: false,
-      },
-      {
-        matn: '3 dan bir qismi',
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 121,
-    savol: 'Boshlang‘ich sinflarda matematika darsi haftasiga necha soatni tashkil etadi?',
+    savol: 'Что является движущей силой процесса воспитания?',
     javob: [
-      {
-        matn: '2 soat',
-        correct: false,
-      },
-      {
-        matn: '5 soat',
-        correct: true,
-      },
-      {
-        matn: '4 soat',
-        correct: false,
-      },
-      {
-        matn: '3 soat',
-        correct: false,
-      }
-    ]
+      { matn: 'активность родителей', correct: false },
+      { matn: 'активность воспитанников', correct: false },
+      { matn: 'педагогическое воздействие воспитателя', correct: false },
+      { matn: 'диалектическое противоречие', correct: true },
+    ],
   },
   {
     id: 122,
-    savol: 'Noma’lum sonni topishga yo‘naltirilgan ifoda?',
+    savol: 'О каком понятии идет речь: «Процесс целенаправленного формирования личности в условиях специально организованной воспитательной системы»?',
     javob: [
-      {
-        matn: 'Sonli ifoda',
-        correct: false,
-      },
-      {
-        matn: 'Tenglama',
-        correct: true,
-      },
-      {
-        matn: 'Harfiy ifoda',
-        correct: false,
-      },
-      {
-        matn: 'Misol',
-        correct: false,
-      }
-    ]
-  },
-   {
-    id: 123,
-    savol: 'Boshlang‘ich sinflarda raqamlash metodikasi nimani nazarda tutadi?',
-    javob: [
-      {
-        matn: 'doira, kvadrat, uchburchakni bir-biridan farq qila bilishlari va nomini ayta olishni',
-        correct: false,
-      },
-      {
-        matn: 'natural sonlar va nol haqidagi ma’lumotlarni o‘nlik, yuzlik, minglik, ko‘p xonali sonlar konsentrlari bo‘yicha kiritishni',
-        correct: false,
-      },
-      {
-        matn: 'Sonlarni taqqoslashni',
-        correct: false,
-      },
-      {
-        matn: 'miqdorlar yordamida narsalarni o‘zaro taqqoslashni',
-        correct: true,
-      }
-    ]
+      { matn: 'активность родителей', correct: false },
+      { matn: 'активность воспитанников', correct: false },
+      { matn: 'педагогическое воздействие воспитателя', correct: false },
+      { matn: 'диалектическое противоречие', correct: true },
+    ],
   },
   {
-    id: 124,
-    savol: '10 ichida raqamlashni bilish natijasida o‘quvchilar nimalarga erishadilar?',
+    id: 123,
+    savol: 'Укажите все виды кружков.',
     javob: [
       {
-        matn: '1 dan 10 gacha sonlar ketma-ketligini to‘la o‘zlashtirish',
-        correct: false,
-      },
-      {
-        matn: 'barchasi to‘g‘ri',
+        matn: 'Научные кружки, кружки по творчеству, профессиональные кружки, спортивные секции',
         correct: true,
       },
-      {
-        matn: 'narsalarni sanashni va sanash tartibi ko‘rsatilganda har bir narsaning tartib raqamini aytib bera olishi',
-        correct: false,
-      },
-      {
-        matn: 'sonlarning 1 dan 10 gacha har bir son qanday hosil bo‘lishini',
-        correct: false,
-      }
-    ]
+      { matn: 'Научные кружки, творческие кружки', correct: false },
+      { matn: 'Профессиональное училище, научные кружки', correct: false },
+      { matn: 'Научные кружки', correct: false },
+    ],
+  },
+   {
+    id: 124,
+    savol: 'К чему Амир Темур призывает молодое поколение в своих наставлениях?',
+    javob: [
+      { matn: 'Быть знающим', correct: false },
+      { matn: 'Действовать честно, быть добросовестным и честным', correct: true },
+      { matn: 'Защищать Родину от врагов.', correct: false },
+      { matn: 'Чтобы успевать во всем', correct: false },
+    ],
   },
   {
     id: 125,
-    savol: '100 ichida sonlarni raqamlashni o‘rganishda o‘qituvchining vazifasi nimalardan iborat?',
+    savol: 'Где закладываются основы физического, нравственного и трудового воспитания ребенка?',
     javob: [
-      {
-        matn: 'narsalarni bittalab, o‘ntalab va yuztalab guruhlarga birlashtirib yozish',
-        correct: false,
-      },
-      {
-        matn: 'sonlarni yuzliklardan, o‘nliklardan va birliklardan hosil qila olish',
-        correct: false,
-      },
-      {
-        matn: '100 ichida sonlarni o‘qish va yozishni hamda ularning natural sonlar qatorida kelishini',
-        correct: false,
-      },
-      {
-        matn: 'barchasi to‘g‘ri',
-        correct: true,
-      }
-    ]
+      { matn: 'В окружении сверстников', correct: false },
+      { matn: 'В процессе воспитания', correct: false },
+      { matn: 'в семье', correct: true },
+      { matn: 'В школе', correct: false },
+    ],
   },
   {
     id: 126,
-    savol: 'Matematikada sonlarning o‘qilishi, yozilishi va ular ustida bajariladigan amallar tiliga nima deyiladi?',
+    savol: 'Самый эффективный способ работы с пассивными учениками',
     javob: [
-      {
-        matn: 'sanoq sistemalari',
-        correct: true,
-      },
-      {
-        matn: 'natural son',
-        correct: false,
-      },
-      {
-        matn: 'miqdor',
-        correct: false,
-      },
-      {
-        matn: 'son',
-        correct: false,
-      }
-    ]
+      { matn: 'Прикрепить пассивных учеников к активным ученикам.', correct: false },
+      { matn: 'Ежедневный контроль', correct: false },
+      { matn: 'Работа с родителями', correct: false },
+      { matn: 'Работа один на один с пассивными учениками и выявление причин', correct: true },
+    ],
   },
   {
     id: 127,
-    savol: 'Do‘konga 190 kg don keltirildi. Bulardan 43 kg no‘xat, loviya esa no‘xatdan 13 kg kam, qolgani guruch. Do‘konga qancha guruch keltirilgan?',
+    savol: 'Это самый эффективный способ работы с трудными учениками.',
     javob: [
       {
-        matn: '36',
-        correct: false,
-      },
-      {
-        matn: '117',
+        matn: 'Привлечение к коллективной работе, организация индивидуальных интервью.',
         correct: true,
       },
-      {
-        matn: '34',
-        correct: false,
-      },
-      {
-        matn: '77',
-        correct: false,
-      }
-    ]
+      { matn: 'Наказание', correct: false },
+      { matn: 'Участие в общественной работе', correct: false },
+      { matn: 'Воздействие через команду.', correct: false },
+    ],
   },
   {
     id: 128,
-    savol: 'Ikki bandargoh orasidagi masofa 84 km. Kema 28 km/soat tezlik bilan suzganda bu masofani necha soatda bosib o‘tadi?',
+    savol: 'Каковы цели и задачи классного руководителя?',
     javob: [
+      { matn: 'Правильное воспитание учеников', correct: false },
       {
-        matn: '5',
-        correct: false,
-      },
-      {
-        matn: '2',
-        correct: false,
-      },
-      {
-        matn: '3',
+        matn: 'Предоставление само воспитания учащимся и его правильная организация',
         correct: true,
       },
-      {
-        matn: '4',
-        correct: false,
-      }
-    ]
+      { matn: 'Дать учащимся глубокие знания', correct: false },
+      { matn: 'Преподавание культуры учащимся', correct: false },
+    ],
   },
   {
     id: 129,
-    savol: 'Katta sonlarni o‘qish va esda saqlashni qulaylashtirish uchun ularning raqamlari nimalarga ajratiladi?',
+    savol: 'На что в первую очередь следует обратить внимание при организации воспитательной работы?',
     javob: [
+      { matn: 'На уровень знаний команды', correct: false },
+      { matn: 'На дисциплину в классе', correct: false },
       {
-        matn: 'Xona birliklariga',
-        correct: false,
-      },
-      {
-        matn: 'Turga',
-        correct: false,
-      },
-      {
-        matn: 'Raqamga',
-        correct: false,
-      },
-      {
-        matn: 'Sinfga',
+        matn: 'Психологическому состоянию коллектива класса, то есть к уровню личности, активности и заинтересованности каждого ученика',
         correct: true,
-      }
-    ]
+      },
+      { matn: 'На воспитательные беседы', correct: false },
+    ],
   },
   {
     id: 130,
-    savol: 'Kvadratning tomoni 3 marta orttirilsa, yuzi necha marta ortadi?',
+    savol: 'Кто руководит работой классного руководителя?',
     javob: [
-      {
-        matn: '3 marta',
-        correct: false,
-      },
-      {
-        matn: '6 marta',
-        correct: false,
-      },
-      {
-        matn: '9 marta',
-        correct: true,
-      },
-      {
-        matn: 'o‘zgarmaydi',
-        correct: false,
-      }
-    ]
+      { matn: 'Директор школы', correct: false },
+      { matn: 'Заместитель начальника школы по воспитательной работе', correct: false },
+      { matn: 'Родительский комитет', correct: false },
+      { matn: 'Заместитель директора школы по духовно-просветительской работе', correct: true },
+    ],
   },
   {
     id: 131,
-    savol: 'O‘quvchilar tafakkurini charxlashga yo‘naltirilgan masala turi?',
+    savol: 'С кем классному руководителю следует усилить контакт, чтобы повысить активность учащихся?',
     javob: [
-      {
-        matn: 'Geometrik masala',
-        correct: false,
-      },
-      {
-        matn: 'Mantiqiy masala',
-        correct: true,
-      },
-      {
-        matn: 'Matnli masala',
-        correct: false,
-      },
-      {
-        matn: 'Arifmetik masala',
-        correct: false,
-      }
-    ]
+      { matn: 'С родителями на основе сотрудничества', correct: true },
+      { matn: 'С учителями-предметниками', correct: false },
+      { matn: 'С трудными учениками', correct: false },
+      { matn: 'С отличниками', correct: false },
+    ],
   },
   {
     id: 132,
-    savol: 'To‘g‘ri to‘rtburchakning perimetri 24 cm ga teng. Uning bo‘yi 5 cm bo‘lsa, eni necha santimetrga teng?',
+    savol: 'Где проходят воспитательные часы класса?',
     javob: [
-      {
-        matn: '4 cm',
-        correct: false,
-      },
-      {
-        matn: '6 cm',
-        correct: false,
-      },
-      {
-        matn: '7 cm',
-        correct: true,
-      },
-      {
-        matn: '8 cm',
-        correct: false,
-      }
-    ]
+      { matn: 'Проходят во дворе школы', correct: false },
+      { matn: 'Классные воспитательные часы проводятся в классе', correct: true },
+      { matn: 'Проходят в актовом зале школы', correct: false },
+      { matn: 'В библиотеке', correct: false },
+    ],
   },
   {
     id: 133,
-    savol: '3,5 + 6,8 yig‘indini hisoblang.',
+    savol: 'Объясните воспитательное значение народных игр.',
     javob: [
-      {
-        matn: '10,13',
-        correct: false,
-      },
-      {
-        matn: '9,13',
-        correct: false,
-      },
-      {
-        matn: '10,3',
-        correct: true,
-      },
-      {
-        matn: '9,3',
-        correct: false,
-      }
-    ]
+      { matn: 'Воспитание учащихся чуткости, сообразительности, мышления.', correct: true },
+      { matn: 'Привитие навыков к учёбе', correct: false },
+      { matn: 'Развитие качеств личности', correct: false },
+      { matn: 'Эстетическое воспитание', correct: false },
+    ],
   },
   {
     id: 134,
-    savol: 'Tomonining uzunligi 16 m bo‘lgan kvadrat shaklidagi maydonning atrofini bir marta aylanib chiqish uchun necha metr sim kerak bo‘ladi?',
+    savol: 'Какие тренинги можно использовать, чтобы сделать команду сплоченной?',
     javob: [
-      {
-        matn: '24 m',
-        correct: false,
-      },
-      {
-        matn: '32 m',
-        correct: false,
-      },
-      {
-        matn: '64 m',
-        correct: true,
-      },
-      {
-        matn: '256 m',
-        correct: false,
-      }
-    ]
+      { matn: 'Воспитание патриотизма у школьников.', correct: false },
+      { matn: 'Воспитание чувства дружбы и товарищества у учащихся', correct: true },
+      { matn: 'Прививание нравственного воспитания учащимся', correct: false },
+      { matn: 'Воспитание творческих способностей у учащихся', correct: false },
+    ],
   },
   {
     id: 135,
-    savol: '7,2 - 4,5 ayirmani hisoblang.',
+    savol: 'Самый эффективный способ диагностики учащихся?',
     javob: [
-      {
-        matn: '3,3',
-        correct: false,
-      },
-      {
-        matn: '3,7',
-        correct: false,
-      },
-      {
-        matn: '2,3',
-        correct: false,
-      },
-      {
-        matn: '2,7',
-        correct: true,
-      }
-    ]
+      { matn: 'Беседа', correct: false },
+      { matn: 'Анкета', correct: false },
+      { matn: 'Педагогическое наблюдение', correct: true },
+      { matn: 'Объяснение', correct: false },
+    ],
   },
   {
     id: 136,
-    savol: '278 grammni o‘nli kasr ko‘rinishida ifodalang.',
+    savol: 'Кто контролирует воспитание детей в семье?',
     javob: [
-      {
-        matn: '0.278 kg',
-        correct: true,
-      },
-      {
-        matn: '2.78 kg',
-        correct: false,
-      },
-      {
-        matn: '0.278 g',
-        correct: false,
-      },
-      {
-        matn: '27.8 kg',
-        correct: false,
-      }
-    ]
+      { matn: 'Под руководством отца', correct: false },
+      { matn: 'С участием членов семьи', correct: false },
+      { matn: 'При наличии родственников', correct: false },
+      { matn: 'Родители', correct: true },
+    ],
   },
-  {
+   {
     id: 137,
-    savol: 'Tengsizliklar turlarini ko‘rsating?',
+    savol: 'Собрание, на котором избирается родительский комитет.',
     javob: [
-      {
-        matn: 'sonli va o‘zgaruvchili',
-        correct: true,
-      },
-      {
-        matn: 'Sonli',
-        correct: false,
-      },
-      {
-        matn: 'o‘zgaruvchili',
-        correct: false,
-      },
-      {
-        matn: 'o‘zgarmas',
-        correct: false,
-      }
-    ]
+      { matn: 'Встреча родителей', correct: false },
+      { matn: 'Собрание по итогам четверти', correct: false },
+      { matn: 'Совместное собрание класса с классным руководителем и родителями', correct: true },
+      { matn: 'Встреча-обсуждение', correct: false },
+    ],
   },
   {
     id: 138,
-    savol: 'Sonlar va ular ustidagi amallarni belgilaydigan matematik simvollar (belgilar)ning ma’lum qoidalar bo‘yicha tuzilgan ketma-ketligi nima deb ataladi?',
+    savol: 'Семейное воспитание..',
     javob: [
-      {
-        matn: 'Tenglama',
-        correct: false,
-      },
-      {
-        matn: 'matematik ifoda',
-        correct: true,
-      },
-      {
-        matn: 'misol',
-        correct: false,
-      },
-      {
-        matn: 'Tengsizlik',
-        correct: false,
-      }
-    ]
+      { matn: 'Воспитание детей в семье родителями, взрослыми', correct: true },
+      { matn: 'Взрослые, воспитывающие детей', correct: false },
+      { matn: 'Воспитание детей в семье', correct: false },
+      { matn: 'Обязанности родителей и детей', correct: false },
+    ],
   },
   {
     id: 139,
-    savol: '60 kilogrammni sentnerda ifodalang.',
+    savol: 'Сколько времени отводится классным часам во 2 классе?',
     javob: [
-      {
-        matn: '6 q',
-        correct: false,
-      },
-      {
-        matn: '0,06 q',
-        correct: false,
-      },
-      {
-        matn: '0,6 q',
-        correct: true,
-      },
-      {
-        matn: '600 q',
-        correct: false,
-      }
-    ]
+      { matn: '15 минут', correct: false },
+      { matn: '20 минут', correct: false },
+      { matn: '25 минут', correct: false },
+      { matn: '30 минут', correct: true },
+    ],
   },
-   {
+  {
     id: 140,
-    savol: '',
-    img: 'kasr.png  ',
+    savol: 'Кто руководит внеучебной и внеурочной деятельностью?',
     javob: [
-      {
-        matn: '6 q',
-        correct: false,
-      },
-      {
-        matn: '0,06 q',
-        correct: false,
-      },
-      {
-        matn: '0,6 q',
-        correct: true,
-      },
-      {
-        matn: '600 q',
-        correct: false,
-      }
-    ]
+      { matn: 'Директор школы', correct: false },
+      { matn: 'Староста класса', correct: false },
+      { matn: 'Родительский комитет', correct: false },
+      { matn: 'Заместитель директора по духовным вопросам', correct: true },
+    ],
   },
   {
     id: 141,
-    savol: 'Uchburchakning har bir burchagi qirqilsa, qanday shakl hosil bo‘ladi?',
+    savol: 'Как планировать учебные планы работы?',
     javob: [
-      {
-        matn: 'aylana',
-        correct: false,
-      },
-      {
-        matn: 'uchburchak',
-        correct: false,
-      },
-      {
-        matn: 'romb',
-        correct: false,
-      },
-      {
-        matn: 'oltiburchak',
-        correct: true,
-      }
-    ]
+      { matn: 'Ежедневно', correct: false },
+      { matn: 'По четвертям', correct: false },
+      { matn: 'Еженедельно', correct: false },
+      { matn: 'На один учебный год', correct: true },
+    ],
   },
   {
     id: 142,
-    savol: 'Bog‘ga 170 tup oq olma, 2 marta ortiq qizil olma, oq va qizil olmalar birgalikda nechta bo‘lsa, ulardan 190 tup ortiq nok o‘tqazildi. Necha tup nok o‘tqazilgan?',
+    savol: 'На что следует обратить внимание классному руководителю, отправляясь к ученику домой?',
     javob: [
-      {
-        matn: '400 tup',
-        correct: false,
-      },
-      {
-        matn: '600 tup',
-        correct: false,
-      },
-      {
-        matn: '700 tup',
-        correct: true,
-      },
-      {
-        matn: '300 tup',
-        correct: false,
-      }
-    ]
+      { matn: 'Соблюдать педагогический такт', correct: true },
+      { matn: 'Не выражать недовольство учеником', correct: false },
+      { matn: 'Быть серьёзным', correct: false },
+      { matn: 'Быть требовательным', correct: false },
+    ],
   },
   {
     id: 143,
-    savol: 'Natural sonlar qanday yoziladi?',
+    savol: 'К какой группе воспитательных методов относятся методы порицания и предупреждения?',
     javob: [
-      {
-        matn: 'o‘ngdan chapga qarab',
-        correct: false,
-      },
-      {
-        matn: 'chapdan o‘ngga qarab',
-        correct: true,
-      },
-      {
-        matn: 'yuqoridan pastga qarab',
-        correct: false,
-      },
-      {
-        matn: 'pastdan yuqoriga qarab',
-        correct: false,
-      }
-    ]
+      { matn: 'Методы формирования общественного сознания', correct: false },
+      { matn: 'Метод, побуждающий ученика к работе.', correct: false },
+      { matn: 'Методы наказания', correct: true },
+      { matn: 'Метод самовоспитания', correct: false },
+    ],
   },
   {
     id: 144,
-    savol: 'Algoritm nima?',
+    savol: 'Высший орган родительского сообщества в школе?',
     javob: [
-      {
-        matn: 'Son',
-        correct: false,
-      },
-      {
-        matn: 'Tenglama yechish',
-        correct: false,
-      },
-      {
-        matn: 'Bajariladigan ishni tartibini belgilash',
-        correct: true,
-      },
-      {
-        matn: 'misol yechish',
-        correct: false,
-      }
-    ]
+      { matn: 'Общешкольное родительское собрание', correct: true },
+      { matn: 'Родительское собрание класса', correct: false },
+      { matn: 'Педагогический совет школы', correct: false },
+      { matn: 'Председатель родительского комитета', correct: false },
+    ],
   },
   {
     id: 145,
-    savol: 'Sanoq sistemasida berilgan sonning qiymati sonni tasvirlovchi raqamlarning egallagan o‘rniga bog‘liq bo‘ladi. Qaysi sanoq sistemasi haqida so‘z yuritilgan?',
+    savol: 'Когда был принят Закон об образовании Республики Узбекистан?',
     javob: [
-      {
-        matn: 'nopozitsion sanoq sistemasi',
-        correct: false,
-      },
-      {
-        matn: 'Pozitsion sanoq sistemasi',
-        correct: true,
-      },
-      {
-        matn: 'sonlar',
-        correct: false,
-      },
-      {
-        matn: 'hammasi to‘g‘ri',
-        correct: false,
-      }
-    ]
+      { matn: '29 августа 1997 г.', correct: false },
+      { matn: '23 сентября 2020 г.', correct: true },
+      { matn: '29 августа 1993 г.', correct: false },
+      { matn: '30 июля 1999 г.', correct: false },
+    ],
   },
   {
     id: 146,
-    savol: 'Qaysi mutafakkir sonlarni o‘nlik sanoq sistemasida xona birliklariga ajratib yozilishi mumkinligini ko‘rsatgan? To‘rt amalni bajarishda bunday yozuvdan foydalanishning afzalliklarini tushuntirib bergan.',
+    savol: 'Как определить личность ученика?',
     javob: [
-      {
-        matn: 'Ibn Sino',
-        correct: false,
-      },
-      {
-        matn: 'Farobiy',
-        correct: false,
-      },
-      {
-        matn: 'Al Xorazmiy',
-        correct: true,
-      },
-      {
-        matn: 'Beruniy',
-        correct: false,
-      }
-    ]
+      { matn: 'Через директора школы', correct: false },
+      { matn: 'Устные вопросы и ответы', correct: true },
+      { matn: 'Через тест', correct: false },
+      { matn: 'Через анкеты', correct: false },
+    ],
   },
   {
     id: 147,
-    savol: 'Shunday xulosaki, bunda predmetlar ba’zi belgilarining o‘xshashligi bo‘yicha bu predmetlar boshqa belgilari bo‘yicha ham o‘xshash, degan taxminiy xulosa chiqariladi. Bu - ?',
+    savol: 'Какова главная задача лидера класса?',
     javob: [
-      {
-        matn: 'Deduksiya',
-        correct: false,
-      },
-      {
-        matn: 'Analogiya',
-        correct: true,
-      },
-      {
-        matn: 'Induksiya',
-        correct: false,
-      },
-      {
-        matn: 'Fikr',
-        correct: false,
-      }
-    ]
+      { matn: 'Надлежащее использование методов воспитания', correct: false },
+      { matn: 'Создание творческих традиций', correct: false },
+      { matn: 'Работа с одаренными учениками', correct: false },
+      { matn: 'Формирование команды учеников', correct: true },
+    ],
   },
   {
     id: 148,
-    savol: '100 ichida raqamlash nechta bosqichda o‘rgatiladi?',
+    savol: 'Каково влияние сказок и былин на воспитание детей?',
     javob: [
-      {
-        matn: '1',
-        correct: false,
-      },
-      {
-        matn: '2',
-        correct: true,
-      },
-      {
-        matn: '3',
-        correct: false,
-      },
-      {
-        matn: '4',
-        correct: false,
-      }
-    ]
+      { matn: 'Это главный фактор воспитания зрелости во всех аспектах.', correct: true },
+      { matn: 'Воспитывает в духе патриотизма', correct: false },
+      { matn: 'Обеспечивает эффективность педагогических идей.', correct: false },
+      { matn: 'Повышает уважение к родителям', correct: false },
+    ],
   },
   {
     id: 149,
-    savol: 'Uzunlik o‘lchov birliklarini toping',
+    savol: 'Требования учителя к ученику?',
     javob: [
-      {
-        matn: 'ga, ar, cm',
-        correct: false,
-      },
-      {
-        matn: 'cm, dm, m',
-        correct: true,
-      },
-      {
-        matn: 'm, dm, l',
-        correct: false,
-      },
-      {
-        matn: 'cm, kg, m',
-        correct: false,
-      }
-    ]
+      { matn: 'Не пропускать занятия и не опаздывать', correct: false },
+      { matn: 'Повышение ответственности и активности', correct: true },
+      { matn: 'Слушать урок по порядку до конца', correct: false },
+      { matn: 'Сохранять порядочность', correct: false },
+    ],
   },
   {
     id: 150,
-    savol: 'Yuza o‘lchov birliklarini toping',
+    savol: 'Какова цель экологического воспитания?',
     javob: [
-      {
-        matn: 'ga, ar',
-        correct: true,
-      },
-      {
-        matn: 'cm, dm, m',
-        correct: false,
-      },
-      {
-        matn: 'm, dm, l',
-        correct: false,
-      },
-      {
-        matn: 'cm, kg, m',
-        correct: false,
-      }
-    ]
+      { matn: 'Охрана природы', correct: false },
+      { matn: 'Защита окружающей среды', correct: false },
+      { matn: 'Формирование бережного отношения к природе', correct: true },
+      { matn: 'Предотвращение ущерба экологии земли', correct: false },
+    ],
   },
   {
     id: 151,
-    savol: 'Matematika o‘qitish o‘quvchilarni sabotlikka, tirishqoqlikka, puxtalikka, o‘z fikri va xulosalarini nazorat qila olishga erishish kerak” bu o‘qitishning qaysi maqsadiga tegishli?',
+    savol: 'Какие факторы влияют на развитие личности ребенка?',
     javob: [
-      {
-        matn: 'Ta’limiy maqsad',
-        correct: false,
-      },
-      {
-        matn: 'Tarbiyaviy maqsad',
-        correct: true,
-      },
-      {
-        matn: 'Amaliy maqsad',
-        correct: false,
-      },
-      {
-        matn: 'Rivojlantiruvchi maqsad',
-        correct: false,
-      }
-    ]
+      { matn: 'Воспитание, наследственность', correct: false },
+      { matn: 'Воспитание, наследственность, окружающая среда', correct: true },
+      { matn: 'Окружающая среда, воспитание', correct: false },
+      { matn: 'Правильность выполнения учебных заданий', correct: false },
+    ],
   },
   {
     id: 152,
-    savol: 'Ilmiy-tadqiqot metodi bu-',
+    savol: 'Первоочередная задача семьи в Концепции «Семья, махалля, педагогический коллектив» является...',
     javob: [
-      {
-        matn: 'o‘quv tarbiya ishining u yoki bu sohasidagi ishning qanday borayotganini o‘rganish uchun foydalaniladi.',
-        correct: false,
-      },
-      {
-        matn: 'maxsus tashkil qilingan tadqiqotchi tomonidan nazorat qilib turiladigan va tizimli ravishda o‘zgartirib turiladigan sharoitda o‘tkaziladi.',
-        correct: false,
-      },
-      {
-        matn: 'bu qonuniy bog‘lanishlarini, munosabatlarni, aloqalarni o‘rnatish va ilmiy nazariyalarni tuzish maqsadida ilmiy axborotlarni olish usullaridir.',
-        correct: true,
-      },
-      {
-        matn: 'Hammasi to‘g‘ri',
-        correct: false,
-      }
-    ]
+      { matn: 'Создание здоровой атмосферы в семье', correct: true },
+      { matn: 'Обеспечение экономически', correct: false },
+      { matn: 'Воспитание', correct: false },
+      { matn: 'Обучение', correct: false },
+    ],
   },
   {
     id: 153,
-    savol: ' ',
-    img: "1.png",
+    savol: 'Что вы понимаете под педагогическим мастерством в воспитательном процессе?',
     javob: [
+      { matn: 'Умение обучать', correct: false },
+      { matn: 'Умение воспитывать нравственно', correct: false },
       {
-        matn: 'A',
+        matn: 'Способность взаимодействовать с учениками в процессе воспитания и в совершенстве владеть методами воспитания.',
         correct: true,
       },
-      {
-        matn: 'B',
-        correct: false,
-      },
-      {
-        matn: 'C',
-        correct: false,
-      },
-      {
-        matn: 'D',
-        correct: false,
-      }
-    ]
+      { matn: 'Учить трудиться', correct: false },
+    ],
   },
   {
     id: 154,
-    savol: ' ',
-    img: "154.png",
+    savol: 'Назовите компоненты педагогического мастерства учителя.',
     javob: [
-      {
-        matn: 'A',
-        correct: false,
-      },
-      {
-        matn: 'B',
-        correct: false,
-      },
-      {
-        matn: 'C',
-        correct: true,
-      },
-      {
-        matn: 'D',
-        correct: false,
-      }
-    ]
+      { matn: 'Профессиональные знания и педагогическое мастерство', correct: true },
+      { matn: 'Работа и навыки', correct: false },
+      { matn: 'Знания, навыки, компетентность', correct: false },
+      { matn: 'Воспитание', correct: false },
+    ],
   },
-    {
+  {
     id: 155,
-    savol: ' ',
-    img: "155.png",
+    savol: 'Показать компоненты педагогического мастерства в воспитательном процессе.',
     javob: [
+      { matn: 'Педагогическое мастерство, мимика', correct: false },
+      { matn: 'Мимика и жесты', correct: false },
+      { matn: 'Культура речи и речевой этикет', correct: false },
       {
-        matn: 'A',
-        correct: false,
-      },
-      {
-        matn: 'B',
-        correct: false,
-      },
-      {
-        matn: 'C',
+        matn: 'Культура речи, мимика, жесты, эмоциональное состояние педагога.',
         correct: true,
       },
-      {
-        matn: 'D',
-        correct: false,
-      }
-    ]
+    ],
   },
-   {
+  {
     id: 156,
-    savol: ' ',
-    img: "156.png",
+    savol: 'Фрейд З. в своей психоаналитической теории сформулировал взгляды на игру как...',
     javob: [
       {
-        matn: 'A',
-        correct: false,
-      },
-      {
-        matn: 'B',
-        correct: false,
-      },
-      {
-        matn: 'C',
-        correct: false,
-      },
-      {
-        matn: 'D',
+        matn: 'деятельность, обусловленную биологическими причинами (инстинкты, интересы) и, следовательно, имеющую постоянный, внеисторический характер',
         correct: true,
-      }
-    ]
+      },
+      {
+        matn: 'один из видов деятельности детей, заключающийся в воспроизведении действий взрослых и отношений между ними',
+        correct: false,
+      },
+      {
+        matn: 'вид деятельности в условиях ситуаций, направленных на воссоздание и усвоение общественного опыта',
+        correct: false,
+      },
+      {
+        matn: 'планирования, образовательных технологий, а также видов деятельности учащихся',
+        correct: false,
+      },
+    ],
   },
   {
     id: 157,
-    savol: "3 ta o’nlik, 5 ta birlik, 8 ta yuzlikdan tashkil topgan sonni toping.",
+    savol: 'Какие требования предъявляют государственные воспитательные стандарты?',
     javob: [
-      {
-        matn: "358",
-        correct: false,
-      },
-      {
-        matn: "835",
-        correct: true,
-      },
-      {
-        matn: "385",
-        correct: false,
-      },
-      {
-        matn: "853",
-        correct: false,
-      }
-    ]
+      { matn: 'Необязательные', correct: false },
+      { matn: 'Обязательные', correct: true },
+      { matn: 'Строгие', correct: false },
+      { matn: 'Нет правильного ответа.', correct: false },
+    ],
   },
-
    {
     id: 158,
-    savol: ' ',
-    img: "158.png",
+    savol: 'Какими способами можно наладить общение между учителем и учениками?',
     javob: [
-      {
-        matn: 'A',
-        correct: true ,
-      },
-      {
-        matn: 'B',
-        correct: false,
-      },
-      {
-        matn: 'C',
-        correct: false,
-      },
-      {
-        matn: 'D',
-        correct: false,
-      }
-    ]
+      { matn: 'Авторитарный стиль', correct: false },
+      { matn: 'Демократичный стиль', correct: false },
+      { matn: 'Либеральный стиль', correct: false },
+      { matn: 'Все ответы верны', correct: true },
+    ],
   },
-
   {
     id: 159,
-    savol: "Boshlang’ich matematika kursi tarkibi qanday materiallarni o’z ichiga oladi?",
+    savol: 'К какому стилю относится следующее описание управления командой: «Опирается на командное мышление для решения проблем. Решение любой ситуации решает большинство»?',
     javob: [
-      {
-        matn: "vazifalar, tenglamalar, miqdorlar",
-        correct: false,
-      },
-      {
-        matn: "algebraik, geometrik, miqdorlar",
-        correct: false,
-      },
-      {
-        matn: "o‘nlik, yuzlik, minglik",
-        correct: false,
-      },
-      {
-        matn: "arifmetik, algebraik va geometrik",
-        correct: true,
-      }
-    ]
+      { matn: 'Авторитарный стиль', correct: false },
+      { matn: 'Демократичный стиль', correct: true },
+      { matn: 'Либеральный стиль', correct: false },
+      { matn: 'Нет правильного ответа', correct: false },
+    ],
   },
   {
     id: 160,
-    savol: "8 ga bo’lganda bo’linma 15, qoldiq 4 chiqadigan sonni toping.",
+    savol: 'Как руководит командой лидер со следующим мировоззрением: «Я веду команду. Поэтому я решаю проблемы один. Потому что без меня сообщество придет в упадок»?',
     javob: [
-      {
-        matn: "68",
-        correct: false,
-      },
-      {
-        matn: "124",
-        correct: true,
-      },
-      {
-        matn: "27",
-        correct: false,
-      },
-      {
-        matn: "47",
-        correct: false,
-      }
-    ]
+      { matn: 'Авторитарный стиль', correct: true },
+      { matn: 'Демократичный стиль', correct: false },
+      { matn: 'Либеральный стиль', correct: false },
+      { matn: 'Нет правильного ответа', correct: false },
+    ],
   },
-    {
+  {
     id: 161,
-    savol: "O‘qitish usuli bu...",
+    savol: 'Каким образом руководит командой лидер, который следует следующему кредо: «Я тебя не трону, ты меня не тронь»?',
     javob: [
-      {
-        matn: "tashkiliy qism, o’tilganlarni takrorlash; yangi bilimlarni o'zlashtirish; ko'nikma va malakalarni shakllantirish; uy vazifasi va darsni umumlashtirish",
-        correct: true,
-      },
-      {
-        matn: "o’tilganlarni takrorlash; yangi bilimlarni o'zlashtirish; ko'nikma va malakalarni shakllantirish; mavzuga oid adabiyotlar bilan tanishish",
-        correct: false,
-      },
-      {
-        matn: "o’tilganlarni takrorlash; ko'nikma va malakalarni shakllantirish; zarur ko‘rgazmali qurollar ishlab chiqarish",
-        correct: false,
-      },
-      {
-        matn: "yangi bilimlarni o'zlashtirish; ko'nikma va malakalarni shakllantirish; mavzuga oid adabiyotlar bilan tanishish",
-        correct: false,
-      }
-    ]
+      { matn: 'Авторитарный стиль', correct: false },
+      { matn: 'Демократичный стиль', correct: false },
+      { matn: 'Либеральный стиль', correct: true },
+      { matn: 'Нет правильного ответа', correct: false },
+    ],
   },
   {
     id: 162,
-    savol: "Boshlang’ich matematika kursi tarkibi qanday materiallarni o’z ichiga oladi?",
+    savol: 'Основой зороастрийской этики является...',
     javob: [
-      {
-        matn: "vazifalar, tenglamalar, miqdorlar",
-        correct: false,
-      },
-      {
-        matn: "algebraik, geometrik, miqdorlar",
-        correct: false,
-      },
-      {
-        matn: "o‘nlik, yuzlik, minglik",
-        correct: false,
-      },
-      {
-        matn: "arifmetik, algebraik va geometrik",
-        correct: true,
-      }
-    ]
+      { matn: 'Добрые мысли, добрые слова, добрые дела', correct: true },
+      { matn: 'Добрые намерения, добрые мысли, добрые дела', correct: false },
+      { matn: 'Доброе слово, добрый сон, доброе пожелание', correct: false },
+      { matn: 'Философия, политика, вера', correct: false },
+    ],
   },
   {
     id: 163,
-    savol: "8 ga bo’lganda bo’linma 15, qoldiq 4 chiqadigan sonni toping.",
+    savol: 'Кто автор «Кутадгу билиг»?',
     javob: [
-      {
-        matn: "68",
-        correct: false,
-      },
-      {
-        matn: "124",
-        correct: true,
-      },
-      {
-        matn: "27",
-        correct: false,
-      },
-      {
-        matn: "47",
-        correct: false,
-      }
-    ]
+      { matn: 'Кайкавус', correct: false },
+      { matn: 'Навои', correct: false },
+      { matn: 'Махмуд Кашгари', correct: false },
+      { matn: 'Юсуф Хос Хаджиб', correct: true },
+    ],
   },
   {
     id: 164,
-    savol: "O'quvchilarning darsdan tashqari vaqtida tashkil qilinadigan, dastur bilan bog'liq bo'lgan material asosida ixtiyoriylik tamoyiliga asoslangan mashg'ulotlar deganda nima tushuniladi?",
+    savol: 'Главный инструмент, который связывает общение учителя и ученика?',
     javob: [
-      {
-        matn: "ekskursiya",
-        correct: false,
-      },
-      {
-        matn: "sinfdan tashqari ish",
-        correct: true,
-      },
-      {
-        matn: "sinfdan ichidagi ish",
-        correct: false,
-      },
-      {
-        matn: "to'garak",
-        correct: false,
-      }
-    ]
+      { matn: 'Слово', correct: true },
+      { matn: 'Декламация', correct: false },
+      { matn: 'Диалог', correct: false },
+      { matn: 'Речь', correct: false },
+    ],
   },
   {
     id: 165,
-    savol: "To‘garak ishini qaysi sinfdan tashkil etish maqsadga muvofiq?",
+    savol: 'Кто является автором идеи о том, что «три вещи — наследственность, окружающая среда, воспитание играют важную роль в развитии человека»?',
     javob: [
-      {
-        matn: "1-sinfning 1-yarmidan",
-        correct: false,
-      },
-      {
-        matn: "2-sinfning 2-yarmidan",
-        correct: false,
-      },
-      {
-        matn: "1-sinfning 2-yarmidan",
-        correct: true,
-      },
-      {
-        matn: "2-sinfning 1-yarmidan",
-        correct: false,
-      }
-    ]
+      { matn: 'А. Навои', correct: false },
+      { matn: 'Юсуф Хос Хаджиб', correct: false },
+      { matn: 'Ибн Сина', correct: false },
+      { matn: 'Беруни', correct: true },
+    ],
   },
   {
     id: 166,
-    savol: "To’g’ri to’rtburchakning bir tomoni 7 dm ga teng bo’lib, u qo’shni tomondan 50 cm qisqa bo’lsa, to’g’ri to’rtburchakning perimetrini toping.",
+    savol: 'Какой ответ правильно выражает последовательность воспитания данных понятий?',
     javob: [
-      {
-        matn: "27 dm",
-        correct: false,
-      },
-      {
-        matn: "29 dm",
-        correct: true,
-      },
-      {
-        matn: "114 cm",
-        correct: false,
-      },
-      {
-        matn: "57 dm",
-        correct: false,
-      }
-    ]
+      { matn: 'Понятие - знание - умение - компетенция.', correct: true },
+      { matn: 'Концепция «навык - знание» - квалификация', correct: false },
+      { matn: 'Навык - знание - компетенция - концепция', correct: false },
+      { matn: 'Квалификация - навык - знание - концепция', correct: false },
+    ],
   },
   {
     id: 167,
-    savol: "Matematik viktorinalar bu",
+    savol: 'Гипотезу об историческом возникновении и развитии ролевой игры выдвинул',
     javob: [
-      {
-        matn: "Matematik tanlovlar",
-        correct: false,
-      },
-      {
-        matn: "Matematik olimpiyadalar",
-        correct: true,
-      },
-      {
-        matn: "Zakovat o’yinlari",
-        correct: false,
-      }
-    ]
+      { matn: 'русский философ Плеханов Г.В', correct: false },
+      { matn: 'российский психолог Эльконин Д.Б', correct: true },
+      { matn: 'немецкий психолог и философ Вундт В', correct: false },
+      { matn: 'русский педагог Ушинский К.Д', correct: false },
+    ],
   },
   {
     id: 168,
-    savol: "..................... - gazetalardan farqli ravishda faqat o'quvchilarga yechish uchun berilgan masalalar va savollardan iborat bo'ladi. Javoblar yozma tarzda ma’lum vaqt ichida o'qituvchi tomonidan g'olib o'quvchi aniqlanib, e'lon qilinadi.",
+    savol: '«Учитель не должен ни сильно притеснять своих учеников, ни чрезмерно расслаблять их» — это мнение принадлежит какому ученому?',
     javob: [
-      {
-        matn: "Matematik viktorinalar",
-        correct: true,
-      },
-      {
-        matn: "Matematik tanlovlar",
-        correct: false,
-      },
-      {
-        matn: "Matematik olimpiyadalar",
-        correct: false,
-      },
-      {
-        matn: "Zakovat o’yinlari",
-        correct: false,
-      }
-    ]
+      { matn: 'Абу Райхан Беруни', correct: false },
+      { matn: 'Алишер Навои', correct: false },
+      { matn: 'Абу Наср Фараби', correct: true },
+      { matn: 'Абу Али ибн Сина', correct: false },
+    ],
   },
   {
     id: 169,
-    savol: "Matematikada didaktik materiallar necha turga bo‘linadi?",
+    savol: 'Какой ответ показывает пропущенное слово ниже? Слово .... означает способ достижения или познания определенной цели',
     javob: [
-      {
-        matn: "1 ta",
-        correct: false,
-      },
-      {
-        matn: "2 ta",
-        correct: false,
-      },
-      {
-        matn: "3 ta",
-        correct: true,
-      },
-      {
-        matn: "4 ta",
-        correct: false,
-      }
-    ]
+      { matn: 'форма', correct: false },
+      { matn: 'Метод', correct: true },
+      { matn: 'Дидактика', correct: false },
+      { matn: 'Педагогика', correct: false },
+    ],
   },
   {
     id: 170,
-    savol: "Boshlang‘ich sinflarda o‘tiladigan asosiy miqdorlar to‘g‘ri ko‘rsatilgan qatorni toping?",
+    savol: 'К какому из перечисленных подходов в воспитании больше относится метод вопрос-ответ?',
     javob: [
-      {
-        matn: "Uzunlik, massa, hajm, vaqt",
-        correct: true,
-      },
-      {
-        matn: "Baho, qiymat, narx",
-        correct: false,
-      },
-      {
-        matn: "Sekund, minut, yuza",
-        correct: false,
-      },
-      {
-        matn: "Hammasi to’g’ri",
-        correct: false,
-      }
-    ]
+      { matn: 'Рассказ', correct: false },
+      { matn: 'Лекция', correct: false },
+      { matn: 'Объяснение', correct: false },
+      { matn: 'Беседа', correct: true },
+    ],
   },
   {
     id: 171,
-    savol: "To‘g‘ri munosabatni belgilang:",
+    savol: 'В какой строке правильно описаны виды проверки знаний?',
     javob: [
-      {
-        matn: "5 t 800 kg - 2 t 500 kg < 7 t 500 kg - 4 t 300 kg",
-        correct: false,
-      },
-      {
-        matn: "1 sr 30 kg + 140 kg > 5 sr 90 kg - 2 sr 60 kg",
-        correct: false,
-      },
-      {
-        matn: "5 kg 700 g - 2 kg 400 g = 1 kg 200 g + 2 kg 200 g",
-        correct: false,
-      },
-      {
-        matn: "1 kg 300 g + 3 kg 400 g < 4 kg 500 g + 1 kg 300 g",
-        correct: true,
-      }
-    ]
+      { matn: 'Текущий, промежуточный и итоговый', correct: true },
+      { matn: 'Четвертной, индивидуальный', correct: false },
+      { matn: 'Индивидуальный', correct: false },
+      { matn: 'Индивидуальный, текущий, промежуточный', correct: false },
+    ],
   },
   {
     id: 172,
-    savol: "7 t 500 kg ni kilogramda ifodalang",
+    savol: 'Выберите верное утверждение:',
     javob: [
       {
-        matn: "7500 kg",
+        matn: 'Игровая деятельность изобретается ребенком, а не задается ему взрослым, который учит малыша играть...',
+        correct: false,
+      },
+      {
+        matn: 'Игровая деятельность не изобретается ребенком, а задается ему взрослым, который учит малыша играть...',
         correct: true,
       },
       {
-        matn: "750 kg",
+        matn: 'Игровая деятельность не изобретается взрослым, а задается самим ребенком...',
         correct: false,
       },
-      {
-        matn: "75 kg",
-        correct: false,
-      },
-      {
-        matn: "75000 kg",
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 173,
-    savol: "Kvadratning tomoni 15 dm ga teng bo’lsa, yuzasini toping.",
+    savol: 'В играх развиваются творческие способности ребенка, так как...',
     javob: [
       {
-        matn: "225 dm²",
+        matn: 'чтобы выполнять в игре ту или иную роль, ребенок должен свое представление перенести в игровые действия',
+        correct: false,
+      },
+      {
+        matn: 'ребенок соединяет в сюжете игры реальные и вымышленные явления, наделяет новыми свойствами и функциями знакомые предметы',
+        correct: false,
+      },
+      {
+        matn: 'в игре речь, жесты, мимика ребенка выразительнее, чем в повседневной жизни.',
         correct: true,
       },
       {
-        matn: "60 dm²",
+        matn: 'она является той формой деятельности, в которой формируется общественное поведение детей',
         correct: false,
       },
-      {
-        matn: "30 dm²",
-        correct: false,
-      },
-      {
-        matn: "150 dm²",
-        correct: false,
-      }
-    ]
+    ],
   },
-  {
+   {
     id: 174,
-    savol: "Asosiy miqdorlarni o‘rgatishdagi eng muhim vazifalardan biri bu?",
+    savol: 'Важное значение игра имеет в усвоении правил взаимоотношений, норм поведения в социуме, так как...',
     javob: [
       {
-        matn: "o‘lchov asboblari bn tanishtirish",
-        correct: false,
-      },
-      {
-        matn: "o‘lchov asboblari bilan tanishtirish, miqdorlarning birliklarini o‘rgatish",
+        matn: 'она является той формой деятельности, в которой в значительной мере формируется общественное поведение детей, их отношение к жизни, друг к другу',
         correct: true,
       },
       {
-        matn: "miqdorlarning birliklarini o‘rgatish",
+        matn: 'чтобы выполнять в игре ту или иную роль, ребенок должен свое представление перенести в игровые действия',
         correct: false,
       },
       {
-        matn: "ko‘proq misol va masala o‘rgatish",
+        matn: 'ребенок соединяет в сюжете игры реальные и вымышленные явления, наделяет новыми свойствами и функциями знакомые предметы',
         correct: false,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 175,
-    savol: "Baho, qiymat, narx tushunchalari qachon o‘zlashtirib boriladi?",
+    savol: 'Игровые действия',
     javob: [
+      { matn: 'обеспечивается ее добровольностью, возможностями выбора и элементами соревновательности', correct: false },
+      { matn: 'представляет собой предварительное или протекающее по ходу игры обдумывание ее процессуальной стороны', correct: false },
+      { matn: 'игрушки, предметы, материалы, игровая обстановка', correct: false },
       {
-        matn: "misollar yechish jarayonida",
+        matn: 'действия, с помощью которых воплощается сюжет игры, выполняются роли',
         correct: true,
       },
-      {
-        matn: "mavzuning kirish qismida",
-        correct: false,
-      },
-      {
-        matn: "darsda o‘rgatilmaydi",
-        correct: false,
-      },
-      {
-        matn: "alohida mavzu bilan beriladi",
-        correct: false,
-      }
-    ]
+    ],
   },
   {
     id: 176,
-    savol: "To’g’ri to’rtburchakning tomonlari 16 dm va 80 cm ga teng bo’lsa, to’rtburchak perimetrini toping.",
+    savol: 'Результат игры',
     javob: [
+      { matn: 'обеспечивается ее добровольностью, возможностями выбора и элементами соревновательности', correct: false },
       {
-        matn: "48 cm",
-        correct: false,
-      },
-      {
-        matn: "48 dm",
+        matn: 'выражается в положительных эмоциях, удовлетворении основных потребностей ребенка',
         correct: true,
       },
-      {
-        matn: "192 cm",
-        correct: false,
-      },
-      {
-        matn: "192 dm",
-        correct: false,
-      }
-    ]
+      { matn: 'действия, с помощью которых воплощается сюжет игры, выполняются роли', correct: false },
+      { matn: 'представляет собой предварительное или протекающее по ходу игры обдумывание ее процессуальной стороны', correct: false },
+    ],
   },
   {
     id: 177,
-    savol: "Dars ishlanmasi –",
+    savol: 'Автор цитаты: «Коллективные творческие дела – это, прежде всего, полнокровная жизнь старших и младших, воспитателей и воспитанников и в то же время их общая забота об улучшении окружающей жизни»?',
     javob: [
-      {
-        matn: "o’qituvchi ijodkorligini aniqlovchi omil",
-        correct: true,
-      },
-      {
-        matn: "hamma bir xil shaklda yozishi shart",
-        correct: false,
-      },
-      {
-        matn: "darsni pedagogik, didaktik va uslubiy jihatdan rejalashtiruvchi",
-        correct: false,
-      },
-      {
-        matn: "loyihalashtiruvchi hujjat",
-        correct: false,
-      }
-    ]
-  },
-   {
-    id: 177,
-    savol: "Dars rejasi –",
-    javob: [
-      {
-        matn: "darsni pedagogik, didaktik va uslubiy jihatdan rejalashtiruvchi, loyihalashtiruvchi hujjat",
-        correct: true,
-      },
-      {
-        matn: "o’qituvchi ijodkorligini aniqlovchi omil",
-        correct: false,
-      },
-      {
-        matn: "xamma bir xil shaklda yozishi shart",
-        correct: false,
-      },
-      {
-        matn: "darsni pedagogik, didaktik va uslubiy jihatdan rejalashtiruvchi",
-        correct: false,
-      },
+      { matn: 'И. П. Иванов', correct: true },
+      { matn: 'В. А. Сластенин', correct: false },
+      { matn: 'К. Д. Ушинский', correct: false },
+      { matn: 'А.С. Макаренко', correct: false },
     ],
   },
   {
     id: 178,
-    savol: "Matematika fanining o‘rganadigan ob’ekti ... iboratdir.",
+    savol: 'Сколько стадий включает в себя Коллективное Творческое Дело?',
     javob: [
-      {
-        matn: "fazoviy shakllar",
-        correct: false,
-      },
-      {
-        matn: "fazoviy shakllar va ular orasidagi miqdoriy munosabatlardan",
-        correct: true,
-      },
-      {
-        matn: "geometrik shakllar",
-        correct: false,
-      },
-      {
-        matn: "miqdoriy munosabatlardan",
-        correct: false,
-      },
+      { matn: '5 стадий', correct: false },
+      { matn: '6 стадий', correct: true },
+      { matn: '3 стадии', correct: false },
+      { matn: '4 стадии', correct: false },
     ],
   },
   {
     id: 179,
-    savol: "“Metodika” grekcha so‘z bo‘lib, “metod” degani ... demakdir.",
+    savol: 'Какие возможности Коллективное Творческое дело дает ученику?',
     javob: [
-      {
-        matn: "Yo’l",
-        correct: true,
-      },
-      {
-        matn: "Usul",
-        correct: false,
-      },
-      {
-        matn: "O’rgataman",
-        correct: false,
-      },
-      {
-        matn: "O’qitish",
-        correct: false,
-      },
+      { matn: 'реализовать и развивать свои способности; расширить знания об окружающем мире.', correct: false },
+      { matn: 'приобрести навыки проектирования; проявить организаторские умения.', correct: false },
+      { matn: 'закрепить коммуникативные навыки; формировать способности к рефлексии (анализу).', correct: false },
+      { matn: 'все ответы верны.', correct: true },
     ],
   },
   {
     id: 180,
-    savol: "Matematika o’qitish metodikasi o‘zining tuzilish xususiyatiga ko‘ra shartli ravishda qanday bo‘limlarga bo‘linadi?",
+    savol: 'Определите цикл уроков по трудовому воспитанию.',
     javob: [
-      {
-        matn: "Matematika o‘qitishning umumiy metodikasi",
-        correct: false,
-      },
-      {
-        matn: "Matematika o‘qitishning maxsus metodikasi",
-        correct: false,
-      },
-      {
-        matn: "Matematika o‘qitishning aniq metodikasi",
-        correct: false,
-      },
-      {
-        matn: "Barchasi to’g’ri",
-        correct: true,
-      },
+      { matn: 'Чтение, поэзия, музыка, литература', correct: false },
+      { matn: 'Родной язык, история, география, музыка', correct: false },
+      { matn: 'Природа, изобразительное искусство, физкультура', correct: false },
+      { matn: 'Урок «Технология», Изобразительное искусство', correct: true },
     ],
   },
   {
     id: 181,
-    savol: "1-sinf o‘quvchilarining bilimlarini aniqlash va tenglashtirish vazifasi nima orqali amalga oshiriladi?",
+    savol: 'Кто автор книги «Город добродетельных людей»?',
     javob: [
-      {
-        matn: "O‘qituvchi ma’lum tartibda o‘quvchilar bilimini maxsus daftarga hisobga olib boradi",
-        correct: true,
-      },
-      {
-        matn: "O‘qituvchi o‘quvchilar ota onasini yordamga chaqiradi",
-        correct: false,
-      },
-      {
-        matn: "Testlar asosida",
-        correct: false,
-      },
-      {
-        matn: "Yozma ish asosida",
-        correct: false,
-      },
+      { matn: 'Аль-Фараби', correct: true },
+      { matn: 'Аль-Фаргани', correct: false },
+      { matn: 'Ибн Сина', correct: false },
+      { matn: 'Алишер Навои', correct: false },
     ],
   },
-   {
+  {
     id: 182,
-    savol: "Matematika o‘qitish vositalariga:",
+    savol: 'Отметьте строку, которая правильно указывает устные методы воспитания',
     javob: [
-      { matn: "darsliklar va qo‘llanmalar", correct: false },
-      { matn: "ko‘rsatmali qo‘llanmalar", correct: false },
-      { matn: "o‘qitishning texnik vositalari (O’TV) kiradi", correct: false },
-      { matn: "Barchasi kiradi", correct: true },
+      { matn: 'Вербальный, визуальный, объяснительный', correct: false },
+      {
+        matn: 'Беседа, объяснение, обсуждение, дебаты, школьная лекция',
+        correct: true,
+      },
+      { matn: 'Демонстрация, практическая, трансляция', correct: false },
+      { matn: 'Устный, демонстративный, практический', correct: false },
     ],
   },
   {
     id: 183,
-    savol:
-      "..... asosiy xususiyati shundaki, u dastur talabini ochishi, uni konkretlashtirishi, dasturda ko‘rsatilgan savollar qanday darajada qaralishini o‘zida aks ettirishi kerak.",
+    savol: 'В каком варианте ответов возраст ребенка младшего школьного?',
     javob: [
-      { matn: "Darslikning", correct: true },
-      { matn: "Badiiy kitob", correct: false },
-      { matn: "DTS", correct: false },
-      { matn: "Uslubiy qo’llanmalar", correct: false },
+      { matn: '3-4 года', correct: false },
+      { matn: '1-3 года', correct: false },
+      { matn: '1-6 лет', correct: true },
+      { matn: '1-7 лет', correct: false },
     ],
   },
   {
     id: 184,
-    savol:
-      "Matematika fanining ta'limiy maqsadi o‘qituvchidan nimalarni talab qiladi?",
+    savol: 'Из скольких статей состоит новая редакция Закона «Об образовании»?',
     javob: [
-      {
-        matn:
-          "o‘quvchilarga matematik bilimlar tizimidan, bilim, malaka ko‘nikma berish, haqiqiy olamni matematik metodlar bilan o‘rganish",
-        correct: false,
-      },
-      {
-        matn:
-          "o‘quvchilarning og‘zaki va yozma nutqlarini o‘stirishni, uning sifatli bo‘lishini ta'minlash",
-        correct: false,
-      },
-      {
-        matn:
-          "o‘quvchilarga matematikadan shunday bilimlar berishni ta'minlashi kerakki, bu bilimlar orqali, faol bilish faoliyati orqali, bilim, malaka, ko‘nikmalari ortib borsin",
-        correct: false,
-      },
-      {
-        matn: "Barcha javoblar to’g’ri",
-        correct: true,
-      },
+      { matn: '34 статьи', correct: false },
+      { matn: '44 статьи', correct: false },
+      { matn: '75 статей', correct: true },
+      { matn: '12 статей', correct: false },
     ],
   },
   {
     id: 185,
-    savol:
-      "..... qisqa muddat ichida hajmi bo‘yicha eng ko‘p ma'lumotlarni berish, o‘quvchilar oldiga muammolar qo‘yish, ularni hal qilish yo‘llarini ko‘rsatish imkonini beradi.",
+    savol: 'В каком из произведений Навои изложены требования педагогического этикета?',
     javob: [
-      { matn: "Barcha metodlar", correct: false },
-      { matn: "Og‘zaki metod", correct: true },
-      { matn: "Ko‘rsatmali metod", correct: false },
-      { matn: "Amaliy metodlar", correct: false },
+      { matn: 'Сабайи Сайор', correct: false },
+      { matn: 'Махбул уль-Кулуб', correct: true },
+      { matn: 'Лейли и Меджнун', correct: false },
+      { matn: 'Фархад и Ширин', correct: false },
     ],
   },
   {
     id: 186,
-    savol:
-      "..... o‘quvchilarga kuzatishlar asosida bilimlar olish imkonini beradi. Kuzatish hissiy tafakkurning faol shaklidir.",
+    savol: 'Соматическая ослабленность ребёнка и нарушения формирования школьных навыков – это ...',
     javob: [
-      { matn: "Barcha metodlar", correct: false },
-      { matn: "Og‘zaki metod", correct: false },
-      { matn: "Ko‘rsatmali metod", correct: true },
-      { matn: "Amaliy metodlar", correct: false },
+      { matn: 'недостатки в подготовке ребенка к школе', correct: true },
+      { matn: 'хронический эмоциональный стресс', correct: false },
+      { matn: 'защитные реакции', correct: false },
+      { matn: 'расстройства адаптации', correct: false },
     ],
   },
   {
     id: 187,
-    savol:
-      "Malaka va ko‘nikmalarni shakllantirish va mukammalashtirish jarayoni bilan bog‘liq bo‘lgan metodlar o‘qitishning ... hisoblanadi",
+    savol: 'Что является важнейшим компонентом адаптации личности с окружающей средой?',
     javob: [
-      { matn: "Barcha metodlar", correct: false },
-      { matn: "Og‘zaki metod", correct: false },
-      { matn: "Ko‘rsatmali metod", correct: false },
-      { matn: "Amaliy metodlar", correct: true },
+      { matn: 'влияние различных неблагоприятных факторов', correct: false },
+      {
+        matn: 'согласование самооценок и притязаний субъекта с его возможностями и реальностью социальной среды',
+        correct: true,
+      },
+      { matn: 'нарушение дисциплины', correct: false },
+      { matn: 'адаптация организма к новым условиям жизни', correct: false },
     ],
   },
   {
     id: 188,
-    savol:
-      ".... deb biror amalni, shu amalni o‘zlashtirish yoki mustahkamlash maqsadida rejali ravishda tashkil qilingan takroriy bajarishga aytiladi.",
+    savol: 'Что относится к характеристике деятельности и общения ребенка?',
     javob: [
-      { matn: "misol", correct: false },
-      { matn: "mashq", correct: true },
-      { matn: "masala", correct: false },
-      { matn: "jadval", correct: false },
+      {
+        matn: 'уровень развития произвольной регуляции поведения и организованности ребенка',
+        correct: false,
+      },
+      {
+        matn: 'отношение к ребенку в семье, стиль поведения родителей и учителей, особенности семейного микроклимата, социальная компетентность ребенка',
+        correct: true,
+      },
+      {
+        matn: 'отношение к ребенку в классе, общение со сверстниками и взрослыми, отношение к школе, к самому себе как учащемуся',
+        correct: false,
+      },
+      { matn: 'навыки учебной деятельности', correct: false },
     ],
   },
   {
     id: 189,
-    savol: "Matematika darslarida o’quvchilar bilimlari qanday aniqlanadi?",
+    savol: '.... - организация педагогом разных видов деятельности воспитанников во внеурочное время, обеспечивающих необходимые условия для социализации личности ребенка.',
     javob: [
-      { matn: "Og’zaki va yozma", correct: true },
-      { matn: "Faqat og’zaki", correct: false },
-      { matn: "Faqat yozma", correct: false },
-      { matn: "Test", correct: false },
+      { matn: 'Воспитательная работа', correct: false },
+      { matn: 'Внеклассная воспитательная работа', correct: true },
+      { matn: 'Педагогическая работа', correct: false },
+      { matn: 'Внеурочная работа', correct: false },
     ],
   },
   {
     id: 190,
-    savol:
-      "Uy ishlarini berishda quyidagi fikrlarning qaysi biri to’g’ri?",
+    savol: '... - один из видов внеклассной воспитательной работы. Часто они проводятся учителями-предметниками в связи с изучением очередных тем и разделов курса.',
     javob: [
-      { matn: "1,2,3", correct: false },
-      { matn: "1,3,5", correct: false },
-      { matn: "2,4,5,6", correct: false },
-      { matn: "Hammasi to’g’ri", correct: true },
+      { matn: 'Экскурсия', correct: true },
+      { matn: 'Кружок', correct: false },
+      { matn: 'Внеклассная работа', correct: false },
+      { matn: 'Классная работа', correct: false },
     ],
   },
   {
     id: 191,
-    savol: "(5-3)+2 bu ifoda qanday nomlanadi?",
+    savol: '.... организуется учителем по своему определенному предмету. Она создает возможности для тесной связи и общения между школьниками разных классов.',
     javob: [
-      { matn: "Qo’shish", correct: false },
-      { matn: "Ayirish", correct: false },
-      { matn: "Ayirmaga sonni qo’shish", correct: true },
-      { matn: "Yig’indi", correct: false },
+      { matn: 'Воспитательная работа', correct: false },
+      { matn: 'Кружковая работа', correct: true },
+      { matn: 'Продленка', correct: false },
+      { matn: 'Дополнительные занятия', correct: false },
     ],
   },
   {
     id: 192,
-    savol:
-      "Oz komplektli maktablarda matematika darslari qanday tashkil qilinadi?",
+    savol: '.... – это внешняя организация воспитательного процесса, совокупно отражающая цели, содержание, средства и методы воспитания, имеющая завершенную форму и временные рамки.',
     javob: [
-      {
-        matn:
-          "Darsning 1/3 qismida o’quvchilar mustaqil ishlashiga to’g’ri keladi",
-        correct: true,
-      },
-      {
-        matn:
-          "Darsning 1/2 qismida o’quvchilar mustaqil ishlashiga to’g’ri keladi",
-        correct: false,
-      },
-      {
-        matn:
-          "Oddiy maktablarniki kabi bosqichlar ketma-ketligiga amal qilinadi",
-        correct: false,
-      },
-      {
-        matn: "Hamma sinfga bir xil mavzu o’tiladi",
-        correct: false,
-      },
+      { matn: 'Форма воспитания', correct: true },
+      { matn: 'Форма воспитательной работы', correct: false },
+      { matn: 'Воспитательная работа', correct: false },
+      { matn: 'Деятельность', correct: false },
     ],
   },
-  {
+  //QOM boshladi
+
+    {
     id: 193,
-    savol:
-      "AB kesma orasida 5 ta N, M, L, S, T nuqtalar qo’yilgan. Shu nuqtalar orqali nechta kesma hosil qilish mumkin?",
+    savol: 'Что изучается в разделе «Пунктуация»:',
     javob: [
-      { matn: "30", correct: false },
-      { matn: "5", correct: false },
-      { matn: "15", correct: true },
-      { matn: "7", correct: false },
+      { matn: 'морфемы', correct: false },
+      { matn: 'звуки и буквы', correct: false },
+      { matn: 'знаки препинания', correct: true },
+      { matn: 'вводные слова', correct: false },
+      { matn: 'исторические даты', correct: false },
     ],
   },
   {
     id: 194,
-    savol: "Kompetensiya — ...",
+    savol: 'Основной задачей учителя на уроках обучения грамоте является выработка',
     javob: [
-      { matn: "bilim", correct: false },
-      { matn: "ko‘nikma va malaka", correct: false },
-      { matn: "shaxsiy sifatlar majmui", correct: false },
-      {
-        matn:
-          "bilim, ko‘nikma, malaka va shaxsiy sifatlar majmui",
-        correct: true,
-      },
+      { matn: 'орфографической зоркости', correct: false },
+      { matn: 'фонематического слуха', correct: true },
+      { matn: 'орфоэпического чтения', correct: false },
     ],
   },
   {
     id: 195,
-    savol:
-      "..... deganda ta’lim oluvchilarni faollashtiruvchi va mustaqil fikrlashga undovchi, ta’lim jarayonining markazida ta’lim oluvchi bo’lgan metodlar tushuniladi.",
+    savol: 'Творческая работа, требующая наивысшей самостоятельности школьника –',
     javob: [
-      { matn: "Darslik", correct: false },
-      { matn: "Interfaol metodlar", correct: true },
-      { matn: "O’quv reja", correct: false },
-      { matn: "O’quv qo’llanma", correct: false },
+      { matn: 'изложение', correct: false },
+      { matn: 'диктант', correct: false },
+      { matn: 'сочинение', correct: true },
+      { matn: 'словесное рисование', correct: false },
+      { matn: 'контрольный диктант', correct: false },
     ],
   },
   {
     id: 196,
-    savol:
-      "“T-jadval” interfaol grafik organayzerni qaysi dars turida qo’llash maqsadga muvofiq?",
+    savol: 'Основатель современного звукового аналитико-синтетического метода –',
     javob: [
-      { matn: "Ma’ruza mashg’ulotlarida", correct: true },
-      { matn: "Seminar mashg’ulotlarida", correct: false },
-      { matn: "Amaliy mashg’ulotlarda", correct: false },
-      { matn: "Mustaqil ta’limda", correct: false },
+      { matn: 'Л.Н. Толстой', correct: false },
+      { matn: 'Д.И. Тихомиров', correct: false },
+      { matn: 'К.Д. Ушинский', correct: true },
     ],
   },
   {
     id: 197,
-    savol:
-      "1 + m < 14 tengsizlikni yechimi bo’ladigan nechta ikki xonali natural son bor?",
+    savol: 'В основе данной классификации методов - буквослагательные, слоговые, звуковые, целых слов – лежит',
     javob: [
-      { matn: "12 ta", correct: false },
-      { matn: "2 ta", correct: false },
-      { matn: "3 ta", correct: true },
-      { matn: "4 ta", correct: false },
+      { matn: 'характер деятельности учащихся на уроке', correct: false },
+      { matn: 'уровень познавательной активности учащихся', correct: false },
+      { matn: 'исходная языковая единица', correct: true },
     ],
   },
   {
     id: 198,
-    savol:
-      "256 598 102 sonining 10 dan birlar xonasida qaysi raqam turibdi?",
+    savol: 'В основе данной классификации методов – аналитические, синтетические, аналитико-синтетические – лежит',
     javob: [
-      { matn: "2", correct: false },
-      { matn: "0", correct: true },
-      { matn: "8", correct: false },
-      { matn: "10", correct: false },
+      { matn: 'характер деятельности учащихся на уроке', correct: true },
+      { matn: 'уровень познавательной активности учащихся', correct: false },
+      { matn: 'исходная языковая единица', correct: false },
     ],
   },
   {
     id: 199,
-    savol: "3 ga bo’linish qoidasini ayting.",
+    savol: 'Основной метод обучения грамоте в современной школе –',
     javob: [
-      {
-        matn:
-          "Raqamlar yig’indisi 3 ga bo’lingan son 3 ga bo’linadi",
-        correct: true,
-      },
-      {
-        matn:
-          "Oxirgi raqam 3 ga bo’lingan son 3 ga bo’linadi",
-        correct: false,
-      },
-      {
-        matn:
-          "Oxirgi ikki raqami 3 ga bo’lingan son 3 ga bo’linadi",
-        correct: false,
-      },
-      {
-        matn: "Bunday qoida mavjud emas",
-        correct: false,
-      },
+      { matn: 'буквослагательный', correct: false },
+      { matn: 'аналитико-синтетический', correct: false },
+      { matn: 'звуковой аналитико-синтетический', correct: true },
     ],
   },
   {
     id: 200,
-    savol:
-      "Kesma uzunligi tushunchasi dastlab o’quvchilarga qay tarzda tushuntiriladi?",
+    savol: 'Не относится к традиционным принципам современного звукового аналитико-синтетического метода обучения грамоте:',
     javob: [
-      { matn: "Lineyka bilan o’lchash orqali", correct: false },
-      { matn: "Metrlab o’lchash orqali", correct: false },
-      { matn: "Sm lab o’lchash orqali", correct: false },
-      {
-        matn:
-          "Predmetlarni uzunligi bo’yicha taqqoslash asosida kiritiladi",
-        correct: true,
-      },
+      { matn: 'периодизация процесса обучения грамоте', correct: false },
+      { matn: 'параллельное обучение чтению и письму', correct: false },
+      { matn: 'грамматико-орфографическая пропедевтика', correct: true },
     ],
   },
   {
     id: 201,
-    savol: "34 ta yuzlik nechta birlikdan iborat?",
+    savol: 'Современный звуковой аналитико-синтетический метод обучения грамоте обогатился следующими принципами (укажите лишнее):',
     javob: [
-      { matn: "340", correct: false },
-      { matn: "34000", correct: false },
-      { matn: "3400", correct: true },
-      { matn: "340000", correct: false },
+      { matn: 'периодизация процесса обучения грамоте', correct: true },
+      { matn: 'введение элементов моделирования', correct: false },
+      { matn: 'грамматико-орфографическая пропедевтика', correct: false },
     ],
   },
   {
     id: 202,
-    savol: "Kabisa yili nechta kun?",
+    savol: 'Не является задачей подготовительного периода обучения грамоте:',
     javob: [
-      { matn: "365", correct: false },
-      { matn: "363", correct: false },
-      { matn: "367", correct: false },
-      { matn: "366", correct: true },
+      { matn: 'приобщение учащихся к учебной деятельности', correct: false },
+      { matn: 'изучение гласных и согласных звуков', correct: true },
+      { matn: 'формирование первоначальных навыков анализа устной речи', correct: false },
     ],
   },
   {
     id: 203,
-    savol:
-      "Katta tanaffus 30 minut davom etdi, kirishga 11:45 da qo’ng’iroq chalindi. Katta tanaffusga chiqish qachon bo’lgan?",
+    savol: 'Традиционной задачей начальной школы является задача',
     javob: [
-      { matn: "11:15", correct: true },
-      { matn: "12:15", correct: false },
-      { matn: "12:00", correct: false },
-      { matn: "12:15", correct: false },
+      { matn: 'обучения чтению ребенка младшего школьного возраста', correct: false },
+      { matn: 'литературного образования младшего школьника', correct: true },
+      { matn: 'развития традиции совместного чтения взрослыми и детьми', correct: false },
     ],
   },
   {
     id: 204,
-    savol:
-      "Xalqaro sistemada asosiy birlik qilib qanday vaqt birligi olingan?",
+    savol: 'Приемы анализа (исключите лишнее):',
     javob: [
-      { matn: "Soat", correct: false },
-      { matn: "Sekund", correct: true },
-      { matn: "Minut", correct: false },
-      { matn: "Millisekund", correct: false },
+      { matn: 'подсчет звуков в слове (слоге)', correct: false },
+      { matn: 'отбрасывание отдельного звука', correct: false },
+      { matn: 'составление предложений из данных слов', correct: true },
     ],
   },
   {
     id: 205,
-    savol: ' ',
-    img: "205.png",
+    savol: 'Какой из данных методов не относится к традиционным принципам современного звукового аналитико-синтетического метода обучения грамоте:',
     javob: [
-      {
-        matn: 'A',
-        correct: false ,
-      },
-      {
-        matn: 'B',
-        correct: false,
-      },
-      {
-        matn: 'C',
-        correct: true,
-      },
-      {
-        matn: 'D',
-        correct: false,
-      }
-    ]
+      { matn: 'периодизация процесса обучения грамоте', correct: true },
+      { matn: 'параллельное обучение чтению и письму', correct: false },
+      { matn: 'грамматико-орфографическая пропедевтика', correct: false },
+    ],
   },
-  //metematika tugadi
   {
     id: 206,
-    savol: "\"Shoh G’oziy\" hikoyati Navoiyning qaysi dostonidan olingan?",
+    savol: 'Современный звуковой аналитико-синтетический метода обучения грамоте обогатился следующими принципами (укажите лишнее):',
     javob: [
-      { matn: "\"Hayratul-abror\"", correct: true },
-      { matn: "\"Farhod va Shirin\"", correct: false },
-      { matn: "\"Layli va Majnun\"", correct: false },
-      { matn: "«Sabbai Sayyor»", correct: false },
+      { matn: 'периодизация процесса обучения грамоте', correct: true },
+      { matn: 'введение элементов моделирования', correct: false },
+      { matn: 'грамматико-орфографическая пропедевтика', correct: false },
     ],
   },
   {
     id: 207,
-    savol: "\"Egri va to’g’ri” ertagida qanday ijobiy fazilat ulug’lanadi?",
+    savol: 'Не является задачей подготовительного периода обучения грамоте:',
     javob: [
-      { matn: "Ezgulik", correct: false },
-      { matn: "Adolat", correct: false },
-      { matn: "Razolat", correct: false },
-      { matn: "To’g’rilik", correct: true },
+      { matn: 'приобщение учащихся к учебной деятельности', correct: false },
+      { matn: 'изучение гласных и согласных звуков', correct: true },
+      { matn: 'формирование первоначальных навыков анализа устной речи', correct: false },
     ],
   },
-  
   {
     id: 208,
-    savol: "\"Susambil\" ertagida bo’rilar nazdida Eshon kim edi?",
+    savol: 'Традиционной задачей начальной школы является задача',
     javob: [
-      { matn: "Xo’roz", correct: false },
-      { matn: "Eshak", correct: true },
-      { matn: "Ho’kiz", correct: false },
-      { matn: "Arilar", correct: false },
+      { matn: 'обучения чтению ребенка младшего школьного возраста', correct: false },
+      { matn: 'литературного образования младшего школьника', correct: true },
+      { matn: 'развития традиции совместного чтения взрослыми и детьми', correct: false },
     ],
   },
   {
     id: 209,
-    savol: "Shamol to’xtatish marosimida ijro etilgan qo’shiqning nomini ayting?",
+    savol: 'Приемы синтеза (исключите лишнее):',
     javob: [
-      { matn: "Sust xotin", correct: false },
-      { matn: "Choy momo", correct: true },
-      { matn: "Yo, haydar", correct: false },
-      { matn: "Yo, ramazon", correct: false },
+      { matn: 'составление и чтение слоговых таблиц', correct: false },
+      { matn: 'выделение ударного слога', correct: true },
+      { matn: 'наращивание буквы (слога), составление новых слов', correct: false },
     ],
   },
   {
     id: 210,
-    savol:
-      "Sarvi gulning tagida so’ldi gul netmoq kerak? Sarvdin tobut yasab guldan kafan etmoq kerak? Satri kimning qalamiga mansub?",
+    savol: 'Подготовительный, основной, повторительно-обобщающий – это',
     javob: [
-      { matn: "Navoiy, X.Boyqaro", correct: true },
-      { matn: "Lutfiy, Durbek", correct: false },
-      { matn: "Atoyi, Sakkokiy", correct: false },
-      { matn: "Turdi, Maxmur", correct: false },
+      { matn: 'типы уроков обучения грамоте', correct: false },
+      { matn: 'периоды обучения грамоте', correct: true },
+      { matn: 'этапы формирования навыка чтения', correct: false },
     ],
   },
-
   {
     id: 211,
-    savol:
-      "Go’rug’li asrandi o’g’li Hasanxonni qaysi shahardan olib kelgan?",
+    savol: 'Безбуквенная ступень, изучение основных гласных – это',
     javob: [
-      { matn: "Vayangandan", correct: true },
-      { matn: "Chambildan", correct: false },
-      { matn: "Eram bog’idan", correct: false },
-      { matn: "Isfaxondan", correct: false },
+      { matn: 'ступени основного периода', correct: false },
+      { matn: 'ступени подготовительного периода', correct: true },
+      { matn: 'ступени повторительно-обобщающего периода', correct: false },
     ],
   },
   {
     id: 212,
-    savol:
-      "\"Alpomish\" dostonidan olingan parcha kimning gapi: \"Maslahat bermaymiz, Boysaribeyga osilmaymiz Boybo’rining dorila\"",
+    savol: 'Задачи основного периода (исключите лишнее):',
     javob: [
-      { matn: "Yortiboy", correct: true },
-      { matn: "Qultoy", correct: false },
-      { matn: "Qaldirg’och", correct: false },
-      { matn: "Qorajon", correct: false },
+      { matn: 'выявление уровня готовности к обучению грамоте', correct: true },
+      { matn: 'изучение согласных звуков и букв', correct: false },
+      { matn: 'формирование навыков плавного слогового с переходом на целые слова чтения', correct: false },
     ],
   },
-  {
+   {
     id: 213,
-    savol:
-      "Qaysi janr inson ruhiy kechinmalarini chuqur, dardli aks ettiradi?",
+    savol: 'Не является этапом формирования навыка чтения:',
     javob: [
-      { matn: "Marsiya", correct: true },
-      { matn: "Yor-yor", correct: false },
-      { matn: "Lapar", correct: false },
-      { matn: "Kelin salom", correct: false },
+      { matn: 'формирование навыков слогового чтения', correct: false },
+      { matn: 'формирование навыков чтения целыми словами', correct: false },
+      { matn: 'формирование навыков чтения по ролям', correct: true },
     ],
   },
   {
     id: 214,
-    savol:
-      "\"Uch og’a-ini botirlar\" ertagida kim: \"uzum shinnisidan qonning hidi kelyapti, chunki podsholar odam qonidan ham qo’rqmaydilar\" degan?",
+    savol: 'Не относится к этапам формирования графических навыков:',
     javob: [
-      { matn: "Kenja botir", correct: true },
-      { matn: "Ota", correct: false },
-      { matn: "Ona", correct: false },
-      { matn: "To’ng’ich botir", correct: false },
+      { matn: 'обведение, штриховка, раскрашивание', correct: false },
+      { matn: 'письмо слогов в различных соединениях', correct: false },
+      { matn: 'орфографически грамотное письмо', correct: true },
     ],
   },
   {
     id: 215,
-    savol: "Eposning asosiy janrlari?",
+    savol: 'Метод обучения письму, в основе которого лежит обведение образцов:',
     javob: [
-      {
-        matn: "hikoya, qissa, ertak, roman",
-        correct: true,
-      },
-      {
-        matn: "ertak, hikoya, afsona, drama",
-        correct: false,
-      },
-      {
-        matn: "doston, qissa, topishmoq, qit’a",
-        correct: false,
-      },
-      {
-        matn: "masnaviy, latifa, askiya, qasida",
-        correct: false,
-      },
+      { matn: 'копировальный', correct: true },
+      { matn: 'линейный', correct: false },
+      { matn: 'генетический', correct: false },
     ],
   },
   {
     id: 216,
-    savol:
-      "Dehqon mehnatiga to’g’ri baho bergan, bug’doyni yaratgan mehnatkashni ulug’lagan asarni toping?",
+    savol: 'Метод обучения письму, в основе которого лежит тактирование:',
     javob: [
-      { matn: "Qutadg’u-bilik", correct: true },
-      { matn: "Avesto", correct: false },
-      { matn: "Navoiy", correct: false },
-      { matn: "Hibatul-haqoyiq", correct: false },
+      { matn: 'копировальный', correct: false },
+      { matn: 'ритмический', correct: true },
+      { matn: 'метод Карстера', correct: false },
     ],
   },
   {
     id: 217,
-    savol:
-      "G’.G’ulom nechanchi yil bolalarga bag’ishlangan she’r yozishni boshladi?",
+    savol: 'Слушание и говорение; чтение и письмо — это',
     javob: [
-      { matn: "1923 yildan", correct: true },
-      { matn: "1922 yildan", correct: false },
-      { matn: "1924 yildan", correct: false },
-      { matn: "1925 yildan", correct: false },
+      { matn: 'виды речевой деятельности', correct: true },
+      { matn: 'виды речи', correct: false },
+      { matn: 'виды мышления', correct: false },
     ],
   },
   {
     id: 218,
-    savol:
-      "\"Hunarni asrabon netgumdir oxir Olib tufroqqamu ketgumdir oxir\" so’zlari qaysi qahramon nutqida bor?",
+    savol: 'Задачи, стоящие перед обучением грамоте (исключите лишнее):',
     javob: [
-      { matn: "Farhod", correct: true },
-      { matn: "Shopur", correct: false },
-      { matn: "Bahrom", correct: false },
-      { matn: "Xusrav", correct: false },
+      { matn: 'вхождение ученика в систематическое изучение родного языка', correct: false },
+      { matn: 'овладение письменными видами речевой деятельности', correct: false },
+      { matn: 'изучение языковой теории', correct: true },
     ],
   },
   {
     id: 219,
-    savol:
-      "«Baqqolning maymunidek Kim ko’ringanga ajuva bo’lib yurma...» («Shum bola») Shum bolaga xayrixoh bu nutqni kim aytgan?",
+    savol: 'Традиционно основной задачей начальной школы является',
     javob: [
-      { matn: "Hoji bobo", correct: true },
-      { matn: "Hindi sarrof", correct: false },
-      { matn: "Sariboy", correct: false },
-      { matn: "Omon", correct: false },
+      { matn: 'обучение младшего школьника чтению', correct: true },
+      { matn: 'литературное образование младшего школьника', correct: false },
+      { matn: 'развитие традиции совместного чтения взрослыми и детьми', correct: false },
     ],
   },
   {
     id: 220,
-    savol:
-      "Xalq latifalari yo’lida hikoya yozgan o’zbek adiblari qaysi javobda keltirilgan?",
+    savol: 'Стремление активизировать деятельность детей при чтении составляет основу методики',
     javob: [
-      { matn: "G’.G’ulom", correct: true },
-      { matn: "A.Qodiriy", correct: false },
-      { matn: "Cho’lpon", correct: false },
-      { matn: "A.Qahhor", correct: false },
+      { matn: 'объяснительного чтения', correct: false },
+      { matn: 'творческого чтения', correct: true },
+      { matn: 'воспитательного чтения', correct: false },
     ],
   },
   {
     id: 221,
-    savol: "G’.G’ulom bolalar uchun yaratgan asarlari qaysi javobda keltirilgan?",
+    savol: 'Требование, чтобы дети «при чтении не только поняли, но и почувствовали произведение», лежит в основе',
     javob: [
-      {
-        matn: "«Bilib qo’yki seni vatan kutadi», «Bari seniki», «Shum bola»",
-        correct: true,
-      },
-      {
-        matn: "«Shum bola», «Bolalik», «Nortojining kurak tishi»",
-        correct: false,
-      },
-      {
-        matn: "«Shum bola», «Bari seniki», «O’tmishdan ertaklar»",
-        correct: false,
-      },
-      {
-        matn: "«Tirilgan murda», «Sehrli qalpoqcha», «Shum bola»",
-        correct: false,
-      },
+      { matn: 'объяснительного чтения', correct: true },
+      { matn: 'творческого чтения', correct: false },
+      { matn: 'воспитательного чтения', correct: false },
     ],
   },
   {
     id: 222,
-    savol:
-      "«Shum bola» qissasida ko’kterak bozorida pulini o’g’irlatgan «jabrdiyda» kim edi?",
+    savol: 'Не относится к традиционным принципам современного звукового аналитико-синтетического метода обучения грамоте:',
     javob: [
-      { matn: "Sulton", correct: true },
-      { matn: "Husnibiy", correct: false },
-      { matn: "Omon", correct: false },
-      { matn: "Yo’ldosh", correct: false },
+      { matn: 'периодизация процесса обучения грамоте', correct: false },
+      { matn: 'параллельное обучение чтению и письму', correct: false },
+      { matn: 'грамматико-орфографическая пропедевтика', correct: true },
     ],
   },
   {
     id: 223,
-    savol:
-      "O’z hikoyalarida xalq maqollariga eng ko’p murojaat qiluvchi adib kim?",
+    savol: 'Родоначальником метода объяснительного чтения является',
     javob: [
-      { matn: "A.Qahhor", correct: true },
-      { matn: "O’.Hoshimov", correct: false },
-      { matn: "S. Ahmad", correct: false },
-      { matn: "G’.G’ulom", correct: false },
+      { matn: 'К.Д. Ушинский', correct: true },
+      { matn: 'Ф.И. Буслаев', correct: false },
+      { matn: 'Л.Н. Толстой', correct: false },
     ],
   },
   {
     id: 224,
-    savol:
-      "H.Olimjonning «Oygul bilan Baxtiyor», «Semurg’, Parizod yoki Bunyod» adabiy ertaklari mazmunan qanday asarlar?",
+    savol: 'Книга «Мир в рассказах для детей» принадлежит стороннику и продолжателю идей Ушинского',
     javob: [
-      { matn: "Liro-epik", correct: true },
-      { matn: "Epik", correct: false },
-      { matn: "Lirik", correct: false },
-      { matn: "Syujetsiz", correct: false },
+      { matn: 'Н.Ф. Бунаков', correct: false },
+      { matn: 'Д.И. Тихомиров', correct: false },
+      { matn: 'В.П. Вахтеров', correct: true },
     ],
   },
   {
     id: 225,
-    savol:
-      "H.Olimjonning «Oygul bilan Baxtiyor» dostonining yozilishiga sabab bo’lgan ertakni belgilang.",
+    savol: 'Методика воспитательного чтения разработана ученым-методистом',
     javob: [
-      { matn: "«Malikai Husnobod»", correct: true },
-      { matn: "«Guliqahqah»", correct: false },
-      { matn: "«Zumrad va Qimmat»", correct: false },
-      { matn: "«Muqbil tosh otar»", correct: false },
+      { matn: 'Ц.П. Балталон', correct: true },
+      { matn: 'Д.И. Тихомиров', correct: false },
+      { matn: 'В.П. Вахтеров', correct: false },
     ],
   },
   {
     id: 226,
-    savol:
-      "X. To’xtaboevning «Sehrli qalpoqcha» qissasida Hoshimjon Ro’zievga maslahat bergan shoir kim?",
+    savol: 'Эстетическое воспитание детей, активизация интереса к литературе как искусству слова являются целями обучения чтению метода',
     javob: [
-      { matn: "Jo’ra Juman", correct: true },
-      { matn: "Mamarasul Bolta", correct: false },
-      { matn: "Saydullo aka", correct: false },
-      { matn: "Erkin Hamid", correct: false },
+      { matn: 'литературно-художественного чтения', correct: true },
+      { matn: 'творческого чтения', correct: false },
+      { matn: 'объяснительного чтения', correct: false },
     ],
   },
   {
     id: 227,
-    savol: "A. Avloniy she’rlari berilgan qatorni aniqlang.",
+    savol: 'Требование к качеству чтения, предполагающее понимание содержания прочитанного, умение высказывать отношение к описываемому случаю или событию, называется',
     javob: [
-      { matn: "«Bahor keldi», «Bulbul», «Bola ila gul»", correct: true },
-      { matn: "«Bari seniki», «Tongotar qo’shig’i», «Bulbul», «Sen etim emassan»", correct: false },
-      { matn: "«Bari seniki», «Siz mening yoshligimsiz», «Bahor keldi», «Bulbul»", correct: false },
-      { matn: "«Tong yulduzi», «Binafsha», «Navbahor», «Kapalak»", correct: false },
+      { matn: 'беглостью', correct: false },
+      { matn: 'сознательностью', correct: true },
+      { matn: 'выразительностью', correct: false },
     ],
   },
   {
     id: 228,
-    savol:
-      "A. Avloniyning yoshlarni maorif madaniyatga chorlovchi, yaramas xulq-odatlarni tanqid qiluvchi darsligini aniqlang.",
+    savol: 'Произведения, которые не рекомендуются для пересказа, а в большинстве случаев заучиваются наизусть, относятся к жанру',
     javob: [
-      { matn: "«Adabiyot yohud milliy she’rlar»", correct: true },
-      { matn: "«Ikkinchi muallim»", correct: false },
-      { matn: "«O’qish kitobi»", correct: false },
-      { matn: "«Turkiy guliston yohud axloq»", correct: false },
+      { matn: 'басни', correct: true },
+      { matn: 'сказки', correct: false },
+      { matn: 'научно-популярных текстов', correct: false },
     ],
   },
   {
     id: 229,
-    savol:
-      "A.Avloniyning boshlang’ich sinf o’quvchilari hayotidan olib yozilgan she’rlarini belgilang.",
+    savol: 'Пересказ с изменением времени описываемого события, с изменением лица или числа рассказчиков, с различными дополнениями по заданию учителя --',
     javob: [
-      { matn: "«Maktab bolasi»", correct: true },
-      { matn: "«Yolg’onchi cho’pon»", correct: false },
-      { matn: "«Bulbul»", correct: false },
-      { matn: "«Bola ila gul»", correct: false },
+      { matn: 'творческий', correct: true },
+      { matn: 'подробный', correct: false },
+      { matn: 'отборочный', correct: false },
     ],
   },
   {
     id: 230,
-    savol: "A.Avloniy necha yoshdan boshlab she’rlar yoza boshlagan?",
+    savol: 'Творческая работа, требующая наивысшей самостоятельности школьника –',
     javob: [
-      { matn: "14 yoshdan", correct: true },
-      { matn: "10 yoshdan", correct: false },
-      { matn: "11 yoshdan", correct: false },
-      { matn: "12 yoshdan", correct: false },
+      { matn: 'изложение', correct: false },
+      { matn: 'диктант', correct: false },
+      { matn: 'сочинение', correct: true },
+      { matn: 'словесное рисование', correct: false },
+      { matn: 'контрольный диктант', correct: false },
     ],
   },
   {
     id: 231,
-    savol:
-      "Xalq pedagogikasida A.Avloniyning qaysi kitoblari katta rol o’ynagan?",
+    savol: 'Анализ, в ходе которого рассматривается использование автором изобразительно-выразительных средств языка -- это',
     javob: [
-      {
-        matn:
-          "«Birinchi muallim», «Alifbe», «Ikkinchi muallim», «O’qish kitobi»",
-        correct: true,
-      },
-      {
-        matn:
-          "«O’qish kitobi», «Alifbe», «Maktab Gulistoni», «Birinchi muallim»",
-        correct: false,
-      },
-      {
-        matn:
-          "«Ikkinchi muallim», «Alifbe», «Adabiyot yohud milliy she’rlar», «O’qish kitobi»",
-        correct: false,
-      },
-      { matn: "Hammasi to’g’ri", correct: false },
+      { matn: 'стилистический анализ', correct: true },
+      { matn: 'анализ развития действия', correct: false },
+      { matn: 'проблемный анализ', correct: false },
     ],
   },
   {
     id: 232,
-    savol: "Zafar Diyorning birinchi she’rlar to’plami?",
+    savol: 'Выразительность чтения напрямую связана',
     javob: [
-      { matn: "«Qo’shiqlar»", correct: true },
-      { matn: "«Binafsha»", correct: false },
-      { matn: "«Kapalak»", correct: false },
-      { matn: "«Navbahor»", correct: false },
+      { matn: 'с правильностью', correct: false },
+      { matn: 'с беглостью', correct: false },
+      { matn: 'с сознательностью', correct: true },
     ],
   },
   {
     id: 233,
-    savol:
-      "Zafar Diyorning mehnat mavzuiga bag’ishlangan she’rini ko’rsating?",
+    savol: 'Работа над сюжетом произведения от события к смыслу текста осуществляется в ходе',
     javob: [
-      {
-        matn: "«Kichkina bog’bon haqida doston»",
-        correct: true,
-      },
-      { matn: "«Kel uchaylik Shimolga»", correct: false },
-      { matn: "«Kitob, mening do’stimsan»", correct: false },
-      { matn: "«Qutb qo’shig’i»", correct: false },
+      { matn: 'проблемного анализа', correct: false },
+      { matn: 'анализа развития действия', correct: true },
+      { matn: 'стилистического анализа', correct: false },
     ],
   },
   {
     id: 234,
-    savol:
-      "A.Navoiyning \"Orazin yopqach ko’zimdan to’kilur har lahza yosh\" g’azaliga kim umr bo’yi yozgan g’azallarini almashtirmoqchi bo’lgan?",
+    savol: 'Наибольшие трудности у учащихся вызывает',
     javob: [
-      { matn: "Lutfiy", correct: true },
-      { matn: "Nizomiy", correct: false },
-      { matn: "Atoyi", correct: false },
-      { matn: "Sakkokiy", correct: false },
+      { matn: 'подробный пересказ', correct: false },
+      { matn: 'выборочный пересказ', correct: false },
+      { matn: 'сжатый пересказ', correct: true },
     ],
   },
   {
     id: 235,
-    savol: "Q.Muhammadiy she’rlari berilgan qatorni toping?",
+    savol: 'Использование музыкальных отрывков, репродукций картин, слайдов и т.п. рекомендуется при подготовке к восприятию',
     javob: [
-      { matn: "«A’lochi Sodiq», «Mening orzuim»", correct: true },
-      { matn: "«Baxtli yoshlik», «Omonat»", correct: false },
-      { matn: "«Orzu», «Qaldirg’och»", correct: false },
-      { matn: "«Sening sovg’ang», «Orzu»", correct: false },
+      { matn: 'лирических произведений', correct: true },
+      { matn: 'эпических произведений', correct: false },
+      { matn: 'драматических произведений', correct: false },
     ],
   },
   {
     id: 236,
-    savol: "Q.Muhammadiyning «Etik» she’rining qahramoni?",
+    savol: 'Скорость чтения, которая предполагает и обеспечивает сознательное восприятие читаемого, называется',
     javob: [
-      { matn: "Solijon", correct: true },
-      { matn: "Hoshimjon", correct: false },
-      { matn: "Mamajon", correct: false },
-      { matn: "Yodgor", correct: false },
+      { matn: 'правильностью', correct: false },
+      { matn: 'беглостью', correct: true },
+      { matn: 'сознательностью', correct: false },
     ],
   },
   {
     id: 237,
-    savol:
-      "O’ynashar diring-diring Deyishar: «Yuring-yuring» bayt muallifi kim?",
+    savol: 'Способность средствами устной речи передать слушателям главную мысль произведения и свое собственное отношение к нему называется',
     javob: [
-      { matn: "Q.Muhammadiy", correct: true },
-      { matn: "Z.Diyor", correct: false },
-      { matn: "G’.G’ulom", correct: false },
-      { matn: "I.Muslim", correct: false },
+      { matn: 'правильностью', correct: false },
+      { matn: 'сознательностью', correct: false },
+      { matn: 'выразительностью', correct: true },
     ],
   },
   {
     id: 238,
-    savol:
-      "Sh.Sa’dullaning ikkinchi jahon urushi davrida yaratgan to’plamlarini belgilang?",
+    savol: 'Ведущей деятельностью учащихся на уроках чтения являются',
     javob: [
-      { matn: "«Shohista», «Sen nima qilding?», «Ona va bola»", correct: true },
-      { matn: "«Ona va bola», «Yomg’ir yog’aloq», «Ozoda»", correct: false },
-      { matn: "«Bizning bog’chamiz», «Kachal polvon», «Oilamiz»", correct: false },
-      { matn: "«Laqma it», «Ayyor chumchuq», «Chol bilan bo’ri»", correct: false },
+      { matn: 'подготовка к восприятию текста', correct: false },
+      { matn: 'первичное восприятие и проверка первичного восприятия текста', correct: false },
+      { matn: 'чтение и анализ произведения', correct: true },
     ],
   },
   {
     id: 239,
-    savol:
-      "Angliyada qadimgi adabiyot tarafdorlari bilan yangi adabiyot tarafdorlari o’rtasidagi bahsga bag’ishlab Jonatan Svift qanday hajviy konflikt yozgan?",
+    savol: 'Способность предугадывать смысл еще не прочитанного текста по тому смыслу и стилю, который уже известен из прочитанного предыдущего отрывка называется',
     javob: [
-      { matn: "Kitoblar jangi", correct: true },
-      { matn: "Stella uchun yozilgan kundaliklar", correct: false },
-      { matn: "Turli xil maqolalar", correct: false },
-      { matn: "Gulliverning sayohatlari", correct: false },
+      { matn: 'антиципацией', correct: true },
+      { matn: 'транспозицией', correct: false },
+      { matn: 'интерференцией', correct: false },
     ],
   },
   {
     id: 240,
-    savol:
-      "G’.G’ulomning bolalar adabiyoti nasriy janrining yuksalishiga hissa qo’shgan asarlarini toping.",
+    savol: 'Речь выражает внутренние переживания персонажей и становится движущим механизмом действия',
     javob: [
-      {
-        matn: "«Yodgor», «Shum bola», «Tirilgan murda»",
-        correct: true,
-      },
-      {
-        matn: "«Sen etim emassan», «Yodgor», «Mening o’g’rigina bolam»",
-        correct: false,
-      },
-      {
-        matn: "«Shum bola», «Netay», «Barii seniki»",
-        correct: false,
-      },
-      {
-        matn: "«Siz mening yoshligimsiz», «Netay», «Yodgor»",
-        correct: false,
-      },
+      { matn: 'в лирических произведениях', correct: false },
+      { matn: 'в эпических произведениях', correct: false },
+      { matn: 'в драматических произведениях', correct: true },
     ],
   },
   {
     id: 241,
-    savol: "Daniyaning jahonga mashhur ertakchisi kim?",
+    savol: 'Автор выражает внутренний мир человека, процесс его мышления и переживаний в развитии',
     javob: [
-      { matn: "X. Andersen", correct: true },
-      { matn: "J. Svift", correct: false },
-      { matn: "D. Defo", correct: false },
-      { matn: "Sh. Perro", correct: false },
+      { matn: 'в лирических произведениях', correct: true },
+      { matn: 'в эпических произведениях', correct: false },
+      { matn: 'в драматических произведениях', correct: false },
     ],
   },
   {
     id: 242,
-    savol:
-      "Ey, sen xalqning to’yg’izuvchisi, barakali, muqaddas daryo. Ushbu bayt muallifi kim?",
+    savol: 'Пересказ, близкий к тексту, рекомендуется при изучении',
     javob: [
-      { matn: "Nekrasov", correct: true },
-      { matn: "Mayakovskiy", correct: false },
-      { matn: "Pushkin", correct: false },
-      { matn: "Marshak", correct: false },
+      { matn: 'рассказа', correct: false },
+      { matn: 'сказки', correct: true },
+      { matn: 'басни', correct: false },
     ],
   },
   {
     id: 243,
-    savol:
-      "Mavzu jihatidan «sehrli-fantastik» turkumiga kiruvchi ertaklarni belgilang.",
+    savol: 'Малые фольклорные жанры, в частности пословицы, используются на этапе',
     javob: [
-      {
-        matn: "«Susambil», «Guliqahqah», «To’rt yalqov»",
-        correct: true,
-      },
-      {
-        matn: "«Tohir va Zuhra», «Uch og’ayni botirlar», «Zumrad va Qimmat»",
-        correct: false,
-      },
-      {
-        matn: "«Bo’ri bilan tulki», «Oygul bilan Baxtiyor», «Yozi bilan Zebo»",
-        correct: false,
-      },
-      {
-        matn: "«Ziyod Botir», «Malikai Husnobod», «Tuhmatga uchragan kelin»",
-        correct: false,
-      },
+      { matn: 'подготовки к восприятию текста', correct: false },
+      { matn: 'чтения и анализа произведения', correct: false },
+      { matn: 'обобщающей беседы', correct: true },
     ],
   },
   {
     id: 244,
-    savol:
-      "Quyidagi javoblardan qaysi birida xalq ertaklari tasnifi to’g’ri ko’rsatilgan?",
+    savol: 'Самым трудным, но и самым интересным приемом организации творческой деятельности учащихся по следам прочитанного является',
     javob: [
-      {
-        matn: "Sehrli-maishiy va hayvonlar haqidagi ertaklar",
-        correct: true,
-      },
-      {
-        matn: "Sehrli, maishiy, novella-ertaklar",
-        correct: false,
-      },
-      {
-        matn: "Hayvonlar haqidagi, sehrli va topishmoq ertaklar",
-        correct: false,
-      },
-      {
-        matn: "Maishiy, topishmoqli, novella-ertaklar",
-        correct: false,
-      },
+      { matn: 'драматизация', correct: true },
+      { matn: 'чтение по ролям', correct: false },
+      { matn: 'творческий пересказ', correct: false },
     ],
   },
-   {
+  {
     id: 245,
-    savol:
-      "Oybekning qaysi qissasida Hirotning tarixiy voqealari, shahzodalarning Shohruh vafotidan keyingi taxt uchun kurashlari va Alisherning bolalik yillari haqida hikoya qilinadi?",
+    savol: 'Этап работы, который предполагает обобщение по произведению, его перечитывание и выполнение творческих заданий, называется',
     javob: [
-      { matn: "«Alisherning yoshligi» qissasida", correct: true },
-      { matn: "«Bolalik» qissasida", correct: false },
-      { matn: "«Zafar va Zahro»", correct: false },
-      { matn: "To’g’ri javob berilmagan", correct: false },
+      { matn: 'первичным синтезом', correct: false },
+      { matn: 'вторичным синтезом', correct: true },
+      { matn: 'анализом', correct: false },
     ],
   },
   {
     id: 246,
-    savol: "«Shoh Saltan haqida ertak» asarining muallifi kim?",
+    savol: '«Маленькой умственной задачей» К.Д. Ушинский называл',
     javob: [
-      { matn: "A.S. Pushkin", correct: true },
-      { matn: "S.Ya. Marshak", correct: false },
-      { matn: "Tolstoy", correct: false },
-      { matn: "Aka-uka Grimmlar", correct: false },
+      { matn: 'загадку', correct: false },
+      { matn: 'поговорку', correct: false },
+      { matn: 'пословицу', correct: true },
     ],
   },
   {
     id: 247,
-    savol:
-      "J.Sviftning qaysi asari sayohatnoma bo‘lib, unda murakkab ruhiy va ijtimoiy-falsafiy muammolar ham yoritilgan?",
+    savol: 'Небольшое произведение повествовательного рода в стихах с нравоучительным, сатирическим или ироническим содержанием – это',
     javob: [
-      { matn: "«Gulliverning sayohatlari»", correct: true },
-      { matn: "«Kitoblar jangi»", correct: false },
-      { matn: "«Bochka» ertagi", correct: false },
-      { matn: "To’g’ri javob yo’q", correct: false },
+      { matn: 'эпическое стихотворение', correct: false },
+      { matn: 'басня', correct: true },
+      { matn: 'сказка', correct: false },
     ],
   },
   {
     id: 248,
-    savol:
-      "J.Sviftning qaysi asariga Volter: «Svift o’g’illarga qamchi urganida, otasiga ham tegib ketadi» deb baho bergan?",
+    savol: 'Произведение в прозе или в стихах, в котором речь идет о вымышленных событиях, иногда фантастического характера -- это',
     javob: [
-      { matn: "«Bochka» ertagi", correct: true },
-      { matn: "«Gulliverning sayohatlari»", correct: false },
-      { matn: "«Kitoblar jangi»", correct: false },
-      { matn: "To’g’ri javob yo’q", correct: false },
+      { matn: 'эпическое стихотворение', correct: false },
+      { matn: 'басня', correct: false },
+      { matn: 'сказка', correct: true },
     ],
   },
   {
     id: 249,
-    savol: "«Ravshanjonning qo’li tilga kirdi» she’ri muallifi kim?",
+    savol: 'Непосредственная читательская деятельность детей с текстом должна составлять на уроке примерно',
     javob: [
-      { matn: "Q. Muhammadiy", correct: true },
-      { matn: "Z. Diyor", correct: false },
-      { matn: "P. Mo’min", correct: false },
-      { matn: "Oybek", correct: false },
+      { matn: '25 минут', correct: false },
+      { matn: '30 минут', correct: true },
+      { matn: '40 минут', correct: false },
     ],
   },
   {
     id: 250,
-    savol:
-      "Tabiat va fasllar kuychisi sifatida e’zozlangan shoir kim?",
+    savol: 'Не является задачей современного урока чтения в начальных классах',
     javob: [
-      { matn: "Uyg’un", correct: true },
-      { matn: "Q. Muhammadiy", correct: false },
-      { matn: "Z. Diyor", correct: false },
-      { matn: "P. Mo’min", correct: false },
+      { matn: 'обеспечение нравственного и эстетического воспитания детей', correct: false },
+      { matn: 'проведение литературоведческой пропедевтики', correct: false },
+      { matn: 'глубокое изучение языка и литературы', correct: true },
     ],
   },
   {
     id: 251,
-    savol:
-      "Oybek nechanchi yildan boshlab Alisher Navoiy ijodini chuqur o’rganishga kirishdi?",
+    savol: 'Первые сведения по грамматике встречаются',
     javob: [
-      { matn: "1928 yildan", correct: true },
-      { matn: "1929 yildan", correct: false },
-      { matn: "1927 yildan", correct: false },
-      { matn: "1926 yildan", correct: false },
+      { matn: 'в «Азбуке» Ивана Федорова (1574)', correct: true },
+      { matn: 'в «Грамматике» Мелетия Смотрицкого (1619)', correct: false },
+      { matn: 'в «Школьной и научной грамматике» А.М. Пешковского (1914)', correct: false },
     ],
   },
   {
     id: 252,
-    savol:
-      "Jambil va Jurjon xonlari, Darxon, Tarlon obrazlari H.Olimjonning qaysi asarida keltirilgan?",
+    savol: 'Официально русский язык как учебный предмет введен',
     javob: [
-      { matn: "«Malikai Husnobod» ertagi", correct: false },
-      { matn: "«Oygul bilan Baxtiyor»", correct: true },
-      { matn: "«Hulkarning she’ri»", correct: false },
-      { matn: "«Vatan» she’ri", correct: false },
+      { matn: 'указом Петра I в 1700 году', correct: false },
+      { matn: 'указом Екатерины II в 1786 году', correct: true },
+      { matn: 'указом Александра I в 1805 году', correct: false },
     ],
   },
   {
     id: 253,
-    savol:
-      "H.Olimjonning qaysi dostonida mehnatkashlarning ozodlik uchun kurashi va ularning yengilmas irodasi haqida tasavvur hosil bo’ladi?",
+    savol: 'Учебник по русскому языку «Родное слово», реализующий наиболее гибкую методику преподавания грамматики, создан',
     javob: [
-      { matn: "«Oygul bilan Baxtiyor»", correct: true },
-      { matn: "«Malikai Husnobod» ertagi", correct: false },
-      { matn: "«Semurg’ yoki Parizod va Bunyod»", correct: false },
-      { matn: "To’g’ri javob yo’q", correct: false },
+      { matn: 'К.Д. Ушинским', correct: true },
+      { matn: 'Н.Ф. Бунаковым', correct: false },
+      { matn: 'Д.И. Тихомировым', correct: false },
     ],
   },
   {
     id: 254,
-    savol: "Qaysi shoir «Baxt va shodlik kuychisi» deya e’tirof etiladi?",
+    savol: 'Учебник «Наш язык», главным принципом которого является стремление к научности языкового курса, к «наблюдениям над языком», создан',
     javob: [
-      { matn: "H.Olimjon", correct: true },
-      { matn: "Q. Muhammadiy", correct: false },
-      { matn: "Z. Diyor", correct: false },
-      { matn: "P. Mo’min", correct: false },
+      { matn: 'Ф.И. Буслаевым', correct: false },
+      { matn: 'С.А. Новиковой', correct: false },
+      { matn: 'А.М. Пешковским', correct: true },
     ],
   },
   {
     id: 255,
-    savol:
-      "H.Olimjonning qaysi asarida Xolvoy yolg’onchi, xasis boy timsolida gavdalanadi?",
+    savol: 'Разработчиком сравнительно-исторического метода изучения русского языка был',
     javob: [
-      { matn: "«Yolg’onchining jazosi» ertak-dostonida", correct: true },
-      { matn: "«Qizaloqning o’limi»", correct: false },
-      { matn: "«O’g’irlangan husn»", correct: false },
-      { matn: "«Inson»", correct: false },
+      { matn: 'К.Д. Ушинский', correct: false },
+      { matn: 'Ф.И. Буслаев', correct: true },
+      { matn: 'Н.Ф. Бунаков', correct: false },
     ],
   },
   {
     id: 256,
-    savol:
-      "Qaysi bolalar shoiri she’rlarida bolalarga qarata «g’oyat quvonardim bo’lolsa she’rim, qadrdon do’stingiz va ulfatingiz» deb orzu qilgan?",
+    savol: 'Фундаментальные труды по методике языка ученых-методистов П.О. Афанасьева, М.Л. Закожурниковой, С.П. Редозубова созданы',
     javob: [
-      { matn: "Uyg’un", correct: true },
-      { matn: "H.Olimjon", correct: false },
-      { matn: "Q. Muhammadiy", correct: false },
-      { matn: "Z. Diyor", correct: false },
+      { matn: 'в 50-ые годы XX века', correct: true },
+      { matn: 'в 60-ые годы XX века', correct: false },
+      { matn: 'в 70-ые годы XX века', correct: false },
     ],
   },
   {
     id: 257,
-    savol:
-      "«Yolg’onchining jazosi» ertak-dostonining syujet chizig’i Navoiying qaysi hikoyasiga o’xshab ketadi?",
+    savol: 'Новые учебники по русскому языку Т.Г. Рамзаевой, А.В. Поляковой, С.Ф. Жуйкова появились',
     javob: [
-      { matn: "«Sher va durroj»", correct: true },
-      { matn: "«Xotam toyi»", correct: false },
-      { matn: "«Shoh G’oziy»", correct: false },
-      { matn: "To’g’ri javob berilmagan", correct: false },
+      { matn: 'в 50-ые годы XX века', correct: false },
+      { matn: 'в 60-ые годы XX века', correct: true },
+      { matn: 'в 70-ые годы XX века', correct: false },
     ],
   },
   {
     id: 258,
-    savol:
-      "Rus bolalar adabiyotida kichkintoylar uchun katta she’riyat yaratgan, taniqli tarjimon va dramaturg kim?",
+    savol: 'Дидактико-психологические труды Л.В. Занкова, Д.Б. Эльконина появились',
     javob: [
-      { matn: "S. Ya. Marshak", correct: true },
-      { matn: "J. Svift", correct: false },
-      { matn: "A.S. Pushkin", correct: false },
-      { matn: "Tolstoy", correct: false },
+      { matn: 'в 50-ые годы XX века', correct: true },
+      { matn: 'в 60-ые годы XX века', correct: false },
+      { matn: 'в 70-ые годы XX века', correct: false },
     ],
   },
   {
     id: 259,
-    savol:
-      "Chinliklar uni «Adab ul-muluk», mochinliklar «Amin ul-mamlakat» deb atashadi. Bu asar qaysi?",
+    savol: 'Наблюдение, исследование, выделение существенных признаков изучаемого объекта предполагает этап формирования языкового понятия, называемый',
     javob: [
-      { matn: "«Qutadg’u bilig»", correct: true },
-      { matn: "«Qobusnoma»", correct: false },
-      { matn: "«Boburnoma»", correct: false },
-      { matn: "«Xamsa»", correct: false },
+      { matn: 'теоретическим', correct: false },
+      { matn: 'эмпирическим', correct: true },
+      { matn: 'этапом углубления понятия', correct: false },
     ],
   },
   {
     id: 260,
-    savol: "Hamzaning taxallusi?",
+    savol: 'Введение термина, определение понятия предполагает следующий этап формирования языкового понятия, называемый',
     javob: [
-      { matn: "Nihoniy", correct: true },
-      { matn: "Tong yulduzi", correct: false },
-      { matn: "Julqunboy", correct: false },
-      { matn: "Ovsar", correct: false },
+      { matn: 'теоретическим', correct: true },
+      { matn: 'эмпирическим', correct: false },
+      { matn: 'этапом углубления понятия', correct: false },
     ],
   },
   {
     id: 261,
-    savol: "Hamza qachon devon chop etadi va she’rlarini belgilang.",
+    savol: 'Цели углубленного изучения русского языка (укажите лишнее):',
     javob: [
-      { matn: "1905 yil 214 she’r", correct: true },
-      { matn: "1906 yil 215 she’r", correct: false },
-      { matn: "1907 yil 216 she’r", correct: false },
-      { matn: "1908 yil 217 she’r", correct: false },
+      { matn: 'заронить интерес к филологии, к искусству слова', correct: false },
+      { matn: 'заронить первые зерна будущей профессиональной информации', correct: false },
+      { matn: 'организовать работу с отстающими учащимися', correct: true },
     ],
   },
   {
     id: 262,
-    savol:
-      "Qaysi olim «Qutadg’u bilig»ni ommabop qilib o’zbekchaga o’girgan?",
+    savol: 'Дробление изучаемого целого на составные части с целью глубокого проникновения в сущность явлений лежит в основе',
     javob: [
-      { matn: "B. To’xliev", correct: true },
-      { matn: "Q. Yo’ldoshev", correct: false },
-      { matn: "Mirtemir", correct: false },
-      { matn: "Qayum Karimov", correct: false },
+      { matn: 'метода конструирования', correct: false },
+      { matn: 'сравнительно-исторического метода', correct: false },
+      { matn: 'метода языкового анализа', correct: true },
     ],
   },
   {
     id: 263,
-    savol:
-      "«Qutadg’u bilig»ni baytma-bayt ilmiy tarjima qilgan kim?",
+    savol: 'Обучение через открытия, через решение субъективно-творческих задач является основой',
     javob: [
-      { matn: "Qayum Karimov", correct: true },
-      { matn: "B. To’xliev", correct: false },
-      { matn: "Mirtemir", correct: false },
-      { matn: "To’g’ri javob ko’rsatilmagan", correct: false },
+      { matn: 'эвристических методов', correct: true },
+      { matn: 'игровых методов', correct: false },
+      { matn: 'компьютерного обучения', correct: false },
     ],
   },
   {
     id: 264,
-    savol: "«Qutadg’u bilig»ning 31-bobi nimaga bag’ishlangan?",
+    savol: 'Объединение в учебнике в единую систему различных областей изучаемого языка отвечает требованиям',
     javob: [
-      { matn: "Rahbar ma’naviyati", correct: true },
-      { matn: "Odob-axloq", correct: false },
-      { matn: "Do’stlik", correct: false },
-      { matn: "Mehmondorchilik", correct: false },
+      { matn: 'содержательным', correct: false },
+      { matn: 'интегративным', correct: true },
+      { matn: 'методическим', correct: false },
     ],
   },
   {
     id: 265,
-    savol:
-      "«Qutadg’u bilig»da beklik mustahkam bo’lishi uchun nimalar zarurligi aytilgan?",
+    savol: 'Обеспечение через учебник организации познавательной деятельности учащихся в классе и дома отвечает требованиям',
     javob: [
-      {
-        matn:
-          "Kuchli lashkar, ko’p boylik, badavlat xalq, adolatli siyosat",
-        correct: true,
-      },
-      {
-        matn: "Ko’p boylik, ulfatchilik, do’stlik, kuchli lashkar",
-        correct: false,
-      },
-      {
-        matn:
-          "Rahbar ma’naviyati, odamgarchilik, do’stlik, ko’p boylik",
-        correct: false,
-      },
-      { matn: "To’g’ri javob berilmagan", correct: false },
+      { matn: 'содержательным', correct: false },
+      { matn: 'интегративным', correct: false },
+      { matn: 'методическим', correct: true },
     ],
   },
   {
     id: 266,
-    savol:
-      "O’zi xunuk, gapi bemaza odamlar qurbaqaga o’xshaydi. Bu Navoiying qaysi asaridan olingan?",
+    savol: 'Обучение «по образцам» лежит в основе',
     javob: [
-      { matn: "«Mahbub ul qulub»", correct: true },
-      { matn: "«Hayrat ul abror»", correct: false },
-      { matn: "«Farhod va Shirin»", correct: false },
-      { matn: "«Muhokamat ul avzon»", correct: false },
+      { matn: 'коммуникативных методов', correct: false },
+      { matn: 'имитативных методов', correct: true },
+      { matn: 'методов конструирования', correct: false },
     ],
   },
   {
     id: 267,
-    savol:
-      "Alisher Navoiyga berilgan: «Turk tilining o’lgan jasadiga Masih nafasi bilan ruh kiritdi...» ta’rif muallifi kim?",
+    savol: 'Утверждение, что основная функция языка – быть средством общения, а также средством самовыражения – лежит в основе',
     javob: [
-      { matn: "H. Boyqaro", correct: true },
-      { matn: "Jomiy", correct: false },
-      { matn: "Lutfiy", correct: false },
-      { matn: "Bobur", correct: false },
+      { matn: 'коммуникативных методов', correct: true },
+      { matn: 'имитативных методов', correct: false },
+      { matn: 'методов конструирования', correct: false },
     ],
   },
   {
     id: 268,
-    savol: "«Mudbir» so’zining ma’nosi to’g’ri berilgan qatorni toping.",
+    savol: 'Синтетическая работа, начиная от создания словосочетаний и предложений, кончая созданием текста, лежит в основе',
     javob: [
-      { matn: "Baxtsiz", correct: true },
-      { matn: "Cho’pon", correct: false },
-      { matn: "Baxtli", correct: false },
-      { matn: "Omadli", correct: false },
+      { matn: 'коммуникативных методов', correct: false },
+      { matn: 'имитативных методов', correct: false },
+      { matn: 'методов конструирования', correct: true },
     ],
   },
   {
     id: 269,
-    savol:
-      "«Hayrat ul-abror»dan olingan misralarda Navoiy kimni tariflagan?",
+    savol: 'Направление, в котором обучение правописанию осуществляется через сознательные операции, проверку написаний, получило в методике название',
     javob: [
-      { matn: "Jomiyni", correct: true },
-      { matn: "H. Boyqaroni", correct: false },
-      { matn: "Lutfiyni", correct: false },
-      { matn: "Boburni", correct: false },
+      { matn: 'грамматического', correct: true },
+      { matn: 'антиграмматического', correct: false },
+      { matn: 'логико-грамматического', correct: false },
+      { matn: 'теории графических образов', correct: false },
     ],
   },
   {
     id: 270,
-    savol:
-      "Esib keldi Sharqdan bahorning yeli, Jahon ko’rki-chun osdi firdavs yo’li. Ushbu misralar qaysi asardan olingan?",
+    savol: 'Ученые Н.Ф. Бунаков, В.П. Шереметевский, Ц.П. Балталон, В.А. Флеров и др. являются представителями направления',
     javob: [
-      { matn: "«Qutadg’u bilig»", correct: true },
-      { matn: "«Mahbub ul qulub»", correct: false },
-      { matn: "«Hayrat ul abror»", correct: false },
-      { matn: "«Farhod va Shirin»", correct: false },
+      { matn: 'грамматического', correct: false },
+      { matn: 'антиграмматического', correct: true },
+      { matn: 'логико-грамматического', correct: false },
+      { matn: 'теории графических образов', correct: false },
     ],
   },
   {
     id: 271,
-    savol:
-      "«Qutadg’u bilig»dan: «kishilar qo’li ochiq bo’ladi, ko’nglini xudo berganidan ham keng tutadi». Bu parchada qaysi ijtimoiy tabaqa nazarda tutilgan?",
+    savol: 'Ученые К.Д. Ушинский, Д.И. Тихомиров, С.Г. Бархударов, С.Е. Крючков и др. являются представителями направления',
     javob: [
-      { matn: "Dehqonlar", correct: true },
-      { matn: "Ovchilar", correct: false },
-      { matn: "Sozandalar", correct: false },
-      { matn: "Muallimlar", correct: false },
+      { matn: 'грамматического', correct: true },
+      { matn: 'антиграмматического', correct: false },
+      { matn: 'логико-грамматического', correct: false },
+      { matn: 'теории графических образов', correct: false },
     ],
   },
   {
     id: 272,
-    savol: "“Oqbura to’lqinlarida” she’ri kimning qalamiga mansub?",
+    savol: 'Крылатая формула «для усвоения правильного письма … нужна практика, руководимая грамматикой» принадлежит',
     javob: [
-      { matn: "Tursunboy Adashboev", correct: true },
-      { matn: "H. Olimjon", correct: false },
-      { matn: "Q. Muhammadiy", correct: false },
-      { matn: "Z. Diyor", correct: false },
+      { matn: 'Буслаеву Ф.И.', correct: false },
+      { matn: 'Дистервегу', correct: false },
+      { matn: 'Срезневскому И.И.', correct: false },
+      { matn: 'Ушинскому К.Д.', correct: true },
     ],
   },
-  {
+   {
     id: 273,
-    savol:
-      "Anvar Obidjonning “Siz yozgan maktublar” turkumidagi she’rlarida qanday poetik obrazlar keltirilgan?",
+    savol: "Один из первых научных трудов в области методики правописания – «Русское правописание» - принадлежит перу",
     javob: [
-      {
-        matn:
-          "Bolalar topqirligi va fikrlash doirasini o’stirishga qaratilgan poetik obrazlar",
-        correct: true,
-      },
-      {
-        matn:
-          "Ta’lim-tarbiya hamda ma’naviyat masalalari mujassam poetik obrazlar",
-        correct: false,
-      },
-      {
-        matn: "Obrazlilikning shakl bilan uyg’unligi",
-        correct: false,
-      },
-      { matn: "To’g’ri javob ko’rsatilmagan", correct: false },
+      { matn: "Грота Я.К.", correct: true },
+      { matn: "Буслаева Ф.И.", correct: false },
+      { matn: "Ломоносова М.В.", correct: false },
+      { matn: "Ушинского Д.И.", correct: false },
     ],
   },
   {
     id: 274,
-    savol:
-      "Istiqlol davri bolalar adabiyotining qaysi adibi “Siz eshitmagan qo’shiqlar” turkumidagi she’r muallifi?",
+    savol: "Главным в педагогическом наследии К.Д. Ушинского принято считать труд под названием",
     javob: [
-      { matn: "Z. Isomiddinov", correct: true },
-      { matn: "Abdusaid Ko’chimov", correct: false },
-      { matn: "Dilshod Rajabov", correct: false },
-      { matn: "Abduruhmon Akbar", correct: false },
+      { matn: "Детский мир", correct: false },
+      { matn: "Педагогическая антропология", correct: true },
+      { matn: "Родное слово", correct: false },
+      { matn: "Российская грамматика", correct: false },
     ],
   },
   {
     id: 275,
-    savol:
-      "G’.G’ulom «Shum bola» asari avvalgi nashrida asar nomini qanday atagan?",
+    savol: "Метод, в котором рассудочному усвоению материала предшествует деятельность практическая, получил название",
     javob: [
-      { matn: "«Dovdirash»", correct: true },
-      { matn: "«Qiyomat»", correct: false },
-      { matn: "«Bemor»", correct: false },
-      { matn: "«Ovsar»", correct: false },
+      { matn: "аналитического", correct: true },
+      { matn: "синтетического", correct: false },
+      { matn: "индуктивного", correct: false },
+      { matn: "дедуктивного", correct: false },
     ],
   },
   {
     id: 276,
-    savol:
-      "“Qasoskorning oltin boshi”, “Besh bolali yigitcha” asarlari muallifi kim?",
+    savol: "Система правил, обеспечивающих единообразие написаний в тех случаях, где возможны разные написания, определяется как",
     javob: [
-      { matn: "H. To’xtaboev", correct: true },
-      { matn: "Tursunboy Adashboev", correct: false },
-      { matn: "H. Olimjon", correct: false },
-      { matn: "Oybek", correct: false },
+      { matn: "грамматика", correct: false },
+      { matn: "каллиграфия", correct: false },
+      { matn: "орфография", correct: true },
+      { matn: "пунктуация", correct: false },
     ],
   },
   {
     id: 277,
-    savol:
-      "G’afur G’ulom haqida: “Zamonlar o’tib, kelajakda jahon poeziyasining tarixi yaratilsa...” degan fikr kimning qalamiga mansub?",
+    savol: "Неосознаваемое, интуитивное усвоение закономерностей, правил языка в методике получило название",
     javob: [
-      { matn: "O. Sharafiddinov", correct: true },
-      { matn: "Oybek", correct: false },
-      { matn: "A. Quljonov", correct: false },
-      { matn: "Q. Yo’ldoshev", correct: false },
+      { matn: "дар слова", correct: false },
+      { matn: "фонематический слух", correct: false },
+      { matn: "орфографическая зоркость", correct: false },
+      { matn: "языковое чутье", correct: true },
     ],
   },
   {
     id: 278,
-    savol:
-      "G’afur G’ulomning 1923 yilda matbuotda e’lon qilingan birinchi she’rini belgilang.",
+    savol: "Способность, умение быстро обнаруживать в тексте орфограммы и определять их типы – это",
     javob: [
-      { matn: "“Go’zallik nimada?”", correct: true },
-      { matn: "«Vaqt»", correct: false },
-      { matn: "«Sog’inish»", correct: false },
-      { matn: "«Kuzatish»", correct: false },
+      { matn: "дар слова", correct: false },
+      { matn: "фонематический слух", correct: false },
+      { matn: "орфографическая зоркость", correct: true },
+      { matn: "языковое чутье", correct: false },
     ],
   },
   {
     id: 279,
-    savol:
-      "G’afur G’ulomning o’zbek xalqining o’tmishdagi og’ir hayoti tasvirlangan, qarovsiz bolalar mavzusidagi asarini belgilang.",
+    savol: "Способность человека к анализу и синтезу речевых звуков",
     javob: [
-      { matn: "“Shum bola”", correct: true },
-      { matn: "“Netay”", correct: false },
-      { matn: "“Tirilgan murda”", correct: false },
-      { matn: "“Yodgor”", correct: false },
+      { matn: "дар слова", correct: false },
+      { matn: "фонематический слух", correct: true },
+      { matn: "орфографическая зоркость", correct: false },
+      { matn: "языковое чутье", correct: false },
     ],
   },
   {
     id: 280,
-    savol:
-      "G’afur G’ulom umrining so’ngida qanday nomlangan hikoyalar to’plamini nashr etdi?",
+    savol: "Ведущий принцип русской орфографии",
     javob: [
-      { matn: "“Gilos danagidan tasbeh”", correct: true },
-      { matn: "“Mening o’g’rigina bolam”", correct: false },
-      { matn: "“Hasan kayfiy”", correct: false },
-      { matn: "“Afandi o’lmaydigan bo’ldi”", correct: false },
+      { matn: "морфологический", correct: true },
+      { matn: "традиционный", correct: false },
+      { matn: "фонетический", correct: false },
+      { matn: "принцип дифференциации значений", correct: false },
     ],
   },
   {
     id: 281,
-    savol:
-      "Bir kilo xolis paxta chit bo’lib to’qilguncha... Misralar muallifini belgilang.",
+    savol: "Орфограмма – это",
     javob: [
-      { matn: "G’. G’ulom", correct: true },
-      { matn: "H. Olimjon", correct: false },
-      { matn: "Q. Muhammadiy", correct: false },
-      { matn: "Z. Diyor", correct: false },
+      { matn: "правило правописания", correct: false },
+      { matn: "написание, требующее проверки", correct: true },
+      { matn: "объяснение написания", correct: false },
+      { matn: "подбор однокоренных слов", correct: false },
     ],
   },
   {
     id: 282,
-    savol:
-      "Oybekning 60-yillarda yaratilgan asarlarini belgilang.",
+    savol: "Обоснованный выбор правильного написания есть",
     javob: [
-      { matn: "“Davrim jarohati” va “Bolalik”", correct: true },
-      { matn: "“Zafar va Zahro” va “Haqgo’ylar”", correct: false },
-      { matn: "“Qutlug’ qon” va “Navoiy”", correct: false },
-      { matn: "“Temur” va “Bobur”, “Bolalik”", correct: false },
+      { matn: "орфографическая зоркость", correct: false },
+      { matn: "решение грамматико-орфографической задачи", correct: true },
+      { matn: "языковое чутье", correct: false },
+      { matn: "орфографическое комментирование", correct: false },
     ],
   },
+
   {
     id: 283,
-    savol: "Oybekning qaysi dostoni tugallanmay qolgan?",
+    savol: "Мотивация орфографической работы реализуется через (исключите лишнее):",
     javob: [
-      { matn: "“Temur” va “Bobur”", correct: true },
-      { matn: "“Zafar va Zahro”", correct: false },
-      { matn: "“Haqgo’ylar”", correct: false },
-      { matn: "“Nur qidirib”", correct: false },
+      { matn: "развитие познавательных интересов посредством поощрения, увлечения, понимания детьми логики правописания", correct: false },
+      { matn: "использование занимательных материалов, соревнований, игровых приемов, конкурсов, викторин, олимпиад и др.", correct: false },
+      { matn: "отбор дидактического материала – яркого, высокохудожественного, разнообразного, интересного детям", correct: false },
+      { matn: "жесткое требование неукоснительного выполнения заданий учителя", correct: true },
     ],
   },
   {
     id: 284,
-    savol:
-      "1909 yil 12 dekabrda Jizzaxda tug’ilgan, 4 yoshida yetim qolgan adib kim?",
+    savol: "Мотивационный этап формирования орфографических умений предполагает",
     javob: [
-      { matn: "H. Olimjon", correct: true },
-      { matn: "Oybek", correct: false },
-      { matn: "Q. Muhammadiy", correct: false },
-      { matn: "Z. Diyor", correct: false },
+      { matn: "создание учебной ситуации, порождающей потребность проверки орфограммы", correct: true },
+      { matn: "поиск способа решения учебной задачи", correct: false },
+      { matn: "составление алгоритма для данного случая, проверка орфограммы по ступеням алгоритма", correct: false },
+      { matn: "достижение более или менее полного автоматизма", correct: false },
     ],
   },
   {
     id: 285,
-    savol:
-      "H. Olimjonning «Oygul bilan Baxtiyor» dostoni negizida qaysi ertak mujassamlashgan?",
+    savol: "Операционный, исполнительский этап формирования орфографических умений предполагает",
     javob: [
-      { matn: "«Malikai Husnobod» ertagi", correct: true },
-      { matn: "“Uch og’a-ini botirlar”", correct: false },
-      { matn: "“Zumrad va Qimmat”", correct: false },
-      { matn: "To’g’ri javob berilmagan", correct: false },
+      { matn: "создание учебной ситуации, порождающей потребность проверки орфограммы", correct: false },
+      { matn: "поиск способа решения учебной задачи", correct: false },
+      { matn: "составление алгоритма для данного случая, проверка орфограммы по ступеням алгоритма", correct: true },
+      { matn: "достижение более или менее полного автоматизма", correct: false },
     ],
   },
   {
     id: 286,
-    savol:
-      "«Ofeliyaning o’limi», «Daryo tiniq...», «Eng gullagan yoshlik chog’imda» she’rlar muallifi kim?",
+    savol: "Ориентировочный этап формирования орфографических умений предполагает",
     javob: [
-      { matn: "H. Olimjon", correct: true },
-      { matn: "Oybek", correct: false },
-      { matn: "Q. Muhammadiy", correct: false },
-      { matn: "Z. Diyor", correct: false },
+      { matn: "создание учебной ситуации, порождающей потребность проверки орфограммы", correct: false },
+      { matn: "поиск способа решения учебной задачи", correct: true },
+      { matn: "составление алгоритма для данного случая, проверка орфограммы по ступеням алгоритма", correct: false },
+      { matn: "достижение более или менее полного автоматизма", correct: false },
     ],
   },
   {
     id: 287,
-    savol:
-      "Oybekning qaysi asari Hamza nomidagi Davlat mukofotiga sazovor bo’lgan?",
+    savol: "Точное, легко понимаемое описание выполняемого шаг за шагом решения грамматико-орфографической задачи –",
     javob: [
-      { matn: "«Bolalik» qissasi", correct: true },
-      { matn: "“Zafar va Zahro”", correct: false },
-      { matn: "“Haqgo’ylar”", correct: false },
-      { matn: "“Nur qidirib”", correct: false },
+      { matn: "алгоритм", correct: true },
+      { matn: "комментирование", correct: false },
+      { matn: "списывание", correct: false },
+      { matn: "диктант", correct: false },
     ],
   },
   {
     id: 288,
-    savol: "A. Oripov qachon “O’zbekiston Qahramoni” unvonini oldi?",
+    savol: "Вид орфографического упражнения, сущность которого состоит в записи воспринимаемого на слух текста –",
     javob: [
-      { matn: "1998 yil", correct: true },
-      { matn: "1997 yil", correct: false },
-      { matn: "1996 yil", correct: false },
-      { matn: "1995 yil", correct: false },
+      { matn: "списывание", correct: false },
+      { matn: "диктант", correct: true },
+      { matn: "изложение", correct: false },
+      { matn: "грамматико-орфографический разбор", correct: false },
     ],
   },
   {
     id: 289,
-    savol: "“Hayrat ul abror” xotimasi necha bob?",
+    savol: "Передача в письменной форме зрительно воспринимаемого слова, предложения или текста –",
     javob: [
-      { matn: "2 bob", correct: true },
-      { matn: "3 bob", correct: false },
-      { matn: "4 bob", correct: false },
-      { matn: "5 bob", correct: false },
+      { matn: "списывание", correct: true },
+      { matn: "диктант", correct: false },
+      { matn: "изложение", correct: false },
+      { matn: "грамматико-орфографический разбор", correct: false },
     ],
   },
   {
     id: 290,
-    savol:
-      "Oybekning «Bolalik» qissasi nechanchi yil qanday mukofotga sazovor bo’lgan?",
+    savol: "Диктанты буквенные, слоговые, словарные, диктовка предложений и текстов классифицируются с точки зрения",
     javob: [
-      {
-        matn: "Hamza nomidagi Davlat mukofotiga (1963)",
-        correct: true,
-      },
-      { matn: "Nobel mukofotiga (1964)", correct: false },
-      { matn: "Qodiriy nomidagi mukofotga", correct: false },
-      { matn: "To’g’ri javob ko’rsatilmagan", correct: false },
+      { matn: "цели проведения", correct: false },
+      { matn: "времени проведения орфографической работы", correct: false },
+      { matn: "структуры диктуемого материала", correct: true },
+      { matn: "объема диктуемого материала", correct: false },
     ],
   },
   {
     id: 291,
-    savol: "«Zarbulmasal»da qanday badiiy san’at qo’llanilgan?",
+    savol: "Диктанты предупредительные, объяснительные, комментированные классифицируются с точки зрения",
     javob: [
-      { matn: "«Irsolul masal»", correct: true },
-      { matn: "Tazod", correct: false },
-      { matn: "Talmeh", correct: false },
-      { matn: "Saj", correct: false },
+      { matn: "цели проведения", correct: false },
+      { matn: "времени проведения орфографической работы", correct: true },
+      { matn: "структуры диктуемого материала", correct: false },
+      { matn: "объема диктуемого материала", correct: false },
     ],
   },
-
   {
     id: 292,
-    savol: "G’afur G’ulomning ijodiy o’sishiga eng ko’p samarali ta’sir ko’rsatgan rus adiblari qatorini ko’rsating.",
+    savol: "Орфографические ошибки сильных учащихся рекомендуется исправлять следующим образом:",
     javob: [
-      { matn: "Maksim Gorkiy va V.V.Mayakovskiy", correct: true },
-      { matn: "A.S.Pushkin, M.Yu.Lermontov", correct: false },
-      { matn: "N.A.Nekrasov, L.N.Tolstoy", correct: false },
-      { matn: "A.P.Chexov, M.Yu.Lermontov", correct: false },
+      { matn: "зачеркнуть букву, исправить", correct: false },
+      { matn: "подчеркнуть орфограмму", correct: false },
+      { matn: "подчеркнуть слово", correct: false },
+      { matn: "вынести ошибку на полях строки", correct: true },
     ],
   },
   {
     id: 293,
-    savol: "G’afur G’ulom 1923 yildan to 1930 yilgacha qancha she’r, hikoya, ocherk, doston, feleton yozgan?",
+    savol: "Орфографические ошибки слабых учащихся рекомендуется исправлять следующим образом:",
     javob: [
-      { matn: "Besh yuzga yaqin", correct: true },
-      { matn: "To’rt yuzga yaqin", correct: false },
-      { matn: "Uch yuzga yaqin", correct: false },
-      { matn: "Ikki yuzga yaqin", correct: false },
+      { matn: "зачеркнуть букву, исправить", correct: true },
+      { matn: "подчеркнуть орфограмму", correct: false },
+      { matn: "подчеркнуть слово", correct: false },
+      { matn: "отметить на полях условными знаками", correct: false },
     ],
   },
   {
     id: 294,
-    savol: "“Chorbozorchi”, “Soat”, “Jo’rabo’za” hikoyalar muallifi kim?",
+    savol: "Способы работы по предупреждению ошибок (исключите лишнее):",
     javob: [
-      { matn: "G’afur G’ulom", correct: true },
-      { matn: "H.Olimjon", correct: false },
-      { matn: "Oybek", correct: false },
-      { matn: "Uyg’un", correct: false },
+      { matn: "поощрение тех учащихся, которые сами преодолевают свои ошибки", correct: false },
+      { matn: "наказание нерадивых учащихся через систему дополнительных занятий", correct: true },
+      { matn: "отчетливое выделение перечня трудных слов, включение их в упражнения, вывешивание плакатов", correct: false },
+      { matn: "воспитание уверенности учащихся в возможности достижения высокого уровня грамотности", correct: false },
     ],
   },
   {
     id: 295,
-    savol: "Jo’ra, Saodat va Mehri obrazlari G’.G’ulomning qaysi asari qahramonlari?",
+    savol: "Требования к уроку русского языка (исключите лишнее):",
     javob: [
-      { matn: "“Yodgor” qissasi", correct: true },
-      { matn: "“Chorbozorchi”", correct: false },
-      { matn: "“Soat”", correct: false },
-      { matn: "“Jo’rabo’za”", correct: false },
+      { matn: "высокий уровень культуры речи", correct: false },
+      { matn: "гармоническое соотношение теории и практики", correct: false },
+      { matn: "использование новых достижений дидактики", correct: false },
+      { matn: "аспектное изучение языка", correct: true },
     ],
   },
   {
     id: 296,
-    savol: "1905 yil 16 yanvarda Toshkentning eski shaharida to’quvchi oilasida tug’ilgan adibni belgilang.",
+    savol: "Введение вариантов изученного, новых ситуаций применения знаний, выработка автоматизма осуществляется на уроке",
     javob: [
-      { matn: "Oybek", correct: true },
-      { matn: "G’afur G’ulom", correct: false },
-      { matn: "H.Olimjon", correct: false },
-      { matn: "Q.Muhammadiy", correct: false },
+      { matn: "изучения нового материала", correct: false },
+      { matn: "закрепления (совершенствования) ЗУН", correct: false },
+      { matn: "тренировки, упражнения", correct: true },
+      { matn: "повторительно-обобщающем", correct: false },
     ],
   },
   {
     id: 297,
-    savol: "«Bola Alisher» qissasining muallifi kim?",
+    savol: "Логическое повторение предыдущих тем, постановка познавательной задачи осуществляется на этапе",
     javob: [
-      { matn: "Oybek", correct: true },
-      { matn: "G’afur G’ulom", correct: false },
-      { matn: "H.Olimjon", correct: false },
-      { matn: "Uyg’un", correct: false },
+      { matn: "проверки домашнего задания", correct: false },
+      { matn: "актуализации ЗУН", correct: true },
+      { matn: "постановки целей и задач урока", correct: false },
+      { matn: "изучения нового материала", correct: false },
     ],
   },
   {
     id: 298,
-    savol: "Qaysi adib 30-yillarda yozilgan maqolalari bilan adabiyotshunoslik rivojiga katta hissa qo’shdi?",
+    savol: "Дробление изучаемого целого на составные части лежит в основе",
     javob: [
-      { matn: "Oybek", correct: true },
-      { matn: "G’afur G’ulom", correct: false },
-      { matn: "H.Olimjon", correct: false },
-      { matn: "Uyg’un", correct: false },
+      { matn: "метода конструирования", correct: false },
+      { matn: "частично-поискового метода", correct: false },
+      { matn: "метода языкового анализа", correct: true },
+      { matn: "решения грамматико-орфографических задач", correct: false },
     ],
   },
   {
     id: 299,
-    savol: "«Hayratul-abror»ning nechanchi maqolati rostgo’ylik, halollik va to’g’rilikka bag’ishlangan?",
+    savol: "Обоснованный выбор правильного написания лежит в основе метода",
     javob: [
-      { matn: "o’ninchi maqolati", correct: true },
-      { matn: "sakkizinchi maqolati", correct: false },
-      { matn: "ettinchi maqolati", correct: false },
-      { matn: "oltinchi maqolati", correct: false },
+      { matn: "метода конструирования", correct: false },
+      { matn: "частично-поискового метода", correct: false },
+      { matn: "метода языкового анализа", correct: false },
+      { matn: "решения грамматико-орфографических задач", correct: true },
     ],
   },
   {
     id: 300,
-    savol: "Alisher Navoiyning qaysi dostonida hoqon elning uch yillik xirojidan voz kechadi?",
+    savol: "Запись диктуемого текста с возможностью изменения и свободного выбора слов предполагает",
     javob: [
-      { matn: "«Farhod va Shirin»", correct: true },
-      { matn: "«Sab’ai sayyor»", correct: false },
-      { matn: "«Layli va Majnun»", correct: false },
-      { matn: "«Saddi Iskandariy»", correct: false },
+      { matn: "творческий диктант", correct: false },
+      { matn: "свободный диктант", correct: true },
+      { matn: "выборочный диктант", correct: false },
+      { matn: "самодиктант", correct: false },
     ],
   },
   {
     id: 301,
-    savol: "«To’ymadingmi, Qaradaryo» qo’shig’i qaysi turkumga kiradi va kim (nima) ning tilidan aytilgan?",
+    savol: "Для успешного формирования орфографического навыка необходимы условия (исключите лишнее):",
     javob: [
-      { matn: "O’rim qo’shig’i, arpa, bug’doy tilidan", correct: true },
-      { matn: "Turey-turey qo’shig’i, echki tilidan", correct: false },
-      { matn: "Churiyalar sovliq tilidan", correct: false },
-      { matn: "Churiyalar, echki tilidan", correct: false },
+      { matn: "развитие речевого (фонематического) слуха", correct: false },
+      { matn: "развитие орфографической зоркости", correct: false },
+      { matn: "систематическая подсказка учителя", correct: true },
+      { matn: "систематическая работа над ошибками", correct: false },
     ],
   },
   {
     id: 302,
-    savol: "«Choy momo» qaysi tangri sharafiga aytilgan?",
+    savol: "Творческая работа, требующая наивысшей самостоятельности школьника –",
     javob: [
-      { matn: "Zardushtiylarning shamol tangrisi – «Chuy momo» sharafiga aytilgan", correct: true },
-      { matn: "Otashparastlarning olov tangrisi «Choy momo» sharafiga", correct: false },
-      { matn: "Otashparastlarning yomg’ir tangrisi «Chuy momo» sharafiga aytilgan", correct: false },
-      { matn: "Zardushtiylarning quyosh tangrisi «Chuy momo» sharafiga", correct: false },
+      { matn: "изложение", correct: false },
+      { matn: "сочинение", correct: true },
+      { matn: "словесное рисование", correct: false },
     ],
   },
-  // mu tugadi
   {
     id: 303,
-    savol: "Davlat ta’lim standarti qanday qonun hujjatlari asosida ishlab chiqilgan?",
+    savol: "Вид речи, которому свойственны продуманность, богатство синтаксических конструкций –",
     javob: [
-      { matn: "O‘zbekiston Respublikasi Konstitutsiyasi", correct: false },
-      { matn: "“Ta’lim to‘g‘risida”gi O‘zbekiston Respublikasi Qonuni", correct: false },
-      { matn: "O‘zbekiston Respublikasi Vazirlar Mahkamasining qarori", correct: false },
-      { matn: "Barcha javoblar to’g’ri", correct: true },
+      { matn: "устная речь", correct: false },
+      { matn: "письменная речь", correct: true },
+      { matn: "внутренняя речь", correct: false },
     ],
   },
   {
     id: 304,
-    savol: "Davlat ta’lim standartining tarkibiy qismlari qaysilar?",
+    savol: "Импровизированная, моментальная, ситуативная речь –",
     javob: [
-      { matn: "Umumiy o‘rta ta’limning tayanch o‘quv rejasi", correct: false },
-      { matn: "Umumiy o‘rta ta’limning o‘quv dasturi", correct: false },
-      { matn: "Umumiy o‘rta ta’limning malaka talablari; baholash tizimi", correct: false },
-      { matn: "Barcha javoblar to’g’ri", correct: true },
+      { matn: "устная речь", correct: true },
+      { matn: "письменная речь", correct: false },
+      { matn: "внутренняя речь", correct: false },
     ],
   },
   {
     id: 305,
-    savol: "Umumiy o‘rta ta’lim sifatini nazorat qilish turlari qaysi?",
+    savol: "Слуховое восприятие акустического потока, отправленного говорящим –",
     javob: [
-      { matn: "Ichki va tashqi nazorat", correct: false },
-      { matn: "Ichki nazorat, tashqi nazorat, jamoatchilik nazorati, milliy va xalqaro darajada baholash", correct: true },
-      { matn: "Davlat-jamoatchilik nazorati", correct: false },
-      { matn: "Milliy va xalqaro darajada baholash", correct: false },
+      { matn: "говорение", correct: false },
+      { matn: "аудирование", correct: true },
+      { matn: "чтение", correct: false },
     ],
   },
   {
     id: 306,
-    savol: "Umumiy o‘rta ta’lim muassasalarida ona tili fanini o‘qitish darajalari nechta?",
+    savol: "Выражение мысли в акустическом коде, с помощью звучащих комплексов –",
     javob: [
-      { matn: "2", correct: false },
-      { matn: "4", correct: false },
-      { matn: "6", correct: true },
-      { matn: "8", correct: false },
+      { matn: "говорение", correct: true },
+      { matn: "аудирование", correct: false },
+      { matn: "чтение", correct: false },
     ],
   },
   {
     id: 307,
-    savol: "Nutqiy kompetensiya bu…",
+    savol: "Выражение мысли в графическом коде –",
     javob: [
-      { matn: "Tinglab tushunish, so‘zlash, o‘qish, yozish", correct: true },
-      { matn: "Qayta hikoya qilish, yozma qayta hikoya qilish", correct: false },
-      { matn: "Tinglab tushunish, o’qib tushunish", correct: false },
-      { matn: "So‘zlash, o‘qish, yozish", correct: false },
+      { matn: "говорение", correct: false },
+      { matn: "письмо", correct: true },
+      { matn: "чтение", correct: false },
     ],
   },
   {
     id: 308,
-    savol: "Umumiy o‘rta ta’lim muassasalarida Ona tili fanini o‘qitishning asosiy vazifasi:",
+    savol: "Единица речи, самостоятельная и относительно законченная –",
     javob: [
-      { matn: "Nutqiy kompetensiyani rivojlantirish", correct: false },
-      { matn: "Lingvistik bilimlarni rivojlantirish", correct: false },
-      { matn: "To‘g‘ri va ravon bayon eta olishni rivojlantirish", correct: false },
-      { matn: "Barcha javoblar to’g’ri", correct: true },
+      { matn: "предложение", correct: true },
+      { matn: "высказывание", correct: false },
+      { matn: "текст", correct: false },
     ],
   },
   {
     id: 309,
-    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilariga (A1 daraja) qo‘yilgan malaka talablari?",
+    savol: "Тип речи (текста), в котором нет событий, сюжета, изображаются картины природы, предметы –",
     javob: [
-      { matn: "Sodda matnlarni tinglab tushuna oladi, matnni tushunib o‘qiy oladi", correct: true },
-      { matn: "Murakkab matnlarni tinglab tushuna oladi", correct: false },
-      { matn: "Sodda gaplarni tinglab tushuna oladi", correct: false },
-      { matn: "So‘zlar talaffuziga rioya qila oladi", correct: false },
+      { matn: "рассуждение", correct: false },
+      { matn: "повествование", correct: false },
+      { matn: "описание", correct: true },
     ],
   },
   {
     id: 310,
-    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilari nechta so‘zdan iborat diktant yoza oladi?",
+    savol: "Тип речи (текста), в котором излагается последовательность событий –",
     javob: [
-      { matn: "25 - 30 so‘z", correct: false },
-      { matn: "65 - 70 so‘z", correct: true },
-      { matn: "45 - 50 so‘z", correct: false },
-      { matn: "75 - 80 so‘z", correct: false },
+      { matn: "рассуждение", correct: false },
+      { matn: "повествование", correct: true },
+      { matn: "описание", correct: false },
     ],
   },
   {
     id: 311,
-    savol: "A1 daraja talablariga ko’ra o’quvchilar imlo va tinish belgilarini ishlatish qoidalariga amal qila oladimi?",
+    savol: "Тип речи (текста), в котором используются доводы и аргументы для доказательства –",
     javob: [
-      { matn: "Qisman amal qiladi", correct: false },
-      { matn: "Faqat imlo qoidalariga amal qiladi", correct: false },
-      { matn: "Imlo va tinish belgilarini ishlatish qoidalariga amal qila oladi", correct: true },
-      { matn: "Amal qila olmaydi", correct: false },
+      { matn: "рассуждение", correct: true },
+      { matn: "повествование", correct: false },
+      { matn: "описание", correct: false },
     ],
   },
   {
     id: 312,
-    savol: "Lingvistik kompetensiya bu…",
+    savol: "Речь должна быть понятна, последовательна, непротиворечива, доказательна и информативна. Это критерий культуры речи –",
     javob: [
-      { matn: "Fonetika, grafika, orfoepiya, orfografiya, leksika, grammatika va uslubiyat", correct: true },
-      { matn: "Leksika, grammatika va uslubiyat", correct: false },
-      { matn: "Fonetika, grafika, orfoepiya, orfografiya", correct: false },
-      { matn: "To’g’ri javob berilmagan", correct: false },
+      { matn: "содержательность", correct: false },
+      { matn: "логичность", correct: true },
+      { matn: "языковая правильность", correct: false },
     ],
   },
   {
     id: 313,
-    savol: "4-sinf bitiruvchilari…",
+    savol: "В речи должна быть раскрыта существенная, важная для обеих сторон общения тема. Данное утверждение соответствует следующему критерию культуры речи –",
     javob: [
-      { matn: "ona tilidagi nutq tovushlarini farqlay oladi, bo‘g‘in ko‘chirish qoidalariga amal qila oladi", correct: false },
-      { matn: "mavzuga oid yangi so‘zlarni og‘zaki va yozma nutqda qo‘llay oladi", correct: false },
-      { matn: "yozma nutqda tinish belgilarini to‘g‘ri qo‘llay oladi", correct: false },
-      { matn: "barchasi to’g’ri", correct: true },
+      { matn: "содержательность", correct: true },
+      { matn: "логичность", correct: false },
+      { matn: "языковая правильность", correct: false },
     ],
   },
   {
     id: 314,
-    savol: "Noto’g’ri javobni aniqlang. A1 daraja talablariga ko’ra boshlang’ich sinf bitiruvchilari…",
+    savol: "Речь строится с учетом возможностей адресата, выбираются те формы языка, которые обеспечат наилучший контакт участников диалога. Данное утверждение соответствует критерию –",
     javob: [
-      { matn: "ona tilidagi nutq tovushlarini farqlay oladi", correct: false },
-      { matn: "bo‘g‘in ko‘chirish qoidalariga amal qila olmaydi", correct: true },
-      { matn: "mavzuga oid yangi so‘zlarni og‘zaki va yozma nutqda qo‘llay oladi", correct: false },
-      { matn: "yozma nutqda tinish belgilarini to‘g‘ri qo‘llay oladi", correct: false },
+      { matn: "выразительность", correct: false },
+      { matn: "коммуникативная целесообразность", correct: true },
+      { matn: "точность, ясность", correct: false },
     ],
   },
   {
     id: 315,
-    savol: "To’g’ri javobni aniqlang. A1 daraja talablariga ko’ra boshlang’ich sinf bitiruvchilari…",
+    savol: "Наличие в речи образов, тропов, афоризмов, фразеологизмов соответствует критерию культуры речи –",
     javob: [
-      { matn: "ona tilidagi nutq tovushlarini farqlay oladi", correct: true },
-      { matn: "bo‘g‘in ko‘chirish qoidalariga amal qila olmaydi", correct: false },
-      { matn: "mavzuga oid yangi so‘zlarni faqat og‘zaki nutqda qo‘llay oladi", correct: false },
-      { matn: "yozma nutqda tinish belgilarini qo‘llay olmaydi", correct: false },
+      { matn: "выразительность", correct: true },
+      { matn: "коммуникативная целесообразность", correct: false },
+      { matn: "точность, ясность", correct: false },
     ],
   },
   {
     id: 316,
-    savol: "Savod o’rgatish mashqlarining turlari qaysi javobda berilgan?",
+    savol: "Обучение «по образцам» лежит в основе",
     javob: [
-      { matn: "To’g’ri va burro talaffuz mashqlari", correct: false },
-      { matn: "Analiz mashqlari, sintez mashqlari, artikulyatsiya va burro talaffuz mashqlari", correct: true },
-      { matn: "Matnni gaplarga ajratish mashqlari, bo’g’inlarni tovushlarga ajratish mashqlari", correct: false },
-      { matn: "Tovush-harf tahlili mashqlari", correct: false },
+      { matn: "коммуникативных методов", correct: false },
+      { matn: "имитативных методов", correct: true },
+      { matn: "методов конструирования", correct: false },
     ],
   },
   {
     id: 317,
-    savol: "O’qish turlari berilgan qatorni aniqlang?",
+    savol: "Утверждение, что основная функция языка – средство общения и самовыражения, лежит в основе",
     javob: [
-      { matn: "Ovozli o’qish,baqirib o’qish", correct: false },
-      { matn: "Ovozli o’qish,ichida o’qish,shivirlab o’qish", correct: true },
-      { matn: "baqirib o’qish , shivirlab o’qish,pichirlab o’qish", correct: false },
-      { matn: "Barchasi to’g’ri", correct: false },
+      { matn: "коммуникативных методов", correct: true },
+      { matn: "имитативных методов", correct: false },
+      { matn: "методов конструирования", correct: false },
     ],
   },
   {
     id: 318,
-    savol: "O’qish va yozuv malakasi...",
+    savol: "Синтетическая работа от словосочетаний до текста лежит в основе",
     javob: [
-      { matn: "tilga oid malaka", correct: false },
-      { matn: "nutqqa oid malaka", correct: true },
-      { matn: "til va nutqqa oid malaka", correct: false },
-      { matn: "ichki va tashqi nutqqa oid malaka", correct: false },
+      { matn: "коммуникативных методов", correct: false },
+      { matn: "имитативных методов", correct: false },
+      { matn: "методов конструирования", correct: true },
     ],
   },
   {
     id: 319,
-    savol: "Alifbo davri qanchagacha davom etadi?",
+    savol: "Организация усвоения орфоэпических норм осуществляется на уровне",
     javob: [
-      { matn: "31-dekabrgacha", correct: true },
-      { matn: "31-yanvargacha", correct: false },
-      { matn: "Noyabrgacha", correct: false },
-      { matn: "Martgacha", correct: false },
+      { matn: "словарном", correct: false },
+      { matn: "произносительном", correct: true },
+      { matn: "грамматическом", correct: false },
     ],
   },
   {
     id: 320,
-    savol: "1-sinfda husnixat predmeti qachondan boshlanadi?",
+    savol: "Работа по лексико-семантическим темам осуществляется на уровне",
     javob: [
-      { matn: "3-yarim yillik", correct: false },
-      { matn: "1-chorak", correct: false },
-      { matn: "Yil boshida", correct: false },
-      { matn: "2- yarim yillik", correct: true },
+      { matn: "словарном", correct: false },
+      { matn: "произносительном", correct: false },
+      { matn: "грамматическом", correct: true },
     ],
   },
   {
     id: 321,
-    savol: "Yozuv jarayonida ruchkaning uchidan ko’zgacha bo’lgan masofa qancha bo’lishi kerak?",
+    savol: "Механизм построения синтаксических конструкций отрабатывается на уровне",
     javob: [
-      { matn: "20-25", correct: false },
-      { matn: "25-30", correct: true },
-      { matn: "30-35", correct: false },
-      { matn: "35-40", correct: false },
+      { matn: "словарном", correct: false },
+      { matn: "произносительном", correct: false },
+      { matn: "грамматическом", correct: true },
     ],
   },
   {
     id: 322,
-    savol: "«O‘zbek tili»ning maktabda o‘quv predmeti sifatida shakllanish va rivojlanish jarayoni nechta davrga bo’linadi?",
+    savol: "Пересказ, предполагающий передачу не только содержания текста, но и языковых особенностей –",
     javob: [
-      { matn: "2", correct: false },
-      { matn: "3", correct: false },
-      { matn: "4", correct: false },
-      { matn: "5", correct: true },
+      { matn: "творческий", correct: false },
+      { matn: "близкий к тексту", correct: true },
+      { matn: "выборочный", correct: false },
     ],
   },
-  {
+   {
     id: 323,
-    savol: "“Lotin yozuviga asoslangan o'zbek alifbosini joriy etish to'g'risida”gi qonun qachon qabul qilindi?",
+    savol: "Пересказ с изменением времени описываемого события, лица или числа рассказчиков, с дополнениями по заданию учителя –",
     javob: [
-      { matn: "1993-yil 2-sentyabr", correct: true },
-      { matn: "1996-yil 2-sentyabr", correct: false },
-      { matn: "1991-yil 31-avgust", correct: false },
-      { matn: "1989-yil 21-oktyabr", correct: false },
+      { matn: "творческий", correct: true },
+      { matn: "близкий к тексту", correct: false },
+      { matn: "выборочный", correct: false },
     ],
   },
   {
     id: 324,
-    savol: "Savod o’rgatishning asosiy metodi ko’rsatilgan javobni belgilang.",
+    savol: "Определите вид речевой ошибки в предложении «Всем подарили памятные сувениры»",
     javob: [
-      { matn: "Suhbat metodi", correct: false },
-      { matn: "Muammoli yarim izlanish metodi", correct: false },
-      { matn: "Analitik-sintetik tovush metodi", correct: true },
-      { matn: "Suhbat va tushuntirish metodi", correct: false },
+      { matn: "употребление лишнего слова", correct: true },
+      { matn: "тавтология", correct: false },
+      { matn: "нарушение лексической сочетаемости", correct: false },
     ],
   },
   {
     id: 325,
-    savol: "Analitik-sintetik tovush metodida psixologo-lingvistik nuqtai nazardan nimalarga ahamiyat beriladi?",
+    savol: "Определите вид речевой ошибки в предложении «Синичка полетела за новыми новостями»",
     javob: [
-      { matn: "O’qish va yozishni bila olishi, ifodali o’qishi", correct: false },
-      { matn: "Fonematik eshitish, tovushlarni to’g’ri talaffuz qilish, analiz va sintez mashqlari", correct: true },
-      { matn: "Nutq malakasi va osonlik tamoyili", correct: false },
-      { matn: "Xotira va harflarni taniy olish", correct: false },
+      { matn: "употребление лишнего слова", correct: false },
+      { matn: "тавтология", correct: true },
+      { matn: "нарушение лексической сочетаемости", correct: false },
     ],
   },
   {
     id: 326,
-    savol: "Savod o’rgatishning analitik-sintetik tovush metodi tashkiliy tomondan qanday davrlarga bo’linadi?",
+    savol: "Употребление слова в несвойственном ему значении относится к ошибкам",
     javob: [
-      { matn: "Yakka tartibda olib boriladi", correct: false },
-      { matn: "3 davrga bo’linadi", correct: false },
-      { matn: "2 davrga bo’linadi: alifbegacha tayyorgarlik va alifbe davri, yozuv va o’qish parallel", correct: true },
-      { matn: "3 bosqichga bo’linadi (harf-tovush, unli, alifbo)", correct: false },
+      { matn: "синтаксическим", correct: false },
+      { matn: "морфологическим", correct: false },
+      { matn: "лексическим", correct: true },
     ],
   },
   {
     id: 327,
-    savol: "Boshlang’ich sinflarda savod o’rgatish mashqlarining turlari qaysilar?",
+    savol: "Неудачный порядок слов в предложении относится к ошибкам",
     javob: [
-      { matn: "To’g’ri va burro talaffuz mashqlari", correct: false },
-      { matn: "Analiz mashqlari, sintez mashqlari, artikulyatsiya va burro talaffuz mashqlari", correct: true },
-      { matn: "Matnni gaplarga ajratish mashqlari, bo’g’inlarni tovushlarga ajratish mashqlari", correct: false },
-      { matn: "Tovush-harf tahlili mashqlari", correct: false },
+      { matn: "синтаксическим", correct: true },
+      { matn: "морфологическим", correct: false },
+      { matn: "лексическим", correct: false },
     ],
   },
   {
     id: 328,
-    savol: "Savod o’rgatish jarayonida o’quvchilar amaliy o’zlashtiradigan bilimlar tizimi berilgan javobni belgilang.",
+    savol: "Ошибки в глагольном управлении, согласовании относятся к",
     javob: [
-      { matn: "To’g’ri yozuvga o’rgatuvchi imloviy bilimlarni amaliy o’zlashtiradilar", correct: true },
-      { matn: "So’zlarni ajratib va qo’shib yozishni, chiziqcha bilan yozishni o’zlashtiradilar", correct: false },
-      { matn: "Grammatika va imlodan ayrim materiallarni amaliy o’zlashtiradilar", correct: false },
-      { matn: "So’zlarni, gaplarni, matnni orfoepik to’g’ri o’qiy olishi", correct: false },
+      { matn: "синтаксическим", correct: true },
+      { matn: "морфологическим", correct: false },
+      { matn: "лексическим", correct: false },
     ],
   },
   {
     id: 329,
-    savol: "Izohli o’qish metodiga kim asos solgan?",
+    savol: "Пропуск морфем (суффиксов и постфиксов) относится к ошибкам",
     javob: [
-      { matn: "Suhomliminskiy", correct: false },
-      { matn: "Yegorv", correct: false },
-      { matn: "Ushinskiy", correct: true },
-      { matn: "Zuyev", correct: false },
+      { matn: "синтаксическим", correct: false },
+      { matn: "морфологическим", correct: true },
+      { matn: "лексическим", correct: false },
     ],
   },
   {
     id: 330,
-    savol: "Hozirgi maktablarda o’qish qaysi metodda olib borilyapti?",
+    savol: "Неоправданные повторы слов относятся к ошибкам",
     javob: [
-      { matn: "izohli", correct: true },
-      { matn: "ijodiy", correct: false },
-      { matn: "amaliy", correct: false },
-      { matn: "reproduktiv", correct: false },
+      { matn: "синтаксическим", correct: false },
+      { matn: "морфологическим", correct: false },
+      { matn: "лексическим", correct: true },
     ],
   },
   {
     id: 331,
-    savol: "Izohli o’qish o’quvchilarga real bilim berish vositasi deb kimlar aytgan?",
+    savol: "К числу речевых ошибок не относятся",
     javob: [
-      { matn: "Korf va Vaxterev", correct: true },
-      { matn: "Vodovozov va Ushinskiy", correct: false },
-      { matn: "Yegorv", correct: false },
-      { matn: "Zunnunov", correct: false },
+      { matn: "лексические", correct: false },
+      { matn: "морфологические", correct: false },
+      { matn: "логические", correct: true },
     ],
   },
   {
     id: 332,
-    savol: "Boshlang’ich sinflarda Alifbo davri qanchagacha davom etadi?",
+    savol: "Определите вид речевой ошибки в предложении «Ветер все больше принимал силу»",
     javob: [
-      { matn: "31-dekabrgacha", correct: true },
-      { matn: "31-yanvargacha", correct: false },
-      { matn: "noyabrgacha", correct: false },
-      { matn: "martgacha", correct: false },
+      { matn: "неудачный порядок слов", correct: false },
+      { matn: "употребление лишнего слова", correct: false },
+      { matn: "нарушение лексической сочетаемости", correct: true },
     ],
   },
   {
     id: 333,
-    savol: "Til qanday hodisa?",
+    savol: "Сочинение-описание включает в себя следующую типологию (укажите лишнее)",
     javob: [
-      { matn: "Murakkab hodisa", correct: false },
-      { matn: "Til qotib qolgan", correct: false },
-      { matn: "Ijtimoiy, doim o`zgarib, rivojlanib turuvchi", correct: true },
-      { matn: "Til bo`linuvchi", correct: false },
+      { matn: "сочинение по картине", correct: false },
+      { matn: "сочинение по прочитанному произведению", correct: true },
+      { matn: "сочинение по портрету", correct: false },
     ],
   },
   {
     id: 334,
-    savol: "Intonatsiya – bu… ?",
+    savol: "Сочинение на литературные темы включает в себя следующую типологию (укажите лишнее)",
     javob: [
-      { matn: "ohang", correct: false },
-      { matn: "pauza", correct: false },
-      { matn: "to`xtam", correct: true },
-      { matn: "talaffuz", correct: false },
+      { matn: "сюжетный рассказ по картине", correct: true },
+      { matn: "отзыв о прочитанной книге", correct: false },
+      { matn: "рассказ о героях произведений литературы", correct: false },
     ],
   },
   {
     id: 335,
-    savol: "2-sinf o`quvchilari DTS talabi bo`yicha 1 DAQIQADAda nechta so`z o`qishi kerak?",
+    savol: "Сочинения на основе опыта и наблюдений учащихся могут быть (укажите лишнее)",
     javob: [
-      { matn: "40-50 so`z", correct: false },
-      { matn: "55-60 so`z", correct: true },
-      { matn: "35-45 so`z", correct: false },
-      { matn: "45-50 so`z", correct: false },
+      { matn: "описаниями, повествованиями, рассуждениями", correct: false },
+      { matn: "художественными и «деловыми»", correct: false },
+      { matn: "выдуманными, фантастическими", correct: true },
     ],
   },
   {
     id: 336,
-    savol: "Analitik-sintetik (tahlil-tarkib) tovush metodida savod o'rgatish jarayoni davom etadi.",
+    savol: "Виды работ по развитию письменной речи учащихся:",
     javob: [
-      { matn: "3 oy", correct: false },
-      { matn: "4 oy", correct: true },
-      { matn: "5 oy", correct: false },
-      { matn: "6 oy", correct: false },
+      { matn: "монологи", correct: false },
+      { matn: "диалоги", correct: false },
+      { matn: "проблемные ситуации", correct: false },
+      { matn: "изложения", correct: true },
+      { matn: "обсуждения", correct: false },
     ],
   },
   {
     id: 337,
-    savol: "Savod o’rgatish jarayonining davrlarini aniqlang",
+    savol: "Виды работ по развитию устной речи:",
     javob: [
-      { matn: "Alifbogacha tayyorgarlik davri, Alifbo davri", correct: true },
-      { matn: "Maktabgacha tayyorlov davri, Alifbogacha tayyorgarlik davri, Alifbo davri", correct: false },
-      { matn: "Maktabgacha tayyorlov davri, Alifbogacha tayyorgarlik davri", correct: false },
-      { matn: "barcha javob to’g’ri", correct: false },
+      { matn: "диктант", correct: false },
+      { matn: "сочинение", correct: false },
+      { matn: "пересказ", correct: true },
+      { matn: "творческое списывание", correct: false },
+      { matn: "письмо наизусть", correct: false },
     ],
   },
   {
     id: 338,
-    savol: "Alifbogacha tayyorgarlik davrining maqsad va vazifalarini aniqlang.",
+    savol: "Что является единицей обучения диалогической речи:",
     javob: [
-      { matn: "o'quvchilarni maktab, sinf, tartib-intizom qoidalari bilan tanishtirish", correct: false },
-      { matn: "o'quv qurollari bilan tanishtirish", correct: false },
-      { matn: "nutq o'stirishga oid mashqlar o'tkazish, fonematik eshitishni o'stirish", correct: false },
-      { matn: "barcha javob to’g’ri", correct: true },
+      { matn: "словарная работа", correct: false },
+      { matn: "заучивание наизусть", correct: false },
+      { matn: "диалогическое единство", correct: true },
+      { matn: "прямая речь", correct: false },
+      { matn: "классный руководитель", correct: false },
     ],
   },
   {
     id: 339,
-    savol: "Alifbogacha tayyorgarlik davri necha bosqichdan iborat?",
+    savol: "С каким разделом связано обучение орфографии:",
     javob: [
-      { matn: "1", correct: false },
-      { matn: "2", correct: true },
-      { matn: "3", correct: false },
-      { matn: "4", correct: false },
+      { matn: "лексикой", correct: false },
+      { matn: "грамматикой", correct: true },
+      { matn: "чтением", correct: false },
+      { matn: "сочинением", correct: false },
+      { matn: "рисованием", correct: false },
     ],
   },
   {
     id: 340,
-    savol: "Alifbogacha tayyorgarlik davri qancha muddat davom etadi?",
+    savol: "Что изучается в разделе «Пунктуация»:",
     javob: [
-      { matn: "2 hafta", correct: true },
-      { matn: "4 hafta", correct: false },
-      { matn: "6 hafta", correct: false },
-      { matn: "8 hafta", correct: false },
+      { matn: "морфемы", correct: false },
+      { matn: "звуки и буквы", correct: false },
+      { matn: "знаки препинания", correct: true },
+      { matn: "вводные слова", correct: false },
+      { matn: "исторические даты", correct: false },
     ],
   },
   {
     id: 341,
-    savol: "Alifbogacha tayyorgarlik davri bosqichlarini aniqlang.",
+    savol: "Укажите вид обучающего диктанта:",
     javob: [
-      { matn: "Harf o'rganilmaydigan bosqich (1 hafta), unli tovush va harf о 'rganiladigan bosqich (1 hafta)", correct: true },
-      { matn: "Harf o'rganiladigan bosqich (1 hafta), unli va undosh tovush о 'rganiladigan bosqich (1 hafta)", correct: false },
-      { matn: "Harf o'rganilmaydigan bosqich (2 hafta)", correct: false },
-      { matn: "Unli tovush va harf о 'rganiladigan bosqich (2 hafta)", correct: false },
+      { matn: "индивидуальный", correct: false },
+      { matn: "объяснительный", correct: true },
+      { matn: "психологический", correct: false },
+      { matn: "активный", correct: false },
+      { matn: "загадочный", correct: false },
     ],
   },
   {
     id: 342,
-    savol: "2-sinf Ona tili va o’qish savodxonligi darsligidan o’rin olgan “Chumolining jasorati” matni muallifini aniqlang.",
+    savol: "Орфография – это ……",
     javob: [
-      { matn: "Anvar Obidjon", correct: false },
-      { matn: "Sa’dulla Quronov", correct: true },
-      { matn: "Shirin G’ofurova", correct: false },
-      { matn: "Muhabbat Hamidova", correct: false },
+      { matn: "словарная работа", correct: false },
+      { matn: "заучивание наизусть", correct: false },
+      { matn: "диалогическое единство", correct: false },
+      { matn: "прямая речь", correct: false },
+      { matn: "система правил о единообразном написании слов", correct: true },
     ],
   },
   {
     id: 343,
-    savol: "O’qish va yozuv darslariga qo’yiladigan maxsus metodik talablar:",
+    savol: "Для чего нужен план к изложению:",
     javob: [
-      { matn: "Nutqning ifodali, obrazli, aniq, mantiqiy to’g’ri bo’lishi, yozuvning mazmunli va savodli bo’lishi", correct: true },
-      { matn: "Dars tarbiyalovchi xarakterda bo’lishi", correct: false },
-      { matn: "Hammasi to’g’ri", correct: false },
-      { matn: "O’rganiladigan mavzularning ilmiyligiga rioya qilish", correct: false },
+      { matn: "для вежливости", correct: false },
+      { matn: "сохранения здоровья", correct: false },
+      { matn: "соблюдения последовательности мыслей", correct: true },
+      { matn: "хорошего слуха", correct: false },
+      { matn: "усвоения правил поведения", correct: false },
     ],
   },
   {
     id: 344,
-    savol: "Yozuvga o’rgatish jarayonida ruchkaning uchi bilan barmoq oralig’i necha sm bo’ladi?",
+    savol: "Формы использования родного языка учащихся:",
     javob: [
-      { matn: "2sm", correct: false },
-      { matn: "1.5sm", correct: true },
-      { matn: "1,5-2sm", correct: false },
-      { matn: "3sm", correct: false },
+      { matn: "физкультминутка", correct: false },
+      { matn: "обозрение", correct: false },
+      { matn: "словарная работа", correct: true },
+      { matn: "грамматический разбор", correct: false },
+      { matn: "моральный кодекс", correct: false },
     ],
   },
   {
     id: 345,
-    savol: "Yozish vaqtida daftar parta ustiga necha gradus qiyalikda qo’yiladi?",
+    savol: "Способ подачи нового материала на уроке русского языка обусловлен:",
     javob: [
-      { matn: "25", correct: true },
-      { matn: "35", correct: false },
-      { matn: "45", correct: false },
-      { matn: "60", correct: false },
+      { matn: "творческим списыванием", correct: false },
+      { matn: "развитием речи", correct: false },
+      { matn: "настроением учащихся", correct: false },
+      { matn: "этичностью учащихся", correct: false },
+      { matn: "возрастными особенностями учащихся", correct: true },
     ],
   },
   {
     id: 346,
-    savol: "Xato o’qishning kelib chiqish sabablari qaysi javobda berilgan?",
+    savol: "Какие психолого-педагогические условия необходимо соблюдать при организации диалога:",
     javob: [
-      { matn: "Ichda o’qish tufayli", correct: false },
-      { matn: "Ovoz chiqarib o’qish tufayli", correct: false },
-      { matn: "Tez o’qiyman deb va so’z ma’nosini tushunmaslik sababli xato o’qiydilar", correct: true },
-      { matn: "Yomon o’qiydigan o’quvchilar xato o’qiydilar", correct: false },
+      { matn: "не стереотипность характера", correct: false },
+      { matn: "свободный обмен мнениями", correct: true },
+      { matn: "влияние голоса", correct: false },
+      { matn: "хорошее настроение", correct: false },
+      { matn: "строгое наказание", correct: false },
     ],
   },
   {
     id: 347,
-    savol: "Ongli o’qishni ta’minlovchi metodik shartlarni aniqlang.",
+    savol: "Назовите иллюстративный материал учебника русского языка:",
     javob: [
-      { matn: "O’quvchining hayotiy tajribasi va so’z ma’nosini tushunishi", correct: true },
-      { matn: "Asarning badiiy vositalariga bog’lik", correct: false },
-      { matn: "Ifodali o’qishga bog’lik", correct: false },
-      { matn: "Asarning mazmuniga va g’oyaviy yo’nalishiga bog’liq", correct: false },
+      { matn: "экзаменационный билет", correct: false },
+      { matn: "красивый почерк", correct: false },
+      { matn: "пересказ текстов", correct: false },
+      { matn: "рисунки, схемы, таблицы, графические обозначения", correct: true },
+      { matn: "письмо наизусть", correct: false },
     ],
   },
   {
     id: 348,
-    savol: "O’quvchilar qachon bir chiziqli dafarga yozishga o’tadilar?",
+    savol: "В каких классах отведено время обучению речевому этикету:",
     javob: [
-      { matn: "1 sinfda o’quv yilining 2-yarmida", correct: false },
-      { matn: "2-sinf 2-yarim yilligida", correct: true },
-      { matn: "1 sinfda o’quv yilining 1-yarmida", correct: false },
-      { matn: "2-sinfda", correct: false },
+      { matn: "в 5", correct: false },
+      { matn: "ни в одном", correct: false },
+      { matn: "в 9", correct: false },
+      { matn: "во всех", correct: true },
+      { matn: "в 11", correct: false },
     ],
   },
   {
     id: 349,
-    savol: "Sinfdan tashqari o’qish darslari 1-2-sinflarda 1-haftada necha marta o’tqaziladi?",
+    savol: "Сколько оценок выставляется за изложения и сочинения:",
     javob: [
-      { matn: "1 marta", correct: true },
-      { matn: "2 marta", correct: false },
-      { matn: "4 marta", correct: false },
-      { matn: "3 marta", correct: false },
+      { matn: "две", correct: true },
+      { matn: "одна", correct: false },
+      { matn: "три", correct: false },
+      { matn: "ни одной", correct: false },
+      { matn: "полторы", correct: false },
     ],
   },
   {
     id: 350,
-    savol: "Savod o’rgatish mashqlarining turlari qaysi javobda berilgan?",
+    savol: "Что необходимо учитывать при обучении русскому языку:",
     javob: [
-      { matn: "To’g’ri va burro talaffuz mashqlari", correct: false },
-      { matn: "Analiz mashqlari, sintez mashqlari, artikulyatsiya va burro talaffuz mashqlari", correct: true },
-      { matn: "Matnni gaplarga ajratish mashqlari", correct: false },
-      { matn: "Tovush-harf tahlili mashqlari", correct: false },
+      { matn: "настроение", correct: false },
+      { matn: "окружающую среду", correct: false },
+      { matn: "особенности родного языка", correct: true },
+      { matn: "интерьер", correct: false },
+      { matn: "внешность учителя", correct: false },
     ],
   },
   {
     id: 351,
-    savol: "Ertak to’g’risida ilk ma’lumot boshlang’ich sinfning qaysi davrida berilgan?",
+    savol: "Формы организации внеклассной работы:",
     javob: [
-      { matn: "1-sinf", correct: true },
-      { matn: "2-sinf", correct: false },
-      { matn: "3-sinf", correct: false },
-      { matn: "4-sinf", correct: false },
+      { matn: "диктант", correct: false },
+      { matn: "речевая разминка", correct: false },
+      { matn: "кружок", correct: true },
+      { matn: "техника чтения", correct: false },
+      { matn: "работа с учебником", correct: false },
     ],
   },
   {
     id: 352,
-    savol: "“JONLI SAVATCHA” she’riy ertagining muallifi kim?",
+    savol: "Укажите вид творческих работ:",
     javob: [
-      { matn: "Anvar Obidjon", correct: false },
-      { matn: "Sa’dulla Quronov", correct: false },
-      { matn: "Abdurahmon Akbar", correct: true },
-      { matn: "Muhabbat Hamidova", correct: false },
+      { matn: "словарный диктант", correct: false },
+      { matn: "диалог", correct: false },
+      { matn: "рассказ по данному сюжету", correct: true },
+      { matn: "работа у доски", correct: false },
+      { matn: "уборка класса", correct: false },
     ],
   },
   {
     id: 353,
-    savol: "“Xatosini tushungan bola” hikoyasining muallifini belgilang.",
+    savol: "Укажите вид изложений:",
     javob: [
-      { matn: "X.To’xtaboyev", correct: true },
-      { matn: "Q.Muhammadiy", correct: false },
-      { matn: "Qudrat Hikmat", correct: false },
-      { matn: "F.Musajonov", correct: false },
+      { matn: "индивидуальное", correct: false },
+      { matn: "сжатое", correct: true },
+      { matn: "грамотное", correct: false },
+      { matn: "историческое", correct: false },
+      { matn: "неопределённое", correct: false },
     ],
   },
   {
     id: 354,
-    savol: "250 ta so’zli matnni o’qiganda o’quvchi nechta so’zni eslab qoladi?",
+    savol: "Способ подачи нового материала на уроке русского языка обусловлен:",
     javob: [
-      { matn: "200ta", correct: true },
-      { matn: "180ta", correct: false },
-      { matn: "150ta", correct: false },
-      { matn: "130ta", correct: false },
+      { matn: "творческим списыванием", correct: false },
+      { matn: "развитием речи", correct: false },
+      { matn: "настроением учащихся", correct: false },
+      { matn: "этичностью учащихся", correct: false },
+      { matn: "возрастными особенностями учащихся", correct: true },
     ],
   },
   {
     id: 355,
-    savol: "Kichik yoshdagi o’quvchilarning adabiy qahramonlarni idrok etish munosabati necha xil bo’ladi?",
+    savol: "Важнейшая цель обучения русскому языку в национальной школе:",
     javob: [
-      { matn: "4 xil", correct: false },
-      { matn: "3 xil", correct: false },
-      { matn: "2 xil", correct: true },
-      { matn: "5 xil", correct: false },
+      { matn: "функциональная", correct: false },
+      { matn: "коммуникативная компетенция", correct: true },
+      { matn: "стилистическая", correct: false },
+      { matn: "обзорная", correct: false },
+      { matn: "спортивная", correct: false },
     ],
   },
   {
     id: 356,
-    savol: "O’quvchi 3-sinfning 1-yarim yilligida nechta so’zni o’qiy olishi kerak?",
+    savol: "Основная форма учебно-воспитательной работы в школе:",
     javob: [
-      { matn: "60-70 so’z", correct: true },
-      { matn: "70-80 so’z", correct: false },
-      { matn: "80-90 so’z", correct: false },
-      { matn: "85-95 so’z", correct: false },
+      { matn: "факультативные занятия", correct: false },
+      { matn: "урок", correct: true },
+      { matn: "внеклассная работа", correct: false },
+      { matn: "индивидуальная работа", correct: false },
+      { matn: "коллективная", correct: false },
     ],
   },
   {
     id: 357,
-    savol: "Tahlil maqsadiga ko’ra qanday turlarga bo’linadi?",
+    savol: "Общедидактическое требование к современному уроку русского языка:",
     javob: [
-      { matn: "fiziologik va didaktik", correct: true },
-      { matn: "og’zaki va yozma", correct: false },
-      { matn: "to’g’ri va tez", correct: false },
-      { matn: "t.j. y.", correct: false },
+      { matn: "вооружение учащихся знаниями", correct: true },
+      { matn: "проверка домашнего задания", correct: false },
+      { matn: "обучающие диктанты", correct: false },
+      { matn: "занятия спортом", correct: false },
+      { matn: "любовь к животным", correct: false },
     ],
   },
-
   {
     id: 358,
-    savol: "Yaxshi o’qish malakalarining sifatlariga qaysilar kiradi?",
+    savol: "С чем необходимо связывать работу с текстом:",
     javob: [
-      { matn: "to’g’ri, tez, ifodali", correct: false },
-      { matn: "to’g’ri, tez, ongli, ifodali", correct: true },
-      { matn: "tez, ifodali", correct: false },
-      { matn: "bo’g’inlab, to’g’ri, ifodali", correct: false },
+      { matn: "с фонетикой", correct: false },
+      { matn: "с языковым материалом", correct: true },
+      { matn: "с глаголами", correct: false },
+      { matn: "с планированием", correct: false },
+      { matn: "с настроением директора", correct: false },
     ],
   },
   {
     id: 359,
-    savol: "O’qish malakasining shakllanishi qanday bosqichlarda olib boriladi?",
+    savol: "Для ученика учебник русского языка является:",
     javob: [
-      { matn: "nazariy, amaliy", correct: false },
-      { matn: "analitik, sintetik", correct: false },
-      { matn: "nazariy, sintetik, avtomatlashgan", correct: false },
-      { matn: "analitik, sintetik, avtomatlashgan", correct: true },
+      { matn: "помощником в умении дискутировать", correct: false },
+      { matn: "средством общения", correct: false },
+      { matn: "источником информации", correct: true },
+      { matn: "интересным сюжетом", correct: false },
+      { matn: "выражением индивидуальности", correct: false },
     ],
   },
   {
     id: 360,
-    savol: "Izohli o’qishga kim qachon asos slogan?",
+    savol: "Учебник русского языка предназначен для:",
     javob: [
-      { matn: "xx asrning 50-60-yillarida Yegorov", correct: false },
-      { matn: "xx asrning 60-70-yillarida Ushinskiy", correct: true },
-      { matn: "xx asrning 80-yillarida Suxomlenskiy", correct: false },
-      { matn: "xx asrning 50-60-yillarida Ushinskiy", correct: false },
+      { matn: "описания природы", correct: false },
+      { matn: "игры в теннис", correct: false },
+      { matn: "достижения учебных целей", correct: true },
+      { matn: "физкультминутки", correct: false },
+      { matn: "наполняемости класса", correct: false },
     ],
   },
   {
     id: 361,
-    savol: "Qanday o’qish o’qish malakasi sifatlarining asosi hisoblanadi?",
+    savol: "Выделите познавательные цели изучения раздела «Лексика»:",
     javob: [
-      { matn: "to’g’ri o’qish", correct: false },
-      { matn: "tez o’qish", correct: false },
-      { matn: "ongli o’qish", correct: true },
-      { matn: "ifodali o’qish", correct: false },
+      { matn: "формирование у школьников научного мировоззрения", correct: false },
+      { matn: "вооружение учащихся основами знаний о лексике и фразеологии русского языка", correct: true },
+      { matn: "постановка ударения в слове", correct: false },
+      { matn: "определение звукового состава слова", correct: false },
+      { matn: "развитие у учащихся языкового эстетического идеала", correct: false },
     ],
   },
   {
     id: 362,
-    savol: "2-sinfning 1-yarim yilligida matnni o’qish tezligi nechta so’zdan iborat bo’lishi kerak?",
+    savol: "Принцип прочности знаний учащихся обеспечивается:",
     javob: [
-      { matn: "35-40", correct: false },
-      { matn: "25-30", correct: false },
-      { matn: "40-50", correct: false },
-      { matn: "30-35", correct: true },
+      { matn: "ясным пониманием нового материала", correct: true },
+      { matn: "душевностью", correct: false },
+      { matn: "путевыми заметками", correct: false },
+      { matn: "уважением к окружающим", correct: false },
+      { matn: "трудовым воспитанием", correct: false },
     ],
   },
   {
     id: 363,
-    savol: "Agar bir daqiqada bola 250 so’zli matnni o’qisa, bola undagi nechta so’zni eslab qoladi?",
+    savol: "Чему способствует проблемное изложение материала:",
     javob: [
-      { matn: "200", correct: true },
-      { matn: "190", correct: false },
-      { matn: "220", correct: false },
-      { matn: "160", correct: false },
+      { matn: "выразительному чтению", correct: false },
+      { matn: "красочному оформлению", correct: false },
+      { matn: "логическому мышлению", correct: true },
+      { matn: "почерку", correct: false },
+      { matn: "хорошему настроению", correct: false },
     ],
   },
   {
     id: 364,
-    savol: "Yozuv jarayonida ruchkaning uchi bilan barmoq oralig’I necha sm bo’ladi?",
+    savol: "Определите принцип обучения русскому языку в национальной школе:",
     javob: [
-      { matn: "1.5 sm", correct: false },
-      { matn: "2 sm", correct: false },
-      { matn: "1.5-2 sm", correct: true },
-      { matn: "1 sm", correct: false },
+      { matn: "близорукость", correct: false },
+      { matn: "духовность", correct: false },
+      { matn: "коллективизм", correct: false },
+      { matn: "доступность", correct: true },
+      { matn: "чистоплотность", correct: false },
     ],
   },
   {
     id: 365,
-    savol: "“Yozuvga o’rgatish psixologiyasi” kitobining muallifi kim?",
+    savol: "Чему способствуют тексты для самостоятельного чтения:",
     javob: [
-      { matn: "D.A.Pisarevskiy", correct: true },
-      { matn: "D.K.Ushinskiy", correct: false },
-      { matn: "T.G.Yegorov", correct: false },
-      { matn: "E.V.Guryanov", correct: false },
+      { matn: "развитию критического мышления", correct: true },
+      { matn: "хорошему здоровью", correct: false },
+      { matn: "повышению температуры", correct: false },
+      { matn: "красивому почерку", correct: false },
+      { matn: "вежливости", correct: false },
     ],
   },
   {
     id: 366,
-    savol: "O’quvchi yozayotganda daftar parta ustiga qanday qiyalikda qo’yilishi kerak?",
+    savol: "Тексты учебников по русскому языку делятся на:",
     javob: [
-      { matn: "20 gradus", correct: false },
-      { matn: "25 gradus", correct: true },
-      { matn: "30 gradus", correct: false },
-      { matn: "35 gradus", correct: false },
+      { matn: "игровые", correct: false },
+      { matn: "психологические", correct: false },
+      { matn: "грамматические", correct: false },
+      { matn: "основные и дополнительные", correct: true },
+      { matn: "загадочные", correct: false },
     ],
   },
   {
     id: 367,
-    savol: "Savod o’rgatishning asosiy metodi ko’rsatilgan javobni belgilang?",
+    savol: "Тип урока, формирующий коммуникативную компетенцию учащихся:",
     javob: [
-      { matn: "suhbat metodi", correct: false },
-      { matn: "analitik-sintetik tovush metodi", correct: true },
-      { matn: "muammoli yarim izlanish metodi", correct: false },
-      { matn: "tushuntirish metodi", correct: false },
+      { matn: "урок-экскурсия", correct: false },
+      { matn: "урок-коммуникация", correct: true },
+      { matn: "урок-лекция", correct: false },
+      { matn: "урок-консультация", correct: false },
+      { matn: "урок-повторение", correct: false },
     ],
   },
   {
     id: 368,
-    savol: "O’qish va yozuv darslariga qo’yiladigan talablar:",
+    savol: "Книга «Мир в рассказах для детей» принадлежит стороннику и продолжателю идей Ушинского",
     javob: [
-      { matn: "umumdidaktik va maxsus metodik talablar", correct: true },
-      { matn: "ta’limiy va tarbiyaviy talablar", correct: false },
-      { matn: "fikrlash faoliyatini hisobga olish talablari", correct: false },
-      { matn: "ko’rgazmalilikka o’rgatish talablari", correct: false },
+      { matn: "Н.Ф. Бунаков", correct: false },
+      { matn: "Д.И. Тихомиров", correct: false },
+      { matn: "В.П. Вахтеров", correct: true },
     ],
   },
   {
     id: 369,
-    savol: "3-va4-sinf o’quvchilarining o’qish malakasi qaysi bosqichga to’g’ri keladi?",
+    savol: "Цель коммуникативно-деятельностной методики:",
     javob: [
-      { matn: "bo’g’inlab sidirg’a o’qish", correct: false },
-      { matn: "harflarni qo’shgan holda bo’g’inlab o’qish", correct: false },
-      { matn: "bo’g’inlab o’qish", correct: false },
-      { matn: "sidirg’a o’qish", correct: true },
+      { matn: "формирование письменной речи учащихся", correct: false },
+      { matn: "формирование языковой личности учащегося", correct: true },
+      { matn: "формирование здорового образа жизни", correct: false },
+      { matn: "совершенствование каллиграфии", correct: false },
+      { matn: "формирование коллективизма", correct: false },
     ],
   },
   {
     id: 370,
-    savol: "O’quvchilar sintetik bosqichga qachon o’tadilar?",
+    savol: "Что изучается в разделе «Фразеология»:",
     javob: [
-      { matn: "1 sinfda o’quv yilining 2-yarmida", correct: false },
-      { matn: "3-sinfda", correct: true },
-      { matn: "1 sinfda o’quv yilining 1-yarmida", correct: false },
-      { matn: "2-sinfda", correct: false },
+      { matn: "буквы", correct: false },
+      { matn: "местоимения", correct: false },
+      { matn: "идиомы", correct: true },
+      { matn: "пословицы", correct: false },
+      { matn: "климат", correct: false },
     ],
   },
   {
     id: 371,
-    savol: "Izohli o’qishga yaqin bo’lgan metodlardan biri?",
+    savol: "Какое психолого-педагогическое условие необходимо соблюдать при организации диалога между учителем и учеником:",
     javob: [
-      { matn: "Ongli o’qish", correct: false },
-      { matn: "Ifodali o’qish", correct: false },
-      { matn: "Tez o’qish", correct: false },
-      { matn: "Ijodiy o’qish", correct: true },
+      { matn: "не стереотипность характера", correct: false },
+      { matn: "свободный обмен мнениями", correct: true },
+      { matn: "влияние голоса", correct: false },
+      { matn: "хорошее настроение", correct: false },
+      { matn: "строгое наказание", correct: false },
     ],
   },
   {
     id: 372,
-    savol: "Nechanchi sinfdan keyin o’qish avtomatlashib boradi?",
+    savol: "Для учителя учебник русского языка является:",
     javob: [
-      { matn: "3-sinf", correct: true },
-      { matn: "4 sinf", correct: false },
-      { matn: "1-sinf", correct: false },
-      { matn: "2-sinf", correct: false },
+      { matn: "методическим журналом", correct: false },
+      { matn: "средством контроля", correct: false },
+      { matn: "рассказом по данному сюжету", correct: false },
+      { matn: "языковой цензурой", correct: false },
+      { matn: "источником методической системы", correct: true },
     ],
   },
   {
     id: 373,
-    savol: "Boshlang’ich ta’limda o’qishning qanday turlaridan foydalaniladi?",
+    savol: "Чем должно сопровождаться чтение текстов:",
     javob: [
-      { matn: "Ovozli o’qish, ichda o’qish, shivirlab o’qish", correct: true },
-      { matn: "Ongli o’qish, shivirlab o’qish", correct: false },
-      { matn: "tez o’qish, ongli o’qish", correct: false },
-      { matn: "Tez o’qish, ifodali o’qish", correct: false },
+      { matn: "прямой речью", correct: false },
+      { matn: "беседой", correct: true },
+      { matn: "красивыми песнями", correct: false },
+      { matn: "контрольным диктантом", correct: false },
+      { matn: "хлопаньем в ладоши", correct: false },
     ],
   },
   {
     id: 374,
-    savol: "1-2-sinflarda o’qishning qanday turlaridan foydalaniladi?",
+    savol: "В основных текстах описываются:",
     javob: [
-      { matn: "Ovozli va shivirlab", correct: true },
-      { matn: "Shivirlab, ovozli", correct: false },
-      { matn: "Tez o’qish", correct: false },
-      { matn: "Ijodiy o’qish", correct: false },
+      { matn: "наполняемость", correct: false },
+      { matn: "просмотр фильмов", correct: false },
+      { matn: "экскурсии в горы", correct: false },
+      { matn: "темпераменты учащихся", correct: false },
+      { matn: "явления языка и речи", correct: true },
     ],
   },
-  {
+   {
     id: 375,
-    savol: "O’quvchilar qachon o’zlari o’qigan kichik matnlarga mustaqil reja tuzadigan bo’ladilar?",
+    savol: "Новые знания, нужные для овладения умениями и навыками даются:",
     javob: [
-      { matn: "3-sinf", correct: false },
-      { matn: "4-sinf", correct: true },
-      { matn: "1-sinf", correct: false },
-      { matn: "2-sinf", correct: false },
+      { matn: "в окружающей среде", correct: false },
+      { matn: "в настроении", correct: false },
+      { matn: "в оглавлении", correct: false },
+      { matn: "в таблицах", correct: true },
+      { matn: "в заданиях и упражнениях", correct: false },
     ],
   },
   {
     id: 376,
-    savol: "“Laqma it” masali nechanchi sinf o’qish kitobiga kiritilgan?",
+    savol: "Чем отличается поэтический текст от прозаичного:",
     javob: [
-      { matn: "3-sinf", correct: false },
-      { matn: "4-sinf", correct: true },
-      { matn: "1-sinf", correct: false },
-      { matn: "2-sinf", correct: false },
+      { matn: "актуальностью", correct: false },
+      { matn: "лиризмом", correct: true },
+      { matn: "громкостью", correct: false },
+      { matn: "радостью", correct: false },
+      { matn: "коварством", correct: false },
     ],
   },
   {
     id: 377,
-    savol: "Maktablarda nechanchi yildan boshlab sinfdan tashqari o’qish darslari tashkil etilgan?",
+    savol: "Классный час это –",
     javob: [
-      { matn: "1959-yildan", correct: true },
-      { matn: "1952-yildan", correct: false },
-      { matn: "1745-yildan", correct: false },
-      { matn: "1965-yildan", correct: false },
+      { matn: "форма воспитания", correct: true },
+      { matn: "метод воспитания", correct: false },
+      { matn: "средства воспитания", correct: false },
+      { matn: "учебное занятие", correct: false },
+      { matn: "все ответы верны", correct: false },
     ],
   },
   {
     id: 378,
-    savol: "Sinfdan tashqari o’qish darslari 1-2-sinflarda 1-haftada necha marta o’tqaziladi?",
+    savol: "Обучение должно носить __________________характер.",
     javob: [
-      { matn: "1 marta", correct: true },
-      { matn: "2 marta", correct: false },
-      { matn: "4 marta", correct: false },
-      { matn: "3 marta", correct: false },
+      { matn: "творческий, личностный", correct: true },
+      { matn: "циклопоточный", correct: false },
+      { matn: "индивидуальный", correct: false },
+      { matn: "субъектный", correct: false },
+      { matn: "полисубъектный", correct: false },
     ],
   },
   {
     id: 379,
-    savol: "“MAHALLAMIZ JARCHISI” she’ri muallifi kim va qaysi sinf datsligida berilgan?",
+    savol: "Принципы обучения впервые сформулировал:",
     javob: [
-      { matn: "Omon Matchon, 1-sinf", correct: false },
-      { matn: "Shukur Sa’dulla, 3-sinf", correct: false },
-      { matn: "Anvar Obidjon, 2-sinf", correct: true },
-      { matn: "Abdulla Ahmad, 4-sinf", correct: false },
+      { matn: "Песталоцци И.", correct: false },
+      { matn: "Коменский Я.", correct: true },
+      { matn: "Монтень М.", correct: false },
+      { matn: "Ушинский К.", correct: false },
+      { matn: "Белинский В.", correct: false },
     ],
   },
   {
     id: 380,
-    savol: "“MAHALLAMIZ JARCHISI” she’rida jarchi deya qaysi qush tasvirlangan?",
+    savol: "Продолжительность стандартного урока:",
     javob: [
-      { matn: "Qarg’a", correct: false },
-      { matn: "Laylak", correct: false },
-      { matn: "Hakka", correct: true },
-      { matn: "To’ti", correct: false },
+      { matn: "45 минут", correct: true },
+      { matn: "30 минут", correct: false },
+      { matn: "50 минут", correct: false },
+      { matn: "60 минут", correct: false },
+      { matn: "70 минут", correct: false },
     ],
   },
   {
     id: 381,
-    savol: "Boshlang’ich sinf Ona tili va o’qish savodxonligi kitobidan joy olgan “Maktabim” she’rining muallifini aniqlang.",
+    savol: "Какое психолого-педагогическое условие необходимо соблюдать при организации диалога между учителем и учеником:",
     javob: [
-      { matn: "Omon Matchon, 1-sinf", correct: false },
-      { matn: "Shukur Sa’dulla, 3-sinf", correct: false },
-      { matn: "Anvar Obidjon, 2-sinf", correct: false },
-      { matn: "Dilrabo Saydullayeva, 2-sinf", correct: true },
+      { matn: "не стереотипность характера", correct: false },
+      { matn: "свободный обмен мнениями", correct: true },
+      { matn: "влияние голоса", correct: false },
+      { matn: "хорошее настроение", correct: false },
+      { matn: "строгое наказание", correct: false },
     ],
   },
   {
     id: 382,
-    savol: "“Shippak” hikoyasida qanday illat qalamga olingan?",
+    savol: "Цели обучения русскому языку:",
     javob: [
-      { matn: "Yolg’onchilik", correct: false },
-      { matn: "O’g’rilik", correct: false },
-      { matn: "Uyqichilik", correct: true },
-      { matn: "Chaqimchilik", correct: false },
+      { matn: "организационно-методические, смысловые", correct: false },
+      { matn: "коррекционные, организационные и общедидактические", correct: false },
+      { matn: "образовательные, коммуникативные и воспитательные", correct: true },
+      { matn: "внутренние и внешние", correct: false },
+      { matn: "общедидактические", correct: false },
     ],
   },
   {
     id: 383,
-    savol: "“QANOTLI DO‘STLAR” she’rining muallifi kim?",
+    savol: "Какой из уроков не является уроком контроля знаний, умений и навыков?",
     javob: [
-      { matn: "Quddus Muhammadiy, 2-sinf", correct: true },
-      { matn: "Shukur Sa’dulla, 3-sinf", correct: false },
-      { matn: "Anvar Obidjon, 2-sinf", correct: false },
-      { matn: "Dilrabo Saydullayeva, 2-sinf", correct: false },
+      { matn: "компьютерный", correct: false },
+      { matn: "суггестивный", correct: true },
+      { matn: "сочинение", correct: false },
+      { matn: "урок-повторение", correct: false },
+      { matn: "урок-игра", correct: false },
     ],
   },
   {
     id: 384,
-    savol: "So’z turkumlari to’g’risida nazariy ma’lumotlar qaysi sinf darsligida berilgan?",
+    savol: "Методы обучения - это",
     javob: [
-      { matn: "1-sinf", correct: false },
-      { matn: "2-sinf", correct: false },
-      { matn: "3-sinf", correct: false },
-      { matn: "4-sinf", correct: true },
+      { matn: "способы совместной деятельности учителя и учащихся, направленные на решения задач обучения", correct: true },
+      { matn: "монологическая форма изложения материала", correct: false },
+      { matn: "средство самообучения", correct: false },
+      { matn: "средство взаимообучения", correct: false },
+      { matn: "самообразование", correct: false },
     ],
   },
+
   {
     id: 385,
-    savol: "Gap va uning turlari qaysi sinfda o’rganiladi?",
+    savol: "Что не относится к письменному контролю?",
     javob: [
-      { matn: "1-sinf", correct: false },
-      { matn: "2-sinf", correct: false },
-      { matn: "3-sinf", correct: false },
-      { matn: "4-sinf", correct: true },
+      { matn: "тест", correct: false },
+      { matn: "сообщение", correct: true },
+      { matn: "диктант", correct: false },
+      { matn: "сочинение", correct: false },
+      { matn: "изложение", correct: false },
     ],
   },
   {
     id: 386,
-    savol: "Davlat ta’lim standarti qanday qonun hujjatlari asosida ishlab chiqilgan?",
+    savol: "К методам контроля не относят:",
     javob: [
-      { matn: "O‘zbekiston Respublikasi Konstitutsiyasi", correct: false },
-      { matn: "“Ta’lim to‘g‘risida”gi O‘zbekiston Respublikasi Qonuni", correct: false },
-      { matn: "Vazirlar Mahkamasi qarori", correct: false },
-      { matn: "Barcha javoblar to’g’ri", correct: true },
+      { matn: "устный контроль", correct: false },
+      { matn: "письменный контроль", correct: false },
+      { matn: "взаимооценку", correct: true },
+      { matn: "компьютерный контроль", correct: false },
+      { matn: "диктант", correct: false },
     ],
   },
   {
     id: 387,
-    savol: "Davlat ta’lim standartining tarkibiy qismlari qaysilar?",
+    savol: "Методы обучения в переводе с греческого означают:",
     javob: [
-      { matn: "tayanch o‘quv rejasi", correct: false },
-      { matn: "o‘quv dasturi", correct: false },
-      { matn: "malaka talablari va baholash tizimi", correct: false },
-      { matn: "Barcha javoblar to’g’ri", correct: true },
+      { matn: "механизмы обучения", correct: false },
+      { matn: "средства достижения цели обучения", correct: false },
+      { matn: "пути, способы достижения цели обучения", correct: true },
+      { matn: "приёмы обучения", correct: false },
+      { matn: "образование", correct: false },
     ],
   },
   {
     id: 388,
-    savol: "Umumiy o‘rta ta’lim sifatini nazorat qilish turlari qaysi?",
+    savol: "Форма организации обучения в школе – это:",
     javob: [
-      { matn: "ichki va tashqi nazorat", correct: false },
-      { matn: "ichki, tashqi, jamoatchilik, milliy va xalqaro baholash", correct: true },
-      { matn: "davlat-jamoatchilik nazorati", correct: false },
-      { matn: "milliy va xalqaro baholash", correct: false },
+      { matn: "занятие", correct: false },
+      { matn: "урок", correct: true },
+      { matn: "классный час", correct: false },
+      { matn: "час общения", correct: false },
+      { matn: "воспитательный урок", correct: false },
     ],
   },
   {
     id: 389,
-    savol: "Umumiy o‘rta ta’lim muassasalarida ona tili fanini o‘qitish darajalari nechta?",
+    savol: "Нестандартный урок отличается от стандартного:",
     javob: [
-      { matn: "2", correct: false },
-      { matn: "4", correct: false },
-      { matn: "6", correct: true },
-      { matn: "8", correct: false },
+      { matn: "продолжительностью", correct: false },
+      { matn: "формой", correct: false },
+      { matn: "целью", correct: false },
+      { matn: "разработанной моделью", correct: true },
+      { matn: "наглядностью", correct: false },
     ],
   },
   {
     id: 390,
-    savol: "Umumiy o‘rta ta’lim muassasalarida ona tili fanini o‘qitish darajalari qaysilar?",
+    savol: "К учреждениям среднего образования не относят:",
     javob: [
-      { matn: "A1, B1, C1, D1", correct: false },
-      { matn: "A1, A1+, A2, A2+, B1, B1+", correct: true },
-      { matn: "A1, B1, C1", correct: false },
-      { matn: "To’g’ri javob berilmagan", correct: false },
+      { matn: "вечерняя школа", correct: false },
+      { matn: "лицей", correct: false },
+      { matn: "гимназия", correct: false },
+      { matn: "образовательное учреждение", correct: false },
+      { matn: "вуз", correct: true },
     ],
   },
   {
     id: 391,
-    savol: "Umumiy o‘rta ta’lim maktablarining boshlang‘ich 4-sinf bitiruvchilari ona tili fanidan qanday darajaga ega bo’lishlari lozim?",
+    savol: "Метод иллюстраций – это:",
     javob: [
-      { matn: "A1", correct: true },
-      { matn: "A2", correct: false },
-      { matn: "B1", correct: false },
-      { matn: "B2", correct: false },
+      { matn: "использование иллюстративных пособий, плакатов, таблиц, картин, карт, зарисовок", correct: true },
+      { matn: "задействование приборов, технических установок, кинофильмов, диафильмов", correct: false },
+      { matn: "активная учебная деятельность с имитацией моделирования процессов", correct: false },
+      { matn: "использование творческих работ (рефераты, тезисы, сообщения)", correct: false },
+      { matn: "доклад", correct: false },
     ],
   },
   {
     id: 392,
-    savol: "Umumiy o‘rta ta’lim muassasalarida Ona tili fanini o‘qitishning asosiy vazifasi:",
+    savol: "Формы организации учебной работы – это:",
     javob: [
-      { matn: "nutqiy kompetensiyani rivojlantirish", correct: false },
-      { matn: "lingvistik kompetensiyani shakllantirish", correct: false },
-      { matn: "fikrlash va savodli bayon qilishni rivojlantirish", correct: false },
-      { matn: "barcha javoblar to’g’ri", correct: true },
+      { matn: "специально организованная взаимосвязанная деятельность учителя и учеников", correct: true },
+      { matn: "совокупность средств и приёмов организации учебно-познавательной деятельности", correct: false },
+      { matn: "активная учебная деятельность с имитацией процессов", correct: false },
+      { matn: "использование иллюстративных пособий", correct: false },
+      { matn: "кружковая работа", correct: false },
     ],
   },
   {
     id: 393,
-    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilari (A1 daraja) malaka talablari?",
+    savol: "Учебный план - это:",
     javob: [
-      { matn: "sodda matnlarni tinglab tushuna oladi", correct: true },
-      { matn: "murakkab matnlarni ifodali o’qiy oladi", correct: false },
-      { matn: "sodda gaplarni tinglab tushuna oladi", correct: false },
-      { matn: "so‘zlar talaffuziga rioya qila oladi", correct: false },
+      { matn: "нормативный государственный документ, определяющий распределение учебной нагрузки и количество часов", correct: true },
+      { matn: "совокупность средств и приёмов организации учебно-познавательной деятельности", correct: false },
+      { matn: "использование творческих работ", correct: false },
+      { matn: "использование иллюстративных пособий", correct: false },
+      { matn: "иллюстративный материал", correct: false },
     ],
   },
   {
     id: 394,
-    savol: "Ona tili fani bo‘yicha 4-sinf bitiruvchilari nechta so‘zdan iborat diktant yoza oladi?",
+    savol: "Основной целью преподавания русского языка в национальной школе:",
     javob: [
-      { matn: "25-30", correct: false },
-      { matn: "65-70", correct: true },
-      { matn: "45-50", correct: false },
-      { matn: "75-80", correct: false },
+      { matn: "формирование языковой компетенции", correct: false },
+      { matn: "формирование лингвистической компетенции", correct: false },
+      { matn: "формирование коммуникативной компетенции", correct: true },
+      { matn: "формирование грамматической компетенции", correct: false },
+      { matn: "чтение и письмо", correct: false },
     ],
   },
   {
     id: 395,
-    savol: "A1 daraja talablariga ko’ra o’quvchilar imlo va tinish belgilariga amal qila oladimi?",
+    savol: "Метод проблемного обучения – это:",
     javob: [
-      { matn: "qisman", correct: false },
-      { matn: "faqat imlo", correct: false },
-      { matn: "imlo va tinish belgilariga amal qila oladi", correct: true },
-      { matn: "amal qila olmaydi", correct: false },
+      { matn: "слово учителя", correct: false },
+      { matn: "беседа", correct: false },
+      { matn: "эвристическая беседа", correct: true },
+      { matn: "иллюстративный", correct: false },
+      { matn: "монолог", correct: false },
     ],
   },
   {
     id: 396,
-    savol: "Lingvistik kompetensiya bu…",
+    savol: "Средства обучения, позволяющие быстро осуществить индивидуальную проверку знаний большого количества учащихся:",
     javob: [
-      { matn: "fonetika, grafika, orfoepiya, orfografiya, leksika, grammatika va uslubiyat", correct: true },
-      { matn: "leksika va grammatika", correct: false },
-      { matn: "fonetika va grafika", correct: false },
-      { matn: "to’g’ri javob yo’q", correct: false },
+      { matn: "упражнения из ученика", correct: false },
+      { matn: "дидактические карточки", correct: false },
+      { matn: "тесты", correct: true },
+      { matn: "рассказы по картине", correct: false },
+      { matn: "диалог", correct: false },
     ],
   },
   {
     id: 397,
-    savol: "4-sinf bitiruvchilari…",
+    savol: "Какой из диктантов требует объяснения нового материала в процессе написания:",
     javob: [
-      { matn: "nutq tovushlarini farqlay oladi", correct: false },
-      { matn: "yangi so’zlarni qo’llay oladi", correct: false },
-      { matn: "tinish belgilarini to’g’ri qo’llay oladi", correct: false },
-      { matn: "barchasi to’g’ri", correct: true },
+      { matn: "«проверяю себя»", correct: false },
+      { matn: "объяснительный", correct: false },
+      { matn: "письмо по памяти", correct: false },
+      { matn: "комментированное письмо", correct: false },
+      { matn: "предупредительный", correct: true },
     ],
   },
   {
     id: 398,
-    savol: "Noto’g’ri javobni aniqlang (A1 daraja):",
+    savol: "Тип урока, на котором реализуются межпредметные связи:",
     javob: [
-      { matn: "nutq tovushlarini farqlay oladi", correct: false },
-      { matn: "bo‘g‘in ko‘chirish qoidalariga amal qila olmaydi", correct: true },
-      { matn: "yangi so‘zlarni qo‘llay oladi", correct: false },
-      { matn: "tinish belgilarini qo‘llay oladi", correct: false },
+      { matn: "урок-экскурсия", correct: false },
+      { matn: "интегрированные уроки", correct: true },
+      { matn: "инновационные уроки", correct: false },
+      { matn: "урок-консультация", correct: false },
+      { matn: "урок-повторение", correct: false },
     ],
   },
   {
     id: 399,
-    savol: "4-sinf o’quvchilarining o’qish malakasi qaysi bosqichga to’g’ri keladi?",
+    savol: "Сведения о выдающихся лингвистах, их роли в развитии науки о языке формируют:",
     javob: [
-      { matn: "sidirg’a o’qish", correct: true },
-      { matn: "bo’g’inlab o’qish", correct: false },
-      { matn: "harf o’qish", correct: false },
-      { matn: "bo’g’inlab-sidirg’a", correct: false },
+      { matn: "речевую компетенцию", correct: false },
+      { matn: "лингвистическую компетенцию", correct: true },
+      { matn: "коммуникативную компетенцию", correct: false },
+      { matn: "грамматическую компетенцию", correct: false },
+      { matn: "читательскую компетенцию", correct: false },
     ],
   },
   {
     id: 400,
-    savol: "To’g’ri o’qish ta’rifi qaysi?",
+    savol: "На уроках развития речи осуществляется формирование _____________ компетенции:",
     javob: [
-      { matn: "xato qilmasdan o’qish", correct: false },
-      { matn: "tovushlarni to’g’ri talaffuz qilish", correct: false },
-      { matn: "tovush va so’zlarni xatosiz ravon o’qish", correct: true },
-      { matn: "adabiy talaffuz", correct: false },
+      { matn: "читательской", correct: false },
+      { matn: "лингвистической", correct: false },
+      { matn: "коммуникативной", correct: true },
+      { matn: "грамматической", correct: false },
+      { matn: "образовательной", correct: false },
     ],
   },
   {
     id: 401,
-    savol: "To’g’ri o’qishni ta’minlovchi shart qaysi?",
+    savol: "Развернутый конспект урока соответствует следующему виду планирования учебного процесса:",
     javob: [
-      { matn: "matnni oldindan tahlil qilish", correct: true },
-      { matn: "tez o’qish", correct: false },
-      { matn: "shivirlab o’qish", correct: false },
-      { matn: "ichda o’qish", correct: false },
+      { matn: "годовое (календарное)", correct: false },
+      { matn: "тематическое", correct: false },
+      { matn: "поурочное", correct: true },
+      { matn: "грамматическое", correct: false },
+      { matn: "образовательное", correct: false },
+    ],
+  },
+  {
+    id: 402,
+    savol: "Выберите определение, соответствующее понятию «развитие речи»:",
+    javob: [
+      { matn: "процесс овладения языковыми умениями и навыками", correct: false },
+      { matn: "изучение системы языковых разделов", correct: false },
+      { matn: "процесс формирования коммуникативной компетенции", correct: true },
+      { matn: "процесс формирования языковой компетенции", correct: false },
+      { matn: "процесс формирования лингвистической компетенции", correct: false },
+    ],
+  },
+  {
+    id: 403,
+    savol: "К источникам пополнения словарного запаса учащихся не относится:",
+    javob: [
+      { matn: "речь учителя", correct: false },
+      { matn: "молодёжный сленг", correct: true },
+      { matn: "чтение книг", correct: false },
+      { matn: "СМИ", correct: false },
+      { matn: "чтение газет", correct: false },
+    ],
+  },
+  {
+    id: 404,
+    savol: "Форма организации обучения в школе – это:",
+    javob: [
+      { matn: "занятие", correct: false },
+      { matn: "урок", correct: true },
+      { matn: "классный час", correct: false },
+      { matn: "час общения", correct: false },
+      { matn: "воспитательный урок", correct: false },
+    ],
+  },
+  {
+    id: 405,
+    savol: "К какому из типов речи подходит определение – «изображение картины мира в причинно-следственных связях»:",
+    javob: [
+      { matn: "описание", correct: false },
+      { matn: "повествование", correct: false },
+      { matn: "рассуждение", correct: true },
+      { matn: "повествовательно-описательное", correct: false },
+      { matn: "живописное", correct: false },
+    ],
+  },
+  {
+    id: 406,
+    savol: "В каком типе изложения требуется краткая передача содержания исходного текста:",
+    javob: [
+      { matn: "близкое к тексту", correct: false },
+      { matn: "сжатое", correct: true },
+      { matn: "подробное", correct: false },
+      { matn: "с языковым анализом", correct: false },
+      { matn: "с речевым анализом", correct: false },
+    ],
+  },
+  {
+    id: 407,
+    savol: "Школа с малым количеством учащихся, где процесс обучения требует особых форм организации, называется:",
+    javob: [
+      { matn: "средняя", correct: false },
+      { matn: "малокомплектная", correct: true },
+      { matn: "гимназия", correct: false },
+      { matn: "лицей", correct: false },
+      { matn: "колледж", correct: false },
+    ],
+  },
+  {
+    id: 408,
+    savol: "Слушание и говорение; чтение и письмо — это",
+    javob: [
+      { matn: "виды речевой деятельности", correct: true },
+      { matn: "виды речи", correct: false },
+      { matn: "виды мышления", correct: false },
+      { matn: "виды темперамента", correct: false },
+      { matn: "виды памяти", correct: false },
+    ],
+  },
+  {
+    id: 409,
+    savol: "Произведения, которые не рекомендуются для пересказа, а чаще заучиваются наизусть, относятся к жанру:",
+    javob: [
+      { matn: "басни", correct: true },
+      { matn: "сказки", correct: false },
+      { matn: "научно-популярные тексты", correct: false },
+      { matn: "художественные тексты", correct: false },
+      { matn: "загадки", correct: false },
+    ],
+  },
+  {
+    id: 410,
+    savol: "Использование музыкальных отрывков, репродукций картин, слайдов рекомендуется при подготовке к восприятию:",
+    javob: [
+      { matn: "лирических произведений", correct: true },
+      { matn: "эпических произведений", correct: false },
+      { matn: "драматических произведений", correct: false },
+      { matn: "художественных текстов", correct: false },
+      { matn: "романов", correct: false },
+    ],
+  },
+  {
+    id: 411,
+    savol: "Творческая работа, требующая наивысшей самостоятельности школьника –",
+    javob: [
+      { matn: "изложение", correct: false },
+      { matn: "диктант", correct: false },
+      { matn: "сочинение", correct: true },
+      { matn: "словесное рисование", correct: false },
+      { matn: "контрольный диктант", correct: false },
+    ],
+  },
+  {
+    id: 412,
+    savol: "Вид речи, которому свойственны продуманность, богатство синтаксических конструкций -",
+    javob: [
+      { matn: "устная речь", correct: false },
+      { matn: "письменная речь", correct: true },
+      { matn: "внутренняя речь", correct: false },
+      { matn: "внешняя речь", correct: false },
+      { matn: "разговорная речь", correct: false },
+    ],
+  },
+  {
+    id: 413,
+    savol: "Импровизированная, моментальная, ситуативная речь –",
+    javob: [
+      { matn: "устная речь", correct: true },
+      { matn: "письменная речь", correct: false },
+      { matn: "внутренняя речь", correct: false },
+      { matn: "внешняя речь", correct: false },
+      { matn: "иноязычная речь", correct: false },
+    ],
+  },
+  {
+    id: 414,
+    savol: "Тип речи (текста), в котором нет событий, сюжета, изображаются картины природы, предметы –",
+    javob: [
+      { matn: "описание", correct: true },
+      { matn: "повествование", correct: false },
+      { matn: "рассуждение", correct: false },
+      { matn: "повествовательно-описательное", correct: false },
+      { matn: "живописное", correct: false },
+    ],
+  },
+  {
+    id: 415,
+    savol: "Тип речи (текста), в котором излагается последовательность событий:",
+    javob: [
+      { matn: "описание", correct: false },
+      { matn: "повествование", correct: true },
+      { matn: "рассуждение", correct: false },
+      { matn: "повествовательно-описательное", correct: false },
+      { matn: "живописное", correct: false },
+    ],
+  },
+  {
+    id: 416,
+    savol: "Тип речи (текста), в котором для доказательства или опровержения тезиса используются доводы:",
+    javob: [
+      { matn: "описание", correct: false },
+      { matn: "повествование", correct: false },
+      { matn: "рассуждение", correct: true },
+      { matn: "повествовательно-описательное", correct: false },
+      { matn: "живописное", correct: false },
+    ],
+  },
+  {
+    id: 417,
+    savol: "Организация практического усвоения младшими школьниками орфоэпических норм русского литературного языка осуществляется на уровне:",
+    javob: [
+      { matn: "словарной", correct: false },
+      { matn: "произносительной", correct: true },
+      { matn: "грамматической", correct: false },
+      { matn: "лексической", correct: false },
+      { matn: "языковой", correct: false },
+    ],
+  },
+  {
+    id: 418,
+    savol: "Определите вид речевой ошибки в предложении «Всем подарили памятные сувениры».",
+    javob: [
+      { matn: "употребление лишнего слова", correct: true },
+      { matn: "тавтология", correct: false },
+      { matn: "нарушение лексической сочетаемости", correct: false },
+      { matn: "нарушение грамматической сочетаемости", correct: false },
+      { matn: "письменная речь", correct: false },
+    ],
+  },
+  {
+    id: 419,
+    savol: "Укажите вид работы по воспитанию интереса к изучению русского языка:",
+    javob: [
+      { matn: "письмо наизусть", correct: false },
+      { matn: "комментированное чтение", correct: false },
+      { matn: "зрительный диктант", correct: false },
+      { matn: "занимательность", correct: true },
+      { matn: "работа над ошибками", correct: false },
+    ],
+  },
+  {
+    id: 420,
+    savol: "Что такое алгоритм:",
+    javob: [
+      { matn: "дневник", correct: false },
+      { matn: "альбом", correct: false },
+      { matn: "спортивная обувь", correct: false },
+      { matn: "опорная схема-конспект", correct: true },
+      { matn: "таблица", correct: false },
+    ],
+  },
+  {
+    id: 421,
+    savol: "Укажите вид грамматического разбора:",
+    javob: [
+      { matn: "детальный", correct: false },
+      { matn: "субъективный", correct: false },
+      { matn: "морфологический", correct: true },
+      { matn: "интересный", correct: false },
+      { matn: "занимательный", correct: false },
+    ],
+  },
+  {
+    id: 422,
+    savol: "Что изучается в разделе «Орфоэпия»:",
+    javob: [
+      { matn: "стиль одежды", correct: false },
+      { matn: "разряды прилагательных", correct: false },
+      { matn: "знаки препинания", correct: false },
+      { matn: "правильное произношение", correct: true },
+      { matn: "иностранный язык", correct: false },
+    ],
+  },
+  {
+    id: 423,
+    savol: "Укажите основные задачи изучения морфологии в школе:",
+    javob: [
+      { matn: "выработка грамотной и правильной речи", correct: false },
+      { matn: "знакомство с синтаксическими нормами", correct: false },
+      { matn: "обучение синтаксическому разбору", correct: false },
+      { matn: "овладение пунктуацией", correct: false },
+      { matn: "формирование морфологических понятий частей речи", correct: true },
+    ],
+  },
+  {
+    id: 424,
+    savol: "Методика синтаксиса изучает…",
+    javob: [
+      { matn: "процессы усвоения синтаксических понятий, словосочетаний и предложений", correct: true },
+      { matn: "формирование морфологических признаков слов", correct: false },
+      { matn: "деление слова на слоги", correct: false },
+      { matn: "обучение словоизменению", correct: false },
+    ],
+  },
+  {
+    id: 425,
+    savol: "Принцип обогащения словарного запаса учащихся:",
+    javob: [
+      { matn: "прямой", correct: false },
+      { matn: "грамматический", correct: false },
+      { matn: "экстралингвистический", correct: false },
+      { matn: "словарный", correct: true },
+      { matn: "контактный", correct: false },
+    ],
+  },
+  {
+    id: 426,
+    savol: "Что изучается в разделе «Состав слова и словообразование»:",
+    javob: [
+      { matn: "причастия", correct: false },
+      { matn: "синонимы", correct: false },
+      { matn: "морфемы", correct: true },
+      { matn: "сказуемое", correct: false },
+      { matn: "логарифмы", correct: false },
+    ],
+  },
+  {
+    id: 427,
+    savol: "Выберите фонетические умения:",
+    javob: [
+      { matn: "целенаправленное обогащение синтаксического строя речи", correct: false },
+      { matn: "процессы овладения пунктуацией", correct: false },
+      { matn: "определение смыслоразличительной роли звуков", correct: true },
+      { matn: "обучение правильному произношению", correct: false },
+      { matn: "синтаксические синонимы", correct: false },
+    ],
+  },
+  {
+    id: 428,
+    savol: "К специальным орфографическим упражнениям относится:",
+    javob: [
+      { matn: "диктант", correct: true },
+      { matn: "постановка ударения в словах", correct: false },
+      { matn: "определение звукового состава слова", correct: false },
+      { matn: "создание базы для усвоения пунктуации", correct: false },
+      { matn: "обучение знакам препинания", correct: false },
+    ],
+  },
+  {
+    id: 429,
+    savol: "К собственным ученическим словарям относятся:",
+    javob: [
+      { matn: "постатейные, тематические и алфавитные", correct: true },
+      { matn: "только тематические", correct: false },
+      { matn: "постатейные и алфавитные", correct: false },
+      { matn: "орфографические", correct: false },
+      { matn: "только алфавитные", correct: false },
+    ],
+  },
+  {
+    id: 430,
+    savol: "Постатейные словари применяются в классах:",
+    javob: [
+      { matn: "2-4 классы", correct: false },
+      { matn: "5-9 классы", correct: false },
+      { matn: "2-11 классы", correct: false },
+      { matn: "10-11 классы", correct: false },
+      { matn: "5-11 классы", correct: true },
+    ],
+  },
+  {
+    id: 431,
+    savol: "Ученические словари, составленные по определённой теме, называются:",
+    javob: [
+      { matn: "постатейные словари", correct: false },
+      { matn: "алфавитные словари", correct: false },
+      { matn: "тематические словари", correct: true },
+      { matn: "орфографические словари", correct: false },
+      { matn: "пунктуационные словари", correct: false },
+    ],
+  },
+  {
+    id: 432,
+    savol: "Ученические словари, составленные в алфавитном порядке, называются:",
+    javob: [
+      { matn: "постатейные словари", correct: false },
+      { matn: "алфавитные словари", correct: true },
+      { matn: "тематические словари", correct: false },
+      { matn: "орфографические словари", correct: false },
+      { matn: "пунктуационные словари", correct: false },
+    ],
+  },
+  {
+    id: 433,
+    savol: "Перевод с родного языка на русский главным образом применяют на занятиях:",
+    javob: [
+      { matn: "развитие речи", correct: true },
+      { matn: "письменная речь", correct: false },
+      { matn: "пунктуация", correct: false },
+      { matn: "орфография", correct: false },
+      { matn: "сочинение", correct: false },
+    ],
+  },
+  {
+    id: 434,
+    savol: "По мнению этого учёного, «текст – словесное устное или письменное произведение…»:",
+    javob: [
+      { matn: "Б. Головин", correct: true },
+      { matn: "И. Гальперин", correct: false },
+      { matn: "Н. Валгина", correct: false },
+      { matn: "С. Ожегов", correct: false },
+      { matn: "Е. Пассов", correct: false },
+    ],
+  },
+   {
+    id: 435,
+    savol: "Результат речевой деятельности в устной и письменной форме, реализованной в произведении словесности, обладающем смысловой завершённостью и структурным единством:",
+    javob: [
+      { matn: "текст", correct: true },
+      { matn: "диалог", correct: false },
+      { matn: "монолог", correct: false },
+      { matn: "диктант", correct: false },
+      { matn: "изложение", correct: false },
+    ],
+  },
+  {
+    id: 436,
+    savol: "Что из представленного не относится к тексту:",
+    javob: [
+      { matn: "очерк", correct: false },
+      { matn: "фельетон", correct: false },
+      { matn: "рассказ", correct: false },
+      { matn: "слово", correct: true },
+      { matn: "роман", correct: false },
+    ],
+  },
+  {
+    id: 437,
+    savol: "Общение, обмен информацией, связь объекта с субъектом:",
+    javob: [
+      { matn: "коммуникация", correct: true },
+      { matn: "квалификация", correct: false },
+      { matn: "компьютеризация", correct: false },
+      { matn: "систематизация", correct: false },
+      { matn: "страноведение", correct: false },
+    ],
+  },
+  {
+    id: 438,
+    savol: "По мнению этого учёного, основные признаки текста - это «завершённость, структурно-композиционное и прагматическое единство компонентов»:",
+    javob: [
+      { matn: "Б. Головин", correct: false },
+      { matn: "И. Гальперин", correct: true },
+      { matn: "Н. Валгина", correct: false },
+      { matn: "С. Ожегов", correct: false },
+      { matn: "Е. Пассов", correct: false },
+    ],
+  },
+  {
+    id: 439,
+    savol: "Официально русский язык как учебный предмет введен:",
+    javob: [
+      { matn: "указом Петра I в 1700 году", correct: false },
+      { matn: "указом Екатерины II в 1786 году", correct: true },
+      { matn: "указом Александра I в 1805 году", correct: false },
+    ],
+  },
+  {
+    id: 440,
+    savol: "Приемы анализа (исключите лишнее):",
+    javob: [
+      { matn: "подсчет звуков в слове (слоге)", correct: false },
+      { matn: "отбрасывание отдельного звука", correct: false },
+      { matn: "составление предложений из данных слов", correct: true },
     ],
   },
 ]

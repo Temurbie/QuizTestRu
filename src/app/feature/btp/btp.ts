@@ -10,5 +10,5 @@ import { WrapperTest } from "../../share/component/wrapper-test/wrapper-test";
 })
 export class BTP {
    data = DATATEST;
-    sendData = this.data.slice(0, 100)
+    sendData = this.data.slice(0, 192)
 }
