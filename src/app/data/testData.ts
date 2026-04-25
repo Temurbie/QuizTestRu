@@ -3875,8 +3875,8 @@ export const DATATEST : ITest[] =[
     id: 310,
     savol: "Тип речи (текста), в котором излагается последовательность событий –",
     javob: [
-      { matn: "рассуждение", correct: false },
-      { matn: "повествование", correct: true },
+      { matn: "рассуждение", correct: true },
+      { matn: "повествование", correct: false },
       { matn: "описание", correct: false },
     ],
   },
