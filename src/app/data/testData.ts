@@ -8007,5827 +8007,5826 @@ export const DATATEST : ITest[] =[
   },
   //mum
   {
-    "id": 691,
-    "savol": "Как записать цифрами число сто одна тысяча восемь?",
-    "javob": [
+    id: 691,
+    savol: "Как записать цифрами число сто одна тысяча восемь?",
+    javob: [
       {
-        "matn": "101 008",
-        "correct": true
+        matn: "101 008",
+        correct: true
       },
       {
-        "matn": "1018",
-        "correct": false
+        matn: "1018",
+        correct: false
       },
       {
-        "matn": "12014",
-        "correct": false
+        matn: "12014",
+        correct: false
       },
       {
-        "matn": "10 018",
-        "correct": false
+        matn: "10 018",
+        correct: false
       }
     ]
   },
   {
-    "id": 692,
-    "savol": "Выбери наибольшую величину.",
-    "javob": [
+    id: 692,
+    savol: "Выбери наибольшую величину.",
+    javob: [
       {
-        "matn": "40дм",
-        "correct": false
+        matn: "40дм",
+        correct: false
       },
       {
-        "matn": "4м",
-        "correct": false
+        matn: "4м",
+        correct: false
       },
       {
-        "matn": "4000см",
-        "correct": true
+        matn: "4000см",
+        correct: true
       },
       {
-        "matn": "0.4м",
-        "correct": false
+        matn: "0.4м",
+        correct: false
       }
     ]
   },
   {
-    "id": 693,
-    "savol": "Коля решил 15 задач, а Света – на 7 задач больше. Сколько задач они решили вместе?",
-    "javob": [
+    id: 693,
+    savol: "Коля решил 15 задач, а Света – на 7 задач больше. Сколько задач они решили вместе?",
+    javob: [
       {
-        "matn": "22 задачи",
-        "correct": false
+        matn: "22 задачи",
+        correct: false
       },
       {
-        "matn": "37 задач",
-        "correct": true
+        matn: "37 задач",
+        correct: true
       },
       {
-        "matn": "30 350",
-        "correct": false
+        matn: "30 350",
+        correct: false
       },
       {
-        "matn": "24 задач",
-        "correct": false
+        matn: "24 задач",
+        correct: false
       }
     ]
   },
   {
-    "id": 694,
-    "savol": "В числе 376 514 цифру из разряда десятков тысяч увеличили на 5. Какое число получилось?",
-    "javob": [
+    id: 694,
+    savol: "В числе 376 514 цифру из разряда десятков тысяч увеличили на 5. Какое число получилось?",
+    javob: [
       {
-        "matn": "381 514",
-        "correct": false
+        matn: "381 514",
+        correct: false
       },
       {
-        "matn": "35421",
-        "correct": false
+        matn: "35421",
+        correct: false
       },
       {
-        "matn": "376 564",
-        "correct": false
+        matn: "376 564",
+        correct: false
       },
       {
-        "matn": "426 514",
-        "correct": true
+        matn: "426 514",
+        correct: true
       }
     ]
   },
   {
-    "id": 695,
-    "savol": "Сколько цифр будет содержать значение частного в выражении 141 248 : 4 ?",
-    "javob": [
+    id: 695,
+    savol: "Сколько цифр будет содержать значение частного в выражении 141 248 : 4 ?",
+    javob: [
       {
-        "matn": "5 цифр",
-        "correct": true
+        matn: "5 цифр",
+        correct: true
       },
       {
-        "matn": "3 цифры",
-        "correct": false
+        matn: "3 цифры",
+        correct: false
       },
       {
-        "matn": "2 цифр",
-        "correct": false
+        matn: "2 цифр",
+        correct: false
       },
       {
-        "matn": "6 цифр",
-        "correct": false
+        matn: "6 цифр",
+        correct: false
       }
     ]
   },
   {
-    "id": 696,
-    "savol": "Укажи, какое действие выполняется последним в выражении 210 : 14 − 13 + 23 ⋅ 17",
-    "javob": [
+    id: 696,
+    savol: "Укажи, какое действие выполняется последним в выражении 210 : 14 − 13 + 23 ⋅ 17",
+    javob: [
       {
-        "matn": "Вычитание",
-        "correct": false
+        matn: "Вычитание",
+        correct: false
       },
       {
-        "matn": "умножение",
-        "correct": false
+        matn: "умножение",
+        correct: false
       },
       {
-        "matn": "Деление",
-        "correct": false
+        matn: "Деление",
+        correct: false
       },
       {
-        "matn": "сложение",
-        "correct": true
+        matn: "сложение",
+        correct: true
       }
     ]
   },
   {
-    "id": 697,
-    "savol": "",
-    "img" : "697.png" ,
-    "javob" : [
+    id: 697,
+    savol: "",
+    img : "697.png" ,
+    javob : [
       {
-        "matn" : '4',
-        "correct" : false
+        matn : '4',
+        correct : false
       },
       {
-        "matn" : '5',
-        "correct" : false
+        matn : '5',
+        correct : false
       },
       {
-        "matn" : '8',
-        "correct" : true
+        matn : '8',
+        correct : true
       },
       {
-        "matn" : '10',
-        "correct" : false
+        matn : '10',
+        correct : false
       }
     ]
   },
   {
-    "id": 698,
-    "savol": "Найти площадь прямоугольника со сторонами 7см и 15см.",
-    "javob": [
+    id: 698,
+    savol: "Найти площадь прямоугольника со сторонами 7см и 15см.",
+    javob: [
       {
-        "matn": "22см",
-        "correct": false
+        matn: "22см",
+        correct: false
       },
       {
-        "matn": "105см2",
-        "correct": true
+        matn: "105см2",
+        correct: true
       },
       {
-        "matn": "44 см2",
-        "correct": false
+        matn: "44 см2",
+        correct: false
       },
       {
-        "matn": "230см",
-        "correct": false
+        matn: "230см",
+        correct: false
       }
     ]
   },
   {
-    "id": 699,
-    "savol": "Реши уравнение 64−x=16",
-    "javob": [
+    id: 699,
+    savol: "Реши уравнение 64−x=16",
+    javob: [
       {
-        "matn": "80",
-        "correct": false
+        matn: "80",
+        correct: false
       },
       {
-        "matn": "58",
-        "correct": false
+        matn: "58",
+        correct: false
       },
       {
-        "matn": "48",
-        "correct": true
+        matn: "48",
+        correct: true
       },
       {
-        "matn": "56",
-        "correct": false
+        matn: "56",
+        correct: false
       }
     ]
   },
   {
-    "id": 700,
-    "savol": "На сколько больше значение выражения 3035⋅(10+2 ) , чем значение выражения 3035⋅2 ?",
-    "javob": [
+    id: 700,
+    savol: "На сколько больше значение выражения 3035⋅(10+2 ) , чем значение выражения 3035⋅2 ?",
+    javob: [
       {
-        "matn": "на 30 350",
-        "correct": true
+        matn: "на 30 350",
+        correct: true
       },
       {
-        "matn": "на 30 305",
-        "correct": false
+        matn: "на 30 305",
+        correct: false
       },
       {
-        "matn": "на 30 005",
-        "correct": false
+        matn: "на 30 005",
+        correct: false
       },
       {
-        "matn": "на305",
-        "correct": false
+        matn: "на305",
+        correct: false
       }
     ]
   },
   {
-    "id": 701,
-    "savol": "Коля решил 15 задач, а Света – на 7 задач больше. Сколько задач они решили вместе?",
-    "javob": [
+    id: 701,
+    savol: "Коля решил 15 задач, а Света – на 7 задач больше. Сколько задач они решили вместе?",
+    javob: [
       {
-        "matn": "27 задач",
-        "correct": false
+        matn: "27 задач",
+        correct: false
       },
       {
-        "matn": "22 задачи",
-        "correct": false
+        matn: "22 задачи",
+        correct: false
       },
       {
-        "matn": "31 задач",
-        "correct": false
+        matn: "31 задач",
+        correct: false
       },
       {
-        "matn": "37 задач",
-        "correct": true
+        matn: "37 задач",
+        correct: true
       }
     ]
   },
   {
-    "id": 702,
-    "savol": "Из двух городов, расстояние между которыми 300км, одновременно навстречу друг-другу выехали автомобиль со скоростью 80 км/ч, и велосипедист со скоростью 20 км/ч. Через сколько времени они встретятся?",
-    "javob": [
+    id: 702,
+    savol: "Из двух городов, расстояние между которыми 300км, одновременно навстречу друг-другу выехали автомобиль со скоростью 80 км/ч, и велосипедист со скоростью 20 км/ч. Через сколько времени они встретятся?",
+    javob: [
       {
-        "matn": "5ч",
-        "correct": false
+        matn: "5ч",
+        correct: false
       },
       {
-        "matn": "3ч",
-        "correct": true
+        matn: "3ч",
+        correct: true
       },
       {
-        "matn": "15ч",
-        "correct": false
+        matn: "15ч",
+        correct: false
       },
       {
-        "matn": "13ч",
-        "correct": false
+        matn: "13ч",
+        correct: false
       }
     ]
   },
   {
-    "id": 703,
-    "savol": "Запишите цифрами число три миллиона двести одна тысяча пять.",
-    "javob": [
+    id: 703,
+    savol: "Запишите цифрами число три миллиона двести одна тысяча пять.",
+    javob: [
       {
-        "matn": "3200105",
-        "correct": false
+        matn: "3200105",
+        correct: false
       },
       {
-        "matn": "3201005",
-        "correct": true
+        matn: "3201005",
+        correct: true
       },
       {
-        "matn": "3021005",
-        "correct": false
+        matn: "3021005",
+        correct: false
       },
       {
-        "matn": "4562",
-        "correct": false
+        matn: "4562",
+        correct: false
       }
     ]
   },
   {
-    "id": 704,
-    "savol": "Сравните, не вычисляя, 53287-1101 … 53287-1011",
-    "javob": [
+    id: 704,
+    savol: "Сравните, не вычисляя, 53287-1101 … 53287-1011",
+    javob: [
       {
-        "matn": "53287-1101=53287-1011",
-        "correct": true
+        matn: "53287-1101=53287-1011",
+        correct: true
       },
       {
-        "matn": "Сравнить, не вычисляя, нельзя",
-        "correct": false
+        matn: "Сравнить, не вычисляя, нельзя",
+        correct: false
       },
       {
-        "matn": "53287-1101<53287-1011",
-        "correct": false
+        matn: "53287-1101<53287-1011",
+        correct: false
       },
       {
-        "matn": "53280-1109=53285-1016",
-        "correct": false
+        matn: "53280-1109=53285-1016",
+        correct: false
       }
     ]
   },
   {
-    "id": 705,
-    "savol": "Представьте число 60074 в виде суммы разрядных слагаемых.",
-    "javob": [
+    id: 705,
+    savol: "Представьте число 60074 в виде суммы разрядных слагаемых.",
+    javob: [
       {
-        "matn": "60000+74",
-        "correct": false
+        matn: "60000+74",
+        correct: false
       },
       {
-        "matn": "600+70+4",
-        "correct": false
+        matn: "600+70+4",
+        correct: false
       },
       {
-        "matn": "60000+70+4",
-        "correct": true
+        matn: "60000+70+4",
+        correct: true
       },
       {
-        "matn": "6000+04",
-        "correct": false
+        matn: "6000+04",
+        correct: false
       }
     ]
   },
   {
-    "id": 706,
-    "savol": "Найдите разность произведений 18· 23 и 13 · 18",
-    "javob": [
+    id: 706,
+    savol: "Найдите разность произведений 18· 23 и 13 · 18",
+    javob: [
       {
-        "matn": "414",
-        "correct": false
+        matn: "414",
+        correct: false
       },
       {
-        "matn": "180",
-        "correct": true
+        matn: "180",
+        correct: true
       },
       {
-        "matn": "234",
-        "correct": false
+        matn: "234",
+        correct: false
       },
       {
-        "matn": "536",
-        "correct": false
-      }
-    ]
-  },
-    {
-    "id": 707,
-    "savol": "",
-    "img" : "707.png",
-    "javob": [
-      {
-        "matn": "325",
-        "correct": false
-      },
-      {
-        "matn": "287",
-        "correct": true
-      },
-      {
-        "matn": "187",
-        "correct": false
-      },
-      {
-        "matn": "987",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "id": 708,
-    "savol": "Вычислите: 4124 · 25 + 808289 · 0 : (9337 - 2184)",
-    "javob": [
-      {
-        "matn": "0",
-        "correct": false
-      },
-      {
-        "matn": "103100",
-        "correct": true
-      },
-      {
-        "matn": "91389",
-        "correct": false
-      },
-      {
-        "matn": "12389",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "id": 709,
-    "savol": "Найдите остаток от деления 101303 на 223",
-    "javob": [
-      {
-        "matn": "96",
-        "correct": false
-      },
-      {
-        "matn": "161",
-        "correct": false
-      },
-      {
-        "matn": "61",
-        "correct": true
-      },
-      {
-        "matn": "69",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "id": 710,
-    "savol": "Достаточно ли 150 рублей, чтобы купить 5 календарей по 27 рублей и ручку за 10 рублей?",
-    "javob": [
-      {
-        "matn": "Не достаточно.",
-        "correct": false
-      },
-      {
-        "matn": "Достаточно. Останется 5 рублей.",
-        "correct": true
-      },
-      {
-        "matn": "Достаточно. Останется 15 рублей.",
-        "correct": false
-      },
-      {
-        "matn": "Нужно еще 15 рублей.",
-        "correct": false
+        matn: "536",
+        correct: false
       }
     ]
   },
     {
-    "id": 711,
-    "savol": "",
-    "img" : "711.png",
-    "javob": [
+    id: 707,
+    savol: "",
+    img : "707.png",
+    javob: [
       {
-        "matn": "26",
-        "correct": false
+        matn: "325",
+        correct: false
       },
       {
-        "matn": "35",
-        "correct": false
+        matn: "287",
+        correct: true
       },
       {
-        "matn": "20",
-        "correct": true
+        matn: "187",
+        correct: false
       },
       {
-        "matn": "13",
-        "correct": false
+        matn: "987",
+        correct: false
       }
     ]
   },
   {
-    "id": 712,
-    "savol": "Выполните действия: 15792: (4760:85)+602х34",
-    "javob": [
-      { "matn": "34 825", "correct": false },
-      { "matn": "20 750", "correct": true },
-      { "matn": "24 763", "correct": false },
-      { "matn": "7458", "correct": false }
+    id: 708,
+    savol: "Вычислите: 4124 · 25 + 808289 · 0 : (9337 - 2184)",
+    javob: [
+      {
+        matn: "0",
+        correct: false
+      },
+      {
+        matn: "103100",
+        correct: true
+      },
+      {
+        matn: "91389",
+        correct: false
+      },
+      {
+        matn: "12389",
+        correct: false
+      }
+    ]
+  },
+  {
+    id: 709,
+    savol: "Найдите остаток от деления 101303 на 223",
+    javob: [
+      {
+        matn: "96",
+        correct: false
+      },
+      {
+        matn: "161",
+        correct: false
+      },
+      {
+        matn: "61",
+        correct: true
+      },
+      {
+        matn: "69",
+        correct: false
+      }
+    ]
+  },
+  {
+    id: 710,
+    savol: "Достаточно ли 150 рублей, чтобы купить 5 календарей по 27 рублей и ручку за 10 рублей?",
+    javob: [
+      {
+        matn: "Не достаточно.",
+        correct: false
+      },
+      {
+        matn: "Достаточно. Останется 5 рублей.",
+        correct: true
+      },
+      {
+        matn: "Достаточно. Останется 15 рублей.",
+        correct: false
+      },
+      {
+        matn: "Нужно еще 15 рублей.",
+        correct: false
+      }
+    ]
+  },
+    {
+    id: 711,
+    savol: "",
+    img : "711.png",
+    javob: [
+      {
+        matn: "26",
+        correct: false
+      },
+      {
+        matn: "35",
+        correct: false
+      },
+      {
+        matn: "20",
+        correct: true
+      },
+      {
+        matn: "13",
+        correct: false
+      }
+    ]
+  },
+  {
+    id: 712,
+    savol: "Выполните действия: 15792: (4760:85)+602х34",
+    javob: [
+      { matn: "34 825", correct: false },
+      { matn: "20 750", correct: true },
+      { matn: "24 763", correct: false },
+      { matn: "7458", correct: false }
     ]
   },
   {
-    "id": 713,
-    "savol": "Из двух городов, расстояние между которыми 400км, одновременно навстречу друг другу выехали автомобиль со скоростью 80 км/ч и велосипедист со скоростью 20 км/ч. Через сколько времени они встретятся?",
-    "javob": [
-      { "matn": "15час", "correct": false },
-      { "matn": "3час", "correct": false },
-      { "matn": "12час", "correct": false },
-      { "matn": "4час", "correct": true }
+    id: 713,
+    savol: "Из двух городов, расстояние между которыми 400км, одновременно навстречу друг другу выехали автомобиль со скоростью 80 км/ч и велосипедист со скоростью 20 км/ч. Через сколько времени они встретятся?",
+    javob: [
+      { matn: "15час", correct: false },
+      { matn: "3час", correct: false },
+      { matn: "12час", correct: false },
+      { matn: "4час", correct: true }
     ]
   },
   {
-    "id": 714,
-    "savol": "Решите уравнение 150+ х · 7=178",
-    "javob": [
-      { "matn": "4", "correct": true },
-      { "matn": "21", "correct": false },
-      { "matn": "30", "correct": false },
-      { "matn": "42", "correct": false }
+    id: 714,
+    savol: "Решите уравнение 150+ х · 7=178",
+    javob: [
+      { matn: "4", correct: true },
+      { matn: "21", correct: false },
+      { matn: "30", correct: false },
+      { matn: "42", correct: false }
     ]
   },
   {
-    "id": 715,
-    "savol": "Вычислите: 3 т 4 ц 88 кг +5 ц 86 кг = ……т ……ц…кг",
-    "javob": [
-      { "matn": "5074 кг= 5т0ц74кг", "correct": false },
-      { "matn": "4074 кг= 4т 74кг", "correct": true },
-      { "matn": "5054 кг= 50т 54кг", "correct": false },
-      { "matn": "4074 кг= 4т 74г", "correct": false }
+    id: 715,
+    savol: "Вычислите: 3 т 4 ц 88 кг +5 ц 86 кг = ……т ……ц…кг",
+    javob: [
+      { matn: "5074 кг= 5т0ц74кг", correct: false },
+      { matn: "4074 кг= 4т 74кг", correct: true },
+      { matn: "5054 кг= 50т 54кг", correct: false },
+      { matn: "4074 кг= 4т 74г", correct: false }
     ]
   },
   {
-    "id": 716,
-    "savol": "Выбери запись числа 972 в виде суммы разрядных слагаемых",
-    "javob": [
-      { "matn": "30 +20+7", "correct": false },
-      { "matn": "3+2+7", "correct": false },
-      { "matn": "907+72", "correct": false },
-      { "matn": "900 +70+2", "correct": true }
+    id: 716,
+    savol: "Выбери запись числа 972 в виде суммы разрядных слагаемых",
+    javob: [
+      { matn: "30 +20+7", correct: false },
+      { matn: "3+2+7", correct: false },
+      { matn: "907+72", correct: false },
+      { matn: "900 +70+2", correct: true }
     ]
   },
   {
-    "id": 717,
-    "savol": "Найди периметр прямоугольника, площадь которого равна 36 кв.см, а ширина – 4см.",
-    "javob": [
-      { "matn": "Р = 52 см", "correct": false },
-      { "matn": "Р =26см", "correct": true },
-      { "matn": "Р =70 см", "correct": false },
-      { "matn": "62см", "correct": false }
+    id: 717,
+    savol: "Найди периметр прямоугольника, площадь которого равна 36 кв.см, а ширина – 4см.",
+    javob: [
+      { matn: "Р = 52 см", correct: false },
+      { matn: "Р =26см", correct: true },
+      { matn: "Р =70 см", correct: false },
+      { matn: "62см", correct: false }
     ]
   },
   {
-    "id": 718,
-    "savol": "Если число 6 увеличить в 9 раз, то получится...",
-    "javob": [
-      { "matn": "56", "correct": false },
-      { "matn": "58", "correct": false },
-      { "matn": "54", "correct": true },
-      { "matn": "27", "correct": false }
+    id: 718,
+    savol: "Если число 6 увеличить в 9 раз, то получится...",
+    javob: [
+      { matn: "56", correct: false },
+      { matn: "58", correct: false },
+      { matn: "54", correct: true },
+      { matn: "27", correct: false }
     ]
   },
   {
-    "id": 719,
-    "savol": "Чему равен 2 множитель, если 1 множитель равен 4, а произведение 36?",
-    "javob": [
-      { "matn": "8", "correct": false },
-      { "matn": "9", "correct": true },
-      { "matn": "7", "correct": false },
-      { "matn": "1", "correct": false }
+    id: 719,
+    savol: "Чему равен 2 множитель, если 1 множитель равен 4, а произведение 36?",
+    javob: [
+      { matn: "8", correct: false },
+      { matn: "9", correct: true },
+      { matn: "7", correct: false },
+      { matn: "1", correct: false }
     ]
   },
   {
-    "id": 720,
-    "savol": "Число 48 больше 6",
-    "javob": [
-      { "matn": "в 4 раза", "correct": false },
-      { "matn": "в 8 раза", "correct": true },
-      { "matn": "в 6 раза", "correct": false },
-      { "matn": "42 раза", "correct": false }
+    id: 720,
+    savol: "Число 48 больше 6",
+    javob: [
+      { matn: "в 4 раза", correct: false },
+      { matn: "в 8 раза", correct: true },
+      { matn: "в 6 раза", correct: false },
+      { matn: "42 раза", correct: false }
     ]
   },
   {
-    "id": 721,
-    "savol": "Если число 12 увеличить в 5 раз, то получится...",
-    "javob": [
-      { "matn": "17", "correct": false },
-      { "matn": "75", "correct": false },
-      { "matn": "50", "correct": false },
-      { "matn": "60", "correct": true }
+    id: 721,
+    savol: "Если число 12 увеличить в 5 раз, то получится...",
+    javob: [
+      { matn: "17", correct: false },
+      { matn: "75", correct: false },
+      { matn: "50", correct: false },
+      { matn: "60", correct: true }
     ]
   },
   {
-    "id": 722,
-    "savol": "Произведение каких чисел равно 15?",
-    "javob": [
-      { "matn": "15 u 0", "correct": false },
-      { "matn": "1 u 15", "correct": true },
-      { "matn": "10 u 5", "correct": false },
-      { "matn": "30u 2", "correct": false }
+    id: 722,
+    savol: "Произведение каких чисел равно 15?",
+    javob: [
+      { matn: "15 u 0", correct: false },
+      { matn: "1 u 15", correct: true },
+      { matn: "10 u 5", correct: false },
+      { matn: "30u 2", correct: false }
     ]
   },
   {
-    "id": 723,
-    "savol": "Произведение каких чисел равно их частному?",
-    "javob": [
-      { "matn": "4 u 2", "correct": false },
-      { "matn": "9 u 3", "correct": false },
-      { "matn": "7 u 1", "correct": true },
-      { "matn": "3 u 6", "correct": false }
+    id: 723,
+    savol: "Произведение каких чисел равно их частному?",
+    javob: [
+      { matn: "4 u 2", correct: false },
+      { matn: "9 u 3", correct: false },
+      { matn: "7 u 1", correct: true },
+      { matn: "3 u 6", correct: false }
     ]
   },
   {
-    "id": 724,
-    "savol": "Какое число делится на 6 без остатка?",
-    "javob": [
-      { "matn": "53", "correct": false },
-      { "matn": "55", "correct": false },
-      { "matn": "52", "correct": false },
-      { "matn": "54", "correct": true }
+    id: 724,
+    savol: "Какое число делится на 6 без остатка?",
+    javob: [
+      { matn: "53", correct: false },
+      { matn: "55", correct: false },
+      { matn: "52", correct: false },
+      { matn: "54", correct: true }
     ]
   },
   {
-    "id": 725,
-    "savol": "Чему равен периметр прямоугольника со сторонами 37 см и 39 см?",
-    "javob": [
-      { "matn": "154 см", "correct": false },
-      { "matn": "152 см", "correct": true },
-      { "matn": "163 см", "correct": false },
-      { "matn": "76см", "correct": false }
+    id: 725,
+    savol: "Чему равен периметр прямоугольника со сторонами 37 см и 39 см?",
+    javob: [
+      { matn: "154 см", correct: false },
+      { matn: "152 см", correct: true },
+      { matn: "163 см", correct: false },
+      { matn: "76см", correct: false }
     ]
   },
   {
-    "id": 726,
-    "savol": "Чему равен площадь квадрата со стороной 79 дм?",
-    "javob": [
-      { "matn": "1081 кв. см", "correct": false },
-      { "matn": "1481 кв. метр", "correct": false },
-      { "matn": "6241кв.дм", "correct": true },
-      { "matn": "6481", "correct": false }
+    id: 726,
+    savol: "Чему равен площадь квадрата со стороной 79 дм?",
+    javob: [
+      { matn: "1081 кв. см", correct: false },
+      { matn: "1481 кв. метр", correct: false },
+      { matn: "6241кв.дм", correct: true },
+      { matn: "6481", correct: false }
     ]
   },
   {
-    "id": 727,
-    "savol": "Периметр квадрата равен 1024 см. Чему равна сторона?",
-    "javob": [
-      { "matn": "34 см", "correct": false },
-      { "matn": "32 см", "correct": true },
-      { "matn": "52 см", "correct": false },
-      { "matn": "26см", "correct": false }
+    id: 727,
+    savol: "Периметр квадрата равен 1024 см. Чему равна сторона?",
+    javob: [
+      { matn: "34 см", correct: false },
+      { matn: "32 см", correct: true },
+      { matn: "52 см", correct: false },
+      { matn: "26см", correct: false }
     ]
   },
   {
-    "id": 728,
-    "savol": "Уменьшите 560 на 70",
-    "javob": [
-      { "matn": "480", "correct": false },
-      { "matn": "510", "correct": false },
-      { "matn": "490", "correct": true },
-      { "matn": "563", "correct": false }
+    id: 728,
+    savol: "Уменьшите 560 на 70",
+    javob: [
+      { matn: "480", correct: false },
+      { matn: "510", correct: false },
+      { matn: "490", correct: true },
+      { matn: "563", correct: false }
     ]
   },
   {
-    "id": 729,
-    "savol": "Найдите неизвестную величину: 84: х = 2",
-    "javob": [
-      { "matn": "40", "correct": false },
-      { "matn": "42", "correct": true },
-      { "matn": "41", "correct": false },
-      { "matn": "48", "correct": false }
+    id: 729,
+    savol: "Найдите неизвестную величину: 84: х = 2",
+    javob: [
+      { matn: "40", correct: false },
+      { matn: "42", correct: true },
+      { matn: "41", correct: false },
+      { matn: "48", correct: false }
     ]
   },
   {
-    "id": 730,
-    "savol": "Составь и реши уравнение. Неизвестное число увеличили в 14 раз и получили 70",
-    "javob": [
-      { "matn": "7", "correct": false },
-      { "matn": "6", "correct": false },
-      { "matn": "5", "correct": true },
-      { "matn": "56", "correct": false }
+    id: 730,
+    savol: "Составь и реши уравнение. Неизвестное число увеличили в 14 раз и получили 70",
+    javob: [
+      { matn: "7", correct: false },
+      { matn: "6", correct: false },
+      { matn: "5", correct: true },
+      { matn: "56", correct: false }
     ]
   },
   {
-    "id": 731,
-    "savol": "Какое число надо вычесть из 350, чтобы получить 70?",
-    "javob": [
-      { "matn": "28", "correct": false },
-      { "matn": "280", "correct": true },
-      { "matn": "380", "correct": false },
-      { "matn": "38", "correct": false }
+    id: 731,
+    savol: "Какое число надо вычесть из 350, чтобы получить 70?",
+    javob: [
+      { matn: "28", correct: false },
+      { matn: "280", correct: true },
+      { matn: "380", correct: false },
+      { matn: "38", correct: false }
     ]
   },
   {
-    "id": 732,
-    "savol": "Процесс обучения математике является…………….методики преподавания математики.",
-    "javob": [
-      { "matn": "Обучения", "correct": false },
-      { "matn": "предмет", "correct": true },
-      { "matn": "Урок", "correct": false },
-      { "matn": "Доска", "correct": false }
+    id: 732,
+    savol: "Процесс обучения математике является…………….методики преподавания математики.",
+    javob: [
+      { matn: "Обучения", correct: false },
+      { matn: "предмет", correct: true },
+      { matn: "Урок", correct: false },
+      { matn: "Доска", correct: false }
     ]
   },
   {
-    "id": 733,
-    "savol": "Пользуясь формулой деления с остатком, найди делимое, если делитель 9, частное 10, а остаток 4.",
-    "javob": [
-      { "matn": "4", "correct": false },
-      { "matn": "84", "correct": false },
-      { "matn": "94", "correct": true },
-      { "matn": "49", "correct": false }
+    id: 733,
+    savol: "Пользуясь формулой деления с остатком, найди делимое, если делитель 9, частное 10, а остаток 4.",
+    javob: [
+      { matn: "4", correct: false },
+      { matn: "84", correct: false },
+      { matn: "94", correct: true },
+      { matn: "49", correct: false }
     ]
   },
   {
-    "id": 734,
-    "savol": "Запишите число, в котором 6 единиц и 7 сотен.",
-    "javob": [
-      { "matn": "607", "correct": false },
-      { "matn": "670", "correct": false },
-      { "matn": "706", "correct": true },
-      { "matn": "760", "correct": false }
+    id: 734,
+    savol: "Запишите число, в котором 6 единиц и 7 сотен.",
+    javob: [
+      { matn: "607", correct: false },
+      { matn: "670", correct: false },
+      { matn: "706", correct: true },
+      { matn: "760", correct: false }
     ]
   },
   {
-    "id": 735,
-    "savol": "В книге 54 страницы. Ученица читала книгу 6 дней по 8 страниц каждый день. Сколько страниц осталось прочитать ученице?",
-    "javob": [
-      { "matn": "8", "correct": false },
-      { "matn": "4", "correct": false },
-      { "matn": "6", "correct": true },
-      { "matn": "40", "correct": false }
+    id: 735,
+    savol: "В книге 54 страницы. Ученица читала книгу 6 дней по 8 страниц каждый день. Сколько страниц осталось прочитать ученице?",
+    javob: [
+      { matn: "8", correct: false },
+      { matn: "4", correct: false },
+      { matn: "6", correct: true },
+      { matn: "40", correct: false }
     ]
   },
   {
-    "id": 736,
-    "savol": "Выполни действия и найди правильный ответ: 5 дм 6 мм – 2 см 4 мм",
-    "javob": [
-      { "matn": "42мм", "correct": false },
-      { "matn": "42мм", "correct": false },
-      { "matn": "482 мм", "correct": true },
-      { "matn": "4 дм 82 см", "correct": false }
+    id: 736,
+    savol: "Выполни действия и найди правильный ответ: 5 дм 6 мм – 2 см 4 мм",
+    javob: [
+      { matn: "42мм", correct: false },
+      { matn: "42мм", correct: false },
+      { matn: "482 мм", correct: true },
+      { matn: "4 дм 82 см", correct: false }
     ]
   },
   {
-    "id": 737,
-    "savol": "Реши примеры: 478 +332; 1001 – 287",
-    "javob": [
-      { "matn": "675; 988", "correct": false },
-      { "matn": "910; 714", "correct": true },
-      { "matn": "810; 714", "correct": false },
-      { "matn": "910; 614", "correct": false }
+    id: 737,
+    savol: "Реши примеры: 478 +332; 1001 – 287",
+    javob: [
+      { matn: "675; 988", correct: false },
+      { matn: "910; 714", correct: true },
+      { matn: "810; 714", correct: false },
+      { matn: "910; 614", correct: false }
     ]
   },
   {
-    "id": 738,
-    "savol": "Вычислите: 7 ц – 34 кг",
-    "javob": [
-      { "matn": "66 кг", "correct": false },
-      { "matn": "66 ц 6 кг", "correct": false },
-      { "matn": "6 ц 66 кг", "correct": true },
-      { "matn": "6ц 06кг", "correct": false }
+    id: 738,
+    savol: "Вычислите: 7 ц – 34 кг",
+    javob: [
+      { matn: "66 кг", correct: false },
+      { matn: "66 ц 6 кг", correct: false },
+      { matn: "6 ц 66 кг", correct: true },
+      { matn: "6ц 06кг", correct: false }
     ]
   },
   {
-    "id": 739,
-    "savol": "Пользуясь формулой деления с остатком, найди делитель, если делимое 100, частное 4, а остаток 8.",
-    "javob": [
-      { "matn": "24", "correct": false },
-      { "matn": "23", "correct": true },
-      { "matn": "13", "correct": false },
-      { "matn": "42", "correct": false }
+    id: 739,
+    savol: "Пользуясь формулой деления с остатком, найди делитель, если делимое 100, частное 4, а остаток 8.",
+    javob: [
+      { matn: "24", correct: false },
+      { matn: "23", correct: true },
+      { matn: "13", correct: false },
+      { matn: "42", correct: false }
     ]
   },
   {
-    "id": 740,
-    "savol": "Сколько всего десятков в числе 597 ?",
-    "javob": [
-      { "matn": "597", "correct": false },
-      { "matn": "59", "correct": true },
-      { "matn": "9", "correct": false },
-      { "matn": "7", "correct": false }
+    id: 740,
+    savol: "Сколько всего десятков в числе 597 ?",
+    javob: [
+      { matn: "597", correct: false },
+      { matn: "59", correct: true },
+      { matn: "9", correct: false },
+      { matn: "7", correct: false }
     ]
   },
   {
-    "id": 741,
-    "savol": "Укажите числовое выражение",
-    "javob": [
-      { "matn": "2*7=7*2", "correct": false },
-      { "matn": "142>71*2", "correct": false },
-      { "matn": "142<71*2", "correct": false },
-      { "matn": "(17+13):10", "correct": true }
+    id: 741,
+    savol: "Укажите числовое выражение",
+    javob: [
+      { matn: "2*7=7*2", correct: false },
+      { matn: "142>71*2", correct: false },
+      { matn: "142<71*2", correct: false },
+      { matn: "(17+13):10", correct: true }
     ]
   },
   {
-    "id": 742,
-    "savol": "Дайте название выражению (19-8:4+5(2+7))*18",
-    "javob": [
-      { "matn": "Разность", "correct": false },
-      { "matn": "Произведение", "correct": true },
-      { "matn": "Частное", "correct": false },
-      { "matn": "Нет верных ответов", "correct": false }
+    id: 742,
+    savol: "Дайте название выражению (19-8:4+5(2+7))*18",
+    javob: [
+      { matn: "Разность", correct: false },
+      { matn: "Произведение", correct: true },
+      { matn: "Частное", correct: false },
+      { matn: "Нет верных ответов", correct: false }
     ]
   },
   {
-    "id": 743,
-    "savol": "Основными компонентами текстовой задачи являются:",
-    "javob": [
-      { "matn": "Условие", "correct": false },
-      { "matn": "Решение", "correct": false },
-      { "matn": "Ответ", "correct": false },
-      { "matn": "требование", "correct": true }
+    id: 743,
+    savol: "Основными компонентами текстовой задачи являются:",
+    javob: [
+      { matn: "Условие", correct: false },
+      { matn: "Решение", correct: false },
+      { matn: "Ответ", correct: false },
+      { matn: "требование", correct: true }
     ]
   },
   {
-    "id": 744,
-    "savol": "«У Маши было 3 яблока, а у Саши на 2 яблока больше. Сколько яблок было у Саши?» Данная задача относится к типу задач:",
-    "javob": [
-      { "matn": "На увеличение числа на несколько единиц", "correct": true },
-      { "matn": "На увеличение числа на несколько единиц или на разностное сравнение.", "correct": false },
-      { "matn": "На увеличение числа на три единиц", "correct": false },
-      { "matn": "На увеличение числа на две единиц", "correct": false }
+    id: 744,
+    savol: "«У Маши было 3 яблока, а у Саши на 2 яблока больше. Сколько яблок было у Саши?» Данная задача относится к типу задач:",
+    javob: [
+      { matn: "На увеличение числа на несколько единиц", correct: true },
+      { matn: "На увеличение числа на несколько единиц или на разностное сравнение.", correct: false },
+      { matn: "На увеличение числа на три единиц", correct: false },
+      { matn: "На увеличение числа на две единиц", correct: false }
     ]
   },
   {
-    "id": 745,
-    "savol": "С целью формирования представлений о десятке как новой счетной единице проводятся упражнения на:",
-    "javob": [
-      { "matn": "счет однородных предметов группами по 2, 3, 4, 5 …, 10", "correct": false },
-      { "matn": "измерение длин отрезков", "correct": false },
-      { "matn": "с помощью миллиметра", "correct": false },
-      { "matn": "с помощью дециметра", "correct": true }
+    id: 745,
+    savol: "С целью формирования представлений о десятке как новой счетной единице проводятся упражнения на:",
+    javob: [
+      { matn: "счет однородных предметов группами по 2, 3, 4, 5 …, 10", correct: false },
+      { matn: "измерение длин отрезков", correct: false },
+      { matn: "с помощью миллиметра", correct: false },
+      { matn: "с помощью дециметра", correct: true }
     ]
   },
   {
-    "id": 746,
-    "savol": "На этапе постановки учебной задачи учитель предлагает учащимся построить четырехугольник с тремя прямыми углами. Тема данного урока:",
-    "javob": [
-      { "matn": "«Прямой угол»", "correct": false },
-      { "matn": "«Прямоугольник»", "correct": true },
-      { "matn": "«Виды углов»", "correct": false },
-      { "matn": "«Площадь прямоугольника»", "correct": false }
+    id: 746,
+    savol: "На этапе постановки учебной задачи учитель предлагает учащимся построить четырехугольник с тремя прямыми углами. Тема данного урока:",
+    javob: [
+      { matn: "«Прямой угол»", correct: false },
+      { matn: "«Прямоугольник»", correct: true },
+      { matn: "«Виды углов»", correct: false },
+      { matn: "«Площадь прямоугольника»", correct: false }
     ]
   },
   {
-    "id": 747,
-    "savol": "При оценивании устного выполнения вычислений не учитывается один из следующих критериев:",
-    "javob": [
-      { "matn": "Быстрота", "correct": false },
-      { "matn": "правильность", "correct": false },
-      { "matn": "Обоснованность", "correct": false },
-      { "matn": "Аккуратность записи решения", "correct": true }
+    id: 747,
+    savol: "При оценивании устного выполнения вычислений не учитывается один из следующих критериев:",
+    javob: [
+      { matn: "Быстрота", correct: false },
+      { matn: "правильность", correct: false },
+      { matn: "Обоснованность", correct: false },
+      { matn: "Аккуратность записи решения", correct: true }
     ]
   },
   {
-    "id": 748,
-    "savol": "Итоговая контрольная работа по математике в 4-м классе содержит 3 группы заданий (выдели неверный ответ):",
-    "javob": [
-      { "matn": "задания базового уровня сложности", "correct": false },
-      { "matn": "задания повышенной сложности двух видов", "correct": false },
-      { "matn": "верно 2 и 3", "correct": false },
-      { "matn": "задания игрового или занимательного характера", "correct": true }
+    id: 748,
+    savol: "Итоговая контрольная работа по математике в 4-м классе содержит 3 группы заданий (выдели неверный ответ):",
+    javob: [
+      { matn: "задания базового уровня сложности", correct: false },
+      { matn: "задания повышенной сложности двух видов", correct: false },
+      { matn: "верно 2 и 3", correct: false },
+      { matn: "задания игрового или занимательного характера", correct: true }
     ]
   },
   {
-    "id": 749,
-    "savol": "Наглядные печатные пособия к средствам обучения математике в начальных классах не относятся:",
-    "javob": [
-      { "matn": "наглядные печатные пособия", "correct": false },
-      { "matn": "компьютеры, проекторы и цифровые образовательные ресурсы", "correct": false },
-      { "matn": "экскурсии, групповая работа над проектом", "correct": true },
-      { "matn": "наглядные печатные пособия", "correct": false }
+    id: 749,
+    savol: "Наглядные печатные пособия к средствам обучения математике в начальных классах не относятся:",
+    javob: [
+      { matn: "наглядные печатные пособия", correct: false },
+      { matn: "компьютеры, проекторы и цифровые образовательные ресурсы", correct: false },
+      { matn: "экскурсии, групповая работа над проектом", correct: true },
+      { matn: "наглядные печатные пособия", correct: false }
     ]
   },
   {
-    "id": 750,
-    "savol": "Применение компьютерных технологий на уроках математики в начальных классах целесообразно, поскольку создается возможность (укажи неверное):",
-    "javob": [
-      { "matn": "демонстрировать реальные объекты и процессы как учебный материал для построения математических моделей окружающей действительности", "correct": false },
-      { "matn": "осуществлять оперативный контроль и мониторинг овладения обучающимися математическими знаниями и умениями", "correct": false },
-      { "matn": "организовывать подвижные игры как динамические паузы", "correct": true },
-      { "matn": "при необходимости вести поиск информации", "correct": false }
+    id: 750,
+    savol: "Применение компьютерных технологий на уроках математики в начальных классах целесообразно, поскольку создается возможность (укажи неверное):",
+    javob: [
+      { matn: "демонстрировать реальные объекты и процессы как учебный материал для построения математических моделей окружающей действительности", correct: false },
+      { matn: "осуществлять оперативный контроль и мониторинг овладения обучающимися математическими знаниями и умениями", correct: false },
+      { matn: "организовывать подвижные игры как динамические паузы", correct: true },
+      { matn: "при необходимости вести поиск информации", correct: false }
     ]
   },
   {
-    "id": 751,
-    "savol": "Какие методические приемы используются в начальном изучении математики при ознакомлении с конкретной величиной:",
-    "javob": [
-      { "matn": "ознакомление с аксиомами, характеризующими величину", "correct": false },
-      { "matn": "практическая работа для сравнения предметов по различным признакам, выделение определенного признака, установление отношений больше, меньше или равно по этому признаку", "correct": false },
-      { "matn": "введение названия величины с опорой на дошкольный опыт обучающихся, обозначающего определенный признак предметов окружающей действительности", "correct": false },
-      { "matn": "Верно 2 и 3", "correct": true }
+    id: 751,
+    savol: "Какие методические приемы используются в начальном изучении математики при ознакомлении с конкретной величиной:",
+    javob: [
+      { matn: "ознакомление с аксиомами, характеризующими величину", correct: false },
+      { matn: "практическая работа для сравнения предметов по различным признакам, выделение определенного признака, установление отношений больше, меньше или равно по этому признаку", correct: false },
+      { matn: "введение названия величины с опорой на дошкольный опыт обучающихся, обозначающего определенный признак предметов окружающей действительности", correct: false },
+      { matn: "Верно 2 и 3", correct: true }
     ]
   },
   {
-    "id": 752,
-    "savol": "Какие методические приемы используются в начальном изучении математики для расширения знаний о величинах:",
-    "javob": [
-      { "matn": "рассмотрение исторических сведений об измерении величин", "correct": false },
-      { "matn": "поиск в сети «Интернет» или книгах сведений о природных объектах, которые выражены значениями величин, характеризующих их размеры, массу и др", "correct": false },
-      { "matn": "Верно 3 и 4", "correct": false },
-      { "matn": "практическая работа для установления отношений больше, меньше или равно между предметами окружающей действительности по определенному признаку", "correct": true }
+    id: 752,
+    savol: "Какие методические приемы используются в начальном изучении математики для расширения знаний о величинах:",
+    javob: [
+      { matn: "рассмотрение исторических сведений об измерении величин", correct: false },
+      { matn: "поиск в сети «Интернет» или книгах сведений о природных объектах, которые выражены значениями величин, характеризующих их размеры, массу и др", correct: false },
+      { matn: "Верно 3 и 4", correct: false },
+      { matn: "практическая работа для установления отношений больше, меньше или равно между предметами окружающей действительности по определенному признаку", correct: true }
     ]
   },
   {
-    "id": 753,
-    "savol": "Какие методические приемы используются в начальном изучении математики при формировании умения применять знания и умения о величинах в практических ситуациях и в познавательных целях:",
-    "javob": [
-      { "matn": "практическая работа для установления отношений больше, меньше или равно между предметами окружающей действительности по определенному признаку", "correct": false },
-      { "matn": "рассмотрение исторических сведений об измерении величин", "correct": false },
-      { "matn": "поиск в сети «Интернет» или книгах сведений о природных объектах, которые выражены значениями величин, характеризующих их размеры, массу и др.", "correct": true },
-      { "matn": "составление и решение текстовых задач на основе данных об объектах природы, быта и др., о процессах взвешивания, работы, движения и др., обсуждение значений величин, полученных при решении задач", "correct": false }
+    id: 753,
+    savol: "Какие методические приемы используются в начальном изучении математики при формировании умения применять знания и умения о величинах в практических ситуациях и в познавательных целях:",
+    javob: [
+      { matn: "практическая работа для установления отношений больше, меньше или равно между предметами окружающей действительности по определенному признаку", correct: false },
+      { matn: "рассмотрение исторических сведений об измерении величин", correct: false },
+      { matn: "поиск в сети «Интернет» или книгах сведений о природных объектах, которые выражены значениями величин, характеризующих их размеры, массу и др.", correct: true },
+      { matn: "составление и решение текстовых задач на основе данных об объектах природы, быта и др., о процессах взвешивания, работы, движения и др., обсуждение значений величин, полученных при решении задач", correct: false }
     ]
   },
   {
-    "id": 754,
-    "savol": "Суммировав стороны треугольника можно найти",
-    "javob": [
-      { "matn": "площадь треугольника", "correct": false },
-      { "matn": "периметр треугольника", "correct": true },
-      { "matn": "длину окружности", "correct": false },
-      { "matn": "диагональ прямоугольника", "correct": false }
+    id: 754,
+    savol: "Суммировав стороны треугольника можно найти",
+    javob: [
+      { matn: "площадь треугольника", correct: false },
+      { matn: "периметр треугольника", correct: true },
+      { matn: "длину окружности", correct: false },
+      { matn: "диагональ прямоугольника", correct: false }
     ]
   },
   {
-    "id": 755,
-    "savol": "В равностороннем треугольнике",
-    "javob": [
-      { "matn": "только две стороны равны между собой", "correct": false },
-      { "matn": "все углы разные", "correct": false },
-      { "matn": "три стороны равны", "correct": true },
-      { "matn": "все углы острые", "correct": false }
+    id: 755,
+    savol: "В равностороннем треугольнике",
+    javob: [
+      { matn: "только две стороны равны между собой", correct: false },
+      { matn: "все углы разные", correct: false },
+      { matn: "три стороны равны", correct: true },
+      { matn: "все углы острые", correct: false }
     ]
   },
   {
-    "id": 756,
-    "savol": "Сколько цифр будет содержать значение частного в выражении 141 248 : 4 ?",
-    "javob": [
-      { "matn": "3 цифры", "correct": false },
-      { "matn": "6 цифр", "correct": false },
-      { "matn": "10 цифр", "correct": false },
-      { "matn": "5 цифр", "correct": true }
+    id: 756,
+    savol: "Сколько цифр будет содержать значение частного в выражении 141 248 : 4 ?",
+    javob: [
+      { matn: "3 цифры", correct: false },
+      { matn: "6 цифр", correct: false },
+      { matn: "10 цифр", correct: false },
+      { matn: "5 цифр", correct: true }
     ]
   },
   {
-    "id": 757,
-    "savol": "Укажите числовое выражение",
-    "javob": [
-      { "matn": "2*7=7*2", "correct": false },
-      { "matn": "142>71*2", "correct": false },
-      { "matn": "(17+13):10", "correct": true },
-      { "matn": "(17+13)<10", "correct": false }
+    id: 757,
+    savol: "Укажите числовое выражение",
+    javob: [
+      { matn: "2*7=7*2", correct: false },
+      { matn: "142>71*2", correct: false },
+      { matn: "(17+13):10", correct: true },
+      { matn: "(17+13)<10", correct: false }
     ]
   },
   {
-    "id": 758,
-    "savol": "Известно, что x>y - истинное неравенство. Будет ли истинным следующее неравенство 2x-7<2y-7",
-    "javob": [
-      { "matn": "Да", "correct": false },
-      { "matn": "не всегда", "correct": false },
-      { "matn": "Нет верных ответов", "correct": false },
-      { "matn": "Нет", "correct": true }
+    id: 758,
+    savol: "Известно, что x>y - истинное неравенство. Будет ли истинным следующее неравенство 2x-7<2y-7",
+    javob: [
+      { matn: "Да", correct: false },
+      { matn: "не всегда", correct: false },
+      { matn: "Нет верных ответов", correct: false },
+      { matn: "Нет", correct: true }
     ]
   },
   {
-    "id": 759,
-    "savol": "Какое из высказываний истинно ?",
-    "javob": [
-      { "matn": "x<6=>x<20", "correct": false },
-      { "matn": "7x<28=>x>4", "correct": false },
-      { "matn": "7x<28=>x<4", "correct": true },
-      { "matn": "x<6=>x<5", "correct": false }
+    id: 759,
+    savol: "Какое из высказываний истинно ?",
+    javob: [
+      { matn: "x<6=>x<20", correct: false },
+      { matn: "7x<28=>x>4", correct: false },
+      { matn: "7x<28=>x<4", correct: true },
+      { matn: "x<6=>x<5", correct: false }
     ]
   },
   {
-    "id": 760,
-    "savol": "Найдите решение уравнения (x+70) * 4 = 328",
-    "javob": [
-      { "matn": "x=152", "correct": false },
-      { "matn": "x=-12", "correct": false },
-      { "matn": "x=12", "correct": true },
-      { "matn": "x=-152", "correct": false }
+    id: 760,
+    savol: "Найдите решение уравнения (x+70) * 4 = 328",
+    javob: [
+      { matn: "x=152", correct: false },
+      { matn: "x=-12", correct: false },
+      { matn: "x=12", correct: true },
+      { matn: "x=-152", correct: false }
     ]
   },
   {
-    "id": 761,
-    "savol": "Какое из следующих предложений элементарное?",
-    "javob": [
-      { "matn": "число х меньше или равно 8", "correct": false },
-      { "matn": "28 делится на 7", "correct": true },
-      { "matn": "если треугольник", "correct": false },
-      { "matn": "если четырёхугольник", "correct": false }
+    id: 761,
+    savol: "Какое из следующих предложений элементарное?",
+    javob: [
+      { matn: "число х меньше или равно 8", correct: false },
+      { matn: "28 делится на 7", correct: true },
+      { matn: "если треугольник", correct: false },
+      { matn: "если четырёхугольник", correct: false }
     ]
   },
   {
-    "id": 762,
-    "savol": "Какое из следующих предложений составное?",
-    "javob": [
-      { "matn": "число 28 делится на 7", "correct": false },
-      { "matn": "число 120 - четное", "correct": false },
-      { "matn": "число 14 делится на 2 и на 7", "correct": true },
-      { "matn": "число 124 - четное", "correct": false }
+    id: 762,
+    savol: "Какое из следующих предложений составное?",
+    javob: [
+      { matn: "число 28 делится на 7", correct: false },
+      { matn: "число 120 - четное", correct: false },
+      { matn: "число 14 делится на 2 и на 7", correct: true },
+      { matn: "число 124 - четное", correct: false }
     ]
   },
   {
-    "id": 763,
-    "savol": "Из скольких основных разделов состоит методика преподавания математики?",
-    "javob": [
-      { "matn": "5", "correct": false },
-      { "matn": "2", "correct": true },
-      { "matn": "9", "correct": false },
-      { "matn": "3", "correct": false }
+    id: 763,
+    savol: "Из скольких основных разделов состоит методика преподавания математики?",
+    javob: [
+      { matn: "5", correct: false },
+      { matn: "2", correct: true },
+      { matn: "9", correct: false },
+      { matn: "3", correct: false }
     ]
   },
   {
-    "id": 764,
-    "savol": "Укажите основные цели обучения предмету математике:",
-    "javob": [
-      { "matn": "общеобразовательные, научные, практические", "correct": false },
-      { "matn": "воспитательные, научные, практические", "correct": false },
-      { "matn": "общеобразовательные, воспитательные, развивающие", "correct": true },
-      { "matn": "методологические, научные, практические", "correct": false }
+    id: 764,
+    savol: "Укажите основные цели обучения предмету математике:",
+    javob: [
+      { matn: "общеобразовательные, научные, практические", correct: false },
+      { matn: "воспитательные, научные, практические", correct: false },
+      { matn: "общеобразовательные, воспитательные, развивающие", correct: true },
+      { matn: "методологические, научные, практические", correct: false }
     ]
   },
   {
-    "id": 765,
-    "savol": "Какой статус имеет ГОС?",
-    "javob": [
-      { "matn": "Это документ, определяющий содержание образования", "correct": false },
-      { "matn": "Это документ, определяющий знание умения и навыки", "correct": false },
-      { "matn": "Это документ, определяющий содержание образования и требования предъявляемые к качеству", "correct": true },
-      { "matn": "Это документ, определяющий этапы образования", "correct": false }
+    id: 765,
+    savol: "Какой статус имеет ГОС?",
+    javob: [
+      { matn: "Это документ, определяющий содержание образования", correct: false },
+      { matn: "Это документ, определяющий знание умения и навыки", correct: false },
+      { matn: "Это документ, определяющий содержание образования и требования предъявляемые к качеству", correct: true },
+      { matn: "Это документ, определяющий этапы образования", correct: false }
     ]
   },
   {
-    "id": 766,
-    "savol": "Учебник математики — это….",
-    "javob": [
+    id: 766,
+    savol: "Учебник математики — это….",
+    javob: [
       {
-        "matn": "Книга, дающая начальные информации по математике",
-        "correct": false
+        matn: "Книга, дающая начальные информации по математике",
+        correct: false
       },
       {
-        "matn": "Это научно популярная книга",
-        "correct": false
+        matn: "Это научно популярная книга",
+        correct: false
       },
       {
-        "matn": "Книга, определяющаяся программой и дидактическими требованиями, соответствующая учебным целям, излагающая основы знаний по математики",
-        "correct": true
+        matn: "Книга, определяющаяся программой и дидактическими требованиями, соответствующая учебным целям, излагающая основы знаний по математики",
+        correct: true
       },
       {
-        "matn": "Книга, дающая основы глубоких математических знаний",
-        "correct": false
+        matn: "Книга, дающая основы глубоких математических знаний",
+        correct: false
       }
     ]
   },
   {
-    "id": 767,
-    "savol": "Методы обучения, классифицируемые по пути движения мысли ученика",
-    "javob": [
+    id: 767,
+    savol: "Методы обучения, классифицируемые по пути движения мысли ученика",
+    javob: [
       {
-        "matn": "Математическая индукция, дедукция",
-        "correct": false
+        matn: "Математическая индукция, дедукция",
+        correct: false
       },
       {
-        "matn": "Индукция, дедукция, сравнение и аналогия",
-        "correct": true
+        matn: "Индукция, дедукция, сравнение и аналогия",
+        correct: true
       },
       {
-        "matn": "Анализ и синтез, сравнение",
-        "correct": false
+        matn: "Анализ и синтез, сравнение",
+        correct: false
       },
       {
-        "matn": "Классификация, анализ и синтез",
-        "correct": false
+        matn: "Классификация, анализ и синтез",
+        correct: false
       }
     ]
   },
   {
-    "id": 768,
-    "savol": "Что понимается под методом сравнения?",
-    "javob": [
+    id: 768,
+    savol: "Что понимается под методом сравнения?",
+    javob: [
       {
-        "matn": "Метод поиска известного из неизвестных",
-        "correct": false
+        matn: "Метод поиска известного из неизвестных",
+        correct: false
       },
       {
-        "matn": "Переход из конкретного мышления к общему",
-        "correct": false
+        matn: "Переход из конкретного мышления к общему",
+        correct: false
       },
       {
-        "matn": "Метод поиска от частного к общему",
-        "correct": false
+        matn: "Метод поиска от частного к общему",
+        correct: false
       },
       {
-        "matn": "Методы, определяющие сходства и различия изучаемых математических объектов",
-        "correct": true
+        matn: "Методы, определяющие сходства и различия изучаемых математических объектов",
+        correct: true
       }
     ]
   },
   {
-    "id": 769,
-    "savol": "По источнику приобретения знаний методы обучения разделяются на:",
-    "javob": [
+    id: 769,
+    savol: "По источнику приобретения знаний методы обучения разделяются на:",
+    javob: [
       {
-        "matn": "общие, частные, конкретные",
-        "correct": false
+        matn: "общие, частные, конкретные",
+        correct: false
       },
       {
-        "matn": "устные (словесные), наглядные и практические",
-        "correct": true
+        matn: "устные (словесные), наглядные и практические",
+        correct: true
       },
       {
-        "matn": "Под руководством учителя и самостоятельная работа",
-        "correct": false
+        matn: "Под руководством учителя и самостоятельная работа",
+        correct: false
       },
       {
-        "matn": "Репродуктивный, продуктивный, частично-поисковый, поисковый",
-        "correct": false
+        matn: "Репродуктивный, продуктивный, частично-поисковый, поисковый",
+        correct: false
       }
     ]
   },
   {
-    "id": 770,
-    "savol": "Урок это – ...",
-    "javob": [
+    id: 770,
+    savol: "Урок это – ...",
+    javob: [
       {
-        "matn": "Процесс, дающий ЗУН по математике",
-        "correct": false
+        matn: "Процесс, дающий ЗУН по математике",
+        correct: false
       },
       {
-        "matn": "Процесс, определяющий знания и оценивающий по предмету математики",
-        "correct": false
+        matn: "Процесс, определяющий знания и оценивающий по предмету математики",
+        correct: false
       },
       {
-        "matn": "Логически законченная, ограниченная временем часть учебно-воспитательного процесса",
-        "correct": true
+        matn: "Логически законченная, ограниченная временем часть учебно-воспитательного процесса",
+        correct: true
       },
       {
-        "matn": "Ознакомительный процесс с математической литературой",
-        "correct": false
+        matn: "Ознакомительный процесс с математической литературой",
+        correct: false
       }
     ]
   },
   {
-    "id": 771,
-    "savol": "Какова цель меж предметной связи математики с другими предметами?",
-    "javob": [
+    id: 771,
+    savol: "Какова цель меж предметной связи математики с другими предметами?",
+    javob: [
       {
-        "matn": "Чтобы повысить влияние в выборе профессии",
-        "correct": false
+        matn: "Чтобы повысить влияние в выборе профессии",
+        correct: false
       },
       {
-        "matn": "Изучить связь математики с природой и жизнью, связывать с другими предметами",
-        "correct": true
+        matn: "Изучить связь математики с природой и жизнью, связывать с другими предметами",
+        correct: true
       },
       {
-        "matn": "Изучить связь математики с другими предметами, применение математики",
-        "correct": false
+        matn: "Изучить связь математики с другими предметами, применение математики",
+        correct: false
       },
       {
-        "matn": "Чтобы повысить интерес к предмету математики у ученика",
-        "correct": false
+        matn: "Чтобы повысить интерес к предмету математики у ученика",
+        correct: false
       }
     ]
   },
   {
-    "id": 772,
-    "savol": "Критерии анализа урока математики включают в себя:",
-    "javob": [
+    id: 772,
+    savol: "Критерии анализа урока математики включают в себя:",
+    javob: [
       {
-        "matn": "Качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
-        "correct": false
+        matn: "Качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
+        correct: false
       },
       {
-        "matn": "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке методов",
-        "correct": false
+        matn: "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке методов",
+        correct: false
       },
       {
-        "matn": "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке методов; качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
-        "correct": true
+        matn: "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке методов; качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
+        correct: true
       },
       {
-        "matn": "Содержание урока, его научная ценность; эффективность примененных на уроке методов; качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
-        "correct": false
+        matn: "Содержание урока, его научная ценность; эффективность примененных на уроке методов; качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
+        correct: false
       }
     ]
   },
   {
-    "id": 773,
-    "savol": "Урок математики состоит из следующих этапов:",
-    "javob": [
+    id: 773,
+    savol: "Урок математики состоит из следующих этапов:",
+    javob: [
       {
-        "matn": "повторение пройденного; усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме",
-        "correct": false
+        matn: "повторение пройденного; усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме",
+        correct: false
       },
       {
-        "matn": "орг.момент, повторение пройденного; усвоение новых знаний; формирование умений и навыков; задание на дом и подведение итогов урока",
-        "correct": true
+        matn: "орг.момент, повторение пройденного; усвоение новых знаний; формирование умений и навыков; задание на дом и подведение итогов урока",
+        correct: true
       },
       {
-        "matn": "усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме; изготовление необходимых наглядных пособий",
-        "correct": false
+        matn: "усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме; изготовление необходимых наглядных пособий",
+        correct: false
       },
       {
-        "matn": "повторение пройденного; формирование умений и навыков; изготовление необходимых наглядных пособий",
-        "correct": false
+        matn: "повторение пройденного; формирование умений и навыков; изготовление необходимых наглядных пособий",
+        correct: false
       }
     ]
   },
   {
-    "id": 774,
-    "savol": "В какой период развития математики жили и творили Абу Райхан Бируни, Ибн Сино, Омар Хайям, ал- Каши и др.?",
-    "javob": [
+    id: 774,
+    savol: "В какой период развития математики жили и творили Абу Райхан Бируни, Ибн Сино, Омар Хайям, ал- Каши и др.?",
+    javob: [
       {
-        "matn": "Период создания математических переменных величин",
-        "correct": false
+        matn: "Период создания математических переменных величин",
+        correct: false
       },
       {
-        "matn": "Период элементарной математики",
-        "correct": true
+        matn: "Период элементарной математики",
+        correct: true
       },
       {
-        "matn": "Период современной математики",
-        "correct": false
+        matn: "Период современной математики",
+        correct: false
       },
       {
-        "matn": "Период зарождения математики",
-        "correct": false
+        matn: "Период зарождения математики",
+        correct: false
       }
     ]
   },
   {
-    "id": 775,
-    "savol": "Каким по своей структуре является курс начальной математики?",
-    "javob": [
+    id: 775,
+    savol: "Каким по своей структуре является курс начальной математики?",
+    javob: [
       {
-        "matn": "Четырехединый",
-        "correct": false
+        matn: "Четырехединый",
+        correct: false
       },
       {
-        "matn": "Двуединый",
-        "correct": false
+        matn: "Двуединый",
+        correct: false
       },
       {
-        "matn": "триединый",
-        "correct": true
+        matn: "триединый",
+        correct: true
       },
       {
-        "matn": "Пятиединый",
-        "correct": false
+        matn: "Пятиединый",
+        correct: false
       }
     ]
   },
   {
-    "id": 776,
-    "savol": "Какие части являются составными в структуре курса начальной математики?",
-    "javob": [
+    id: 776,
+    savol: "Какие части являются составными в структуре курса начальной математики?",
+    javob: [
       {
-        "matn": "Десяток, сотня, тысяча",
-        "correct": false
+        matn: "Десяток, сотня, тысяча",
+        correct: false
       },
       {
-        "matn": "Алгебраическая, геометрическая, величины",
-        "correct": false
+        matn: "Алгебраическая, геометрическая, величины",
+        correct: false
       },
       {
-        "matn": "Арифметическая, алгебраическая и геометрическая части",
-        "correct": true
+        matn: "Арифметическая, алгебраическая и геометрическая части",
+        correct: true
       },
       {
-        "matn": "Задачи, уравнения, величины",
-        "correct": false
+        matn: "Задачи, уравнения, величины",
+        correct: false
       }
     ]
   },
   {
-    "id": 777,
-    "savol": "С какого класса начинается изучение элементов геометрии ?",
-    "javob": [
+    id: 777,
+    savol: "С какого класса начинается изучение элементов геометрии ?",
+    javob: [
       {
-        "matn": "с 2 класса",
-        "correct": false
+        matn: "с 2 класса",
+        correct: false
       },
       {
-        "matn": "с 1 класса",
-        "correct": true
+        matn: "с 1 класса",
+        correct: true
       },
       {
-        "matn": "с 4 класса",
-        "correct": false
+        matn: "с 4 класса",
+        correct: false
       },
       {
-        "matn": "с 3 класса",
-        "correct": false
+        matn: "с 3 класса",
+        correct: false
       }
     ]
   },
   {
-    "id": 778,
-    "savol": "Какой метод можно отнести к методам по пути движения мысли ученика?",
-    "javob": [
+    id: 778,
+    savol: "Какой метод можно отнести к методам по пути движения мысли ученика?",
+    javob: [
       {
-        "matn": "интерактивный метод",
-        "correct": false
+        matn: "интерактивный метод",
+        correct: false
       },
       {
-        "matn": "метод индукции",
-        "correct": true
+        matn: "метод индукции",
+        correct: true
       },
       {
-        "matn": "репродуктивный метод",
-        "correct": false
+        matn: "репродуктивный метод",
+        correct: false
       },
       {
-        "matn": "метод самостоятельной активности учеников",
-        "correct": false
+        matn: "метод самостоятельной активности учеников",
+        correct: false
       }
     ]
   },
   {
-    "id": 779,
-    "savol": "Что в переводе с английского языка «interact»?",
-    "javob": [
+    id: 779,
+    savol: "Что в переводе с английского языка «interact»?",
+    javob: [
       {
-        "matn": "«inter»- «сообща», «act»-действовать",
-        "correct": false
+        matn: "«inter»- «сообща», «act»-действовать",
+        correct: false
       },
       {
-        "matn": "«inter»- «вместе», «act»-действовать",
-        "correct": false
+        matn: "«inter»- «вместе», «act»-действовать",
+        correct: false
       },
       {
-        "matn": "«inter»- «взаимный», «act»-действовать",
-        "correct": true
+        matn: "«inter»- «взаимный», «act»-действовать",
+        correct: true
       },
       {
-        "matn": "«inter»- «дружно», «act»-действовать",
-        "correct": false
+        matn: "«inter»- «дружно», «act»-действовать",
+        correct: false
       }
     ]
   },
   {
-    "id": 780,
-    "savol": "К какому виду внеклассного мероприятия можно отнести понятие «живые числа»?",
-    "javob": [
+    id: 780,
+    savol: "К какому виду внеклассного мероприятия можно отнести понятие «живые числа»?",
+    javob: [
       {
-        "matn": "Кружок",
-        "correct": false
+        matn: "Кружок",
+        correct: false
       },
       {
-        "matn": "экскурсия",
-        "correct": true
+        matn: "экскурсия",
+        correct: true
       },
       {
-        "matn": "занимательная математика",
-        "correct": false
+        matn: "занимательная математика",
+        correct: false
       },
       {
-        "matn": "Олимпиада",
-        "correct": false
+        matn: "Олимпиада",
+        correct: false
       }
     ]
   },
   {
-    "id": 781,
-    "savol": "Метод обучения — это...",
-    "javob": [
+    id: 781,
+    savol: "Метод обучения — это...",
+    javob: [
       {
-        "matn": "Определение сходства изучаемых объектов и явлений",
-        "correct": false
+        matn: "Определение сходства изучаемых объектов и явлений",
+        correct: false
       },
       {
-        "matn": "Управление процессами обучения и воспитания",
-        "correct": false
+        matn: "Управление процессами обучения и воспитания",
+        correct: false
       },
       {
-        "matn": "Способ упорядоченной, взаимосвязанной деятельности учителя и обучаемых, направленной на решение задач образования, воспитания и развития школьников в процессе обучения",
-        "correct": true
+        matn: "Способ упорядоченной, взаимосвязанной деятельности учителя и обучаемых, направленной на решение задач образования, воспитания и развития школьников в процессе обучения",
+        correct: true
       },
       {
-        "matn": "Определение различий изучаемых объектов и явлений",
-        "correct": false
+        matn: "Определение различий изучаемых объектов и явлений",
+        correct: false
       }
     ]
   },
   {
-    "id": 782,
-    "savol": "Малокомплектная школа – это школа",
-    "javob": [
+    id: 782,
+    savol: "Малокомплектная школа – это школа",
+    javob: [
       {
-        "matn": "в которой два учителя работают с тремя или четырьмя классами",
-        "correct": false
+        matn: "в которой два учителя работают с тремя или четырьмя классами",
+        correct: false
       },
       {
-        "matn": "современная форма планирования педагогического взаимодействия учителя и обучающихся",
-        "correct": false
+        matn: "современная форма планирования педагогического взаимодействия учителя и обучающихся",
+        correct: false
       },
       {
-        "matn": "в которой учитель работает одновременно с несколькими классами",
-        "correct": true
+        matn: "в которой учитель работает одновременно с несколькими классами",
+        correct: true
       },
       {
-        "matn": "в которой учитель работает одновременно со всеми классами",
-        "correct": false
+        matn: "в которой учитель работает одновременно со всеми классами",
+        correct: false
       }
     ]
   },
   {
-    "id": 783,
-    "savol": "Школа, в которой учитель работает одновременно со всеми классами, называется",
-    "javob": [
+    id: 783,
+    savol: "Школа, в которой учитель работает одновременно со всеми классами, называется",
+    javob: [
       {
-        "matn": "двухкомплектной",
-        "correct": false
+        matn: "двухкомплектной",
+        correct: false
       },
       {
-        "matn": "технологической",
-        "correct": false
+        matn: "технологической",
+        correct: false
       },
       {
-        "matn": "однокомплектной",
-        "correct": true
+        matn: "однокомплектной",
+        correct: true
       },
       {
-        "matn": "Образованной",
-        "correct": false
+        matn: "Образованной",
+        correct: false
       }
     ]
   },
   {
-    "id": 784,
-    "savol": "Школа, в которой два учителя работают с тремя или четырьмя классами, называется",
-    "javob": [
+    id: 784,
+    savol: "Школа, в которой два учителя работают с тремя или четырьмя классами, называется",
+    javob: [
       {
-        "matn": "Технологической",
-        "correct": false
+        matn: "Технологической",
+        correct: false
       },
       {
-        "matn": "двухкомплектной школой",
-        "correct": true
+        matn: "двухкомплектной школой",
+        correct: true
       },
       {
-        "matn": "Однокомплектной",
-        "correct": false
+        matn: "Однокомплектной",
+        correct: false
       },
       {
-        "matn": "технологической",
-        "correct": false
+        matn: "технологической",
+        correct: false
       }
     ]
   },
   {
-    "id": 785,
-    "savol": "Технологическая карта урока –",
-    "javob": [
+    id: 785,
+    savol: "Технологическая карта урока –",
+    javob: [
       {
-        "matn": "Единство теоретик методологической (концептуальной) трактовки образования и ее реализации в конкретных учебных технологиях, методических подходах, программах, учебниках и других образовательных средствах и приемах.",
-        "correct": false
+        matn: "Единство теоретик методологической (концептуальной) трактовки образования и ее реализации в конкретных учебных технологиях, методических подходах, программах, учебниках и других образовательных средствах и приемах.",
+        correct: false
       },
       {
-        "matn": "Это переход от общих положений к частным примерам и конкретным положениям.",
-        "correct": false
+        matn: "Это переход от общих положений к частным примерам и конкретным положениям.",
+        correct: false
       },
       {
-        "matn": "Деятельность, направленная на развитие личности, создание условий для самоопределения и социализации обучающегося на основе социокультурных, духовно- нравственных ценностей и принятых в обществе правил и норм поведения в интересах человека, семьи, общества и государства.",
-        "correct": false
+        matn: "Деятельность, направленная на развитие личности, создание условий для самоопределения и социализации обучающегося на основе социокультурных, духовно- нравственных ценностей и принятых в обществе правил и норм поведения в интересах человека, семьи, общества и государства.",
+        correct: false
       },
       {
-        "matn": "Современная форма планирования педагогического взаимодействия учителя и обучающихся; обобщенно-графическое выражение сценария урока, основа его проектирования, средство представления индивидуальных методов работы .",
-        "correct": true
+        matn: "Современная форма планирования педагогического взаимодействия учителя и обучающихся; обобщенно-графическое выражение сценария урока, основа его проектирования, средство представления индивидуальных методов работы .",
+        correct: true
       }
     ]
   },
   {
-    "id": 786,
-    "savol": "Укажите числовое выражение",
-    "javob": [
+    id: 786,
+    savol: "Укажите числовое выражение",
+    javob: [
       {
-        "matn": "142>71*2",
-        "correct": false
+        matn: "142>71*2",
+        correct: false
       },
       {
-        "matn": "2*7=7*2",
-        "correct": false
+        matn: "2*7=7*2",
+        correct: false
       },
       {
-        "matn": "(12+18):10",
-        "correct": true
+        matn: "(12+18):10",
+        correct: true
       },
       {
-        "matn": "(17+13)<10",
-        "correct": false
+        matn: "(17+13)<10",
+        correct: false
       }
     ]
   },
   {
-    "id": 787,
-    "savol": "Известно, что x>y- истинное неравенство. Будет ли истинным следующее неравенство 2x- 7<2y-7",
-    "javob": [
+    id: 787,
+    savol: "Известно, что x>y- истинное неравенство. Будет ли истинным следующее неравенство 2x- 7<2y-7",
+    javob: [
       {
-        "matn": "не всегда",
-        "correct": false
+        matn: "не всегда",
+        correct: false
       },
       {
-        "matn": "Да",
-        "correct": false
+        matn: "Да",
+        correct: false
       },
       {
-        "matn": "Нет верных ответов",
-        "correct": false
+        matn: "Нет верных ответов",
+        correct: false
       },
       {
-        "matn": "Нет",
-        "correct": true
+        matn: "Нет",
+        correct: true
       }
     ]
   },
   {
-    "id": 788,
-    "savol": "Какое из высказываний истинно",
-    "javob": [
+    id: 788,
+    savol: "Какое из высказываний истинно",
+    javob: [
       {
-        "matn": "7x<28=>x<4",
-        "correct": false
+        matn: "7x<28=>x<4",
+        correct: false
       },
       {
-        "matn": "x<6=>x<20",
-        "correct": false
+        matn: "x<6=>x<20",
+        correct: false
       },
       {
-        "matn": "7x<28=>x>4",
-        "correct": false
+        matn: "7x<28=>x>4",
+        correct: false
       },
       {
-        "matn": "x<4=>x<3",
-        "correct": true
+        matn: "x<4=>x<3",
+        correct: true
       }
     ]
   },
   {
-    "id": 789,
-    "savol": "Из скольких основных разделов состоит методика преподавания математики?",
-    "javob": [
+    id: 789,
+    savol: "Из скольких основных разделов состоит методика преподавания математики?",
+    javob: [
       {
-        "matn": "5",
-        "correct": false
+        matn: "5",
+        correct: false
       },
       {
-        "matn": "2",
-        "correct": true
+        matn: "2",
+        correct: true
       },
       {
-        "matn": "3",
-        "correct": false
+        matn: "3",
+        correct: false
       },
       {
-        "matn": "9",
-        "correct": false
+        matn: "9",
+        correct: false
       }
     ]
   },
   {
-    "id": 790,
-    "savol": "Укажите основные цели обучения предмету математике",
-    "javob": [
+    id: 790,
+    savol: "Укажите основные цели обучения предмету математике",
+    javob: [
       {
-        "matn": "общеобразовательные, научные, практические",
-        "correct": false
+        matn: "общеобразовательные, научные, практические",
+        correct: false
       },
       {
-        "matn": "методологические, научные, практические",
-        "correct": false
+        matn: "методологические, научные, практические",
+        correct: false
       },
       {
-        "matn": "воспитательные, научные, практические",
-        "correct": false
+        matn: "воспитательные, научные, практические",
+        correct: false
       },
       {
-        "matn": "общеобразовательные, воспитательные, развивающие",
-        "correct": true
+        matn: "общеобразовательные, воспитательные, развивающие",
+        correct: true
       }
     ]
   },
   {
-    "id": 791,
-    "savol": "Сколько часов математики в неделю и за год определено по ГОС",
-    "javob": [
+    id: 791,
+    savol: "Сколько часов математики в неделю и за год определено по ГОС",
+    javob: [
       {
-        "matn": "в неделю – 2 часа, за год - 68 часов",
-        "correct": false
+        matn: "в неделю – 2 часа, за год - 68 часов",
+        correct: false
       },
       {
-        "matn": "в неделю – 4 часа, за год- 136 часов",
-        "correct": false
+        matn: "в неделю – 4 часа, за год- 136 часов",
+        correct: false
       },
       {
-        "matn": "в неделю – 5 часов, за год - 170 часов",
-        "correct": true
+        matn: "в неделю – 5 часов, за год - 170 часов",
+        correct: true
       },
       {
-        "matn": "в неделю – 3 часа, за год- 102 часа",
-        "correct": false
+        matn: "в неделю – 3 часа, за год- 102 часа",
+        correct: false
       }
     ]
   },
   {
-    "id": 792,
-    "savol": "В какой статье в законе об образовании даётся информация о ГОС",
-    "javob": [
+    id: 792,
+    savol: "В какой статье в законе об образовании даётся информация о ГОС",
+    javob: [
       {
-        "matn": "34 - статья",
-        "correct": false
+        matn: "34 - статья",
+        correct: false
       },
       {
-        "matn": "7 - статья",
-        "correct": true
+        matn: "7 - статья",
+        correct: true
       },
       {
-        "matn": "9 - статья",
-        "correct": false
+        matn: "9 - статья",
+        correct: false
       },
       {
-        "matn": "12- статья",
-        "correct": false
+        matn: "12- статья",
+        correct: false
       }
     ]
   },
   {
-    "id": 793,
-    "savol": "Какой статус имеет ГОС?",
-    "javob": [
+    id: 793,
+    savol: "Какой статус имеет ГОС?",
+    javob: [
       {
-        "matn": "Это document, определяющий содержание образования",
-        "correct": false
+        matn: "Это document, определяющий содержание образования",
+        correct: false
       },
       {
-        "matn": "Это документ, определяющий содержание образования и требования предъявляемые к качеству",
-        "correct": true
+        matn: "Это документ, определяющий содержание образования и требования предъявляемые к качеству",
+        correct: true
       },
       {
-        "matn": "Это документ, определяющий знание умения и навыки",
-        "correct": false
+        matn: "Это документ, определяющий знание умения и навыки",
+        correct: false
       },
       {
-        "matn": "Это документ, определяющий этапы образования",
-        "correct": false
+        matn: "Это документ, определяющий этапы образования",
+        correct: false
       }
     ]
   },
   {
-    "id": 794,
-    "savol": "Учебник математики — это….",
-    "javob": [
+    id: 794,
+    savol: "Учебник математики — это….",
+    javob: [
       {
-        "matn": "Книга, дающая основы",
-        "correct": false
+        matn: "Книга, дающая основы",
+        correct: false
       },
       {
-        "matn": "Это научно популярная книга",
-        "correct": false
+        matn: "Это научно популярная книга",
+        correct: false
       },
       {
-        "matn": "Книга, определяющаяся программой и….",
-        "correct": true
+        matn: "Книга, определяющаяся программой и….",
+        correct: true
       },
       {
-        "matn": "Книга, дающая начальные",
-        "correct": false
+        matn: "Книга, дающая начальные",
+        correct: false
       }
     ]
   },
   {
-    "id": 795,
-    "savol": "Методы обучения, классифицируемые по пути движения мысли ученика?",
-    "javob": [
+    id: 795,
+    savol: "Методы обучения, классифицируемые по пути движения мысли ученика?",
+    javob: [
       {
-        "matn": "Анализ и синтез, сравнение",
-        "correct": false
+        matn: "Анализ и синтез, сравнение",
+        correct: false
       },
       {
-        "matn": "Индукция, дедукция, сравнение и аналогия",
-        "correct": true
+        matn: "Индукция, дедукция, сравнение и аналогия",
+        correct: true
       },
       {
-        "matn": "Математическая индукция, дедукция",
-        "correct": false
+        matn: "Математическая индукция, дедукция",
+        correct: false
       },
       {
-        "matn": "Классификация, анализ и синтез",
-        "correct": false
+        matn: "Классификация, анализ и синтез",
+        correct: false
       }
     ]
   },
   {
-    "id": 796,
-    "savol": "Что понимается под методом сравнения?",
-    "javob": [
+    id: 796,
+    savol: "Что понимается под методом сравнения?",
+    javob: [
       {
-        "matn": "Метод поиска известного из неизвестных",
-        "correct": false
+        matn: "Метод поиска известного из неизвестных",
+        correct: false
       },
       {
-        "matn": "Методы, определяющие сходства и различия изучаемых математических объектов",
-        "correct": true
+        matn: "Методы, определяющие сходства и различия изучаемых математических объектов",
+        correct: true
       },
       {
-        "matn": "Переход из конкретного мышления к общему",
-        "correct": false
+        matn: "Переход из конкретного мышления к общему",
+        correct: false
       },
       {
-        "matn": "Метод поиска от частного к общему",
-        "correct": false
+        matn: "Метод поиска от частного к общему",
+        correct: false
       }
     ]
   },
   {
-    "id": 797,
-    "savol": "По источнику приобретения знаний методы обучения разделяются на:",
-    "javob": [
+    id: 797,
+    savol: "По источнику приобретения знаний методы обучения разделяются на:",
+    javob: [
       {
-        "matn": "устные (словесные), наглядные и практические",
-        "correct": true
+        matn: "устные (словесные), наглядные и практические",
+        correct: true
       },
       {
-        "matn": "общие, частные, конкретные",
-        "correct": false
+        matn: "общие, частные, конкретные",
+        correct: false
       },
       {
-        "matn": "Под руководством учителя и самостоятельная работа",
-        "correct": false
+        matn: "Под руководством учителя и самостоятельная работа",
+        correct: false
       },
       {
-        "matn": "Репродуктивный, продуктивный, частично-поисковый, поисковый",
-        "correct": false
+        matn: "Репродуктивный, продуктивный, частично-поисковый, поисковый",
+        correct: false
       }
     ]
   },
   {
-    "id": 798,
-    "savol": "Урок это – ...",
-    "javob": [
+    id: 798,
+    savol: "Урок это – ...",
+    javob: [
       {
-        "matn": "Процесс, дающий ЗУН по математике",
-        "correct": false
+        matn: "Процесс, дающий ЗУН по математике",
+        correct: false
       },
       {
-        "matn": "Логически законченная, ограниченная временем часть учебно-воспитательного процесса",
-        "correct": true
+        matn: "Логически законченная, ограниченная временем часть учебно-воспитательного процесса",
+        correct: true
       },
       {
-        "matn": "Процесс, определяющий знания и оценивающий по предмету математики",
-        "correct": false
+        matn: "Процесс, определяющий знания и оценивающий по предмету математики",
+        correct: false
       },
       {
-        "matn": "Ознакомительный процесс с математической литературой",
-        "correct": false
+        matn: "Ознакомительный процесс с математической литературой",
+        correct: false
       }
     ]
   },
   {
-    "id": 799,
-    "savol": "Какова цель межпредметной связи математики с другими предметами?",
-    "javob": [
+    id: 799,
+    savol: "Какова цель межпредметной связи математики с другими предметами?",
+    javob: [
       {
-        "matn": "Чтобы повысить влияние в выборе профессии",
-        "correct": false
+        matn: "Чтобы повысить влияние в выборе профессии",
+        correct: false
       },
       {
-        "matn": "Изучить связь математики с другими предметами, применение математики",
-        "correct": false
+        matn: "Изучить связь математики с другими предметами, применение математики",
+        correct: false
       },
       {
-        "matn": "Изучить связь математики с природой и жизнью, связывать с другими предметами",
-        "correct": true
+        matn: "Изучить связь математики с природой и жизнью, связывать с другими предметами",
+        correct: true
       },
       {
-        "matn": "Чтобы повысить интерес к предмету математики у ученика",
-        "correct": false
+        matn: "Чтобы повысить интерес к предмету математики у ученика",
+        correct: false
       }
     ]
   },
   {
-    "id": 800,
-    "savol": "По какой программе обучаются специализированные школы и классы по математике?",
-    "javob": [
+    id: 800,
+    savol: "По какой программе обучаются специализированные школы и классы по математике?",
+    javob: [
       {
-        "matn": "На основе углублённой программы предметника",
-        "correct": false
+        matn: "На основе углублённой программы предметника",
+        correct: false
       },
       {
-        "matn": "На основе углублённой программы ГОС",
-        "correct": true
+        matn: "На основе углублённой программы ГОС",
+        correct: true
       },
       {
-        "matn": "На основе углублённой программы составленной директором школы",
-        "correct": false
+        matn: "На основе углублённой программы составленной директором школы",
+        correct: false
       },
       {
-        "matn": "На основе рекомендаций Минестерства Народного образования",
-        "correct": false
+        matn: "На основе рекомендаций Минестерства Народного образования",
+        correct: false
       }
     ]
   },
   {
-    "id": 801,
-    "savol": "Цель основания специализированных школ и классов по математике?",
-    "javob": [
+    id: 801,
+    savol: "Цель основания специализированных школ и классов по математике?",
+    javob: [
       {
-        "matn": "Применять на практике содержание образования",
-        "correct": false
+        matn: "Применять на практике содержание образования",
+        correct: false
       },
       {
-        "matn": "Работа с одарёнными учениками по математике, развивать их способности, усилить их внимание к предмету",
-        "correct": true
+        matn: "Работа с одарёнными учениками по математике, развивать их способности, усилить их внимание к предмету",
+        correct: true
       },
       {
-        "matn": "Повысить степень применения на практике ГОС",
-        "correct": false
+        matn: "Повысить степень применения на практике ГОС",
+        correct: false
       },
       {
-        "matn": "Чтобы повысить интерес учащихся к предмету",
-        "correct": false
+        matn: "Чтобы повысить интерес учащихся к предмету",
+        correct: false
       }
     ]
   },
   {
-    "id": 802,
-    "savol": "Какие пункты включает в себя анализ урока?",
-    "javob": [
+    id: 802,
+    savol: "Какие пункты включает в себя анализ урока?",
+    javob: [
       {
-        "matn": "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке",
-        "correct": true
+        matn: "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке",
+        correct: true
       },
       {
-        "matn": "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке методов",
-        "correct": false
+        matn: "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных на уроке методов",
+        correct: false
       },
       {
-        "matn": "Содержание урока, его научная ценность; эффективность примененных на уроке методов;",
-        "correct": false
+        matn: "Содержание урока, его научная ценность; эффективность примененных на уроке методов;",
+        correct: false
       },
       {
-        "matn": "Качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
-        "correct": false
+        matn: "Качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
+        correct: false
       }
     ]
   },
   {
-    "id": 803,
-    "savol": "Какие пункты включает в себя анализ урока? (variant 2)",
-    "javob": [
+    id: 803,
+    savol: "Какие пункты включает в себя анализ урока? (variant 2)",
+    javob: [
       {
-        "matn": "Качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
-        "correct": false
+        matn: "Качество деятельности учителя и учеников на уроке; формирование у учащихся ЗУН",
+        correct: false
       },
       {
-        "matn": "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных",
-        "correct": false
+        matn: "Достижение целей урока; содержание урока, его научная ценность; эффективность примененных",
+        correct: false
       },
       {
-        "matn": "Достижение целей урока; содержание урока, его научная ценность; эффективность примененн",
-        "correct": true
+        matn: "Достижение целей урока; содержание урока, его научная ценность; эффективность примененн",
+        correct: true
       },
       {
-        "matn": "Содержание урока, его научная ценность; эффективность примененных на уроке методов;",
-        "correct": false
+        matn: "Содержание урока, его научная ценность; эффективность примененных на уроке методов;",
+        correct: false
       }
     ]
   },
   {
-    "id": 804,
-    "savol": "Урок математики состоит из следующих этапов:",
-    "javob": [
+    id: 804,
+    savol: "Урок математики состоит из следующих этапов:",
+    javob: [
       {
-        "matn": "Повторение пройденного; усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме",
-        "correct": false
+        matn: "Повторение пройденного; усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме",
+        correct: false
       },
       {
-        "matn": "Орг.момент, повторение пройденного; усвоение новых знаний; формирование умений и навыков; задание на дом и подведение итогов урока",
-        "correct": true
+        matn: "Орг.момент, повторение пройденного; усвоение новых знаний; формирование умений и навыков; задание на дом и подведение итогов урока",
+        correct: true
       },
       {
-        "matn": "Усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме; изготовление необходимых наглядных пособий",
-        "correct": false
+        matn: "Усвоение новых знаний; формирование умений и навыков; ознакомление с литературой, соответствующей теме; изготовление необходимых наглядных пособий",
+        correct: false
       },
       {
-        "matn": "Повторение пройденного; формирование умений и навыков; изготовление необходимых наглядных пособий",
-        "correct": false
+        matn: "Повторение пройденного; формирование умений и навыков; изготовление необходимых наглядных пособий",
+        correct: false
       }
     ]
   },
   {
-    "id": 805,
-    "savol": "В какой период развития математики жили и творили Абу Райхан Бируни, Ибн Сино, Омар Хайям, ал- Каши и др.?",
-    "javob": [
+    id: 805,
+    savol: "В какой период развития математики жили и творили Абу Райхан Бируни, Ибн Сино, Омар Хайям, ал- Каши и др.?",
+    javob: [
       {
-        "matn": "Период зарождения математики",
-        "correct": false
+        matn: "Период зарождения математики",
+        correct: false
       },
       {
-        "matn": "Период современной математики",
-        "correct": false
+        matn: "Период современной математики",
+        correct: false
       },
       {
-        "matn": "Период элементарной математики",
-        "correct": true
+        matn: "Период элементарной математики",
+        correct: true
       },
       {
-        "matn": "Период создания математических переменных величин",
-        "correct": false
+        matn: "Период создания математических переменных величин",
+        correct: false
       }
     ]
   },
   {
-    "id": 806,
-    "savol": "В каком веке геометрия оформилась как наука?",
-    "javob": [
+    id: 806,
+    savol: "В каком веке геометрия оформилась как наука?",
+    javob: [
       {
-        "matn": "к IV в. до н.э.",
-        "correct": false
+        matn: "к IV в. до н.э.",
+        correct: false
       },
       {
-        "matn": "к III в. до н.э.",
-        "correct": true
+        matn: "к III в. до н.э.",
+        correct: true
       },
       {
-        "matn": "к III в. н.э.",
-        "correct": false
+        matn: "к III в. н.э.",
+        correct: false
       },
       {
-        "matn": "к IV в. н.э",
-        "correct": false
+        matn: "к IV в. н.э",
+        correct: false
       }
     ]
   },
   {
-    "id": 807,
-    "savol": "Какой период развития математики характеризуется широкой?",
-    "javob": [
+    id: 807,
+    savol: "Какой период развития математики характеризуется широкой?",
+    javob: [
       {
-        "matn": "Период зарождения",
-        "correct": false
+        matn: "Период зарождения",
+        correct: false
       },
       {
-        "matn": "Период создания",
-        "correct": false
+        matn: "Период создания",
+        correct: false
       },
       {
-        "matn": "Период современной",
-        "correct": true
+        matn: "Период современной",
+        correct: true
       },
       {
-        "matn": "Период элементарной",
-        "correct": false
+        matn: "Период элементарной",
+        correct: false
       }
     ]
   },
   {
-    "id": 808,
-    "savol": "Какой период развития математики продолжался 23 века?",
-    "javob": [
+    id: 808,
+    savol: "Какой период развития математики продолжался 23 века?",
+    javob: [
       {
-        "matn": "Период зарождения математики",
-        "correct": false
+        matn: "Период зарождения математики",
+        correct: false
       },
       {
-        "matn": "Период создания математических переменных величин",
-        "correct": false
+        matn: "Период создания математических переменных величин",
+        correct: false
       },
       {
-        "matn": "Период элементарной математики",
-        "correct": true
+        matn: "Период элементарной математики",
+        correct: true
       },
       {
-        "matn": "Период современной математики",
-        "correct": false
+        matn: "Период современной математики",
+        correct: false
       }
     ]
   },
   {
-    "id": 809,
-    "savol": "Когда был написан папирус Ахмеса?",
-    "javob": [
+    id: 809,
+    savol: "Когда был написан папирус Ахмеса?",
+    javob: [
       {
-        "matn": "около 3500 лет назад",
-        "correct": false
+        matn: "около 3500 лет назад",
+        correct: false
       },
       {
-        "matn": "около 4000 лет назад",
-        "correct": true
+        matn: "около 4000 лет назад",
+        correct: true
       },
       {
-        "matn": "около 2700 лет назад",
-        "correct": false
+        matn: "около 2700 лет назад",
+        correct: false
       },
       {
-        "matn": "около 2500 лет назад",
-        "correct": false
+        matn: "около 2500 лет назад",
+        correct: false
       }
     ]
   },
   {
-    "id": 810,
-    "savol": "В начале какого века аль- Хорезми написал трактат «Китаб ал-джабр ва мукаббала», который является первым в мире самостоятельным сочинением по алгебре?",
-    "javob": [
+    id: 810,
+    savol: "В начале какого века аль- Хорезми написал трактат «Китаб ал-джабр ва мукаббала», который является первым в мире самостоятельным сочинением по алгебре?",
+    javob: [
       {
-        "matn": "VIII в.",
-        "correct": false
+        matn: "VIII в.",
+        correct: false
       },
       {
-        "matn": "XII в.",
-        "correct": false
+        matn: "XII в.",
+        correct: false
       },
       {
-        "matn": "нет правильного ответа",
-        "correct": false
+        matn: "нет правильного ответа",
+        correct: false
       },
       {
-        "matn": "IX в.",
-        "correct": true
+        matn: "IX в.",
+        correct: true
       }
     ]
   },
   {
-    "id": 811,
-    "savol": "Каким по своей структуре является курс начальной математики?",
-    "javob": [
+    id: 811,
+    savol: "Каким по своей структуре является курс начальной математики?",
+    javob: [
       {
-        "matn": "четырехединый",
-        "correct": false
+        matn: "четырехединый",
+        correct: false
       },
       {
-        "matn": "триединый",
-        "correct": true
+        matn: "триединый",
+        correct: true
       },
       {
-        "matn": "пятиединый",
-        "correct": false
+        matn: "пятиединый",
+        correct: false
       },
       {
-        "matn": "двуединый",
-        "correct": false
+        matn: "двуединый",
+        correct: false
       }
     ]
   },
   {
-    "id": 812,
-    "savol": "Из скольких концентров состоит система расположения учебного материала в начальном курсе математики?",
-    "javob": [
+    id: 812,
+    savol: "Из скольких концентров состоит система расположения учебного материала в начальном курсе математики?",
+    javob: [
       {
-        "matn": "3",
-        "correct": false
+        matn: "3",
+        correct: false
       },
       {
-        "matn": "1",
-        "correct": false
+        matn: "1",
+        correct: false
       },
       {
-        "matn": "2",
-        "correct": false
+        matn: "2",
+        correct: false
       },
       {
-        "matn": "4",
-        "correct": true
+        matn: "4",
+        correct: true
       }
     ]
   },
   {
-    "id": 813,
-    "savol": "Какие части являются составными в структуре курса начальной математики?",
-    "javob": [
+    id: 813,
+    savol: "Какие части являются составными в структуре курса начальной математики?",
+    javob: [
       {
-        "matn": "Десяток, сотня, тысяча",
-        "correct": false
+        matn: "Десяток, сотня, тысяча",
+        correct: false
       },
       {
-        "matn": "Арифметическая, алгебраическая и геометрическая части",
-        "correct": true
+        matn: "Арифметическая, алгебраическая и геометрическая части",
+        correct: true
       },
       {
-        "matn": "Алгебраическая, геометрическая, величины",
-        "correct": false
+        matn: "Алгебраическая, геометрическая, величины",
+        correct: false
       },
       {
-        "matn": "Задачи, уравнения, величины",
-        "correct": false
+        matn: "Задачи, уравнения, величины",
+        correct: false
       }
     ]
   },
   {
-    "id": 814,
-    "savol": "Начиная с какого класса, рассматриваются числовые равенства и неравенства?",
-    "javob": [
+    id: 814,
+    savol: "Начиная с какого класса, рассматриваются числовые равенства и неравенства?",
+    javob: [
       {
-        "matn": "со 2",
-        "correct": false
+        matn: "со 2",
+        correct: false
       },
       {
-        "matn": "с 3",
-        "correct": false
+        matn: "с 3",
+        correct: false
       },
       {
-        "matn": "с 1",
-        "correct": true
+        matn: "с 1",
+        correct: true
       },
       {
-        "matn": "с 4",
-        "correct": false
+        matn: "с 4",
+        correct: false
       }
     ]
   },
   {
-    "id": 815,
-    "savol": "С какого класса начинается изучение элементов геометрии?",
-    "javob": [
+    id: 815,
+    savol: "С какого класса начинается изучение элементов геометрии?",
+    javob: [
       {
-        "matn": "со 2 класса",
-        "correct": false
+        matn: "со 2 класса",
+        correct: false
       },
       {
-        "matn": "с 3 класса",
-        "correct": false
+        matn: "с 3 класса",
+        correct: false
       },
       {
-        "matn": "с 4 класса",
-        "correct": false
+        matn: "с 4 класса",
+        correct: false
       },
       {
-        "matn": "с 1 класса",
-        "correct": true
+        matn: "с 1 класса",
+        correct: true
       }
     ]
   },
   {
-    "id": 816,
-    "savol": "Использование букв для обозначения геометрических фигур вводится?",
-    "javob": [
+    id: 816,
+    savol: "Использование букв для обозначения геометрических фигур вводится?",
+    javob: [
       {
-        "matn": "в 1 классе",
-        "correct": false
+        matn: "в 1 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "во 2 классе",
-        "correct": true
+        matn: "во 2 классе",
+        correct: true
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 817,
-    "savol": "Какой метод можно отнести к методам по пути движения мысли ученика?",
-    "javob": [
+    id: 817,
+    savol: "Какой метод можно отнести к методам по пути движения мысли ученика?",
+    javob: [
       {
-        "matn": "интерактивный метод",
-        "correct": false
+        matn: "интерактивный метод",
+        correct: false
       },
       {
-        "matn": "метод индукции",
-        "correct": true
+        matn: "метод индукции",
+        correct: true
       },
       {
-        "matn": "репродуктивный метод",
-        "correct": false
+        matn: "репродуктивный метод",
+        correct: false
       },
       {
-        "matn": "метод самостоятельной активности учеников",
-        "correct": false
+        matn: "метод самостоятельной активности учеников",
+        correct: false
       }
     ]
   },
   {
-    "id": 818,
-    "savol": "Выберите строку, в которой даны только словестные методы:",
-    "javob": [
+    id: 818,
+    savol: "Выберите строку, в которой даны только словестные методы:",
+    javob: [
       {
-        "matn": "Объяснение, беседа, обобщение",
-        "correct": false
+        matn: "Объяснение, беседа, обобщение",
+        correct: false
       },
       {
-        "matn": "Объяснение, беседа, работа с учебником",
-        "correct": true
+        matn: "Объяснение, беседа, работа с учебником",
+        correct: true
       },
       {
-        "matn": "Объяснение, обобщение, рассказ",
-        "correct": false
+        matn: "Объяснение, обобщение, рассказ",
+        correct: false
       },
       {
-        "matn": "Рассказ, обобщение, беседа",
-        "correct": false
+        matn: "Рассказ, обобщение, беседа",
+        correct: false
       }
     ]
   },
   {
-    "id": 819,
-    "savol": "Какой вид беседы строится на системе таких вопросов, которые требуют простого воспроизведения ранее усвоенных знаний, формулировок?",
-    "javob": [
+    id: 819,
+    savol: "Какой вид беседы строится на системе таких вопросов, которые требуют простого воспроизведения ранее усвоенных знаний, формулировок?",
+    javob: [
       {
-        "matn": "Эвристическая беседа",
-        "correct": false
+        matn: "Эвристическая беседа",
+        correct: false
       },
       {
-        "matn": "Беседа по задаче",
-        "correct": false
+        matn: "Беседа по задаче",
+        correct: false
       },
       {
-        "matn": "Катехизическая беседа",
-        "correct": true
+        matn: "Катехизическая беседа",
+        correct: true
       },
       {
-        "matn": "Беседа по примеру",
-        "correct": false
+        matn: "Беседа по примеру",
+        correct: false
       }
     ]
   },
   {
-    "id": 820,
-    "savol": "Какой прием мышления, направлен на расчленение целого на составляющие части?",
-    "javob": [
+    id: 820,
+    savol: "Какой прием мышления, направлен на расчленение целого на составляющие части?",
+    javob: [
       {
-        "matn": "синтез",
-        "correct": false
+        matn: "синтез",
+        correct: false
       },
       {
-        "matn": "анализ",
-        "correct": true
+        matn: "анализ",
+        correct: true
       },
       {
-        "matn": "обобщение",
-        "correct": false
+        matn: "обобщение",
+        correct: false
       },
       {
-        "matn": "дедукция",
-        "correct": false
+        matn: "дедукция",
+        correct: false
       }
     ]
   },
   {
-    "id": 821,
-    "savol": "Сколько в процентном соотношении усваивается информации при том, что мы будем видеть и слышать её?",
-    "javob": [
+    id: 821,
+    savol: "Сколько в процентном соотношении усваивается информации при том, что мы будем видеть и слышать её?",
+    javob: [
       {
-        "matn": "30%",
-        "correct": false
+        matn: "30%",
+        correct: false
       },
       {
-        "matn": "50%",
-        "correct": true
+        matn: "50%",
+        correct: true
       },
       {
-        "matn": "20%",
-        "correct": false
+        matn: "20%",
+        correct: false
       },
       {
-        "matn": "10%",
-        "correct": false
+        matn: "10%",
+        correct: false
       }
     ]
   },
   {
-    "id": 822,
-    "savol": "Что в переводе с английского языка «interact»?",
-    "javob": [
+    id: 822,
+    savol: "Что в переводе с английского языка «interact»?",
+    javob: [
       {
-        "matn": "«inter»- «сообща», «act»-действовать",
-        "correct": false
+        matn: "«inter»- «сообща», «act»-действовать",
+        correct: false
       },
       {
-        "matn": "«inter»- «дружно», «act»-действовать",
-        "correct": false
+        matn: "«inter»- «дружно», «act»-действовать",
+        correct: false
       },
       {
-        "matn": "«inter»- «взаимный», «act»-действовать",
-        "correct": true
+        matn: "«inter»- «взаимный», «act»-действовать",
+        correct: true
       },
       {
-        "matn": "«inter»- «вместе», «act»-действовать",
-        "correct": false
+        matn: "«inter»- «вместе», «act»-действовать",
+        correct: false
       }
     ]
   },
   {
-    "id": 823,
-    "savol": "В каком интерактивном методе используются следующие виды пометок: «V», «-», «+», «?» ?",
-    "javob": [
+    id: 823,
+    savol: "В каком интерактивном методе используются следующие виды пометок: «V», «-», «+», «?» ?",
+    javob: [
       {
-        "matn": "мозговой штурм",
-        "correct": false
+        matn: "мозговой штурм",
+        correct: false
       },
       {
-        "matn": "инсерт",
-        "correct": true
+        matn: "инсерт",
+        correct: true
       },
       {
-        "matn": "«кубик»",
-        "correct": false
+        matn: "«кубик»",
+        correct: false
       },
       {
-        "matn": "зигзаг",
-        "correct": false
+        matn: "зигзаг",
+        correct: false
       }
     ]
   },
   {
-    "id": 824,
-    "savol": "Урок это – ...",
-    "javob": [
+    id: 824,
+    savol: "Урок это – ...",
+    javob: [
       {
-        "matn": "Процесс, дающий ЗУН по математике",
-        "correct": false
+        matn: "Процесс, дающий ЗУН по математике",
+        correct: false
       },
       {
-        "matn": "Логически законченная, ограниченная временем часть учебно-воспитательного процесса",
-        "correct": true
+        matn: "Логически законченная, ограниченная временем часть учебно-воспитательного процесса",
+        correct: true
       },
       {
-        "matn": "Процесс, определяющий знания и оценивающий по предмету математики",
-        "correct": false
+        matn: "Процесс, определяющий знания и оценивающий по предмету математики",
+        correct: false
       },
       {
-        "matn": "Ознакомительный процесс с математической литературой",
-        "correct": false
+        matn: "Ознакомительный процесс с математической литературой",
+        correct: false
       }
     ]
   },
   {
-    "id": 825,
-    "savol": "Какие типы уроков наиболее распространены в 1-4 классах?",
-    "javob": [
+    id: 825,
+    savol: "Какие типы уроков наиболее распространены в 1-4 классах?",
+    javob: [
       {
-        "matn": "изучения новых знаний",
-        "correct": false
+        matn: "изучения новых знаний",
+        correct: false
       },
       {
-        "matn": "закрепления",
-        "correct": false
+        matn: "закрепления",
+        correct: false
       },
       {
-        "matn": "комбинированный",
-        "correct": true
+        matn: "комбинированный",
+        correct: true
       },
       {
-        "matn": "контрольный урок",
-        "correct": false
+        matn: "контрольный урок",
+        correct: false
       }
     ]
   },
   {
-    "id": 826,
-    "savol": "На каких уроках основное место отводится устной и письменной проверке усвоенных знаний?",
-    "javob": [
+    id: 826,
+    savol: "На каких уроках основное место отводится устной и письменной проверке усвоенных знаний?",
+    javob: [
       {
-        "matn": "закрепления",
-        "correct": false
+        matn: "закрепления",
+        correct: false
       },
       {
-        "matn": "контрольных",
-        "correct": true
+        matn: "контрольных",
+        correct: true
       },
       {
-        "matn": "комбинированных",
-        "correct": false
+        matn: "комбинированных",
+        correct: false
       },
       {
-        "matn": "изучения новых знаний",
-        "correct": false
+        matn: "изучения новых знаний",
+        correct: false
       }
     ]
   },
   {
-    "id": 827,
-    "savol": "На уроке какого типа, тратится примерно одинаковое время на повторение, проверку ранее изученного, на изучение нового материала и его закрепление?",
-    "javob": [
+    id: 827,
+    savol: "На уроке какого типа, тратится примерно одинаковое время на повторение, проверку ранее изученного, на изучение нового материала и его закрепление?",
+    javob: [
       {
-        "matn": "контрольный",
-        "correct": false
+        matn: "контрольный",
+        correct: false
       },
       {
-        "matn": "комбинированный",
-        "correct": true
+        matn: "комбинированный",
+        correct: true
       },
       {
-        "matn": "Урок изучения нового материала",
-        "correct": false
+        matn: "Урок изучения нового материала",
+        correct: false
       },
       {
-        "matn": "закрепления ЗУН",
-        "correct": false
+        matn: "закрепления ЗУН",
+        correct: false
       }
     ]
   },
   {
-    "id": 828,
-    "savol": "Структура какого урока представлена ниже 1) повторение материала; 2) изучение нового; 3) первичное закрепление; 4) задание на дом",
-    "javob": [
+    id: 828,
+    savol: "Структура какого урока представлена ниже 1) повторение материала; 2) изучение нового; 3) первичное закрепление; 4) задание на дом",
+    javob: [
       {
-        "matn": "комбинированный",
-        "correct": false
+        matn: "комбинированный",
+        correct: false
       },
       {
-        "matn": "закрепления ЗУН",
-        "correct": false
+        matn: "закрепления ЗУН",
+        correct: false
       },
       {
-        "matn": "проблемный",
-        "correct": false
+        matn: "проблемный",
+        correct: false
       },
       {
-        "matn": "Урок изучения нового материала",
-        "correct": true
+        matn: "Урок изучения нового материала",
+        correct: true
       }
     ]
   },
   {
-    "id": 829,
-    "savol": "Структура какого урока представлена ниже: 1) воспроизведение учащимися ЗУН, которые необходимы при выполнении задания; 2) самостоятельное выполнение различных упражнений; 3) проверка и подведение итогов;4) задание на дом.",
-    "javob": [
+    id: 829,
+    savol: "Структура какого урока представлена ниже: 1) воспроизведение учащимися ЗУН, которые необходимы при выполнении задания; 2) самостоятельное выполнение различных упражнений; 3) проверка и подведение итогов;4) задание на дом.",
+    javob: [
       {
-        "matn": "комбинированный",
-        "correct": false
+        matn: "комбинированный",
+        correct: false
       },
       {
-        "matn": "закрепления ЗУН",
-        "correct": true
+        matn: "закрепления ЗУН",
+        correct: true
       },
       {
-        "matn": "Урок изучения нового материала",
-        "correct": false
+        matn: "Урок изучения нового материала",
+        correct: false
       },
       {
-        "matn": "проблемный",
-        "correct": false
+        matn: "проблемный",
+        correct: false
       }
     ]
   },
   {
-    "id": 830,
-    "savol": "Как называется форма организации самостоятельной индивидуальной работы учеников во внеурочное время?",
-    "javob": [
+    id: 830,
+    savol: "Как называется форма организации самостоятельной индивидуальной работы учеников во внеурочное время?",
+    javob: [
       {
-        "matn": "математическая олимпиада",
-        "correct": false
+        matn: "математическая олимпиада",
+        correct: false
       },
       {
-        "matn": "математический конкурс",
-        "correct": false
+        matn: "математический конкурс",
+        correct: false
       },
       {
-        "matn": "домашнее задание",
-        "correct": true
+        matn: "домашнее задание",
+        correct: true
       },
       {
-        "matn": "математический кружок",
-        "correct": false
+        matn: "математический кружок",
+        correct: false
       }
     ]
   },
   {
-    "id": 831,
-    "savol": "С какого класса целесообразна организация кружковой работы?",
-    "javob": [
+    id: 831,
+    savol: "С какого класса целесообразна организация кружковой работы?",
+    javob: [
       {
-        "matn": "с 1полугодия 1 класса",
-        "correct": false
+        matn: "с 1полугодия 1 класса",
+        correct: false
       },
       {
-        "matn": "со 2 полугодия 1 класса",
-        "correct": true
+        matn: "со 2 полугодия 1 класса",
+        correct: true
       },
       {
-        "matn": "со 2 полугодия 2 класса",
-        "correct": false
+        matn: "со 2 полугодия 2 класса",
+        correct: false
       },
       {
-        "matn": "со 1 полугодия 2класса",
-        "correct": false
+        matn: "со 1 полугодия 2класса",
+        correct: false
       }
     ]
   },
   {
-    "id": 832,
-    "savol": "Какова по времени продолжительность кружкового занятия во 2-3 классе?",
-    "javob": [
+    id: 832,
+    savol: "Какова по времени продолжительность кружкового занятия во 2-3 классе?",
+    javob: [
       {
-        "matn": "15-20 минут",
-        "correct": false
+        matn: "15-20 минут",
+        correct: false
       },
       {
-        "matn": "25-30 минут",
-        "correct": false
+        matn: "25-30 минут",
+        correct: false
       },
       {
-        "matn": "30-45 минут",
-        "correct": true
+        matn: "30-45 минут",
+        correct: true
       },
       {
-        "matn": "30-35 минут",
-        "correct": false
+        matn: "30-35 минут",
+        correct: false
       }
     ]
   },
   {
-    "id": 833,
-    "savol": "Сколько раз в month целесообразно проводить кружковые занятия?",
-    "javob": [
+    id: 833,
+    savol: "Сколько раз в month целесообразно проводить кружковые занятия?",
+    javob: [
       {
-        "matn": "2 раза в неделю",
-        "correct": false
+        matn: "2 раза в неделю",
+        correct: false
       },
       {
-        "matn": "2-3 раза в месяц",
-        "correct": true
+        matn: "2-3 раза в месяц",
+        correct: true
       },
       {
-        "matn": "1 раз в неделю",
-        "correct": false
+        matn: "1 раз в неделю",
+        correct: false
       },
       {
-        "matn": "2-3 раза в неделю",
-        "correct": false
+        matn: "2-3 раза в неделю",
+        correct: false
       }
     ]
   },
   {
-    "id": 834,
-    "savol": "Какова продолжительность занятия «час занимательной математики» во 2 классе?",
-    "javob": [
+    id: 834,
+    savol: "Какова продолжительность занятия «час занимательной математики» во 2 классе?",
+    javob: [
       {
-        "matn": "20-25 мину",
-        "correct": false
+        matn: "20-25 мину",
+        correct: false
       },
       {
-        "matn": "25-35 минут",
-        "correct": true
+        matn: "25-35 минут",
+        correct: true
       },
       {
-        "matn": "25-30 минут",
-        "correct": false
+        matn: "25-30 минут",
+        correct: false
       },
       {
-        "matn": "35-40 минут",
-        "correct": false
+        matn: "35-40 минут",
+        correct: false
       }
     ]
   },
   {
-    "id": 835,
-    "savol": "Какова продолжительность занятия «час занимательной математики» в 1 классе?",
-    "javob": [
+    id: 835,
+    savol: "Какова продолжительность занятия «час занимательной математики» в 1 классе?",
+    javob: [
       {
-        "matn": "25-30 минут",
-        "correct": false
+        matn: "25-30 минут",
+        correct: false
       },
       {
-        "matn": "30-35 минут",
-        "correct": false
+        matn: "30-35 минут",
+        correct: false
       },
       {
-        "matn": "20-25 минут",
-        "correct": true
+        matn: "20-25 минут",
+        correct: true
       },
       {
-        "matn": "35-40 минут",
-        "correct": false
+        matn: "35-40 минут",
+        correct: false
       }
     ]
   },
   {
-    "id": 836,
-    "savol": "К какому виду внеклассного мероприятия можно отнести понятие «живые числа»?",
-    "javob": [
+    id: 836,
+    savol: "К какому виду внеклассного мероприятия можно отнести понятие «живые числа»?",
+    javob: [
       {
-        "matn": "кружок",
-        "correct": false
+        matn: "кружок",
+        correct: false
       },
       {
-        "matn": "занимательная математика",
-        "correct": false
+        matn: "занимательная математика",
+        correct: false
       },
       {
-        "matn": "экскурсия",
-        "correct": true
+        matn: "экскурсия",
+        correct: true
       },
       {
-        "matn": "олимпиада",
-        "correct": false
+        matn: "олимпиада",
+        correct: false
       }
     ]
   },
   {
-    "id": 837,
-    "savol": "Какое средство в системе средств является основой, вокруг которой, группируются все другие учебные средства?",
-    "javob": [
+    id: 837,
+    savol: "Какое средство в системе средств является основой, вокруг которой, группируются все другие учебные средства?",
+    javob: [
       {
-        "matn": "наглядные пособия",
-        "correct": false
+        matn: "наглядные пособия",
+        correct: false
       },
       {
-        "matn": "учебник",
-        "correct": true
+        matn: "учебник",
+        correct: true
       },
       {
-        "matn": "экранные средства",
-        "correct": false
+        matn: "экранные средства",
+        correct: false
       },
       {
-        "matn": "доска",
-        "correct": false
+        matn: "доска",
+        correct: false
       }
     ]
   },
   {
-    "id": 838,
-    "savol": "Видеокассеты, видеодиски- …",
-    "javob": [
+    id: 838,
+    savol: "Видеокассеты, видеодиски- …",
+    javob: [
       {
-        "matn": "звуковые средства",
-        "correct": false
+        matn: "звуковые средства",
+        correct: false
       },
       {
-        "matn": "динамические средства",
-        "correct": false
+        matn: "динамические средства",
+        correct: false
       },
       {
-        "matn": "визуальные технические средства",
-        "correct": true
+        matn: "визуальные технические средства",
+        correct: true
       },
       {
-        "matn": "анимационные средства",
-        "correct": false
+        matn: "анимационные средства",
+        correct: false
       }
     ]
   },
   {
-    "id": 839,
-    "savol": "Как называется школа, в которой учитель работает одновременно с несколькими классами?",
-    "javob": [
+    id: 839,
+    savol: "Как называется школа, в которой учитель работает одновременно с несколькими классами?",
+    javob: [
       {
-        "matn": "двухкомплектная",
-        "correct": false
+        matn: "двухкомплектная",
+        correct: false
       },
       {
-        "matn": "малокомплектная",
-        "correct": true
+        matn: "малокомплектная",
+        correct: true
       },
       {
-        "matn": "однокомплектная",
-        "correct": false
+        matn: "однокомплектная",
+        correct: false
       },
       {
-        "matn": "массовая",
-        "correct": false
+        matn: "массовая",
+        correct: false
       }
     ]
   },
   {
-    "id": 840,
-    "savol": "Нумерация чисел – это…",
-    "javob": [
+    id: 840,
+    savol: "Нумерация чисел – это…",
+    javob: [
       {
-        "matn": "выполнение арифметических действий, запись чисел, вычисление примеров",
-        "correct": false
+        matn: "выполнение арифметических действий, запись чисел, вычисление примеров",
+        correct: false
       },
       {
-        "matn": "запись и чтение чисел выполнение арифметических действий, запись чисел, вычисление примеров",
-        "correct": true
+        matn: "запись и чтение чисел выполнение арифметических действий, запись чисел, вычисление примеров",
+        correct: true
       },
       {
-        "matn": "запись цифр",
-        "correct": false
+        matn: "запись цифр",
+        correct: false
       },
       {
-        "matn": "только чтение цифр",
-        "correct": false
+        matn: "только чтение цифр",
+        correct: false
       }
     ]
   },
   {
-    "id": 841,
-    "savol": "…- установление взаимно однозначного соответствия между элементами непустого конечного множества и отрезком натурального ряда.",
-    "javob": [
+    id: 841,
+    savol: "…- установление взаимно однозначного соответствия между элементами непустого конечного множества и отрезком натурального ряда.",
+    javob: [
       {
-        "matn": "пересчитывание",
-        "correct": false
+        matn: "пересчитывание",
+        correct: false
       },
       {
-        "matn": "нумерация",
-        "correct": false
+        matn: "нумерация",
+        correct: false
       },
       {
-        "matn": "счет",
-        "correct": true
+        matn: "счет",
+        correct: true
       },
       {
-        "matn": "проверка",
-        "correct": false
+        matn: "проверка",
+        correct: false
       }
     ]
   },
   {
-    "id": 842,
-    "savol": "Выберите вариант, в котором даны основные понятия темы нумерация:",
-    "javob": [
+    id: 842,
+    savol: "Выберите вариант, в котором даны основные понятия темы нумерация:",
+    javob: [
       {
-        "matn": "«счет», «предмет», «класс»",
-        "correct": false
+        matn: "«счет», «предмет», «класс»",
+        correct: false
       },
       {
-        "matn": "«прямой счет», «обратный счет»",
-        "correct": false
+        matn: "«прямой счет», «обратный счет»",
+        correct: false
       },
       {
-        "matn": "«число», «цифра», «счетная единица», «разряд», «класс»",
-        "correct": true
+        matn: "«число», «цифра», «счетная единица», «разряд», «класс»",
+        correct: true
       },
       {
-        "matn": "«счет», «прямой счет», «обратный счет»",
-        "correct": false
+        matn: "«счет», «прямой счет», «обратный счет»",
+        correct: false
       }
     ]
   },
   {
-    "id": 843,
-    "savol": "Через какие понятия раскрывается позиционность десятичной системы счисления?",
-    "javob": [
+    id: 843,
+    savol: "Через какие понятия раскрывается позиционность десятичной системы счисления?",
+    javob: [
       {
-        "matn": "«число», «цифра», «счетная единица», «разряд», «класс» «счет»",
-        "correct": false
+        matn: "«число», «цифра», «счетная единица», «разряд», «класс» «счет»",
+        correct: false
       },
       {
-        "matn": "«разряд», «класс»",
-        "correct": true
+        matn: "«разряд», «класс»",
+        correct: true
       },
       {
-        "matn": "«прямой счет»,",
-        "correct": false
+        matn: "«прямой счет»,",
+        correct: false
       },
       {
-        "matn": "«счет», «прямой счет», «название чисел в обратном порядке»",
-        "correct": false
+        matn: "«счет», «прямой счет», «название чисел в обратном порядке»",
+        correct: false
       }
     ]
   },
   {
-    "id": 844,
-    "savol": "Свойства сложения и вычитания в пределах 10, изучаемые в 1 классе-",
-    "javob": [
+    id: 844,
+    savol: "Свойства сложения и вычитания в пределах 10, изучаемые в 1 классе-",
+    javob: [
       {
-        "matn": "транзитивный, дистрибутивный",
-        "correct": false
+        matn: "транзитивный, дистрибутивный",
+        correct: false
       },
       {
-        "matn": "переместительный",
-        "correct": true
+        matn: "переместительный",
+        correct: true
       },
       {
-        "matn": "транзитивное и коммутативное",
-        "correct": false
+        matn: "транзитивное и коммутативное",
+        correct: false
       },
       {
-        "matn": "дистрибутивное и коммутативное",
-        "correct": false
+        matn: "дистрибутивное и коммутативное",
+        correct: false
       }
     ]
   },
   {
-    "id": 845,
-    "savol": "В каком классе изучается нумерация в пределах 10?",
-    "javob": [
+    id: 845,
+    savol: "В каком классе изучается нумерация в пределах 10?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 846,
-    "savol": "В каком классе изучается счет через один?",
-    "javob": [
+    id: 846,
+    savol: "В каком классе изучается счет через один?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 847,
-    "savol": "В каком классе изучаются счет десятками?",
-    "javob": [
+    id: 847,
+    savol: "В каком классе изучаются счет десятками?",
+    javob: [
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 848,
-    "savol": "В каком классе изучается состав однозначных чисел?",
-    "javob": [
+    id: 848,
+    savol: "В каком классе изучается состав однозначных чисел?",
+    javob: [
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 849,
-    "savol": "В каком классе вводится понятие «разряд»?",
-    "javob": [
+    id: 849,
+    savol: "В каком классе вводится понятие «разряд»?",
+    javob: [
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 класс",
-        "correct": false
+        matn: "в 4 класс",
+        correct: false
       }
     ]
   },
   {
-    "id": 850,
-    "savol": "В каком классе вводится впервые число 100?",
-    "javob": [
+    id: 850,
+    savol: "В каком классе вводится впервые число 100?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 851,
-    "savol": "В каком классе изучается нумерация в пределах 100?",
-    "javob": [
+    id: 851,
+    savol: "В каком классе изучается нумерация в пределах 100?",
+    javob: [
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 852,
-    "savol": "В каком концентре начинают изучать деление?",
-    "javob": [
+    id: 852,
+    savol: "В каком концентре начинают изучать деление?",
+    javob: [
       {
-        "matn": "10",
-        "correct": false
+        matn: "10",
+        correct: false
       },
       {
-        "matn": "100",
-        "correct": true
+        matn: "100",
+        correct: true
       },
       {
-        "matn": "1000",
-        "correct": false
+        matn: "1000",
+        correct: false
       },
       {
-        "matn": "многозначных чисел",
-        "correct": false
+        matn: "многозначных чисел",
+        correct: false
       }
     ]
   },
   {
-    "id": 853,
-    "savol": "В каком концентре изучается умножение?",
-    "javob": [
+    id: 853,
+    savol: "В каком концентре изучается умножение?",
+    javob: [
       {
-        "matn": "100",
-        "correct": true
+        matn: "100",
+        correct: true
       },
       {
-        "matn": "10",
-        "correct": false
+        matn: "10",
+        correct: false
       },
       {
-        "matn": "1000",
-        "correct": false
+        matn: "1000",
+        correct: false
       },
       {
-        "matn": "многозначных чисел",
-        "correct": false
+        matn: "многозначных чисел",
+        correct: false
       }
     ]
   },
   {
-    "id": 854,
-    "savol": "Когда и где была осознана и применена идея укрупненной единицы?",
-    "javob": [
+    id: 854,
+    savol: "Когда и где была осознана и применена идея укрупненной единицы?",
+    javob: [
       {
-        "matn": "около 3500 лет назад в Древней Греции",
-        "correct": false
+        matn: "около 3500 лет назад в Древней Греции",
+        correct: false
       },
       {
-        "matn": "около 4000 лет назад в Египте",
-        "correct": false
+        matn: "около 4000 лет назад в Египте",
+        correct: false
       },
       {
-        "matn": "около 4000 лет назад в Древнем Вавилоне",
-        "correct": true
+        matn: "около 4000 лет назад в Древнем Вавилоне",
+        correct: true
       },
       {
-        "matn": "около 4000 лет назад в Древней Греции",
-        "correct": false
+        matn: "около 4000 лет назад в Древней Греции",
+        correct: false
       }
     ]
   },
   {
-    "id": 855,
-    "savol": "В каком веке натуральное число в математике понималось как собрание единиц?",
-    "javob": [
+    id: 855,
+    savol: "В каком веке натуральное число в математике понималось как собрание единиц?",
+    javob: [
       {
-        "matn": "В XVII веке",
-        "correct": false
+        matn: "В XVII веке",
+        correct: false
       },
       {
-        "matn": "В XIX веке",
-        "correct": false
+        matn: "В XIX веке",
+        correct: false
       },
       {
-        "matn": "В XVIII веке",
-        "correct": true
+        matn: "В XVIII веке",
+        correct: true
       },
       {
-        "matn": "В XV веке",
-        "correct": false
+        matn: "В XV веке",
+        correct: false
       }
     ]
   },
   {
-    "id": 856,
-    "savol": "Из скольких единиц состояла укрупненная счетная единица глубокой древности?",
-    "javob": [
+    id: 856,
+    savol: "Из скольких единиц состояла укрупненная счетная единица глубокой древности?",
+    javob: [
       {
-        "matn": "40 единиц",
-        "correct": false
+        matn: "40 единиц",
+        correct: false
       },
       {
-        "matn": "60 единиц",
-        "correct": true
+        matn: "60 единиц",
+        correct: true
       },
       {
-        "matn": "50 единиц",
-        "correct": false
+        matn: "50 единиц",
+        correct: false
       },
       {
-        "matn": "25 единиц",
-        "correct": false
+        matn: "25 единиц",
+        correct: false
       }
     ]
   },
   {
-    "id": 857,
-    "savol": "Как называется отдельный предмет или группа предметов, с помощью которой ведется счет?",
-    "javob": [
+    id: 857,
+    savol: "Как называется отдельный предмет или группа предметов, с помощью которой ведется счет?",
+    javob: [
       {
-        "matn": "числа",
-        "correct": false
+        matn: "числа",
+        correct: false
       },
       {
-        "matn": "десятки",
-        "correct": false
+        matn: "десятки",
+        correct: false
       },
       {
-        "matn": "цифры",
-        "correct": false
+        matn: "цифры",
+        correct: false
       },
       {
-        "matn": "Счетные единицы",
-        "correct": true
+        matn: "Счетные единицы",
+        correct: true
       }
     ]
   },
   {
-    "id": 858,
-    "savol": "В каком концентре учащиеся знакомятся с новой счетной единицей – десятком?",
-    "javob": [
+    id: 858,
+    savol: "В каком концентре учащиеся знакомятся с новой счетной единицей – десятком?",
+    javob: [
       {
-        "matn": "в пределах 10",
-        "correct": false
+        matn: "в пределах 10",
+        correct: false
       },
       {
-        "matn": "в пределах 100",
-        "correct": true
+        matn: "в пределах 100",
+        correct: true
       },
       {
-        "matn": "в пределах 1000",
-        "correct": false
+        matn: "в пределах 1000",
+        correct: false
       },
       {
-        "matn": "в пределах многозначных чисел",
-        "correct": false
+        matn: "в пределах многозначных чисел",
+        correct: false
       }
     ]
   },
   {
-    "id": 859,
-    "savol": "В каком концентре учащиеся знакомятся с важнейшим понятием десятичной системы счисления - разрядом?",
-    "javob": [
+    id: 859,
+    savol: "В каком концентре учащиеся знакомятся с важнейшим понятием десятичной системы счисления - разрядом?",
+    javob: [
       {
-        "matn": "нумерация чисел в пределах 1000",
-        "correct": false
+        matn: "нумерация чисел в пределах 1000",
+        correct: false
       },
       {
-        "matn": "нумерация чисел в пределах 10",
-        "correct": false
+        matn: "нумерация чисел в пределах 10",
+        correct: false
       },
       {
-        "matn": "нумерация чисел в пределах 100",
-        "correct": true
+        matn: "нумерация чисел в пределах 100",
+        correct: true
       },
       {
-        "matn": "нумерация многозначных чисел",
-        "correct": false
+        matn: "нумерация многозначных чисел",
+        correct: false
       }
     ]
   },
   {
-    "id": 860,
-    "savol": "На каком концентре заканчивается изучение нумерации чисел первого класса?",
-    "javob": [
+    id: 860,
+    savol: "На каком концентре заканчивается изучение нумерации чисел первого класса?",
+    javob: [
       {
-        "matn": "в пределах 100",
-        "correct": true
+        matn: "в пределах 100",
+        correct: true
       },
       {
-        "matn": "в пределах 10",
-        "correct": false
+        matn: "в пределах 10",
+        correct: false
       },
       {
-        "matn": "в пределах 1000",
-        "correct": false
+        matn: "в пределах 1000",
+        correct: false
       },
       {
-        "matn": "в пределах многозначных чисел",
-        "correct": false
+        matn: "в пределах многозначных чисел",
+        correct: false
       }
     ]
   },
   {
-    "id": 861,
-    "savol": "В каком классе изучается нумерация в пределах 1000?",
-    "javob": [
+    id: 861,
+    savol: "В каком классе изучается нумерация в пределах 1000?",
+    javob: [
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": false
+        matn: "в 1 классе",
+        correct: false
       },
       {
-        "matn": "во 2 классе",
-        "correct": true
+        matn: "во 2 классе",
+        correct: true
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 862,
-    "savol": "В каком классе изучается класс «миллион»?",
-    "javob": [
+    id: 862,
+    savol: "В каком классе изучается класс «миллион»?",
+    javob: [
       {
-        "matn": "в 4 классе",
-        "correct": true
+        matn: "в 4 классе",
+        correct: true
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": false
+        matn: "в 1 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 863,
-    "savol": "В сколько раз каждая последующая классная единица больше соответствующей счетной единицы предыдущего класса?",
-    "javob": [
+    id: 863,
+    savol: "В сколько раз каждая последующая классная единица больше соответствующей счетной единицы предыдущего класса?",
+    javob: [
       {
-        "matn": "В 100 раз",
-        "correct": false
+        matn: "В 100 раз",
+        correct: false
       },
       {
-        "matn": "В 10 раз",
-        "correct": false
+        matn: "В 10 раз",
+        correct: false
       },
       {
-        "matn": "В 1000 раз",
-        "correct": true
+        matn: "В 1000 раз",
+        correct: true
       },
       {
-        "matn": "В 10000 раз",
-        "correct": false
+        matn: "В 10000 раз",
+        correct: false
       }
     ]
   },
   {
-    "id": 864,
-    "savol": "В сколько раз каждая последующая счетная единица больше предыдущей счетной единицы?",
-    "javob": [
+    id: 864,
+    savol: "В сколько раз каждая последующая счетная единица больше предыдущей счетной единицы?",
+    javob: [
       {
-        "matn": "В 100 раз",
-        "correct": false
+        matn: "В 100 раз",
+        correct: false
       },
       {
-        "matn": "В 10 раз",
-        "correct": true
+        matn: "В 10 раз",
+        correct: true
       },
       {
-        "matn": "В 1000 раз",
-        "correct": false
+        matn: "В 1000 раз",
+        correct: false
       },
       {
-        "matn": "В 10000 раз",
-        "correct": false
+        matn: "В 10000 раз",
+        correct: false
       }
     ]
   },
   {
-    "id": 865,
-    "savol": "Сколько единиц первого класса составляют 1 единицу второго класса?",
-    "javob": [
+    id: 865,
+    savol: "Сколько единиц первого класса составляют 1 единицу второго класса?",
+    javob: [
       {
-        "matn": "100 единиц",
-        "correct": false
+        matn: "100 единиц",
+        correct: false
       },
       {
-        "matn": "1000 единиц",
-        "correct": true
+        matn: "1000 единиц",
+        correct: true
       },
       {
-        "matn": "999 единиц",
-        "correct": false
+        matn: "999 единиц",
+        correct: false
       },
       {
-        "matn": "10 единиц",
-        "correct": false
+        matn: "10 единиц",
+        correct: false
       }
     ]
   },
   {
-    "id": 866,
-    "savol": "Как называется третий класс?",
-    "javob": [
+    id: 866,
+    savol: "Как называется третий класс?",
+    javob: [
       {
-        "matn": "класс миллиардов",
-        "correct": false
+        matn: "класс миллиардов",
+        correct: false
       },
       {
-        "matn": "класс тысяч",
-        "correct": false
+        matn: "класс тысяч",
+        correct: false
       },
       {
-        "matn": "класс миллионов",
-        "correct": true
+        matn: "класс миллионов",
+        correct: true
       },
       {
-        "matn": "класс единиц",
-        "correct": false
+        matn: "класс единиц",
+        correct: false
       }
     ]
   },
   {
-    "id": 867,
-    "savol": "1000 единиц второго класса составляют 1 единицу … класса.",
-    "javob": [
+    id: 867,
+    savol: "1000 единиц второго класса составляют 1 единицу … класса.",
+    javob: [
       {
-        "matn": "первого",
-        "correct": false
+        matn: "первого",
+        correct: false
       },
       {
-        "matn": "третьего",
-        "correct": true
+        matn: "третьего",
+        correct: true
       },
       {
-        "matn": "второго",
-        "correct": false
+        matn: "второго",
+        correct: false
       },
       {
-        "matn": "четвертого",
-        "correct": false
+        matn: "четвертого",
+        correct: false
       }
     ]
   },
   {
-    "id": 868,
-    "savol": "Сколько трехзначных чисел кратных 15?",
-    "javob": [
+    id: 868,
+    savol: "Сколько трехзначных чисел кратных 15?",
+    javob: [
       {
-        "matn": "63",
-        "correct": false
+        matn: "63",
+        correct: false
       },
       {
-        "matn": "64",
-        "correct": false
+        matn: "64",
+        correct: false
       },
       {
-        "matn": "60",
-        "correct": true
+        matn: "60",
+        correct: true
       },
       {
-        "matn": "61",
-        "correct": false
+        matn: "61",
+        correct: false
       }
     ]
   },
   {
-    "id": 869,
-    "savol": "Найдите число, оканчивающееся цифрой 6, такое, что если последнюю цифру 6 перенести в начало, то получится число в 4 раза большее исходного.",
-    "javob": [
+    id: 869,
+    savol: "Найдите число, оканчивающееся цифрой 6, такое, что если последнюю цифру 6 перенести в начало, то получится число в 4 раза большее исходного.",
+    javob: [
       {
-        "matn": "354846",
-        "correct": false
+        matn: "354846",
+        correct: false
       },
       {
-        "matn": "153846",
-        "correct": true
+        matn: "153846",
+        correct: true
       },
       {
-        "matn": "831826",
-        "correct": false
+        matn: "831826",
+        correct: false
       },
       {
-        "matn": "565384",
-        "correct": false
+        matn: "565384",
+        correct: false
       }
     ]
   },
   {
-    "id": 870,
-    "savol": "Дать название четвертого класса",
-    "javob": [
+    id: 870,
+    savol: "Дать название четвертого класса",
+    javob: [
       {
-        "matn": "класс миллионов",
-        "correct": false
+        matn: "класс миллионов",
+        correct: false
       },
       {
-        "matn": "класс миллиардов",
-        "correct": true
+        matn: "класс миллиардов",
+        correct: true
       },
       {
-        "matn": "класс тысяч",
-        "correct": false
+        matn: "класс тысяч",
+        correct: false
       },
       {
-        "matn": "класс единиц",
-        "correct": false
+        matn: "класс единиц",
+        correct: false
       }
     ]
   },
   {
-    "id": 871,
-    "savol": "Из скольких разрядов состоит каждый класс?",
-    "javob": [
+    id: 871,
+    savol: "Из скольких разрядов состоит каждый класс?",
+    javob: [
       {
-        "matn": "4",
-        "correct": false
+        matn: "4",
+        correct: false
       },
       {
-        "matn": "2",
-        "correct": false
+        matn: "2",
+        correct: false
       },
       {
-        "matn": "3",
-        "correct": true
+        matn: "3",
+        correct: true
       },
       {
-        "matn": "6",
-        "correct": false
+        matn: "6",
+        correct: false
       }
     ]
   },
   {
-    "id": 872,
-    "savol": "В каком классе изучается чтение и запись многозначных чисел?",
-    "javob": [
+    id: 872,
+    savol: "В каком классе изучается чтение и запись многозначных чисел?",
+    javob: [
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 классе",
-        "correct": true
+        matn: "в 4 классе",
+        correct: true
       },
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": false
+        matn: "в 1 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 873,
-    "savol": "Через какое понятие формируется представление о длине?",
-    "javob": [
+    id: 873,
+    savol: "Через какое понятие формируется представление о длине?",
+    javob: [
       {
-        "matn": "определенное расстояние, прямая",
-        "correct": false
+        matn: "определенное расстояние, прямая",
+        correct: false
       },
       {
-        "matn": "линия начертаний на земле",
-        "correct": false
+        matn: "линия начертаний на земле",
+        correct: false
       },
       {
-        "matn": "понятие длина отрезка",
-        "correct": true
+        matn: "понятие длина отрезка",
+        correct: true
       },
       {
-        "matn": "скорость, прямая",
-        "correct": false
+        matn: "скорость, прямая",
+        correct: false
       }
     ]
   },
   {
-    "id": 874,
-    "savol": "Какой ответ верный?",
-    "javob": [
+    id: 874,
+    savol: "Какой ответ верный?",
+    javob: [
       {
-        "matn": "32 см50 мм=325 мм",
-        "correct": false
+        matn: "32 см50 мм=325 мм",
+        correct: false
       },
       {
-        "matn": "38 см 20 мм= 400 мм",
-        "correct": true
+        matn: "38 см 20 мм= 400 мм",
+        correct: true
       },
       {
-        "matn": "6 м120 дм=6120 дм",
-        "correct": false
+        matn: "6 м120 дм=6120 дм",
+        correct: false
       },
       {
-        "matn": "120 дм 12 см=1м 32 см",
-        "correct": false
+        matn: "120 дм 12 см=1м 32 см",
+        correct: false
       }
     ]
   },
   {
-    "id": 875,
-    "savol": "Какие меры длины используются в настоящее время?",
-    "javob": [
+    id: 875,
+    savol: "Какие меры длины используются в настоящее время?",
+    javob: [
       {
-        "matn": "карич, литр, км",
-        "correct": false
+        matn: "карич, литр, км",
+        correct: false
       },
       {
-        "matn": "тирсак, чакирим",
-        "correct": false
+        matn: "тирсак, чакирим",
+        correct: false
       },
       {
-        "matn": "см, дм, литр, км",
-        "correct": false
+        matn: "см, дм, литр, км",
+        correct: false
       },
       {
-        "matn": "метр, см, дм, км, мм",
-        "correct": true
+        matn: "метр, см, дм, км, мм",
+        correct: true
       }
     ]
   },
   {
-    "id": 876,
-    "savol": "Величины, изучаемые в первом классе:",
-    "javob": [
+    id: 876,
+    savol: "Величины, изучаемые в первом классе:",
+    javob: [
       {
-        "matn": "км, сек",
-        "correct": false
+        matn: "км, сек",
+        correct: false
       },
       {
-        "matn": "см, литр, м, дм, кг, сутки",
-        "correct": true
+        matn: "см, литр, м, дм, кг, сутки",
+        correct: true
       },
       {
-        "matn": "дм, см, час",
-        "correct": false
+        matn: "дм, см, час",
+        correct: false
       },
       {
-        "matn": "литр, сутки, мин, век",
-        "correct": false
+        matn: "литр, сутки, мин, век",
+        correct: false
       }
     ]
   },
   {
-    "id": 877,
-    "savol": "Какое из данных выражений правильно?",
-    "javob": [
+    id: 877,
+    savol: "Какое из данных выражений правильно?",
+    javob: [
       {
-        "matn": "12 см + 2 дм = 14 дм",
-        "correct": false
+        matn: "12 см + 2 дм = 14 дм",
+        correct: false
       },
       {
-        "matn": "6 дм 3 см + 2 дм 1 см = 8 дм 4 см",
-        "correct": true
+        matn: "6 дм 3 см + 2 дм 1 см = 8 дм 4 см",
+        correct: true
       },
       {
-        "matn": "4 дм 3 мм + 2 дм 1 см = 6 дм 4 м",
-        "correct": false
+        matn: "4 дм 3 мм + 2 дм 1 см = 6 дм 4 м",
+        correct: false
       },
       {
-        "matn": "10 дм 5 мм - 4 см 7 мм = 958 мм",
-        "correct": false
+        matn: "10 дм 5 мм - 4 см 7 мм = 958 мм",
+        correct: false
       }
     ]
   },
   {
-    "id": 878,
-    "savol": "Какой ответ верный?",
-    "javob": [
+    id: 878,
+    savol: "Какой ответ верный?",
+    javob: [
       {
-        "matn": "120 дм 12 см=1м32 см",
-        "correct": false
+        matn: "120 дм 12 см=1м32 см",
+        correct: false
       },
       {
-        "matn": "12 км 100 м=12100 м",
-        "correct": true
+        matn: "12 км 100 м=12100 м",
+        correct: true
       },
       {
-        "matn": "6м 120 дм=61200 дм",
-        "correct": false
+        matn: "6м 120 дм=61200 дм",
+        correct: false
       },
       {
-        "matn": "120 дм 12 см=1м32 см (дубликат)",
-        "correct": false
+        matn: "120 дм 12 см=1м32 см (дубликат)",
+        correct: false
       }
     ]
   },
   {
-    "id": 879,
-    "savol": "В каком классе изучается единица измерения см?",
-    "javob": [
+    id: 879,
+    savol: "В каком классе изучается единица измерения см?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 880,
-    "savol": "В каком классе изучается единицы измерения дм?",
-    "javob": [
+    id: 880,
+    savol: "В каком классе изучается единицы измерения дм?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 881,
-    "savol": "В каком классе изучается единицы измерения м?",
-    "javob": [
+    id: 881,
+    savol: "В каком классе изучается единицы измерения м?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 882,
-    "savol": "В каком классе изучается единицы измерения кг?",
-    "javob": [
+    id: 882,
+    savol: "В каком классе изучается единицы измерения кг?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       }
     ]
   },
   {
-    "id": 883,
-    "savol": "В каком классе изучается единицы измерения литр?",
-    "javob": [
+    id: 883,
+    savol: "В каком классе изучается единицы измерения литр?",
+    javob: [
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": true
+        matn: "в 1 классе",
+        correct: true
       },
       {
-        "matn": "в 3 классе",
-        "correct": false
+        matn: "в 3 классе",
+        correct: false
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 884,
-    "savol": "В каком классе изучается единицы измерения тонна?",
-    "javob": [
+    id: 884,
+    savol: "В каком классе изучается единицы измерения тонна?",
+    javob: [
       {
-        "matn": "в 2 классе",
-        "correct": false
+        matn: "в 2 классе",
+        correct: false
       },
       {
-        "matn": "в 1 классе",
-        "correct": false
+        matn: "в 1 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": true
+        matn: "в 3 классе",
+        correct: true
       },
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 885,
-    "savol": "Укажите строку, в которой представлены только меры массы",
-    "javob": [
+    id: 885,
+    savol: "Укажите строку, в которой представлены только меры массы",
+    javob: [
       {
-        "matn": "кг, т, км, ц",
-        "correct": false
+        matn: "кг, т, км, ц",
+        correct: false
       },
       {
-        "matn": "кг, г, т, ц",
-        "correct": true
+        matn: "кг, г, т, ц",
+        correct: true
       },
       {
-        "matn": "см, г, т , ц",
-        "correct": false
+        matn: "см, г, т , ц",
+        correct: false
       },
       {
-        "matn": "кг, дм, т, г",
-        "correct": false
+        matn: "кг, дм, т, г",
+        correct: false
       }
     ]
   },
   {
-    "id": 886,
-    "savol": "В каком классе учащиеся знакомятся с такими единицами массы как грамм, центнер, тонна?",
-    "javob": [
+    id: 886,
+    savol: "В каком классе учащиеся знакомятся с такими единицами массы как грамм, центнер, тонна?",
+    javob: [
       {
-        "matn": "в 4 классе",
-        "correct": false
+        matn: "в 4 классе",
+        correct: false
       },
       {
-        "matn": "во 2 классе",
-        "correct": false
+        matn: "во 2 классе",
+        correct: false
       },
       {
-        "matn": "в 3 классе",
-        "correct": true
+        matn: "в 3 классе",
+        correct: true
       },
       {
-        "matn": "в 1 классе",
-        "correct": false
+        matn: "в 1 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 887,
-    "savol": "Какой ответ верный?",
-    "javob": [
+    id: 887,
+    savol: "Какой ответ верный?",
+    javob: [
       {
-        "matn": "1 м2 =10 дм2",
-        "correct": false
+        matn: "1 м2 =10 дм2",
+        correct: false
       },
       {
-        "matn": "1 м2 =10×10 дм2= 100 дм2",
-        "correct": true
+        matn: "1 м2 =10×10 дм2= 100 дм2",
+        correct: true
       },
       {
-        "matn": "1 м2=100×10 см2",
-        "correct": false
+        matn: "1 м2=100×10 см2",
+        correct: false
       },
       {
-        "matn": "1 м2=100×100 мм2 = 10000мм2",
-        "correct": false
+        matn: "1 м2=100×100 мм2 = 10000мм2",
+        correct: false
       }
     ]
   },
   {
-    "id": 888,
-    "savol": "При помощи чего формируются понятия связанные со временем (год, месяц, неделя)",
-    "javob": [
+    id: 888,
+    savol: "При помощи чего формируются понятия связанные со временем (год, месяц, неделя)",
+    javob: [
       {
-        "matn": "с помощью модели часов",
-        "correct": false
+        matn: "с помощью модели часов",
+        correct: false
       },
       {
-        "matn": "с помощью табеля-календаря",
-        "correct": true
+        matn: "с помощью табеля-календаря",
+        correct: true
       },
       {
-        "matn": "с помощью солнца и часов",
-        "correct": false
+        matn: "с помощью солнца и часов",
+        correct: false
       },
       {
-        "matn": "с помощью года и недели",
-        "correct": false
+        matn: "с помощью года и недели",
+        correct: false
       }
     ]
   },
   {
-    "id": 889,
-    "savol": "Какой ответ верный?",
-    "javob": [
+    id: 889,
+    savol: "Какой ответ верный?",
+    javob: [
       {
-        "matn": "6 лет = 74 месяца",
-        "correct": false
+        matn: "6 лет = 74 месяца",
+        correct: false
       },
       {
-        "matn": "2 суток 12 часов 45 минут = 32 часа 55 минут",
-        "correct": false
+        matn: "2 суток 12 часов 45 минут = 32 часа 55 минут",
+        correct: false
       },
       {
-        "matn": "8 часов 45 минут = 525 минут",
-        "correct": true
+        matn: "8 часов 45 минут = 525 минут",
+        correct: true
       },
       {
-        "matn": "14 минут 30 секунд = 14,30 минут",
-        "correct": false
+        matn: "14 минут 30 секунд = 14,30 минут",
+        correct: false
       }
     ]
   },
   {
-    "id": 890,
-    "savol": "Какие методы относятся к интерактивным?",
-    "javob": [
+    id: 890,
+    savol: "Какие методы относятся к интерактивным?",
+    javob: [
       {
-        "matn": "Зигзаг, лекция, мозговой штурм",
-        "correct": false
+        matn: "Зигзаг, лекция, мозговой штурм",
+        correct: false
       },
       {
-        "matn": "Кубик, семинар, реферат",
-        "correct": false
+        matn: "Кубик, семинар, реферат",
+        correct: false
       },
       {
-        "matn": "Зигзаг, кубик, инсерт, аквариум",
-        "correct": true
+        matn: "Зигзаг, кубик, инсерт, аквариум",
+        correct: true
       },
       {
-        "matn": "Семинар, контрольная работа, зигзаг",
-        "correct": false
+        matn: "Семинар, контрольная работа, зигзаг",
+        correct: false
       }
     ]
   },
   {
-    "id": 891,
-    "savol": "С чего начинается алгоритм подготовки к проведению урока?",
-    "javob": [
+    id: 891,
+    savol: "С чего начинается алгоритм подготовки к проведению урока?",
+    javob: [
       {
-        "matn": "Определить тип урока",
-        "correct": false
+        matn: "Определить тип урока",
+        correct: false
       },
       {
-        "matn": "Выяснить тему урока по учебному и календарно-тематическому плану",
-        "correct": true
+        matn: "Выяснить тему урока по учебному и календарно-тематическому плану",
+        correct: true
       },
       {
-        "matn": "Определить метод обучения",
-        "correct": false
+        matn: "Определить метод обучения",
+        correct: false
       },
       {
-        "matn": "Утвердить план-конспект",
-        "correct": false
+        matn: "Утвердить план-конспект",
+        correct: false
       }
     ]
   },
   {
-    "id": 892,
-    "savol": "С чего начинается алгоритм составления развернутого плана-конспекта?",
-    "javob": [
+    id: 892,
+    savol: "С чего начинается алгоритм составления развернутого плана-конспекта?",
+    javob: [
       {
-        "matn": "Перечислить ЗУНы, приобретаемые учащимися в результате проведенного урока",
-        "correct": false
+        matn: "Перечислить ЗУНы, приобретаемые учащимися в результате проведенного урока",
+        correct: false
       },
       {
-        "matn": "Написать дату проведения урока, класс, тему",
-        "correct": true
+        matn: "Написать дату проведения урока, класс, тему",
+        correct: true
       },
       {
-        "matn": "Указать тип урока",
-        "correct": false
+        matn: "Указать тип урока",
+        correct: false
       },
       {
-        "matn": "Указать методы обучения",
-        "correct": false
+        matn: "Указать методы обучения",
+        correct: false
       }
     ]
   },
   {
-    "id": 893,
-    "savol": "Чем заканчивается алгоритм подготовки к проведению урока?",
-    "javob": [
+    id: 893,
+    savol: "Чем заканчивается алгоритм подготовки к проведению урока?",
+    javob: [
       {
-        "matn": "Указать тип урока",
-        "correct": false
+        matn: "Указать тип урока",
+        correct: false
       },
       {
-        "matn": "Утверждение плана-конспекта",
-        "correct": true
+        matn: "Утверждение плана-конспекта",
+        correct: true
       },
       {
-        "matn": "Выбор метода",
-        "correct": false
+        matn: "Выбор метода",
+        correct: false
       },
       {
-        "matn": "Подготовка раздаточного материала",
-        "correct": false
+        matn: "Подготовка раздаточного материала",
+        correct: false
       }
     ]
   },
   {
-    "id": 894,
-    "savol": "Выберите из перечисленных ниже пунктов то, что относится к дидактическому материалу",
-    "javob": [
+    id: 894,
+    savol: "Выберите из перечисленных ниже пунктов то, что относится к дидактическому материалу",
+    javob: [
       {
-        "matn": "Линейка, палетка",
-        "correct": false
+        matn: "Линейка, палетка",
+        correct: false
       },
       {
-        "matn": "Карточк и с заданиями, счетные палочки",
-        "correct": true
+        matn: "Карточк и с заданиями, счетные палочки",
+        correct: true
       },
       {
-        "matn": "Циркуль",
-        "correct": false
+        matn: "Циркуль",
+        correct: false
       },
       {
-        "matn": "Счеты",
-        "correct": false
+        matn: "Счеты",
+        correct: false
       }
     ]
   },
   {
-    "id": 895,
-    "savol": "Основным элементом в оснащении учебного процесса при обучении математике является",
-    "javob": [
+    id: 895,
+    savol: "Основным элементом в оснащении учебного процесса при обучении математике является",
+    javob: [
       {
-        "matn": "Наглядное пособие",
-        "correct": false
+        matn: "Наглядное пособие",
+        correct: false
       },
       {
-        "matn": "Учебник",
-        "correct": true
+        matn: "Учебник",
+        correct: true
       },
       {
-        "matn": "Программа",
-        "correct": false
+        matn: "Программа",
+        correct: false
       },
       {
-        "matn": "Плакаты",
-        "correct": false
+        matn: "Плакаты",
+        correct: false
       }
     ]
   },
   {
-    "id": 896,
-    "savol": "В начальный период обучения математике используются методы ...",
-    "javob": [
+    id: 896,
+    savol: "В начальный период обучения математике используются методы ...",
+    javob: [
       {
-        "matn": "Дидактические игры",
-        "correct": false
+        matn: "Дидактические игры",
+        correct: false
       },
       {
-        "matn": "Работа по образцу",
-        "correct": false
+        matn: "Работа по образцу",
+        correct: false
       },
       {
-        "matn": "Работа по подражанию, работа по образцу, дидактические игры",
-        "correct": true
+        matn: "Работа по подражанию, работа по образцу, дидактические игры",
+        correct: true
       },
       {
-        "matn": "Работа по подражанию",
-        "correct": false
+        matn: "Работа по подражанию",
+        correct: false
       }
     ]
   },
   {
-    "id": 897,
-    "savol": "Что относится к натуральным наглядным пособиям?",
-    "javob": [
+    id: 897,
+    savol: "Что относится к натуральным наглядным пособиям?",
+    javob: [
       {
-        "matn": "Предметные картинки, рисунки, чертежи",
-        "correct": false
+        matn: "Предметные картинки, рисунки, чертежи",
+        correct: false
       },
       {
-        "matn": "Тетради, карандаши, палочки",
-        "correct": true
+        matn: "Тетради, карандаши, палочки",
+        correct: true
       },
       {
-        "matn": "Карточки с изображениями математических символов",
-        "correct": false
+        matn: "Карточки с изображениями математических символов",
+        correct: false
       },
       {
-        "matn": "Изображения предметов и фигур",
-        "correct": false
+        matn: "Изображения предметов и фигур",
+        correct: false
       }
     ]
   },
   {
-    "id": 898,
-    "savol": "Выделите визуальные технические средства",
-    "javob": [
+    id: 898,
+    savol: "Выделите визуальные технические средства",
+    javob: [
       {
-        "matn": "Аудиокассеты, диски",
-        "correct": false
+        matn: "Аудиокассеты, диски",
+        correct: false
       },
       {
-        "matn": "Магнитофоны",
-        "correct": false
+        matn: "Магнитофоны",
+        correct: false
       },
       {
-        "matn": "Видеокассеты, видеодиски",
-        "correct": true
+        matn: "Видеокассеты, видеодиски",
+        correct: true
       },
       {
-        "matn": "Компьютерные устройства",
-        "correct": false
+        matn: "Компьютерные устройства",
+        correct: false
       }
     ]
   },
   {
-    "id": 899,
-    "savol": "Дидактические игры. Нанизывай бусы, Составь пирамиду, Лесенка способствуют формированию понятия …",
-    "javob": [
+    id: 899,
+    savol: "Дидактические игры. Нанизывай бусы, Составь пирамиду, Лесенка способствуют формированию понятия …",
+    javob: [
       {
-        "matn": "Площади",
-        "correct": false
+        matn: "Площади",
+        correct: false
       },
       {
-        "matn": "Длины",
-        "correct": true
+        matn: "Длины",
+        correct: true
       },
       {
-        "matn": "Емкости",
-        "correct": false
+        matn: "Емкости",
+        correct: false
       },
       {
-        "matn": "Массы",
-        "correct": false
+        matn: "Массы",
+        correct: false
       }
     ]
   },
   {
-    "id": 900,
-    "savol": "Сколько часов в неделю по математике определено Госстандартом?",
-    "javob": [
+    id: 900,
+    savol: "Сколько часов в неделю по математике определено Госстандартом?",
+    javob: [
       {
-        "matn": "4 часа",
-        "correct": false
+        matn: "4 часа",
+        correct: false
       },
       {
-        "matn": "3 часа",
-        "correct": false
+        matn: "3 часа",
+        correct: false
       },
       {
-        "matn": "6 часов",
-        "correct": false
+        matn: "6 часов",
+        correct: false
       },
       {
-        "matn": "5 часов",
-        "correct": true
+        matn: "5 часов",
+        correct: true
       }
     ]
   },
   {
-    "id": 901,
-    "savol": "Метод обучения — это...",
-    "javob": [
+    id: 901,
+    savol: "Метод обучения — это...",
+    javob: [
       {
-        "matn": "Управление процессами обучения и воспитания",
-        "correct": false
+        matn: "Управление процессами обучения и воспитания",
+        correct: false
       },
       {
-        "matn": "Способ упорядоченной, взаимосвязанной деятельности учителя и обучаемых, направленной на решение задач образования, воспитания и развития школьников в процессе обучения",
-        "correct": true
+        matn: "Способ упорядоченной, взаимосвязанной деятельности учителя и обучаемых, направленной на решение задач образования, воспитания и развития школьников в процессе обучения",
+        correct: true
       },
       {
-        "matn": "Определение сходства изучаемых объектов и явлений",
-        "correct": false
+        matn: "Определение сходства изучаемых объектов и явлений",
+        correct: false
       },
       {
-        "matn": "Определение различий изучаемых объектов и явлений",
-        "correct": false
+        matn: "Определение различий изучаемых объектов и явлений",
+        correct: false
       }
     ]
   },
   {
-    "id": 902,
-    "savol": "Какой этап при решении задач пропущен: разбор и разъяснение текста задач, разбор задачи, запись краткого условия, проверка решения задачи.",
-    "javob": [
+    id: 902,
+    savol: "Какой этап при решении задач пропущен: разбор и разъяснение текста задач, разбор задачи, запись краткого условия, проверка решения задачи.",
+    javob: [
       {
-        "matn": "Работа над иллюстрацией",
-        "correct": false
+        matn: "Работа над иллюстрацией",
+        correct: false
       },
       {
-        "matn": "Составление схемы к задаче",
-        "correct": false
+        matn: "Составление схемы к задаче",
+        correct: false
       },
       {
-        "matn": "Запись решения и ответа",
-        "correct": true
+        matn: "Запись решения и ответа",
+        correct: true
       },
       {
-        "matn": "Запись формулы",
-        "correct": false
+        matn: "Запись формулы",
+        correct: false
       }
     ]
   },
   {
-    "id": 903,
-    "savol": "На какие две части делится методика преподавания математики?",
-    "javob": [
+    id: 903,
+    savol: "На какие две части делится методика преподавания математики?",
+    javob: [
       {
-        "matn": "На главную и второстепенную",
-        "correct": false
+        matn: "На главную и второстепенную",
+        correct: false
       },
       {
-        "matn": "На общую и частную",
-        "correct": true
+        matn: "На общую и частную",
+        correct: true
       },
       {
-        "matn": "На общую и конкретную",
-        "correct": false
+        matn: "На общую и конкретную",
+        correct: false
       },
       {
-        "matn": "На школьную и классную",
-        "correct": false
+        matn: "На школьную и классную",
+        correct: false
       }
     ]
   },
   {
-    "id": 904,
-    "savol": "Методы научного исследования — это ...",
-    "javob": [
+    id: 904,
+    savol: "Методы научного исследования — это ...",
+    javob: [
       {
-        "matn": "Способы получения информации, с целью построения научных теорий",
-        "correct": false
+        matn: "Способы получения информации, с целью построения научных теорий",
+        correct: false
       },
       {
-        "matn": "Способы получения научной информации, с целью установления закономерных связей, отношений, зависимостей и построение научных теорий",
-        "correct": true
+        matn: "Способы получения научной информации, с целью установления закономерных связей, отношений, зависимостей и построение научных теорий",
+        correct: true
       },
       {
-        "matn": "Способы получения знаний, умений и навыков",
-        "correct": false
+        matn: "Способы получения знаний, умений и навыков",
+        correct: false
       },
       {
-        "matn": "Способы получения различной информации",
-        "correct": false
+        matn: "Способы получения различной информации",
+        correct: false
       }
     ]
   },
   {
-    "id": 905,
-    "savol": "Начальный курс математики включает в себя 3 основных курса - ...",
-    "javob": [
+    id: 905,
+    savol: "Начальный курс математики включает в себя 3 основных курса - ...",
+    javob: [
       {
-        "matn": "Арифметику , логику, задачи на движение",
-        "correct": false
+        matn: "Арифметику , логику, задачи на движение",
+        correct: false
       },
       {
-        "matn": "Арифметику, логику и занимательную математику",
-        "correct": false
+        matn: "Арифметику, логику и занимательную математику",
+        correct: false
       },
       {
-        "matn": "Арифметику, элементы алгебры, элементы геометрии",
-        "correct": true
+        matn: "Арифметику, элементы алгебры, элементы геометрии",
+        correct: true
       },
       {
-        "matn": "Решение примеров, решение задач, геометрический материал",
-        "correct": false
+        matn: "Решение примеров, решение задач, геометрический материал",
+        correct: false
       }
     ]
   },
   {
-    "id": 906,
-    "savol": "Какой метод ориентирован на более широкое взаимодействие учащихся не только с преподавателем, но и друг с другом?",
-    "javob": [
+    id: 906,
+    savol: "Какой метод ориентирован на более широкое взаимодействие учащихся не только с преподавателем, но и друг с другом?",
+    javob: [
       {
-        "matn": "Словесный",
-        "correct": false
+        matn: "Словесный",
+        correct: false
       },
       {
-        "matn": "Наглядный",
-        "correct": false
+        matn: "Наглядный",
+        correct: false
       },
       {
-        "matn": "Практический",
-        "correct": false
+        matn: "Практический",
+        correct: false
       },
       {
-        "matn": "Интерактивный",
-        "correct": true
+        matn: "Интерактивный",
+        correct: true
       }
     ]
   },
   {
-    "id": 907,
-    "savol": "Математические часы, математические кружки, утренники, олимпиады, викторины, конкурсы – это ...",
-    "javob": [
+    id: 907,
+    savol: "Математические часы, математические кружки, утренники, олимпиады, викторины, конкурсы – это ...",
+    javob: [
       {
-        "matn": "Кружковая работа по математике",
-        "correct": false
+        matn: "Кружковая работа по математике",
+        correct: false
       },
       {
-        "matn": "Урочная работа по математике",
-        "correct": false
+        matn: "Урочная работа по математике",
+        correct: false
       },
       {
-        "matn": "Внеклассная работа по математике",
-        "correct": true
+        matn: "Внеклассная работа по математике",
+        correct: true
       },
       {
-        "matn": "Внеклассная и кружковая работа по математике",
-        "correct": false
+        matn: "Внеклассная и кружковая работа по математике",
+        correct: false
       }
     ]
   },
   {
-    "id": 908,
-    "savol": "Организованные занятия школьников во внеурочное время по материалу связанному с программой по математике – это ...",
-    "javob": [
+    id: 908,
+    savol: "Организованные занятия школьников во внеурочное время по материалу связанному с программой по математике – это ...",
+    javob: [
       {
-        "matn": "Кружковая работа",
-        "correct": false
+        matn: "Кружковая работа",
+        correct: false
       },
       {
-        "matn": "Домашняя работа",
-        "correct": false
+        matn: "Домашняя работа",
+        correct: false
       },
       {
-        "matn": "Внеклассная работа",
-        "correct": true
+        matn: "Внеклассная работа",
+        correct: true
       },
       {
-        "matn": "Экскурсия",
-        "correct": false
+        matn: "Экскурсия",
+        correct: false
       }
     ]
   },
   {
-    "id": 909,
-    "savol": "Какой отличительный принцип включает в себя внеклассная работа?",
-    "javob": [
+    id: 909,
+    savol: "Какой отличительный принцип включает в себя внеклассная работа?",
+    javob: [
       {
-        "matn": "Обязательность",
-        "correct": false
+        matn: "Обязательность",
+        correct: false
       },
       {
-        "matn": "Добровольность",
-        "correct": true
+        matn: "Добровольность",
+        correct: true
       },
       {
-        "matn": "Гуманность",
-        "correct": false
+        matn: "Гуманность",
+        correct: false
       },
       {
-        "matn": "Последовательность",
-        "correct": false
+        matn: "Последовательность",
+        correct: false
       }
     ]
   },
   {
-    "id": 910,
-    "savol": "Какая форма обучения предполагает регламент 45ти минут?",
-    "javob": [
+    id: 910,
+    savol: "Какая форма обучения предполагает регламент 45ти минут?",
+    javob: [
       {
-        "matn": "Внеклассная форма обучения",
-        "correct": false
+        matn: "Внеклассная форма обучения",
+        correct: false
       },
       {
-        "matn": "Индивидуальная форма обучения",
-        "correct": false
+        matn: "Индивидуальная форма обучения",
+        correct: false
       },
       {
-        "matn": "Классная форма обучения",
-        "correct": true
+        matn: "Классная форма обучения",
+        correct: true
       },
       {
-        "matn": "Комплексная форма обучения",
-        "correct": false
+        matn: "Комплексная форма обучения",
+        correct: false
       }
     ]
   },
   {
-    "id": 911,
-    "savol": "Метод, который позволяет учащемуся за короткий промежуток времени освоить большое количество учебного материала?",
-    "javob": [
+    id: 911,
+    savol: "Метод, который позволяет учащемуся за короткий промежуток времени освоить большое количество учебного материала?",
+    javob: [
       {
-        "matn": "Мозговой штурм",
-        "correct": false
+        matn: "Мозговой штурм",
+        correct: false
       },
       {
-        "matn": "Круглый стол",
-        "correct": false
+        matn: "Круглый стол",
+        correct: false
       },
       {
-        "matn": "Синквейн",
-        "correct": false
+        matn: "Синквейн",
+        correct: false
       },
       {
-        "matn": "Зиг-заг",
-        "correct": true
+        matn: "Зиг-заг",
+        correct: true
       }
     ]
   },
   {
-    "id": 912,
-    "savol": "Что относится к техническим средствам обучения?",
-    "javob": [
+    id: 912,
+    savol: "Что относится к техническим средствам обучения?",
+    javob: [
       {
-        "matn": "Плакаты, абак, процессор",
-        "correct": false
+        matn: "Плакаты, абак, процессор",
+        correct: false
       },
       {
-        "matn": "Монитор, процессор, проектор, телевизор, магнитофон, кодоскоп",
-        "correct": true
+        matn: "Монитор, процессор, проектор, телевизор, магнитофон, кодоскоп",
+        correct: true
       },
       {
-        "matn": "Учебник, тетрадь на печатной основе",
-        "correct": false
+        matn: "Учебник, тетрадь на печатной основе",
+        correct: false
       },
       {
-        "matn": "Доска, наборное полотно",
-        "correct": false
+        matn: "Доска, наборное полотно",
+        correct: false
       }
     ]
   },
   {
-    "id": 913,
-    "savol": "Какие наглядные пособия могут лучше всего раскрыть понятие емкости?",
-    "javob": [
+    id: 913,
+    savol: "Какие наглядные пособия могут лучше всего раскрыть понятие емкости?",
+    javob: [
       {
-        "matn": "Тематические плакаты по теме емкость",
-        "correct": false
+        matn: "Тематические плакаты по теме емкость",
+        correct: false
       },
       {
-        "matn": "Илюстрирование в учебнике по математике",
-        "correct": false
+        matn: "Илюстрирование в учебнике по математике",
+        correct: false
       },
       {
-        "matn": "Мерные кружки, банки различной вместимости",
-        "correct": true
+        matn: "Мерные кружки, банки различной вместимости",
+        correct: true
       },
       {
-        "matn": "Обьемные фигуры куба, циллиндра, параллелепипеда",
-        "correct": false
+        matn: "Обьемные фигуры куба, циллиндра, параллелепипеда",
+        correct: false
       }
     ]
   },
   {
-    "id": 914,
-    "savol": "Какая основная деятельность ведется учеником?",
-    "javob": [
+    id: 914,
+    savol: "Какая основная деятельность ведется учеником?",
+    javob: [
       {
-        "matn": "Систематическое выполнение домашнего задания, послушание",
-        "correct": false
+        matn: "Систематическое выполнение домашнего задания, послушание",
+        correct: false
       },
       {
-        "matn": "Хорошее поведение, послушание, четкая дисциплина",
-        "correct": false
+        matn: "Хорошее поведение, послушание, четкая дисциплина",
+        correct: false
       },
       {
-        "matn": "Практика",
-        "correct": false
+        matn: "Практика",
+        correct: false
       },
       {
-        "matn": "Восприятие, осмысление, применение на практике",
-        "correct": true
+        matn: "Восприятие, осмысление, применение на практике",
+        correct: true
       }
     ]
   },
   {
-    "id": 915,
-    "savol": "Что можно сказать о длине как о свойстве тела?",
-    "javob": [
+    id: 915,
+    savol: "Что можно сказать о длине как о свойстве тела?",
+    javob: [
       {
-        "matn": "Это протяженность, размеры предметов",
-        "correct": true
+        matn: "Это протяженность, размеры предметов",
+        correct: true
       },
       {
-        "matn": "Это измерение предмета",
-        "correct": false
+        matn: "Это измерение предмета",
+        correct: false
       },
       {
-        "matn": "Это установление отношения между телами",
-        "correct": false
+        matn: "Это установление отношения между телами",
+        correct: false
       },
       {
-        "matn": "Это величина",
-        "correct": false
+        matn: "Это величина",
+        correct: false
       }
     ]
   },
   {
-    "id": 916,
-    "savol": "К какой группе средств обучения относится таблица?",
-    "javob": [
+    id: 916,
+    savol: "К какой группе средств обучения относится таблица?",
+    javob: [
       {
-        "matn": "натуральной",
-        "correct": false
+        matn: "натуральной",
+        correct: false
       },
       {
-        "matn": "изобразительной",
-        "correct": false
+        matn: "изобразительной",
+        correct: false
       },
       {
-        "matn": "графическая",
-        "correct": false
+        matn: "графическая",
+        correct: false
       },
       {
-        "matn": "символической",
-        "correct": true
+        matn: "символической",
+        correct: true
       }
     ]
   },
   {
-    "id": 917,
-    "savol": "Среди следующих вариантов укажите методы педагогического исследования",
-    "javob": [
+    id: 917,
+    savol: "Среди следующих вариантов укажите методы педагогического исследования",
+    javob: [
       {
-        "matn": "Практический, наглядный, анкетирование",
-        "correct": false
+        matn: "Практический, наглядный, анкетирование",
+        correct: false
       },
       {
-        "matn": "Словесный, изучение ученических тетрадей, тестирование",
-        "correct": false
+        matn: "Словесный, изучение ученических тетрадей, тестирование",
+        correct: false
       },
       {
-        "matn": "Эксперимент, наблюдение, тестирование, анкетирование",
-        "correct": true
+        matn: "Эксперимент, наблюдение, тестирование, анкетирование",
+        correct: true
       },
       {
-        "matn": "Эксперимент, тестирование, анкетирование, интерактивный",
-        "correct": false
+        matn: "Эксперимент, тестирование, анкетирование, интерактивный",
+        correct: false
       }
     ]
   },
   {
-    "id": 918,
-    "savol": "К какой форме обучения относится экскурсия?",
-    "javob": [
+    id: 918,
+    savol: "К какой форме обучения относится экскурсия?",
+    javob: [
       {
-        "matn": "классной",
-        "correct": false
+        matn: "классной",
+        correct: false
       },
       {
-        "matn": "индивидуальной",
-        "correct": false
+        matn: "индивидуальной",
+        correct: false
       },
       {
-        "matn": "домашней",
-        "correct": false
+        matn: "домашней",
+        correct: false
       },
       {
-        "matn": "внеклассной",
-        "correct": true
+        matn: "внеклассной",
+        correct: true
       }
     ]
   },
   {
-    "id": 919,
-    "savol": "Интерактивные методы обучения это ...",
-    "javob": [
+    id: 919,
+    savol: "Интерактивные методы обучения это ...",
+    javob: [
       {
-        "matn": "Мозговой штурм, кластер, кубик, инсерт, трехступенчатое интервью, зиг-заг",
-        "correct": true
+        matn: "Мозговой штурм, кластер, кубик, инсерт, трехступенчатое интервью, зиг-заг",
+        correct: true
       },
       {
-        "matn": "Объяснение, беседа, рассказ, диалог",
-        "correct": false
+        matn: "Объяснение, беседа, рассказ, диалог",
+        correct: false
       },
       {
-        "matn": "Демонстрации и иллюстрации",
-        "correct": false
+        matn: "Демонстрации и иллюстрации",
+        correct: false
       },
       {
-        "matn": "Аналогия, анализ, синтез",
-        "correct": false
+        matn: "Аналогия, анализ, синтез",
+        correct: false
       }
     ]
   },
   {
-    "id": 920,
-    "savol": "Определите, на какие группы делятся методы обучения",
-    "javob": [
+    id: 920,
+    savol: "Определите, на какие группы делятся методы обучения",
+    javob: [
       {
-        "matn": "Словесные и наглядные",
-        "correct": false
+        matn: "Словесные и наглядные",
+        correct: false
       },
       {
-        "matn": "Активные и практические",
-        "correct": false
+        matn: "Активные и практические",
+        correct: false
       },
       {
-        "matn": "Традиционные и инновационные",
-        "correct": true
+        matn: "Традиционные и инновационные",
+        correct: true
       },
       {
-        "matn": "Практические и словесные",
-        "correct": false
+        matn: "Практические и словесные",
+        correct: false
       }
     ]
   },
   {
-    "id": 921,
-    "savol": "Выберите среди ответов основные цели урока",
-    "javob": [
+    id: 921,
+    savol: "Выберите среди ответов основные цели урока",
+    javob: [
       {
-        "matn": "Развивающая, воспитательная",
-        "correct": false
+        matn: "Развивающая, воспитательная",
+        correct: false
       },
       {
-        "matn": "образовательная",
-        "correct": false
+        matn: "образовательная",
+        correct: false
       },
       {
-        "matn": "Образовательная, воспитательная, развивающая",
-        "correct": true
+        matn: "Образовательная, воспитательная, развивающая",
+        correct: true
       },
       {
-        "matn": "Организующая, воспитательная",
-        "correct": false
+        matn: "Организующая, воспитательная",
+        correct: false
       }
     ]
   },
   {
-    "id": 922,
-    "savol": "Кластер – это...",
-    "javob": [
+    id: 922,
+    savol: "Кластер – это...",
+    javob: [
       {
-        "matn": "Традиционный метод",
-        "correct": false
+        matn: "Традиционный метод",
+        correct: false
       },
       {
-        "matn": "Интерактивный метод, отображение понятий, относящихся к теме в виде схемы, чертежа",
-        "correct": true
+        matn: "Интерактивный метод, отображение понятий, относящихся к теме в виде схемы, чертежа",
+        correct: true
       },
       {
-        "matn": "Практический метод",
-        "correct": false
+        matn: "Практический метод",
+        correct: false
       },
       {
-        "matn": "Интерактивный метод, основанный на изучении темы с помощью условных обозначений",
-        "correct": false
+        matn: "Интерактивный метод, основанный на изучении темы с помощью условных обозначений",
+        correct: false
       }
     ]
   },
   {
-    "id": 923,
-    "savol": "Что включает в себя анализ урока?",
-    "javob": [
+    id: 923,
+    savol: "Что включает в себя анализ урока?",
+    javob: [
       {
-        "matn": "Содержание урока, научная ценность , эффективность методов",
-        "correct": false
+        matn: "Содержание урока, научная ценность , эффективность методов",
+        correct: false
       },
       {
-        "matn": "Научная ценность, эффективность методов, качество деятельности учителя и учеников",
-        "correct": false
+        matn: "Научная ценность, эффективность методов, качество деятельности учителя и учеников",
+        correct: false
       },
       {
-        "matn": "Содержание урока, его научная ценность, качество деятельности учителя и учеников на уроке, формирование ЗУН",
-        "correct": true
+        matn: "Содержание урока, его научная ценность, качество деятельности учителя и учеников на уроке, формирование ЗУН",
+        correct: true
       },
       {
-        "matn": "Формирование ЗУН, качество деятельности учителя",
-        "correct": false
+        matn: "Формирование ЗУН, качество деятельности учителя",
+        correct: false
       }
     ]
   },
   {
-    "id": 924,
-    "savol": "К какому периоду относится создание математических величин?",
-    "javob": [
+    id: 924,
+    savol: "К какому периоду относится создание математических величин?",
+    javob: [
       {
-        "matn": "С XIXв. - по наше время",
-        "correct": false
+        matn: "С XIXв. - по наше время",
+        correct: false
       },
       {
-        "matn": "С VI в. до нашей эры – XVII в. до н.э",
-        "correct": false
+        matn: "С VI в. до нашей эры – XVII в. до н.э",
+        correct: false
       },
       {
-        "matn": "С XVII – XIX в.",
-        "correct": true
+        matn: "С XVII – XIX в.",
+        correct: true
       },
       {
-        "matn": "С зарождением человека и по наши дни.",
-        "correct": false
+        matn: "С зарождением человека и по наши дни.",
+        correct: false
       }
     ]
   },
   {
-    "id": 925,
-    "savol": "Какой папирус, имеющий большое значение в математике, был написан около 4000 лет назад?",
-    "javob": [
+    id: 925,
+    savol: "Какой папирус, имеющий большое значение в математике, был написан около 4000 лет назад?",
+    javob: [
       {
-        "matn": "Папирус Ринда",
-        "correct": false
+        matn: "Папирус Ринда",
+        correct: false
       },
       {
-        "matn": "Египетский папирус",
-        "correct": false
+        matn: "Египетский папирус",
+        correct: false
       },
       {
-        "matn": "Папирус Ахмеса",
-        "correct": true
+        matn: "Папирус Ахмеса",
+        correct: true
       },
       {
-        "matn": "Древнегреческий папирус",
-        "correct": false
+        matn: "Древнегреческий папирус",
+        correct: false
       }
     ]
   },
   {
-    "id": 926,
-    "savol": "Из каких пяти основных компонентов состоит методическая система?",
-    "javob": [
+    id: 926,
+    savol: "Из каких пяти основных компонентов состоит методическая система?",
+    javob: [
       {
-        "matn": "Содержание, методы, урок, цель, формы",
-        "correct": false
+        matn: "Содержание, методы, урок, цель, формы",
+        correct: false
       },
       {
-        "matn": "Цель, содержание, методы, средства, формы",
-        "correct": true
+        matn: "Цель, содержание, методы, средства, формы",
+        correct: true
       },
       {
-        "matn": "Анализ, цель, содержание, методы, формы",
-        "correct": false
+        matn: "Анализ, цель, содержание, методы, формы",
+        correct: false
       },
       {
-        "matn": "Цель, содержание, синтез, методы, формы",
-        "correct": false
+        matn: "Цель, содержание, синтез, методы, формы",
+        correct: false
       }
     ]
   },
   {
-    "id": 927,
-    "savol": "Выбери строку, в которой даны только наглядные методы",
-    "javob": [
+    id: 927,
+    savol: "Выбери строку, в которой даны только наглядные методы",
+    javob: [
       {
-        "matn": "Рассказ, объяснение",
-        "correct": false
+        matn: "Рассказ, объяснение",
+        correct: false
       },
       {
-        "matn": "Наблюдение предметов, явлений окружающей действительности",
-        "correct": true
+        matn: "Наблюдение предметов, явлений окружающей действительности",
+        correct: true
       },
       {
-        "matn": "Счет, наблюдение",
-        "correct": false
+        matn: "Счет, наблюдение",
+        correct: false
       },
       {
-        "matn": "Работа с учебником, рассказ",
-        "correct": false
+        matn: "Работа с учебником, рассказ",
+        correct: false
       }
     ]
   },
   {
-    "id": 928,
-    "savol": "Какие методы входят в классификацию методов по взаимодействию Учитель-Ученик?",
-    "javob": [
+    id: 928,
+    savol: "Какие методы входят в классификацию методов по взаимодействию Учитель-Ученик?",
+    javob: [
       {
-        "matn": "Активный, пассивный",
-        "correct": false
+        matn: "Активный, пассивный",
+        correct: false
       },
       {
-        "matn": "интерактивный",
-        "correct": false
+        matn: "интерактивный",
+        correct: false
       },
       {
-        "matn": "Активный, пассивный, интерактивный",
-        "correct": true
+        matn: "Активный, пассивный, интерактивный",
+        correct: true
       },
       {
-        "matn": "Интерактивный, пассивный",
-        "correct": false
+        matn: "Интерактивный, пассивный",
+        correct: false
       }
     ]
   },
   {
-    "id": 929,
-    "savol": "Какое понятие формирует представление о длине?",
-    "javob": [
+    id: 929,
+    savol: "Какое понятие формирует представление о длине?",
+    javob: [
       {
-        "matn": "Прямая линия",
-        "correct": false
+        matn: "Прямая линия",
+        correct: false
       },
       {
-        "matn": "Понятие длина отрезка",
-        "correct": true
+        matn: "Понятие длина отрезка",
+        correct: true
       },
       {
-        "matn": "Кривая линия",
-        "correct": false
+        matn: "Кривая линия",
+        correct: false
       },
       {
-        "matn": "Линия, ломанная, кривая",
-        "correct": false
+        matn: "Линия, ломанная, кривая",
+        correct: false
       }
     ]
   },
   {
-    "id": 930,
-    "savol": "С какими единицами массы учащиеся знакомятся в 3 классе?",
-    "javob": [
+    id: 930,
+    savol: "С какими единицами массы учащиеся знакомятся в 3 классе?",
+    javob: [
       {
-        "matn": "Килограмм, грамм, тонна",
-        "correct": false
+        matn: "Килограмм, грамм, тонна",
+        correct: false
       },
       {
-        "matn": "Грамм, цетнер тонна",
-        "correct": true
+        matn: "Грамм, цетнер тонна",
+        correct: true
       },
       {
-        "matn": "Грамм, килограмм",
-        "correct": false
+        matn: "Грамм, килограмм",
+        correct: false
       },
       {
-        "matn": "Килограмм, грамм, центнер",
-        "correct": false
+        matn: "Килограмм, грамм, центнер",
+        correct: false
       }
     ]
   },
   {
-    "id": 931,
-    "savol": "Для чего предназначен динамометр?",
-    "javob": [
+    id: 931,
+    savol: "Для чего предназначен динамометр?",
+    javob: [
       {
-        "matn": "Для измерения массы",
-        "correct": false
+        matn: "Для измерения массы",
+        correct: false
       },
       {
-        "matn": "Для измерения веса",
-        "correct": true
+        matn: "Для измерения веса",
+        correct: true
       },
       {
-        "matn": "Для измерения длины",
-        "correct": false
+        matn: "Для измерения длины",
+        correct: false
       },
       {
-        "matn": "Для измерения роста",
-        "correct": false
+        matn: "Для измерения роста",
+        correct: false
       }
     ]
   },
   {
-    "id": 932,
-    "savol": "Для чего предназначен массометр?",
-    "javob": [
+    id: 932,
+    savol: "Для чего предназначен массометр?",
+    javob: [
       {
-        "matn": "Для измерения веса",
-        "correct": false
+        matn: "Для измерения веса",
+        correct: false
       },
       {
-        "matn": "Для измерения массы",
-        "correct": true
+        matn: "Для измерения массы",
+        correct: true
       },
       {
-        "matn": "Для измерения длины",
-        "correct": false
+        matn: "Для измерения длины",
+        correct: false
       },
       {
-        "matn": "Для измерения роста",
-        "correct": false
+        matn: "Для измерения роста",
+        correct: false
       }
     ]
   },
   {
-    "id": 933,
-    "savol": "Основная форма обучения математики - ...",
-    "javob": [
+    id: 933,
+    savol: "Основная форма обучения математики - ...",
+    javob: [
       {
-        "matn": "Лекция",
-        "correct": false
+        matn: "Лекция",
+        correct: false
       },
       {
-        "matn": "Семинар",
-        "correct": false
+        matn: "Семинар",
+        correct: false
       },
       {
-        "matn": "Урок",
-        "correct": true
+        matn: "Урок",
+        correct: true
       },
       {
-        "matn": "Практическое занятие",
-        "correct": false
+        matn: "Практическое занятие",
+        correct: false
       }
     ]
   },
   {
-    "id": 934,
-    "savol": "Принцип наглядности состоит из ...",
-    "javob": [
+    id: 934,
+    savol: "Принцип наглядности состоит из ...",
+    javob: [
       {
-        "matn": "слуха и зрения",
-        "correct": false
+        matn: "слуха и зрения",
+        correct: false
       },
       {
-        "matn": "восприятия и представления",
-        "correct": true
+        matn: "восприятия и представления",
+        correct: true
       },
       {
-        "matn": "зрения и восприятия",
-        "correct": false
+        matn: "зрения и восприятия",
+        correct: false
       },
       {
-        "matn": "ощущения и памяти",
-        "correct": false
+        matn: "ощущения и памяти",
+        correct: false
       }
     ]
   },
   {
-    "id": 935,
-    "savol": "К какому виду наглядных пособий относятся карточки, схемы, чертежи?",
-    "javob": [
+    id: 935,
+    savol: "К какому виду наглядных пособий относятся карточки, схемы, чертежи?",
+    javob: [
       {
-        "matn": "Натуральные",
-        "correct": false
+        matn: "Натуральные",
+        correct: false
       },
       {
-        "matn": "Изобразительные",
-        "correct": false
+        matn: "Изобразительные",
+        correct: false
       },
       {
-        "matn": "Условные",
-        "correct": true
+        matn: "Условные",
+        correct: true
       },
       {
-        "matn": "Общеклассные",
-        "correct": false
+        matn: "Общеклассные",
+        correct: false
       }
     ]
   },
   {
-    "id": 936,
-    "savol": "В каком классе изучаются единицы измерения см и дм ?",
-    "javob": [
+    id: 936,
+    savol: "В каком классе изучаются единицы измерения см и дм ?",
+    javob: [
       {
-        "matn": "Во 2 классе",
-        "correct": false
+        matn: "Во 2 классе",
+        correct: false
       },
       {
-        "matn": "В3классе",
-        "correct": false
+        matn: "В3классе",
+        correct: false
       },
       {
-        "matn": "В 1 классе",
-        "correct": true
+        matn: "В 1 классе",
+        correct: true
       },
       {
-        "matn": "В4классе",
-        "correct": false
+        matn: "В4классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 937,
-    "savol": "В каком классе изучают единицы измерения величин см, литр, м, дм, кг, сутки?",
-    "javob": [
+    id: 937,
+    savol: "В каком классе изучают единицы измерения величин см, литр, м, дм, кг, сутки?",
+    javob: [
       {
-        "matn": "Во 2 классе",
-        "correct": false
+        matn: "Во 2 классе",
+        correct: false
       },
       {
-        "matn": "В 3 классе",
-        "correct": false
+        matn: "В 3 классе",
+        correct: false
       },
       {
-        "matn": "В 1 классе",
-        "correct": true
+        matn: "В 1 классе",
+        correct: true
       },
       {
-        "matn": "В 4 классе",
-        "correct": false
+        matn: "В 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 938,
-    "savol": "В каком классе изучают единицу измерения массы тонна?",
-    "javob": [
+    id: 938,
+    savol: "В каком классе изучают единицу измерения массы тонна?",
+    javob: [
       {
-        "matn": "В 1 классе",
-        "correct": false
+        matn: "В 1 классе",
+        correct: false
       },
       {
-        "matn": "Во 2 классе",
-        "correct": false
+        matn: "Во 2 классе",
+        correct: false
       },
       {
-        "matn": "В 3 классе",
-        "correct": true
+        matn: "В 3 классе",
+        correct: true
       },
       {
-        "matn": "В 4 классе",
-        "correct": false
+        matn: "В 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 939,
-    "savol": "В каком виде использование компьютера может оказать негативное влияние на ребенка?",
-    "javob": [
+    id: 939,
+    savol: "В каком виде использование компьютера может оказать негативное влияние на ребенка?",
+    javob: [
       {
-        "matn": "При использовании презентаций на уроке",
-        "correct": false
+        matn: "При использовании презентаций на уроке",
+        correct: false
       },
       {
-        "matn": "При чтении с экрана больших текстов в мелком шрифте",
-        "correct": true
+        matn: "При чтении с экрана больших текстов в мелком шрифте",
+        correct: true
       },
       {
-        "matn": "При просмотре поучительных фильмов",
-        "correct": false
+        matn: "При просмотре поучительных фильмов",
+        correct: false
       },
       {
-        "matn": "При изучении самого устройства ПК",
-        "correct": false
+        matn: "При изучении самого устройства ПК",
+        correct: false
       }
     ]
   },
   {
-    "id": 940,
-    "savol": "Какие наглядные пособия могут мешать обучению?",
-    "javob": [
+    id: 940,
+    savol: "Какие наглядные пособия могут мешать обучению?",
+    javob: [
       {
-        "matn": "Красивые и интересные",
-        "correct": false
+        matn: "Красивые и интересные",
+        correct: false
       },
       {
-        "matn": "Слишком яркие и непонятные",
-        "correct": true
+        matn: "Слишком яркие и непонятные",
+        correct: true
       },
       {
-        "matn": "Понятные детям и красочные",
-        "correct": false
+        matn: "Понятные детям и красочные",
+        correct: false
       },
       {
-        "matn": "Четкие и понятные",
-        "correct": false
+        matn: "Четкие и понятные",
+        correct: false
       }
     ]
   },
   {
-    "id": 941,
-    "savol": "Что необходимо для применения практических методов?",
-    "javob": [
+    id: 941,
+    savol: "Что необходимо для применения практических методов?",
+    javob: [
       {
-        "matn": "Наличие наглядных пособий",
-        "correct": false
+        matn: "Наличие наглядных пособий",
+        correct: false
       },
       {
-        "matn": "Наличие необходимого оборудования для практики",
-        "correct": true
+        matn: "Наличие необходимого оборудования для практики",
+        correct: true
       },
       {
-        "matn": "Наличие компьютера",
-        "correct": false
+        matn: "Наличие компьютера",
+        correct: false
       },
       {
-        "matn": "Наличие проектора на каждом занятии",
-        "correct": false
+        matn: "Наличие проектора на каждом занятии",
+        correct: false
       }
     ]
   },
   {
-    "id": 942,
-    "savol": "Какие средства обучения не применяют в наглядных методах на уроках в начальных классах?",
-    "javob": [
+    id: 942,
+    savol: "Какие средства обучения не применяют в наглядных методах на уроках в начальных классах?",
+    javob: [
       {
-        "matn": "Проектор и презентации",
-        "correct": false
+        matn: "Проектор и презентации",
+        correct: false
       },
       {
-        "matn": "Картинки и доска",
-        "correct": false
+        matn: "Картинки и доска",
+        correct: false
       },
       {
-        "matn": "Большой текст в виде доклада",
-        "correct": true
+        matn: "Большой текст в виде доклада",
+        correct: true
       },
       {
-        "matn": "Мебель класса как наглядный пример",
-        "correct": false
+        matn: "Мебель класса как наглядный пример",
+        correct: false
       }
     ]
   },
   {
-    "id": 943,
-    "savol": "Для чего необходимо включать наглядные пособия в обучение?",
-    "javob": [
+    id: 943,
+    savol: "Для чего необходимо включать наглядные пособия в обучение?",
+    javob: [
       {
-        "matn": "Для развития моторики рук",
-        "correct": false
+        matn: "Для развития моторики рук",
+        correct: false
       },
       {
-        "matn": "Для общего физического развития",
-        "correct": false
+        matn: "Для общего физического развития",
+        correct: false
       },
       {
-        "matn": "Для развития слуха",
-        "correct": false
+        matn: "Для развития слуха",
+        correct: false
       },
       {
-        "matn": "Для формирования четких пространственных и количественных представлений",
-        "correct": true
+        matn: "Для формирования четких пространственных и количественных представлений",
+        correct: true
       }
     ]
   },
   {
-    "id": 944,
-    "savol": "Что не способствует сплочению коллектива в процессе обучения детей математике?",
-    "javob": [
+    id: 944,
+    savol: "Что не способствует сплочению коллектива в процессе обучения детей математике?",
+    javob: [
       {
-        "matn": "Общие задания, которые учащиеся должны выполнять все вместе",
-        "correct": false
+        matn: "Общие задания, которые учащиеся должны выполнять все вместе",
+        correct: false
       },
       {
-        "matn": "Индивидуальные задания на уроке, которые каждый должен выполнять сам",
-        "correct": true
+        matn: "Индивидуальные задания на уроке, которые каждый должен выполнять сам",
+        correct: true
       },
       {
-        "matn": "Соревнования между малыми группами",
-        "correct": false
+        matn: "Соревнования между малыми группами",
+        correct: false
       },
       {
-        "matn": "Математические утренники",
-        "correct": false
+        matn: "Математические утренники",
+        correct: false
       }
     ]
   },
   {
-    "id": 945,
-    "savol": "Что может способствовать сплочению коллектива класса на уроках математики?",
-    "javob": [
+    id: 945,
+    savol: "Что может способствовать сплочению коллектива класса на уроках математики?",
+    javob: [
       {
-        "matn": "Конкурсы, где только один победитель",
-        "correct": false
+        matn: "Конкурсы, где только один победитель",
+        correct: false
       },
       {
-        "matn": "Интерактивные методы обучения",
-        "correct": true
+        matn: "Интерактивные методы обучения",
+        correct: true
       },
       {
-        "matn": "Самостоятельные работы",
-        "correct": false
+        matn: "Самостоятельные работы",
+        correct: false
       },
       {
-        "matn": "Строгая дисциплина без взаимодействия",
-        "correct": false
+        matn: "Строгая дисциплина без взаимодействия",
+        correct: false
       }
     ]
   },
   {
-    "id": 946,
-    "savol": "В каком классе изучаются виды треугольников?",
-    "javob": [
+    id: 946,
+    savol: "В каком классе изучаются виды треугольников?",
+    javob: [
       {
-        "matn": "В 4 классе",
-        "correct": false
+        matn: "В 4 классе",
+        correct: false
       },
       {
-        "matn": "В 2 классе",
-        "correct": false
+        matn: "В 2 классе",
+        correct: false
       },
       {
-        "matn": "В 1 классе",
-        "correct": false
+        matn: "В 1 классе",
+        correct: false
       },
       {
-        "matn": "В 3 классе",
-        "correct": true
+        matn: "В 3 классе",
+        correct: true
       }
     ]
   },
   {
-    "id": 947,
-    "savol": "Логически законченная, ограниченная временем часть учебно-воспитательного процесса – это …",
-    "javob": [
+    id: 947,
+    savol: "Логически законченная, ограниченная временем часть учебно-воспитательного процесса – это …",
+    javob: [
       {
-        "matn": "экскурсия",
-        "correct": false
+        matn: "экскурсия",
+        correct: false
       },
       {
-        "matn": "Математический кружок",
-        "correct": false
+        matn: "Математический кружок",
+        correct: false
       },
       {
-        "matn": "урок",
-        "correct": true
+        matn: "урок",
+        correct: true
       },
       {
-        "matn": "5 минутка",
-        "correct": false
+        matn: "5 минутка",
+        correct: false
       }
     ]
   },
   {
-    "id": 948,
-    "savol": "Какой способ позволяет рассмотреть тему, закон явления или проблемную ситуацию с различных сторон, а также учащиеся могут индивидуально письменно излагать свои знании и идеи по предложенной теме?",
-    "javob": [
+    id: 948,
+    savol: "Какой способ позволяет рассмотреть тему, закон явления или проблемную ситуацию с различных сторон, а также учащиеся могут индивидуально письменно излагать свои знании и идеи по предложенной теме?",
+    javob: [
       {
-        "matn": "Зиг-заг",
-        "correct": false
+        matn: "Зиг-заг",
+        correct: false
       },
       {
-        "matn": "инсерт",
-        "correct": false
+        matn: "инсерт",
+        correct: false
       },
       {
-        "matn": "кубик",
-        "correct": true
+        matn: "кубик",
+        correct: true
       },
       {
-        "matn": "мозговой штурм",
-        "correct": false
+        matn: "мозговой штурм",
+        correct: false
       }
     ]
   },
   {
-    "id": 949,
-    "savol": "Какие методы относятся к традиционным методам преподавания математики?",
-    "javob": [
+    id: 949,
+    savol: "Какие методы относятся к традиционным методам преподавания математики?",
+    javob: [
       {
-        "matn": "Мозговой штурм, кластер, блиц- опрос",
-        "correct": false
+        matn: "Мозговой штурм, кластер, блиц- опрос",
+        correct: false
       },
       {
-        "matn": "сравнение, синтез, аналогия, кубик",
-        "correct": false
+        matn: "сравнение, синтез, аналогия, кубик",
+        correct: false
       },
       {
-        "matn": "Индукция, дедукция, сравнение, аналогия",
-        "correct": true
+        matn: "Индукция, дедукция, сравнение, аналогия",
+        correct: true
       },
       {
-        "matn": "Индукция, кластер, синтез, дедукция",
-        "correct": false
+        matn: "Индукция, кластер, синтез, дедукция",
+        correct: false
       }
     ]
   },
   {
-    "id": 950,
-    "savol": "К какому методу относится коллективное обучение, обеспечивающее активную деятельность всего класса, создавая при этом партнёрские отношения для обучения сообща?",
-    "javob": [
+    id: 950,
+    savol: "К какому методу относится коллективное обучение, обеспечивающее активную деятельность всего класса, создавая при этом партнёрские отношения для обучения сообща?",
+    javob: [
       {
-        "matn": "кубик",
-        "correct": false
+        matn: "кубик",
+        correct: false
       },
       {
-        "matn": "Инсерт",
-        "correct": false
+        matn: "Инсерт",
+        correct: false
       },
       {
-        "matn": "кластер",
-        "correct": false
+        matn: "кластер",
+        correct: false
       },
       {
-        "matn": "Зиг-заг",
-        "correct": true
+        matn: "Зиг-заг",
+        correct: true
       }
     ]
   },
   {
-    "id": 951,
-    "savol": "Интерактивный метод обучения – это …",
-    "javob": [
+    id: 951,
+    savol: "Интерактивный метод обучения – это …",
+    javob: [
       {
-        "matn": "Обучение, при котором учитель является основой действующей фигурой урока",
-        "correct": false
+        matn: "Обучение, при котором учитель является основой действующей фигурой урока",
+        correct: false
       },
       {
-        "matn": "Обучение, построенное на взаимоотношении учащихся с учебным окружением, учебной средой, которая служит областью освоения опыта",
-        "correct": true
+        matn: "Обучение, построенное на взаимоотношении учащихся с учебным окружением, учебной средой, которая служит областью освоения опыта",
+        correct: true
       },
       {
-        "matn": "Самостоятельное выполнение занятий самим учеником, где ученик сам выступает действующей фигурой",
-        "correct": false
+        matn: "Самостоятельное выполнение занятий самим учеником, где ученик сам выступает действующей фигурой",
+        correct: false
       },
       {
-        "matn": "Коллективное выполнение занятий самими учениками",
-        "correct": false
+        matn: "Коллективное выполнение занятий самими учениками",
+        correct: false
       }
     ]
   },
   {
-    "id": 952,
-    "savol": "В каких пределах заключается табличное сложение?",
-    "javob": [
+    id: 952,
+    savol: "В каких пределах заключается табличное сложение?",
+    javob: [
       {
-        "matn": "30",
-        "correct": false
+        matn: "30",
+        correct: false
       },
       {
-        "matn": "18",
-        "correct": true
+        matn: "18",
+        correct: true
       },
       {
-        "matn": "50",
-        "correct": false
+        matn: "50",
+        correct: false
       },
       {
-        "matn": "80",
-        "correct": false
+        matn: "80",
+        correct: false
       }
     ]
   },
   {
-    "id": 953,
-    "savol": "Что включает в себя общая методика?",
-    "javob": [
+    id: 953,
+    savol: "Что включает в себя общая методика?",
+    javob: [
       {
-        "matn": "Содержание, организация обучения, цель",
-        "correct": false
+        matn: "Содержание, организация обучения, цель",
+        correct: false
       },
       {
-        "matn": "Подготовка, метод, цель, содержание",
-        "correct": false
+        matn: "Подготовка, метод, цель, содержание",
+        correct: false
       },
       {
-        "matn": "Цель, содержание, методы, формы, средства",
-        "correct": true
+        matn: "Цель, содержание, методы, формы, средства",
+        correct: true
       },
       {
-        "matn": "Подготовка, организационный момент, цель, содержание",
-        "correct": false
+        matn: "Подготовка, организационный момент, цель, содержание",
+        correct: false
       }
     ]
   },
   {
-    "id": 954,
-    "savol": "В каком классе ученик должен выполнять устно сложение и вычитание чисел в пределах 100?",
-    "javob": [
+    id: 954,
+    savol: "В каком классе ученик должен выполнять устно сложение и вычитание чисел в пределах 100?",
+    javob: [
       {
-        "matn": "В 3 классе",
-        "correct": false
+        matn: "В 3 классе",
+        correct: false
       },
       {
-        "matn": "В 4 классе",
-        "correct": false
+        matn: "В 4 классе",
+        correct: false
       },
       {
-        "matn": "Во 2 классе",
-        "correct": true
+        matn: "Во 2 классе",
+        correct: true
       },
       {
-        "matn": "В 1 классе",
-        "correct": false
+        matn: "В 1 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 955,
-    "savol": "Какие представления вводятся во 2 классе?",
-    "javob": [
+    id: 955,
+    savol: "Какие представления вводятся во 2 классе?",
+    javob: [
       {
-        "matn": "О сочетательном и распределительном свойствах умножения",
-        "correct": true
+        matn: "О сочетательном и распределительном свойствах умножения",
+        correct: true
       },
       {
-        "matn": "Решать задачи на нахождение суммы и остатка",
-        "correct": false
+        matn: "Решать задачи на нахождение суммы и остатка",
+        correct: false
       },
       {
-        "matn": "Переместительное свойство сложения",
-        "correct": false
+        matn: "Переместительное свойство сложения",
+        correct: false
       },
       {
-        "matn": "Нахождение неизвестного слагаемого",
-        "correct": false
+        matn: "Нахождение неизвестного слагаемого",
+        correct: false
       }
     ]
   },
   {
-    "id": 956,
-    "savol": "Какие понятия формируются при помощи моделей часов?",
-    "javob": [
+    id: 956,
+    savol: "Какие понятия формируются при помощи моделей часов?",
+    javob: [
       {
-        "matn": "Год, месяц, неделя",
-        "correct": false
+        matn: "Год, месяц, неделя",
+        correct: false
       },
       {
-        "matn": "Неделя, день",
-        "correct": false
+        matn: "Неделя, день",
+        correct: false
       },
       {
-        "matn": "Сутки, час, минута",
-        "correct": true
+        matn: "Сутки, час, минута",
+        correct: true
       },
       {
-        "matn": "Неделя, сутки, час",
-        "correct": false
+        matn: "Неделя, сутки, час",
+        correct: false
       }
     ]
   },
   {
-    "id": 957,
-    "savol": "Переход от общих положений к частным примерам и конкретным положениям …",
-    "javob": [
+    id: 957,
+    savol: "Переход от общих положений к частным примерам и конкретным положениям …",
+    javob: [
       {
-        "matn": "индукция",
-        "correct": false
+        matn: "индукция",
+        correct: false
       },
       {
-        "matn": "сравнение",
-        "correct": false
+        matn: "сравнение",
+        correct: false
       },
       {
-        "matn": "Эксперимент",
-        "correct": false
+        matn: "Эксперимент",
+        correct: false
       },
       {
-        "matn": "дедукция",
-        "correct": true
+        matn: "дедукция",
+        correct: true
       }
     ]
   },
   {
-    "id": 958,
-    "savol": "Выделение общих существенных свойств, изучаемых объектов и отвлечение от несущественных свойств …",
-    "javob": [
+    id: 958,
+    savol: "Выделение общих существенных свойств, изучаемых объектов и отвлечение от несущественных свойств …",
+    javob: [
       {
-        "matn": "эксперимент",
-        "correct": false
+        matn: "эксперимент",
+        correct: false
       },
       {
-        "matn": "сравнение",
-        "correct": false
+        matn: "сравнение",
+        correct: false
       },
       {
-        "matn": "индукция",
-        "correct": false
+        matn: "индукция",
+        correct: false
       },
       {
-        "matn": "обобщение",
-        "correct": true
+        matn: "обобщение",
+        correct: true
       }
     ]
   },
   {
-    "id": 959,
-    "savol": "Что является одним из важнейших источников знаний?",
-    "javob": [
+    id: 959,
+    savol: "Что является одним из важнейших источников знаний?",
+    javob: [
       {
-        "matn": "учитель",
-        "correct": false
+        matn: "учитель",
+        correct: false
       },
       {
-        "matn": "тетради",
-        "correct": false
+        matn: "тетради",
+        correct: false
       },
       {
-        "matn": "учебник",
-        "correct": true
+        matn: "учебник",
+        correct: true
       },
       {
-        "matn": "учебные пособия",
-        "correct": false
+        matn: "учебные пособия",
+        correct: false
       }
     ]
   },
   {
-    "id": 960,
-    "savol": "Как переводится с греческого слово «методика»?",
-    "javob": [
+    id: 960,
+    savol: "Как переводится с греческого слово «методика»?",
+    javob: [
       {
-        "matn": "«путь к знаниям»",
-        "correct": false
+        matn: "«путь к знаниям»",
+        correct: false
       },
       {
-        "matn": "«путь в след за чем –либо»",
-        "correct": true
+        matn: "«путь в след за чем –либо»",
+        correct: true
       },
       {
-        "matn": "«путь к обучению»",
-        "correct": false
+        matn: "«путь к обучению»",
+        correct: false
       },
       {
-        "matn": "«дорога к знаниям»",
-        "correct": false
+        matn: "«дорога к знаниям»",
+        correct: false
       }
     ]
   },
   {
-    "id": 961,
-    "savol": "Что является предметом начального обучения математики?",
-    "javob": [
+    id: 961,
+    savol: "Что является предметом начального обучения математики?",
+    javob: [
       {
-        "matn": "Цель, содержание, формы",
-        "correct": false
+        matn: "Цель, содержание, формы",
+        correct: false
       },
       {
-        "matn": "Формы, методы, средства",
-        "correct": false
+        matn: "Формы, методы, средства",
+        correct: false
       },
       {
-        "matn": "Цель, содержание, методы, средства, организация обучения",
-        "correct": true
+        matn: "Цель, содержание, методы, средства, организация обучения",
+        correct: true
       },
       {
-        "matn": "Организация обучения",
-        "correct": false
+        matn: "Организация обучения",
+        correct: false
       }
     ]
   },
   {
-    "id": 962,
-    "savol": "«Между методикой преподавания математики и … существует двусторонняя связь» вставьте вместо точек название науки",
-    "javob": [
+    id: 962,
+    savol: "«Между методикой преподавания математики и … существует двусторонняя связь» вставьте вместо точек название науки",
+    javob: [
       {
-        "matn": "информатикой",
-        "correct": false
+        matn: "информатикой",
+        correct: false
       },
       {
-        "matn": "философией",
-        "correct": false
+        matn: "философией",
+        correct: false
       },
       {
-        "matn": "педагогикой",
-        "correct": true
+        matn: "педагогикой",
+        correct: true
       },
       {
-        "matn": "социологией",
-        "correct": false
+        matn: "социологией",
+        correct: false
       }
     ]
   },
   {
-    "id": 963,
-    "savol": "Каким методом пользуется ученик, когда ему надо мыслить от единичного знания к общему?",
-    "javob": [
+    id: 963,
+    savol: "Каким методом пользуется ученик, когда ему надо мыслить от единичного знания к общему?",
+    javob: [
       {
-        "matn": "Дедукция",
-        "correct": false
+        matn: "Дедукция",
+        correct: false
       },
       {
-        "matn": "индукция",
-        "correct": true
+        matn: "индукция",
+        correct: true
       },
       {
-        "matn": "аналогия",
-        "correct": false
+        matn: "аналогия",
+        correct: false
       },
       {
-        "matn": "сравнение",
-        "correct": false
+        matn: "сравнение",
+        correct: false
       }
     ]
   },
   {
-    "id": 964,
-    "savol": "Дедукция-это…",
-    "javob": [
+    id: 964,
+    savol: "Дедукция-это…",
+    javob: [
       {
-        "matn": "Переход от частных положений к общим",
-        "correct": false
+        matn: "Переход от частных положений к общим",
+        correct: false
       },
       {
-        "matn": "Логический прием мышления",
-        "correct": false
+        matn: "Логический прием мышления",
+        correct: false
       },
       {
-        "matn": "Переход от общих положений к частным",
-        "correct": true
+        matn: "Переход от общих положений к частным",
+        correct: true
       },
       {
-        "matn": "Эвристические знания",
-        "correct": false
+        matn: "Эвристические знания",
+        correct: false
       }
     ]
   },
   {
-    "id": 965,
-    "savol": "Какой метод исследования применяется, когда нужно выявить мнения учеников по каким- либо вопросам, собрать какие-либо факты?",
-    "javob": [
+    id: 965,
+    savol: "Какой метод исследования применяется, когда нужно выявить мнения учеников по каким- либо вопросам, собрать какие-либо факты?",
+    javob: [
       {
-        "matn": "тестирование",
-        "correct": false
+        matn: "тестирование",
+        correct: false
       },
       {
-        "matn": "анкетирование",
-        "correct": true
+        matn: "анкетирование",
+        correct: true
       },
       {
-        "matn": "беседа",
-        "correct": false
+        matn: "беседа",
+        correct: false
       },
       {
-        "matn": "эксперимент",
-        "correct": false
+        matn: "эксперимент",
+        correct: false
       }
     ]
   },
   {
-    "id": 966,
-    "savol": "Какие методы занимают ведущую роль в научно-педагогических исследованиях?",
-    "javob": [
+    id: 966,
+    savol: "Какие методы занимают ведущую роль в научно-педагогических исследованиях?",
+    javob: [
       {
-        "matn": "практические",
-        "correct": false
+        matn: "практические",
+        correct: false
       },
       {
-        "matn": "обучающие",
-        "correct": false
+        matn: "обучающие",
+        correct: false
       },
       {
-        "matn": "Теоретические, практические",
-        "correct": true
+        matn: "Теоретические, практические",
+        correct: true
       },
       {
-        "matn": "воспитывающие",
-        "correct": false
+        matn: "воспитывающие",
+        correct: false
       }
     ]
   },
   {
-    "id": 967,
-    "savol": "Какой метод, кроме метода наблюдения, тоже может выражать наблюдение за процессом начального обучения?",
-    "javob": [
+    id: 967,
+    savol: "Какой метод, кроме метода наблюдения, тоже может выражать наблюдение за процессом начального обучения?",
+    javob: [
       {
-        "matn": "тестирование",
-        "correct": false
+        matn: "тестирование",
+        correct: false
       },
       {
-        "matn": "анкетирование",
-        "correct": false
+        matn: "анкетирование",
+        correct: false
       },
       {
-        "matn": "беседа",
-        "correct": false
+        matn: "беседа",
+        correct: false
       },
       {
-        "matn": "эксперимент",
-        "correct": true
+        matn: "эксперимент",
+        correct: true
       }
     ]
   },
   {
-    "id": 968,
-    "savol": "Какие методы относятся к эвристическим?",
-    "javob": [
+    id: 968,
+    savol: "Какие методы относятся к эвристическим?",
+    javob: [
       {
-        "matn": "Практические",
-        "correct": false
+        matn: "Практические",
+        correct: false
       },
       {
-        "matn": "наглядные",
-        "correct": false
+        matn: "наглядные",
+        correct: false
       },
       {
-        "matn": "Наглядные, практические, интерактивные",
-        "correct": true
+        matn: "Наглядные, практические, интерактивные",
+        correct: true
       },
       {
-        "matn": "Практические, наглядные",
-        "correct": false
+        matn: "Практические, наглядные",
+        correct: false
       }
     ]
   },
   {
-    "id": 969,
-    "savol": "Что называется значащими цифрами?",
-    "javob": [
+    id: 969,
+    savol: "Что называется значащими цифрами?",
+    javob: [
       {
-        "matn": "Это количество разрядов в числе",
-        "correct": false
+        matn: "Это количество разрядов в числе",
+        correct: false
       },
       {
-        "matn": "Это переход через разряд",
-        "correct": false
+        matn: "Это переход через разряд",
+        correct: false
       },
       {
-        "matn": "Это наименьший не нулевой разряд",
-        "correct": true
+        matn: "Это наименьший не нулевой разряд",
+        correct: true
       },
       {
-        "matn": "Это цифры показывающие количество единиц в разряде",
-        "correct": false
+        matn: "Это цифры показывающие количество единиц в разряде",
+        correct: false
       }
     ]
   },
   {
-    "id": 970,
-    "savol": "В каком классе изучается раздел «доли и дроби»?",
-    "javob": [
+    id: 970,
+    savol: "В каком классе изучается раздел «доли и дроби»?",
+    javob: [
       {
-        "matn": "2",
-        "correct": false
+        matn: "2",
+        correct: false
       },
       {
-        "matn": "3",
-        "correct": true
+        matn: "3",
+        correct: true
       },
       {
-        "matn": "4",
-        "correct": false
+        matn: "4",
+        correct: false
       },
       {
-        "matn": "1",
-        "correct": false
+        matn: "1",
+        correct: false
       }
     ]
   },
   {
-    "id": 971,
-    "savol": "Укажите отрасли современной геометрии",
-    "javob": [
+    id: 971,
+    savol: "Укажите отрасли современной геометрии",
+    javob: [
       {
-        "matn": "Проективная и начертательная",
-        "correct": false
+        matn: "Проективная и начертательная",
+        correct: false
       },
       {
-        "matn": "Геометрия Эвклида и геометрия Лобаческого",
-        "correct": false
+        matn: "Геометрия Эвклида и геометрия Лобаческого",
+        correct: false
       },
       {
-        "matn": "Неевклидовая, проективная, начертательная, аналитическая, дифференциальная геометрии",
-        "correct": true
+        matn: "Неевклидовая, проективная, начертательная, аналитическая, дифференциальная геометрии",
+        correct: true
       },
       {
-        "matn": "Простая и сложная геометрия",
-        "correct": false
+        matn: "Простая и сложная геометрия",
+        correct: false
       }
     ]
   },
   {
-    "id": 972,
-    "savol": "Класс миллиардов - это ...",
-    "javob": [
+    id: 972,
+    savol: "Класс миллиардов - это ...",
+    javob: [
       {
-        "matn": "Третий класс",
-        "correct": false
+        matn: "Третий класс",
+        correct: false
       },
       {
-        "matn": "Второй класс",
-        "correct": false
+        matn: "Второй класс",
+        correct: false
       },
       {
-        "matn": "Четвертый класс",
-        "correct": true
+        matn: "Четвертый класс",
+        correct: true
       },
       {
-        "matn": "Пятый класс",
-        "correct": false
+        matn: "Пятый класс",
+        correct: false
       }
     ]
   },
   {
-    "id": 973,
-    "savol": "Таблица сложения дается",
-    "javob": [
+    id: 973,
+    savol: "Таблица сложения дается",
+    javob: [
       {
-        "matn": "Во 2 классе",
-        "correct": false
+        matn: "Во 2 классе",
+        correct: false
       },
       {
-        "matn": "В 3 классе",
-        "correct": false
+        matn: "В 3 классе",
+        correct: false
       },
       {
-        "matn": "В 1 классе",
-        "correct": true
+        matn: "В 1 классе",
+        correct: true
       },
       {
-        "matn": "В 4 классе",
-        "correct": false
+        matn: "В 4 классе",
+        correct: false
       }
     ]
   },
   {
-    "id": 974,
-    "savol": "Укажите основные понятия темы «Нумерация» предусмотренные госстандартом начального образования",
-    "javob": [
+    id: 974,
+    savol: "Укажите основные понятия темы «Нумерация» предусмотренные госстандартом начального образования",
+    javob: [
       {
-        "matn": "Число, цифра, система счисления",
-        "correct": false
+        matn: "Число, цифра, система счисления",
+        correct: false
       },
       {
-        "matn": "Число, цифра, разряд, класс",
-        "correct": true
+        matn: "Число, цифра, разряд, класс",
+        correct: true
       },
       {
-        "matn": "Число, цифра, величина",
-        "correct": false
+        matn: "Число, цифра, величина",
+        correct: false
       },
       {
-        "matn": "Число, цифра, счёт",
-        "correct": false
+        matn: "Число, цифра, счёт",
+        correct: false
       }
     ]
   },
   {
-    "id": 975,
-    "savol": "Какой из способов сравнения однородных величин не используется на начальном этапе изучения площади?",
-    "javob": [
+    id: 975,
+    savol: "Какой из способов сравнения однородных величин не используется на начальном этапе изучения площади?",
+    javob: [
       {
-        "matn": "Визуальный",
-        "correct": false
+        matn: "Визуальный",
+        correct: false
       },
       {
-        "matn": "наложение",
-        "correct": false
+        matn: "наложение",
+        correct: false
       },
       {
-        "matn": "С помощью ощущений",
-        "correct": true
+        matn: "С помощью ощущений",
+        correct: true
       },
       {
-        "matn": "измерение",
-        "correct": false
+        matn: "измерение",
+        correct: false
       }
     ]
   },
   {
-    "id": 976,
-    "savol": "Что составляет основу деятельности ученика на этапе сравнения величин?",
-    "javob": [
+    id: 976,
+    savol: "Что составляет основу деятельности ученика на этапе сравнения величин?",
+    javob: [
       {
-        "matn": "Практические действия",
-        "correct": false
+        matn: "Практические действия",
+        correct: false
       },
       {
-        "matn": "Жизненный опыт",
-        "correct": false
+        matn: "Жизненный опыт",
+        correct: false
       },
       {
-        "matn": "Ситуация проблемного характера",
-        "correct": true
+        matn: "Ситуация проблемного характера",
+        correct: true
       },
       {
-        "matn": "Теоретические знания учащихся",
-        "correct": false
+        matn: "Теоретические знания учащихся",
+        correct: false
       }
     ]
   },
   {
-    "id": 977,
-    "savol": "Укажите, что определяет геометрическую форму?",
-    "javob": [
+    id: 977,
+    savol: "Укажите, что определяет геометрическую форму?",
+    javob: [
       {
-        "matn": "Цвет и размер фигуры",
-        "correct": false
+        matn: "Цвет и размер фигуры",
+        correct: false
       },
       {
-        "matn": "Количество элементов, составляющих фигуру",
-        "correct": true
+        matn: "Количество элементов, составляющих фигуру",
+        correct: true
       },
       {
-        "matn": "Материал, из которого изготовлена фигура",
-        "correct": false
+        matn: "Материал, из которого изготовлена фигура",
+        correct: false
       },
       {
-        "matn": "Расположение фигуры на плоскости",
-        "correct": false
+        matn: "Расположение фигуры на плоскости",
+        correct: false
       }
     ]
   },
   {
-    "id": 978,
-    "savol": "…- установление взаимно однозначного соответствия между элементами непустого конечного множества и отрезком натурального ряда",
-    "javob": [
+    id: 978,
+    savol: "…- установление взаимно однозначного соответствия между элементами непустого конечного множества и отрезком натурального ряда",
+    javob: [
       {
-        "matn": "Пересчитывание",
-        "correct": false
+        matn: "Пересчитывание",
+        correct: false
       },
       {
-        "matn": "счет",
-        "correct": true
+        matn: "счет",
+        correct: true
       },
       {
-        "matn": "нумерация",
-        "correct": false
+        matn: "нумерация",
+        correct: false
       },
       {
-        "matn": "проверка",
-        "correct": false
+        matn: "проверка",
+        correct: false
       }
     ]
   },
   {
-    "id": 979,
-    "savol": "Про какой вид внеклассной работы по математике можно сказать «проводятся, в зависимости от места нахождения школы, в разного рода мастерские, фабрики, комбинаты, фермы и т.д.»?",
-    "javob": [
+    id: 979,
+    savol: "Про какой вид внеклассной работы по математике можно сказать «проводятся, в зависимости от места нахождения школы, в разного рода мастерские, фабрики, комбинаты, фермы и т.д.»?",
+    javob: [
       {
-        "matn": "Олимпиады",
-        "correct": false
+        matn: "Олимпиады",
+        correct: false
       },
       {
-        "matn": "Математический кружок",
-        "correct": false
+        matn: "Математический кружок",
+        correct: false
       },
       {
-        "matn": "Экскурсии",
-        "correct": true
+        matn: "Экскурсии",
+        correct: true
       },
       {
-        "matn": "Математические конкурсы",
-        "correct": false
+        matn: "Математические конкурсы",
+        correct: false
       }
     ]
   },
   {
-    "id": 980,
-    "savol": "Про какой вид внеклассной работы по математике можно сказать «Проводится он после уроков со всеми?",
-    "javob": [
+    id: 980,
+    savol: "Про какой вид внеклассной работы по математике можно сказать «Проводится он после уроков со всеми?",
+    javob: [
       {
-        "matn": "Олимпиады",
-        "correct": false
+        matn: "Олимпиады",
+        correct: false
       },
       {
-        "matn": "Час занимательной математики",
-        "correct": true
+        matn: "Час занимательной математики",
+        correct: true
       },
       {
-        "matn": "Математический кружок",
-        "correct": false
+        matn: "Математический кружок",
+        correct: false
       },
       {
-        "matn": "Математические конкурсы",
-        "correct": false
+        matn: "Математические конкурсы",
+        correct: false
       }
     ]
   },
   {
-    "id": 981,
-    "savol": "Про какой вид внеклассной работы по математике можно сказать «в них отражены числовые данные о достижениях нашей Родины, о скоростях разных машин, о ценах на наиболее известные детям товары и продукты и т. д.»?",
-    "javob": [
+    id: 981,
+    savol: "Про какой вид внеклассной работы по математике можно сказать «в них отражены числовые данные о достижениях нашей Родины, о скоростях разных машин, о ценах на наиболее известные детям товары и продукты и т. д.»?",
+    javob: [
       {
-        "matn": "Олимпиады",
-        "correct": false
+        matn: "Олимпиады",
+        correct: false
       },
       {
-        "matn": "Математическая печать",
-        "correct": true
+        matn: "Математическая печать",
+        correct: true
       },
       {
-        "matn": "Математический кружок",
-        "correct": false
+        matn: "Математический кружок",
+        correct: false
       },
       {
-        "matn": "Математические конкурсы",
-        "correct": false
+        matn: "Математические конкурсы",
+        correct: false
       }
     ]
   },
   {
-    "id": 982,
-    "savol": "Про какой вид внеклассной работы по математике можно сказать «носят характер тематического праздника»?",
-    "javob": [
+    id: 982,
+    savol: "Про какой вид внеклассной работы по математике можно сказать «носят характер тематического праздника»?",
+    javob: [
       {
-        "matn": "Математический кружок",
-        "correct": false
+        matn: "Математический кружок",
+        correct: false
       },
       {
-        "matn": "Математические утренники",
-        "correct": true
+        matn: "Математические утренники",
+        correct: true
       },
       {
-        "matn": "Математические конкурсы",
-        "correct": false
+        matn: "Математические конкурсы",
+        correct: false
       },
       {
-        "matn": "Математические десяти минутки",
-        "correct": false
+        matn: "Математические десяти минутки",
+        correct: false
       }
     ]
   },
   {
-    "id": 983,
-    "savol": "Про какой вид внеклассной работы по математике можно сказать «проводятся во время отдыха в группе продленного дня, во время экскурсии на природу, на школьной площадке»?",
-    "javob": [
+    id: 983,
+    savol: "Про какой вид внеклассной работы по математике можно сказать «проводятся во время отдыха в группе продленного дня, во время экскурсии на природу, на школьной площадке»?",
+    javob: [
       {
-        "matn": "Олимпиады",
-        "correct": false
+        matn: "Олимпиады",
+        correct: false
       },
       {
-        "matn": " Математические десяти минутки",
-        "correct": true
+        matn: " Математические десяти минутки",
+        correct: true
       },
       {
-        "matn": "Математический кружок",
-        "correct": false
+        matn: "Математический кружок",
+        correct: false
       },
       {
-        "matn": "Математические конкурсы",
-        "correct": false
+        matn: "Математические конкурсы",
+        correct: false
       }
     ]
   },
   {
-    "id": 984,
-    "savol": "Про какой вид внеклассной работы по математике можно сказать «проводятся в основном с целью выявления лучшей команды, лучшего класса»?",
-    "javob": [
+    id: 984,
+    savol: "Про какой вид внеклассной работы по математике можно сказать «проводятся в основном с целью выявления лучшей команды, лучшего класса»?",
+    javob: [
       {
-        "matn": "Математический кружок",
-        "correct": false
+        matn: "Математический кружок",
+        correct: false
       },
       {
-        "matn": " Математические конкурсы",
-        "correct": true
+        matn: " Математические конкурсы",
+        correct: true
       },
       {
-        "matn": "Математические утренники",
-        "correct": false
+        matn: "Математические утренники",
+        correct: false
       },
       {
-        "matn": "Математические десяти минутки",
-        "correct": false
+        matn: "Математические десяти минутки",
+        correct: false
       }
     ]
   }
-  //done
 ]
