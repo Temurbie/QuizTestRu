@@ -11,5 +11,5 @@ import { DATATEST } from '../../data/testData';
 export class OT {
 
      data = DATATEST;
-     sendData = this.data.slice(206, 303)
+     sendData = this.data.slice(440, 690)
 }
