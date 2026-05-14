@@ -6,7 +6,7 @@ import { About } from "../../feature/about/about";
 
 @Component({
   selector: 'app-main-layout',
-  imports: [Saidbar, TestComponent, Auth, About],
+  imports: [ About],
   templateUrl: './main-layout.html',
   styleUrl: './main-layout.css',
 })

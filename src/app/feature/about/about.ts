@@ -4,7 +4,7 @@ import { Auth } from "../auth/auth";
 
 @Component({
   selector: 'app-about',
-  imports: [RouterLink, Auth],
+  imports: [RouterLink],
   templateUrl: './about.html',
   styleUrl: './about.css',
 })
